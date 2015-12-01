@@ -34,9 +34,12 @@
 *.rmvb
 *.rs
 *.RSA
+*.scel
+*.sga
 *.svg
 *.swf
 *.so
+*.ssf
 *.sty
 *.tmp
 *.txt
