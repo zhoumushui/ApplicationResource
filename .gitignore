@@ -41,3 +41,7 @@
 *.wsg
 *.xml
 *.zip
+
+#Special File
+channel
+build
