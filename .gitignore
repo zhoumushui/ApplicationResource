@@ -3,6 +3,7 @@
 *.apk
 *.arsc
 *.avi
+*.bak
 *.bks
 *.bin
 *.cap
@@ -16,6 +17,7 @@
 *.der
 *.dex
 *.glsl
+*.gzip
 *.htm
 *.html
 *.ini
@@ -24,6 +26,7 @@
 *.js
 *.json
 *.key
+*.ks
 *.log
 *.mmstr
 *.mp4
@@ -41,6 +44,7 @@
 *.so
 *.ssf
 *.sty
+*.temp
 *.tmp
 *.txt
 *.wsg
@@ -49,4 +53,6 @@
 
 #Special File
 channel
+daemonmonitor
 build
+push_version
