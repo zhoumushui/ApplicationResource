@@ -25,6 +25,7 @@
 *.json
 *.key
 *.log
+*.mmstr
 *.mp4
 *.native
 *.pem
@@ -33,6 +34,7 @@
 *.rmvb
 *.rs
 *.RSA
+*.svg
 *.swf
 *.so
 *.sty
