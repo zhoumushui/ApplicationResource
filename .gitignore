@@ -2,6 +2,7 @@
 *.acv
 *.apk
 *.arsc
+*.avi
 *.bks
 *.bin
 *.cap
@@ -24,13 +25,19 @@
 *.json
 *.key
 *.log
+*.mp4
+*.native
 *.pem
 *.properties
 *.pvr
+*.rmvb
+*.rs
 *.RSA
 *.swf
 *.so
+*.sty
 *.tmp
 *.txt
 *.wsg
 *.xml
+*.zip
