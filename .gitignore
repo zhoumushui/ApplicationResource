@@ -55,6 +55,7 @@
 *.txt
 *.wsg
 *.xml
+*.xsd
 *.zip
 
 #Special File
