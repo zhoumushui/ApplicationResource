@@ -48,6 +48,7 @@
 *.svg
 *.swf
 *.so
+*.sql
 *.ssf
 *.sty
 *.temp
