@@ -29,6 +29,7 @@
 *.js
 *.json
 *.key
+*.keystore
 *.ks
 *.log
 *.mmstr
