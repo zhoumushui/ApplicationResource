@@ -1,0 +1,146 @@
+
+{
+"privilegelist": [
+{
+title: "基础特权",
+funlist: [
+{
+title: "作品上榜记录",
+isnew: 0,
+icon: "member_worker_record",
+bigicon:"member_worker_toprecord",
+desc: "1.想知道自己哪些作品上过榜、最好成绩到哪一名？会员可以展示所有作品的上榜记录。 2.进入个人主页-成就页面，点击作品上榜记录即可查看。 3.会员服务到期后，不再展示作品上榜记录。 4.此功能需要安装唱吧5.1或以上版本。"
+},
+{
+title: "谁看过我",
+isnew: 0,
+icon: "myinfo_visit_me",
+bigicon:"member_worker_record_icon",
+desc: "1.想知道谁看过你的主页？成为会员就能查看最近一个月的访客记录。对你感兴趣的人，也许正是你感兴趣的哦。 2.会员服务到期后，无法查看最近访客。 3.此功能需要安装唱吧4.9或以上版本。"
+},
+{
+title: "会员兑换中心",
+isnew: 0,
+icon: "exchange_center",
+bigicon:"member_change_center",
+desc: "1.手机、话费、唱吧金币等众多好礼均可用人气点兑换。 2.请前往唱吧官网changba.com会员中心兑换。 3.会员服务到期后，无法兑换好礼。"
+},
+{
+title: "会员专属礼物",
+isnew: 0,
+icon: "vip_git",
+bigicon:"member_own_git",
+desc: "1.专门为会员倾心打造的精美礼物，一样的价格，更强大的效果。 2.会员服务到期后，无法购买会员专属礼物。 3.此功能需要安装唱吧4.5或以上版本。"
+},
+{
+title: "礼物购买折扣",
+isnew: 0,
+icon: "buy_emoji_dicount",
+bigicon:"member_git_purchase_discount",
+desc: "1.会员在购买唱吧的大部分礼物时均可享受相应的折扣，会员等级越高，折扣越多,VIP1可享受9.5折优惠，VIP2可享受9折优惠，VIP3和VIP4可享受8.5折优惠，VIP5和VIP6可享受8折优惠，VIP7可享受7折优惠。 2.会员服务到期后，不能享受礼物购买折扣。 3.此功能需要安装唱吧4.5或以上版本。"
+},
+{
+title: "免费导出作品",
+isnew: 0,
+icon: "git_dicount",
+bigicon:"member_export_worker",
+desc: "1.会员可免费导出喜爱的作品，会员等级越高，每月可免费导出的次数越多,VIP1可免费导出3次，VIP2可免费导出4次，VIP3可免费导出5次，VIP4可免费导出6次，VIP5可免费导出8次，VIP6可免费导出9次，VIP7可免费导出15次。 2.在播放页面，点击导出按钮即可将对应作品导出。 3.会员服务到期后，需要以99金币每首的价格导出一首作品。 4.此功能需要安装唱吧4.5或以上版本。"
+},
+{
+title: "歌曲置顶",
+isnew: 0,
+icon: "myinfo_visit_me",
+bigicon:"member_song_stick",
+desc: "将你的主打歌在你的个人主页上置顶吧。"
+},
+{
+title: "离线收藏歌曲",
+isnew: 0,
+icon: "offline_colloction",
+bigicon:"member_offline_fav",
+desc: "1.会员收藏的歌曲自动离线，没有网络的时候也可以播放。 2.会员服务到期后，无法自动离线所有收藏歌曲。 3.此功能需要安装唱吧4.5或以上版本。"
+}
+]
+},
+{
+title: "酷炫特权",
+funlist: [
+{
+title: "个性化个人主页背景",
+isnew: 0,
+icon: "individuation_page",
+bigicon:"member_personalized_page",
+desc: "1.会员可以随心所欲更换个人主页背景，彰显你的个性。 2.会员服务到期后，将恢复为默认背景。 3.此功能需要安装唱吧4.5或以上版本。"
+},
+{
+title: "激萌的聊天气泡",
+isnew: 0,
+icon: "chat_bubble_icon",
+bigicon:"member_bubble_page",
+desc: "1.会员可以根据会员等级选择不同的聊天气泡。 2.会员服务到期后，聊天气泡将恢复为默认样式。 3.此功能需要安装唱吧6.6或以上版本。"
+},
+{
+title: "一见倾心的播放特效",
+isnew: 0,
+icon: "play_special_action",
+bigicon:"member_player_effects",
+desc: "1.与众不同的播放特效，让你的粉丝赞叹不已。 2.会员服务到期后，将恢复为默认播放效果。 3.此功能需要安装唱吧4.5或以上版本。"
+},
+{
+title: "醒目的红名显示",
+isnew: 0,
+icon: "myinfo_vip_center",
+bigicon:"member_vip_tip",
+desc: "1.专属VIP标识、醒目的红名显示，让你在歌友们、评论、聊天等各个页面脱颖而出。 2.会员创建的群组在群组列表中，也以醒目的红名显示。 3.会员服务到期后，将恢复为默认颜色。 4.此功能需要安装唱吧4.5或以上版本。"
+},
+{
+title: "电脑版个人主页",
+isnew: 0,
+icon: "vip_marking",
+bigicon:"member_pc_page",
+desc: "1.会员可以拥有自己电脑版个人主页，人人都可以访问。 2.会员服务到期后，不再拥有电脑版个人主页。"
+}
+]
+},
+{
+title: "上限提升特权",
+funlist: [
+{
+title: "群组上限提升",
+isnew: 0,
+icon: "member_familylimit_promote_icon",
+bigicon:"member_familylimit_promote",
+desc: "1.你有太多兴趣爱好，4个群不够你展现才情和个性！会员可以加入10个群。 2.会员服务到期后，恢复至默认上限，已加入的群组不会强制退出，但是超过默认上限后不能再加入新群。 3.群组功能需要安装唱吧5.0或以上版本。"
+},
+{
+title: "创建会员群组",
+isnew: 0,
+icon: "member_creatfamily_icon",
+bigicon:"member_creatfamily",
+desc: "1.会员可创建2个群，每个等级的人数上限是普通群的2倍。 2.会员建群可以得到优先审核，VIP3及以上的会员建群无需等待，可马上建群。 3.会员服务到期后，恢复至默认上限，已创建的群不会消失，但是超过默认人数上限后，能再添加新成员。 4.群组功能需要安装唱吧5.0或以上版本。"
+},
+{
+title: "免费鲜花数量上升",
+isnew: 0,
+icon: "member_free_flower_icon",
+bigicon:"member_free_flower",
+desc: "1.会员每天可送出的免费鲜花最高可提升为9朵，会员等级越高数量越高，VIP1和VIP2每天可送出6朵，VIP3和VIP4每天可送出7朵，VIP5和VIP6每天可送出8朵，VIP7可送出9朵。 2.会员服务到期后，恢复至默认的3朵。"
+}
+]
+},
+{
+title: "表情商店特权",
+funlist: [
+{
+title: "购买表情特价",
+isnew: 0,
+icon: "buy_emoji_dicount",
+bigicon:"member_buy_emoji",
+desc: "1.可按会员折扣价格购买表情。 2.会员服务到期后，恢复为按原价购买表情。"
+}
+]
+}
+],
+"mscversion": 1
+}
+
