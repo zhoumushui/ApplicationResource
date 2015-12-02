@@ -64,4 +64,5 @@
 channel
 daemonmonitor
 build
+manifest
 push_version
