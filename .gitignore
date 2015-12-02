@@ -17,7 +17,10 @@
 *.data
 *.der
 *.dex
+*.doc
+*.docx
 *.dll
+*.emf
 *.glsl
 *.gzip
 *.htm
@@ -39,6 +42,8 @@
 *.odf
 *.one
 *.pem
+*.ppt
+*.pptx
 *.properties
 *.pvr
 *.rmvb
@@ -54,8 +59,11 @@
 *.sty
 *.temp
 *.tmp
+*.ttf
 *.txt
 *.wsg
+*.xls
+*.xlsx
 *.xml
 *.xsd
 *.zip
