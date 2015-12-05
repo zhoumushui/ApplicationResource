@@ -21,6 +21,7 @@
 *.docx
 *.dll
 *.emf
+*.eot
 *.glsl
 *.gzip
 *.htm
@@ -51,6 +52,7 @@
 *.rs
 *.RSA
 *.scel
+*.script
 *.sga
 *.svg
 *.swf
@@ -63,7 +65,9 @@
 *.ttf
 *.txt
 *.vch
+*.woff
 *.wsg
+*.wz
 *.xls
 *.xlsx
 *.xml
@@ -71,6 +75,7 @@
 *.zip
 
 #Special File
+QUICKPAY@*
 channel
 daemonmonitor
 build
