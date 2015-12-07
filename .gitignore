@@ -17,6 +17,7 @@
 *.data
 *.der
 *.dex
+*.dix
 *.doc
 *.docx
 *.dll
@@ -26,6 +27,7 @@
 *.gzip
 *.htm
 *.html
+*.idx
 *.ini
 *.jar
 *.java
@@ -35,6 +37,7 @@
 *.key
 *.keystore
 *.ks
+*.lix
 *.log
 *.mmstr
 *.mp4
