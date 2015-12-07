@@ -60,6 +60,7 @@
 *.sql
 *.ssf
 *.sty
+*.tar
 *.temp
 *.tmp
 *.ttf
@@ -72,6 +73,7 @@
 *.xlsx
 *.xml
 *.xsd
+*.xslt
 *.zip
 
 #Special File
@@ -81,3 +83,4 @@ daemonmonitor
 build
 manifest
 push_version
+README
