@@ -13,6 +13,7 @@
 *.class
 *.conf
 *.css
+*.csv
 *.dat
 *.data
 *.der
@@ -80,10 +81,10 @@
 *.zip
 
 #Special File
-QUICKPAY@*
 channel
 daemonmonitor
 build
 manifest
 push_version
+QUICKPAY@*
 README
