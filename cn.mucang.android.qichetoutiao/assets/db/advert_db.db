@@ -1,0 +1,3 @@
+CREATE TABLE if not exists t_advert(_id integer primary key autoincrement,space_id integer,advert_data text,create_time integer,expired_time integer,check_time integer,default_ad BOOLEAN);
+CREATE TABLE if not exists t_offline_statistics(_id integer primary key autoincrement,offline_time integer,space_id integer,advert_id text,resource_id text);
+CREATE TABLE if not exists t_out_side_offline_statistics(_id integer primary key autoincrement,track_url text);
