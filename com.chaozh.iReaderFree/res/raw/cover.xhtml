@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title></title>
+  
+<style type="text/css">
+/* 默认表格 */
+  table.zhangyue-tablebody {
+    font-weight: normal;
+        zy-fontsize-adjust:fixed;
+        font-size:16px;
+        width:100%;
+        height:100%;
+  }
+  /* logo */
+  table.logo{
+    vertical-align: middle;
+    background-image: url(./cover_2.png);
+    background-position: center bottom;
+    background-size: 2.5em;
+    background-repeat: no-repeat;
+  }
+  /* 图片宽4em */
+  img.zhangyue-img-w4 {
+    width: 14em;
+  }
+  /* 标题 */
+  td.biaoti{
+    font-size: 32px;
+    line-height: 1em;
+    text-align: center;
+  }
+  /* 楷体 */
+  span.kaiti {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  td.copyright {
+    font-family: "ZY-XIAOBIAOSONG","羿创中宋";
+    font-size: 14px;
+    line-height: 1.2em;
+    padding: 0 10%;
+  }
+  span.lantinghei {
+    font-family: "ZY-HEITI"  ,"方正兰亭黑";
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+</style>
+</head>
+
+<body>
+  <table class="zhangyue-tablebody logo">
+    <tr>
+      <td style="text-align:center;height:10;"><img zy-enlarge-src="none" class="zhangyue-img-w4" src="./cover_1.png" alt="" /></td>
+    </tr>
+
+    <tr style="height:65%;vertical-align:middle;">
+      <td class="biaoti">${NAME}<br />
+      <span class="kaiti">${AUTHOR}</span></td>
+    </tr>
+    <tr style="height:30%;vertical-align:left;">
+      <td class="copyright">${C_1}本书由${C_0}授权${C_2}掌阅科技电子版制作与发行<br />
+      <span class="lantinghei">版权所有·侵权必究${C_3}</td> <!-- 分多段用于隐藏和显示信息 -->
+    </tr>
+  </table>
+</body>
+</html>
