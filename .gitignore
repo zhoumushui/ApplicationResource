@@ -3,6 +3,7 @@
 *.acv
 *.apk
 *.arsc
+*.art
 *.avi
 *.bak
 *.bks
@@ -43,6 +44,7 @@
 *.ks
 *.lix
 *.log
+*.mf
 *.mmstr
 *.mp4
 *.native
@@ -55,6 +57,7 @@
 *.ppt
 *.pptx
 *.properties
+*.pub
 *.pvr
 *.rmvb
 *.rs
@@ -62,6 +65,7 @@
 *.scel
 *.script
 *.sga
+*.sig
 *.svg
 *.swf
 *.so
