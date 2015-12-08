@@ -71,6 +71,7 @@
 *.tar
 *.temp
 *.tmp
+*.tpl
 *.ttf
 *.txt
 *.vch
