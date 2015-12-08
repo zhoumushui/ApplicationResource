@@ -1,0 +1,50 @@
+#/////////////////////////////////////////////////////////////////////////
+# This is a property file that defines all the properties for directly
+# downloading and updating the apps.  This can be used as a last resort
+# or fallback mechanism if the release properties don't define the values
+# and Google Play is not installed.
+#/////////////////////////////////////////////////////////////////////////
+
+type=public
+
+evernote.referralCode=android
+evernote.autoUpdateURL=https://update.evernote.com/public/ENAndroid/update-direct_v2.xml
+evernote.rateURI=
+evernote.productURI=
+evernote.directDownloadLookupUrl=https://update.evernote.com/public/ENAndroid/update-direct_v2.xml
+
+evernoteWorld.referralCode=android-world
+evernoteWorld.autoUpdateURL=https://update.evernote.com/public/ENAndroid/update-china_v2.xml
+evernoteWorld.rateURI=
+evernoteWorld.productURI=
+evernoteWorld.directDownloadLookupUrl=https://update.evernote.com/public/ENAndroid/update-china_v2.xml
+
+evernoteWidget.referralCode=android-widget
+evernoteWidget.autoUpdateURL=https://update.evernote.com/public/ENAndroidWidget/update.xml
+evernoteWidget.rateURI=
+evernoteWidget.productURI=
+evernoteWidget.directDownloadLookupUrl=https://update.evernote.com/public/ENAndroidWidget/update.xml
+
+food.referralCode=food-android
+food.autoUpdateURL=HockeyApp
+food.rateURI=
+food.productURI=
+food.directDownloadLookupUrl=https://update.evernote.com/public/FoodAndroid/update.xml
+
+hello.referralCode=hello-android
+hello.autoUpdateURL=HockeyApp
+hello.rateURI=
+hello.productURI=
+hello.directDownloadLookupUrl=https://update.evernote.com/public/HelloAndroid/update.xml
+
+skitch.referralCode=skitch-android
+skitch.autoUpdateURL=https://update.evernote.com/public/SkitchAndroid/update.xml
+skitch.rateURI=
+skitch.productURI=
+skitch.directDownloadLookupUrl=https://update.evernote.com/public/SkitchAndroid/update.xml
+
+office_suite.referralCode=office-suite
+office_suite.autoUpdateURL=none
+office_suite.rateURI=
+office_suite.productURI=
+office_suite.directDownloadLookupUrl=none

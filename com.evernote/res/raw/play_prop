@@ -1,0 +1,36 @@
+#/////////////////////////////////////////////////////////////////////////
+# This is a property file that defines all the properties for when the app
+# is installed on a device with Google Play.  This can be used as a way
+# to refer or update if a better one isn't present in the release properties
+# file that are specific to a distribution channel (Google Play, Amazon,
+# Samsung)
+#/////////////////////////////////////////////////////////////////////////
+
+baseSearchUri=market://search?q=
+
+evernote.rateURI=market://details?id=com.evernote
+evernote.productURI=market://details?id=com.evernote
+evernote.autoUpdateURL=none
+
+evernoteWorld.rateURI=market://details?id=com.evernote.world
+evernoteWorld.productURI=market://details?id=com.evernote.world
+evernoteWorld.autoUpdateURL=none
+
+evernoteWidget.rateURI=market://details?id=com.evernote.widget
+evernoteWidget.productURI=market://details?id=com.evernote.widget
+evernoteWidget.autoUpdateURL=none
+
+food.rateURI=market://details?id=com.evernote.food
+food.productURI=market://details?id=com.evernote.food
+food.autoUpdateURL=none
+
+hello.rateURI=market://details?id==com.evernote.hello
+hello.productURI=market://details?id==com.evernote.hello
+hello.autoUpdateURL=none
+
+skitch.rateURI=market://details?id=com.evernote.skitch
+skitch.productURI=market://details?id=com.evernote.skitch
+skitch.autoUpdateURL=none
+
+office_suite.rateURI=market://details?id=com.mobisystems.editor.office_with_reg
+office_suite.productURI=market://details?id=com.mobisystems.editor.office_with_reg

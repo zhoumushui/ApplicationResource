@@ -1,0 +1,9 @@
+#Thu, 12 Nov 2015 22:12:07 -0800
+#//////////////////////////////////////////////////////////////////////
+# This is the default release property file that will get included as the
+# release properties file when doing a non-Jenkins and/or non Ant build
+#//////////////////////////////////////////////////////////////////////
+
+bundleName=yx-baidu
+revision=7.4.1_1335
+gitHash=fb9b989ccadc9784e6771ec7725a58872e77a564
