@@ -36,6 +36,7 @@
 *.ini
 *.jar
 *.java
+*.jks
 *.jpp
 *.js
 *.json
@@ -47,11 +48,13 @@
 *.mf
 *.mmstr
 *.mp4
+*.ms3d
 *.native
 *.nls
 *.odf
 *.one
 *.otf
+*.p
 *.pak
 *.pem
 *.plist
@@ -92,9 +95,12 @@
 
 #Special File
 channel
+daemon
 daemonmonitor
 build
 manifest
+miui_push_version
+package-list
 push_version
 QUICKPAY@*
 README
