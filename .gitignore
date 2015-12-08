@@ -1,4 +1,9 @@
-# ZMS Add for Application Resources
+# Do not ignore
+!*.db
+!*.jpg
+!*.png
+
+# Ignore file
 *.acl
 *.acv
 *.apk
@@ -53,7 +58,6 @@
 *.nls
 *.obj
 *.odf
-*.one
 *.otf
 *.p
 *.pak
