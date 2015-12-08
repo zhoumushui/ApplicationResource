@@ -1,0 +1,1066 @@
+
+package com.kugou.common.network;
+
+import android.content.Context;
+import android.os.Build;
+import android.text.TextUtils;
+import com.kugou.common.network.networkutils.Log;
+
+import com.kugou.common.network.NetModeControler.StateObject;
+import com.kugou.common.network.networkutils.KGNetworkUtil;
+import com.kugou.common.network.networkutils.NetworkType;
+import com.kugou.common.network.protocol.AbstractMultiUrlRequestPackage;
+import com.kugou.common.network.protocol.RequestPackage;
+import com.kugou.common.network.protocol.ResponsePackage;
+import com.kugou.common.network.proxy.CMWapProxy;
+import com.kugou.common.network.proxy.KGHttpProxy;
+import com.kugou.common.network.retry.AbstractHttpRetryMode;
+import com.kugou.common.network.retry.DefaultRetryStrategy;
+import com.kugou.common.network.retry.IHttpRetryMode;
+import com.kugou.common.network.retry.IRetryStrategy;
+import com.kugou.common.network.retrystatics.RetryStaticsLOG;
+
+import org.apache.http.Header;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.conn.params.ConnRoutePNames;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.CoreProtocolPNames;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+import org.apache.http.protocol.HTTP;
+import org.apache.http.util.EntityUtils;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.AssertionError;
+import java.net.URI;
+import java.util.List;
+import java.util.Map;
+import java.util.Observable;
+import java.util.Observer;
+import java.util.zip.GZIPInputStream;
+
+//import com.kugou.android.app.bytecounter.ByteCounter;
+
+/**
+ * HTTP请求客户端
+ * 
+ * @author Hanguo
+ * @version 2011-1-15上午10:37:03
+ * @mofidy chenys
+ */
+public abstract class AbsHttpClient implements Observer {
+
+    private final String TAG = "AbsHttpClient";
+
+    public final static String GB2312 = "GB2312";
+
+    protected HttpClient mHttpClient;
+
+    private IRetryStrategy mRetryStrategy = DefaultRetryStrategy.getInstance();
+
+    // 监听网络请求状态
+    private INetworkState mINetworkState;
+
+    // 连接和读数据超时时间
+    private int mConnTimeOut = 10000, mReadTimeOut = 10000;
+
+    private boolean mEnableKugouResTag;
+
+    private long mReadContentBytes;
+
+    private IRequestUrlReceiver mRequestUrlReceiver;
+
+    /**
+     * 当前代理是否在当前业务请求上使用
+     */
+    private boolean canUseProxy = true;
+
+    private KGHttpProxy mHttpProxy;
+
+    private RequestDelay mRequestDelay;
+
+    private RetryStaticsLOG mRetryStaticsLOG;
+
+    private Context mContext;
+
+    public abstract AbsHttpVars getmHttpVariables();
+
+    private static AbsHttpVars mHttpVariables;
+
+    protected AbsHttpClient(Context context) {
+        this.mContext = context;
+        setmHttpVariables(getmHttpVariables());
+        initConfigParams();
+
+        if (mHttpVariables.getRetryStrategy() != null) {
+            mRetryStrategy = mHttpVariables.getRetryStrategy();
+        }
+    }
+
+    protected AbsHttpClient(boolean inProxy, Context context) {
+        this.mContext = context;
+        setmHttpVariables(getmHttpVariables());
+        canUseProxy = !inProxy;
+        initConfigParams();
+
+        if (mHttpVariables.getRetryStrategy() != null) {
+            mRetryStrategy = mHttpVariables.getRetryStrategy();
+        }
+    }
+
+    // /**
+    // * 创建KGHttpClient对象
+    // *
+    // * @return
+    // */
+    // public static AbsHttpClient getInstance(Context context, AbsHttpVars
+    // httpVariables) {
+    // mHttpVariables = httpVariables;
+    // return new AbsHttpClient(context);
+    // }
+    //
+    // /**
+    // * 创建KGHttpClient对象
+    // *
+    // * @return
+    // */
+    // public static AbsHttpClient getInstance(boolean inProxy, Context context,
+    // AbsHttpVars httpVariables) {
+    // return new AbsHttpClient(inProxy, context);
+    // }
+
+    public static void setmHttpVariables(AbsHttpVars httpVars) {
+        if (httpVars == null) {
+            throw new NullPointerException("AbsHttpVars must not be null");
+        } else {
+            mHttpVariables = httpVars;
+            Log.init(mHttpVariables.getILog());
+        }
+    }
+
+    public void setRetryStrategy(IRetryStrategy retryStrategy) {
+        if (retryStrategy == null) {
+            return;
+        }
+        mRetryStrategy = retryStrategy;
+    }
+
+    /**
+     * 设置网络状态监听
+     *
+     * @param listener
+     */
+    public void setNetworkStateListener(INetworkState listener) {
+        mINetworkState = listener;
+    }
+
+    public void setRequestUrlReceiver(IRequestUrlReceiver requestUrl) {
+        mRequestUrlReceiver = requestUrl;
+    }
+
+    public void request(RequestPackage requestPackage, ResponsePackage<Object> responsePackage)
+            throws Exception {
+        boolean isOnline = mHttpVariables.isOnline();
+        if (!isOnline) {
+            Log.e(TAG, "Network is offline-mode");
+            throw new IllegalStateException("network is offline-mode");
+        }
+
+        try {
+            checkip(requestPackage);
+        } catch (Exception e) {
+            throw e;
+        }
+
+        if (!isStaticsReqeustPackage(requestPackage)) {
+            if (mHttpVariables.isRetryStaticsOn()) {
+                mRetryStaticsLOG = mRetryStrategy.getRetryStatics(mContext);
+                mRetryStaticsLOG.init(requestPackage);
+            }
+        }
+
+        if (requestPackage instanceof IKugouResTag) {
+            mEnableKugouResTag = AbsHttpVars.switchparam_restag;
+        }
+
+        Log.e(TAG, "request start.");
+        mRetryStrategy.beforeStartRetry(requestPackage, responsePackage, this);
+
+        try {
+            getHttpProxy(requestPackage);
+            List<IHttpRetryMode> retryModes = mRetryStrategy.generateRetryMechanism(requestPackage,
+                    responsePackage, this, mHttpProxy != null ? true : false);
+            if (retryModes == null || retryModes.size() == 0) {
+                retryModes = DefaultRetryStrategy.getInstance().generateRetryMechanism(
+                        requestPackage, responsePackage, this, mHttpProxy != null ? true : false);
+            }
+            for (int i = 0; i < retryModes.size(); i++) {
+                try {
+                    doRequest(requestPackage, responsePackage, retryModes.get(i));
+                    break;
+                } catch (Exception e) {
+                    if (i == (retryModes.size() - 1)) {
+                        throw e;
+                    }
+                }
+            }
+        } catch (Exception e) {
+            throw e;
+        } finally {
+            if (!isStaticsReqeustPackage(requestPackage) && mRetryStaticsLOG != null) {
+                mHttpVariables.logRetryNetwork(mRetryStaticsLOG);
+            }
+        }
+    }
+
+    /**
+     * 发送请求,
+     * 在发送请求时，会对请求做一些监听(RequestUrlReceiver，RequestUrlReceiver，IHttpRetryMode)
+     * 和数据统计(RetryStaticsLOG)处理。
+     *
+     * @param requestPackage
+     * @param responsePackage
+     * @throws Exception
+     */
+    private void doRequest(RequestPackage requestPackage, ResponsePackage<Object> responsePackage,
+            IHttpRetryMode retryMode) throws Exception {
+        // 这时的url还没有转化成IP
+        String visitUrl = requestPackage.getUrl();
+        if (retryMode != null) {
+            visitUrl = retryMode.getRetryExtraParam().mVisitUrl != null ? retryMode
+                    .getRetryExtraParam().mVisitUrl : visitUrl;
+        }
+        // 这时的url可以转化成IP
+        String readUrl = retryMode == null ? requestPackage.getUrl() : retryMode
+                .getRetryExtraParam().mUrl;
+        String targetHost = retryMode == null ? null
+                : (retryMode.getRetryExtraParam().mHeaders == null ? null : retryMode
+                        .getRetryExtraParam().mHeaders.get(HTTP.TARGET_HOST));
+
+        try {
+            mRequestDelay = new RequestDelay();
+            if (mRetryStaticsLOG != null) {
+                mRetryStaticsLOG.markRequestStart(requestPackage);
+                mRetryStaticsLOG.setRequestType(retryMode != null ? retryMode.getType()
+                        : AbstractHttpRetryMode.BASE_TYPE, readUrl, targetHost);
+            }
+
+            HttpResponse response = start(requestPackage, responsePackage, retryMode);
+
+            if (mRetryStaticsLOG != null) {
+                mRetryStaticsLOG.markRequestGotResponse(response.getStatusLine().getStatusCode());
+                mRetryStaticsLOG.markRequestEnd(null);
+            }
+
+            if (mRequestUrlReceiver != null) {
+                mRequestUrlReceiver.onUrlState(visitUrl, true);
+            }
+
+            if (retryMode != null) {
+                retryMode.onHttpClientSuccess(requestPackage, response);
+            }
+        } catch (Exception e) {
+            if (retryMode != null) {
+                retryMode.onHttpClientException(e, requestPackage);
+            }
+            if (mRetryStaticsLOG != null) {
+                mRetryStaticsLOG.markRequestEnd(e);
+            }
+            if (mRequestUrlReceiver != null) {
+                mRequestUrlReceiver.onUrlState(visitUrl, false);
+            }
+
+            Log.e(TAG, "doRequest failed. \n", e);
+            // e.printStackTrace();
+            // mHttpClient.getConnectionManager().shutdown();
+            throw e;
+        }
+    }
+
+    public boolean isStaticsReqeustPackage(RequestPackage requestPackage) {
+        if (requestPackage instanceof IStaticsRequest) {
+            return ((IStaticsRequest) requestPackage).isStaticsReqeustPackage();
+        }
+        return false;
+    }
+
+    public boolean isNetTrafficTask(RequestPackage requestPackage) {
+        if (requestPackage instanceof IStaticsRequest) {
+            return ((IStaticsRequest) requestPackage).isNetTrafficTask();
+        }
+        return false;
+    }
+
+    /**
+     * 发送请求，带回调
+     *
+     * @param requestPackage
+     * @param streamHandler
+     * @throws Exception
+     */
+    public void requestWithWatch(RequestPackage requestPackage, IStreamHandler streamHandler)
+            throws Exception {
+        boolean isOnline = mHttpVariables.isOnline();
+        if (!isOnline) {
+            return;
+        }
+
+        try {
+            checkip(requestPackage);
+        } catch (Exception e) {
+            throw e;
+        }
+
+        Log.e(TAG, "requestWithWatch start.");
+        mRetryStrategy.beforeStartRetry(requestPackage, streamHandler, this);
+
+        try {
+            getHttpProxy(requestPackage);
+            List<IHttpRetryMode> retryModes = mRetryStrategy.generateRetryMechanism(requestPackage,
+                    streamHandler, this, mHttpProxy != null ? true : false);
+            if (retryModes == null || retryModes.size() == 0) {
+                retryModes = DefaultRetryStrategy.getInstance().generateRetryMechanism(
+                        requestPackage, streamHandler, this, mHttpProxy != null ? true : false);
+            }
+            for (int i = 0; i < retryModes.size(); i++) {
+                try {
+                    HttpResponse response = start(requestPackage, streamHandler, retryModes.get(i));
+                    if (retryModes.get(i) != null) {
+                        retryModes.get(i).onHttpClientSuccess(requestPackage, response);
+                    }
+                } catch (Exception e) {
+                    if (retryModes.get(i) != null) {
+                        retryModes.get(i).onHttpClientException(e, requestPackage);
+                    }
+                    if (i == (retryModes.size() - 1)) {
+                        throw e;
+                    }
+                }
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "requestWithWatch failed. \n", e);
+            throw e;
+        }
+    }
+
+    /**
+     * 中断连接
+     */
+    public void stop() {
+        if (mHttpClient != null) {
+            try {
+                mHttpClient.getConnectionManager().shutdown();
+            }catch (AssertionError error){
+                error.printStackTrace();
+            }
+        }
+        NetModeControler.getInstance().deleteObserver(this);
+    }
+
+    /**
+     * 建立网络连接， 主要处理连接前的数据，以及对于连接成功后的错误类型处理
+     */
+    private HttpResponse start(RequestPackage requestPackage, Object responseHandler,
+            IHttpRetryMode retryMode) throws Exception {
+        Log.d(TAG, "start retryMode = " + retryMode);
+        createHttpClient(requestPackage);
+        NetModeControler.getInstance().addObserver(this);
+        mReadContentBytes = 0;
+        if (!isNetTrafficTask(requestPackage)) {
+            mHttpVariables.startNetTraffic();
+        }
+
+        if (requestPackage instanceof AbstractMultiUrlRequestPackage) {
+            String visitUrl = requestPackage.getUrl();
+            if (retryMode != null) {
+                visitUrl = retryMode.getRetryExtraParam().mVisitUrl != null ? retryMode
+                        .getRetryExtraParam().mVisitUrl : visitUrl;
+            }
+            ((AbstractMultiUrlRequestPackage) requestPackage).setLastVisitUrl(visitUrl);
+        }
+        if (mINetworkState != null) {
+            mINetworkState.onRequest();
+        }
+
+        HttpResponse response = null;
+        try {
+            ConnectUrl urlGetter = new ConnectUrl();
+            response = connect(requestPackage, urlGetter, retryMode);
+            final int status = response.getStatusLine().getStatusCode();
+            if (mINetworkState != null) {
+                mINetworkState.onResponse(status);
+            }
+            String statusDetail = response.getStatusLine().getReasonPhrase();
+            if (checkResponseCode(status, responseHandler)
+                    && (status == HttpStatus.SC_OK || status == HttpStatus.SC_PARTIAL_CONTENT)) {
+                if (!checkContentType(response, responseHandler)) {
+                    throw new KugouNetException(KugouNetException.ERROR_WRONG_CONTENT_TYPE,
+                            "wrong Content-Type", response.getHeaders("Content-Type"));
+                }
+
+                if (!checkHeaders(response.getAllHeaders(), responseHandler)) {
+                    throw new KugouNetException(KugouNetException.ERROR_DISAGREE_HTTP_HEADERS,
+                            "disagree HTTP headers", response.getAllHeaders());
+                }
+
+                if (responseHandler != null) {
+                    try {
+                        readData(response.getEntity(), responseHandler);
+                    } catch (Exception e) {
+                        if (e instanceof KugouNetException) {
+                            Log.e(TAG, "read data failed. \n" , e);
+                            KugouNetException kugouNetException = (KugouNetException) e;
+                            if (kugouNetException.getData() != null) {
+                                notifyContentException(kugouNetException.getError(), urlGetter.url,
+                                        status, kugouNetException.getData(), responseHandler);
+                            } else if (kugouNetException.getHeaders() != null) {
+                                notifyHeaderException(kugouNetException.getError(), urlGetter.url,
+                                        status, kugouNetException.getHeaders(), responseHandler);
+                            }
+                        }
+                        throw e;
+                    }
+                }
+            } else if (status >= SC_PRIVATE) {
+                if (mHttpProxy != null && mHttpProxy.canUseProxy()) {
+                    Log.d(TAG, "response.getStatusLine().getStatusCode():"
+                            + response.getStatusLine().getStatusCode());
+                    KGHttpProxy handledProxy = mHttpProxy.onProxyFailAfterConnected(requestPackage,
+                            response, mHttpClient);
+                    mHttpProxy = handledProxy != null ? handledProxy : mHttpProxy;
+                    // 对于代理的重试，还需斟酌
+                    if (mHttpProxy.canRetry()) {
+                        start(requestPackage, responseHandler, retryMode);
+                    }
+                }
+            } else {
+                throw new KugouNetException(status, statusDetail);
+            }
+
+            if (mINetworkState != null) {
+                mINetworkState.onStop();
+            }
+
+            return response;
+        } catch (Error e) {
+            throw new KugouNetException(e);
+        } finally {
+            stop();
+
+            if (!isNetTrafficTask(requestPackage)) {
+                mHttpVariables.stopNetTraffic(mReadContentBytes);
+            }
+        }
+    }
+
+    private class ConnectUrl {
+        public String url;
+    }
+
+    /**
+     * 处理用于网络连接的url, headers等数据，用于建立网络连接，以及实时统计网络请求。
+     */
+    private HttpResponse connect(RequestPackage requestPackage, ConnectUrl urlGetter,
+            IHttpRetryMode retryMode) throws Exception {
+        String fullUrl = retryMode == null ? requestPackage.getUrl() : retryMode
+                .getRetryExtraParam().mUrl;
+        // support url extension
+        if (requestPackage instanceof IUrlExtension) {
+            fullUrl = appendFileExtension(fullUrl,
+                    ((IUrlExtension) requestPackage).getFileExtension());
+        }
+        if (mRequestDelay != null) {
+            mRequestDelay.setSerId(retryMode != null ? retryMode.getServiceId() : 0);
+            mRequestDelay.setGetMethod(retryMode != null ? retryMode.getGETMethod()
+                    : RequestDelay.GET_METHOD_DIRECT);
+            mRequestDelay.setSerIp(fullUrl);
+        }
+
+        String params = requestPackage.getGetRequestParams();
+        if (params == null) {
+            params = "";
+        } else if (!TextUtils.isEmpty(params) && !params.startsWith("?")) {
+            params = "?" + params;
+        }
+        fullUrl = fullUrl + params;
+        if (mEnableKugouResTag) {
+            fullUrl = urlAppendKugouResTag(fullUrl);
+        }
+
+        Log.d(TAG,
+                "connect url : " + fullUrl + ", in retryMode("
+                        + (retryMode != null ? retryMode.getType() : "null") + ")");
+
+        URI uri = new URI(fullUrl);
+        HttpUriRequest uriReq = null;
+        if (urlGetter != null) {
+            urlGetter.url = fullUrl;
+        }
+        if (HttpGet.METHOD_NAME.equalsIgnoreCase(requestPackage.getRequestType())) {
+            if (mRequestUrlReceiver != null)
+                mRequestUrlReceiver.onHttpGet(fullUrl);
+            uriReq = new HttpGet(uri);
+        } else {
+            if (mRequestUrlReceiver != null)
+                mRequestUrlReceiver.onHttpPost(fullUrl);
+            uriReq = new HttpPost(uri);
+            ((HttpPost) uriReq).setEntity(requestPackage.getPostRequestEntity());
+        }
+
+        uriReq.addHeader(HTTP.USER_AGENT, this.getUserAgent(requestPackage));
+        uriReq.addHeader("Accept-Encoding", "gzip, deflate");
+        String ctUserAgent = mHttpVariables.getNameOfPlatformVersion() + "-kugoumusic-107";
+        uriReq.addHeader("KG-USER-AGENT", ctUserAgent);
+        if (requestPackage.getHttpHeaders() != null) {
+            for (Header h : requestPackage.getHttpHeaders()) {
+                uriReq.setHeader(h);
+            }
+        }
+
+        if (retryMode != null) {
+            if (retryMode.getRetryExtraParam().mHeaders != null) {
+                for (Map.Entry<String, String> header : retryMode.getRetryExtraParam().mHeaders
+                        .entrySet()) {
+                    uriReq.setHeader(header.getKey(), header.getValue());
+                }
+            }
+        }
+
+        if (mHttpProxy != null && mHttpProxy.canUseProxy() && mHttpProxy.getHttpHost() != null) {
+            Log.d(TAG, fullUrl);
+            Log.d(TAG, "HttpHost: " + mHttpProxy.getHttpHost().getHostName() + ";"
+                    + mHttpProxy.getHttpHost().getPort());
+<<<<<<< HEAD
+            Log.d(TAG, "UserAgent:" + mHttpProxy.getHeaderGroup().getAllHeaders().length);
+=======
+//            Log(TAG, "UserAgent:" + mHttpProxy.getHeaderGroup().getAllHeaders().length);
+>>>>>>> develop
+            mHttpProxy.onHeadersHandled(uriReq);
+        }
+
+        long startMillis = System.currentTimeMillis();
+        HttpResponse response = null;
+        try {
+            response = mHttpClient.execute(uriReq);
+        } catch (Exception e) {
+            throw e;
+        }
+
+        if (mRequestDelay != null) {
+            mRequestDelay.setDelayMillis(System.currentTimeMillis() - startMillis);
+        }
+
+        return response;
+    }
+
+    private String getUserAgent(RequestPackage requestPackage) {
+
+        String name = requestPackage == null ? "" : requestPackage.getRequestModuleName();
+        String userAgent = "Android" + Build.VERSION.RELEASE.replace(".", "");
+        // String sdk = SystemUtils.getSystemSDK();
+        String version = mHttpVariables.getNameOfPlatformVersion();
+        String channelId = mHttpVariables.getChanelid();
+        int isDoubleSim = 0;
+        // String uni = "uni";
+
+        // userAgent = userAgent + "-" + sdk;
+        userAgent = userAgent + "-" + version;
+        // 原 Build.MODEL 字段因为中文兼容性问题，取消
+        userAgent = userAgent + "-" + channelId;
+        userAgent = userAgent + "-" + isDoubleSim;
+        if (!TextUtils.isEmpty(name))
+            userAgent = userAgent + "-" + name;
+        String net = KGNetworkUtil.getCurrentNetworkIdentifier(mContext);
+        if (!TextUtils.isEmpty(net))
+            userAgent = userAgent + "-" + net;
+
+        return userAgent;
+    }
+
+    private void readData(HttpEntity entity, Object responseHandler) throws Exception {
+        if (responseHandler instanceof ResponsePackage<?>) {
+            ResponsePackage<?> responsePackage = (ResponsePackage<?>) responseHandler;
+            if (mINetworkState != null) {
+                mINetworkState.onReadStart();
+            }
+
+            byte[] data = null;
+            if (isGzipStream(entity)) {
+                data = EntityUtils.toByteArray(new GzipDecompressingEntity(entity));
+            } else {
+                data = EntityUtils.toByteArray(entity);
+            }
+
+            if (data != null)
+                mReadContentBytes = data.length;
+
+            if (mINetworkState != null) {
+                mINetworkState.onReadEnd();
+            }
+
+            if (checkWISPAccessGateway(data)) {
+                if (mHttpVariables.isDebug()) {
+                    Log.d("cmcc", "WiFi found `WISPAccessGatewayParam', need login");
+                }
+                throw new KugouNetException(KugouNetException.ERROR_WIFI_NEED_AUTH,
+                        "WiFi found `WISPAccessGatewayParam', need login", data);
+            }
+
+            if (mEnableKugouResTag) {
+                byte[] pureData = parseKugouResTag(data);
+                if (pureData == null) {
+                    throw new KugouNetException(KugouNetException.ERROR_NO_KUGOU_RES_TAG,
+                            "No kugou res tag", data);
+                } else {
+                    data = pureData;
+                }
+            }
+
+            if (!responsePackage.getResponseType().checkResponseType(data)) {
+                throw new KugouNetException(KugouNetException.ERROR_WRONG_RESPONSE_TYPE,
+                        "Wrong response type ", data);
+            }
+
+            responsePackage.setContext(data);
+            countBytes(data);
+        } else if (responseHandler instanceof IStreamHandler) {
+            IStreamHandler streamHandler = (IStreamHandler) responseHandler;
+            if (mINetworkState != null) {
+                mINetworkState.onReadStart();
+            }
+
+            InputStream instream = null;
+            if (isGzipStream(entity)) {
+                instream = new GZIPInputStream(entity.getContent());
+            } else {
+                instream = entity.getContent();
+            }
+            long fileSize = entity.getContentLength();
+            // 处理数据
+            streamHandler.handlerStream(instream, fileSize, new IContentBytes() {
+                @Override
+                public void onRead(long content) {
+                    mReadContentBytes += content;
+                }
+            });
+
+            if (mINetworkState != null) {
+                mINetworkState.onReadEnd();
+            }
+        }
+    }
+
+    // 是否Gzip压缩流
+    private boolean isGzipStream(HttpEntity entity) throws IllegalStateException, IOException {
+        if (entity != null) {
+            Header header = entity.getContentEncoding();
+            return header != null && header.getValue() != null
+                    && header.getValue().toLowerCase().indexOf("gzip") != -1;
+        }
+        return false;
+    }
+
+    // 统计流量
+    private void countBytes(byte[] data) {
+        if (data == null) {
+            return;
+        }
+        // ByteCounter.receive(data.length);
+    }
+
+    // 初始化参数
+    private void initConfigParams() {
+        String networkType = KGNetworkUtil.getNetworkType(mContext);
+        if (NetworkType.WIFI.equals(networkType)) {
+            mConnTimeOut = AbsHttpVars.timeoutparam_wificonnect;
+            mReadTimeOut = AbsHttpVars.timeoutparam_wifiread;
+        } else if (NetworkType.NET_3G.equals(networkType) || NetworkType.NET_4G.equals(networkType)) {
+            mConnTimeOut = AbsHttpVars.timeoutparam_3gconnent;
+            mReadTimeOut = AbsHttpVars.timeoutparam_3gread;
+        } else {
+            mConnTimeOut = AbsHttpVars.timeoutparam_2gconnent;
+            mReadTimeOut = AbsHttpVars.timeoutparam_2gread;
+        }
+    }
+
+    private void getHttpProxy(RequestPackage requestPackage) {
+        if (mHttpProxy == null && canUseProxy) {
+            mHttpProxy = mHttpVariables.getHttpProxy(requestPackage);
+        }
+        if (mHttpProxy == null) {
+            mHttpProxy = CMWapProxy.getInstance(mContext, requestPackage);
+        }
+    }
+
+    // 创建一个httpClient对象
+    public void createHttpClient(RequestPackage requestPackage) {
+        HttpClient client = new DefaultHttpClient();
+        HttpParams httpParams = client.getParams();
+        httpParams.setParameter(CoreProtocolPNames.USE_EXPECT_CONTINUE, false);
+        HttpConnectionParams.setConnectionTimeout(httpParams, mConnTimeOut);
+        HttpConnectionParams.setSoTimeout(httpParams, mReadTimeOut);
+
+        getHttpProxy(requestPackage);
+        if (mHttpProxy != null) {
+            httpParams.setParameter(ConnRoutePNames.DEFAULT_PROXY, mHttpProxy.getHttpHost());
+        }
+
+        mHttpClient = client;
+    }
+
+    /**
+     * 检查 HTTP 属性，如 Content-Type 等
+     */
+    public interface IHttpProperty {
+
+        public boolean onContentType(String contentType);
+
+        public boolean onResponseCode(int responseCode);
+
+        public boolean onHeaders(Header[] headers);
+
+    }
+
+    /**
+     * 是否支持 KUGOU_RES_TAG 功能
+     */
+    public interface IKugouResTag {
+
+    }
+
+    public interface IUrlExtension {
+
+        public String getFileExtension();
+    }
+
+    public interface IStaticsRequest {
+        /**
+         * 是否统计相关请求
+         * 
+         * @return
+         */
+        public boolean isStaticsReqeustPackage();
+
+        /**
+         * 是否实现NetTrafficTask方法 requestPackage instanceof NetTrafficTask
+         * 
+         * @return
+         */
+        public boolean isNetTrafficTask();
+    }
+
+    public static String appendFileExtension(String url, String fileExtension) {
+        if (url == null || TextUtils.isEmpty(fileExtension)) {
+            return url;
+        }
+
+        String resultUrl;
+
+        if (!fileExtension.startsWith("/")) {
+            fileExtension = "/" + fileExtension;
+        }
+
+        if (url.contains("?")) {
+            String[] urlSplit = url.split("\\?", 2);
+            String splitUrl = (urlSplit.length >= 1) ? urlSplit[0] : "";
+            String splitQurey = (urlSplit.length >= 2) ? urlSplit[1] : "";
+
+            if (splitUrl.endsWith("/")) {
+                splitUrl = splitUrl.substring(0, splitUrl.length() - 1);
+            }
+
+            if (!TextUtils.isEmpty(splitQurey)) {
+                splitQurey = "?" + splitQurey;
+            }
+
+            resultUrl = splitUrl + fileExtension + splitQurey;
+        } else {
+            if (url.endsWith("/")) {
+                url = url.substring(0, url.length() - 1);
+            }
+
+            resultUrl = url + fileExtension;
+        }
+
+        return resultUrl;
+    }
+
+    /**
+     * 无状态协议，可以安全地进行网络测试
+     */
+    public interface INoState {
+
+    }
+
+    public static interface IContentBytes {
+
+        public void onRead(long content);
+
+    }
+
+    public static interface IRequestUrlReceiver {
+
+        public void onHttpGet(String url);
+
+        public void onHttpPost(String url);
+
+        public String getRequestUrl(String defaultUrl);
+
+        public void onUrlState(String url, boolean succ);
+
+    }
+
+    /**
+     * 数据处理接口
+     */
+    public interface IStreamHandler {
+
+        public void handlerStream(InputStream stream, long fileSize, IContentBytes contentBytes)
+                throws Exception;
+    }
+
+    /**
+     * 协议异常通知接口
+     */
+    public interface IHttpException {
+
+        public void onHeaderException(int netException, String url, int statusCode, Header[] headers);
+
+        public void onContentException(int netException, String url, int statusCode, byte[] content);
+
+    }
+
+    /**
+     * 协议需要检查是否国内 IP
+     */
+    public static interface ICheckChinaIP {
+
+        public boolean shouldBeSilent();
+
+        public void checkIp() throws Exception;
+
+    }
+
+    @Override
+    public void update(Observable observable, Object data) {
+        if (observable instanceof NetModeControler) {
+            StateObject stateObject = (StateObject) data;
+            int notifyType = stateObject.getNotifyType();
+            switch (notifyType) {
+                case NetModeControler.NOTIFY_NETMODE_CHANGED:
+                    int netMode = ((Integer) stateObject.getData()).intValue();
+                    if (netMode == NetModeControler.NETMODE_OFFLINE) {
+                        stop();
+                    }
+                    break;
+            }
+        }
+    }
+
+    public void resetTimeOut(int connecttionTime, int readTime) {
+        mConnTimeOut = connecttionTime;
+        mReadTimeOut = readTime;
+    }
+
+    private boolean checkContentType(HttpResponse response, Object o) {
+        try {
+            if (o instanceof IHttpProperty) {
+                IHttpProperty p = (IHttpProperty) o;
+
+                Header[] headers = response.getHeaders("Content-Type");
+                if (headers == null || headers.length == 0) {
+                    return p.onContentType(null);
+                } else {
+                    return p.onContentType(headers[0].getValue());
+                }
+            }
+        } catch (Exception e) {
+        }
+
+        return true;
+    }
+
+    private boolean checkResponseCode(int responseCode, Object o) {
+        if (o instanceof IHttpProperty) {
+            IHttpProperty p = (IHttpProperty) o;
+            return p.onResponseCode(responseCode);
+        } else {
+            return true;
+        }
+    }
+
+    private boolean checkHeaders(Header[] headers, Object o) {
+        if (o instanceof IHttpProperty) {
+            IHttpProperty p = (IHttpProperty) o;
+            return p.onHeaders(headers);
+        } else {
+            return true;
+        }
+    }
+
+    private boolean checkWISPAccessGateway(byte[] data) {
+        if (data == null || data.length == 0)
+            return false;
+
+        if (searchTag(data, 0, "<WISPAccessGatewayParam".getBytes()) >= 0)
+            return true;
+
+        if (checkChinaNetFlag(data))
+            return true;
+
+        return false;
+    }
+
+    private boolean checkChinaNetFlag(byte[] data) {
+        if (searchTag(data, 0, "http://wlan.vnet.cn/".getBytes()) < 0)
+            return false;
+
+        byte[] chinatelGBK = {
+                (byte) 0x3E, (byte) 0xD6, (byte) 0xD0, (byte) 0xB9, (byte) 0xFA, (byte) 0xB5,
+                (byte) 0xE7, (byte) 0xD0, (byte) 0xC5, (byte) 0x3C
+        }; // ">中国电信<" : %3E%D6%D0%B9%FA%B5%E7%D0%C5%3C
+
+        byte[] loginGBK = {
+                (byte) 0xB5, (byte) 0xC7, (byte) 0xC2, (byte) 0xBC
+        }; // "登录" : %B5%C7%C2%BC
+
+        if (searchTag(data, 0, chinatelGBK) >= 0 && searchTag(data, 0, loginGBK) >= 0)
+            return true;
+
+        byte[] chinatelUTF8 = {
+                0x3E, (byte) 0xE4, (byte) 0xB8, (byte) 0xAD, (byte) 0xE5, (byte) 0x9B, (byte) 0xBD,
+                (byte) 0xE7, (byte) 0x94, (byte) 0xB5, (byte) 0xE4, (byte) 0xBF, (byte) 0xA1, 0x3C
+        }; // ">中国电信<" : %3E%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1%3C
+
+        byte[] loginUTF8 = {
+                (byte) 0xE7, (byte) 0x99, (byte) 0xBB, (byte) 0xE5, (byte) 0xBD, (byte) 0x95
+        }; // "登录" : %E7%99%BB%E5%BD%95
+
+        if (searchTag(data, 0, chinatelUTF8) >= 0 && searchTag(data, 0, loginUTF8) >= 0)
+            return true;
+
+        return false;
+    }
+
+    private byte[] parseKugouResTag(byte[] data) {
+        if (data == null || data.length == 0)
+            return null;
+
+        String tagStart = "<!--KG_TAG_RES_START-->";
+        int begin = searchTag(data, 0, tagStart.getBytes());
+        if (begin < 0)
+            return null;
+
+        begin += tagStart.length();
+        String tagEnd = "<!--KG_TAG_RES_END-->";
+        int end = searchTag(data, begin, tagEnd.getBytes());
+        if (end < 0 || end < begin)
+            return null;
+
+        byte[] pureData = new byte[end - begin];
+        for (int i = 0; i < pureData.length; ++i, ++begin)
+            pureData[i] = data[begin];
+
+        return pureData;
+    }
+
+    /**
+     * 判断 tag 的第一个字节是否是唯一、不重复出现的。不重复的有利于快速搜索。 情况是以 <、> 等标记开头，很可能不会重复。
+     */
+    private boolean tagHasUniqeHeader(byte[] tag) {
+        if (tag == null || tag.length == 0)
+            return false;
+
+        if (tag.length == 1)
+            return true;
+
+        byte header = tag[0];
+        for (int i = 1; i < tag.length; ++i) {
+            if (tag[i] == header)
+                return false;
+        }
+
+        return true;
+    }
+
+    private int searchTag(byte[] data, int start, byte[] tag) {
+        if (data == null || data.length == 0 || tag == null || tag.length == 0
+                || data.length < start + tag.length)
+            return -1;
+
+        byte header = tag[0];
+        boolean unique = tagHasUniqeHeader(tag);
+        int i = start;
+        while (i + tag.length <= data.length) {
+            int index = i++;
+            if (data[index] != header)
+                continue;
+
+            int j = 0;
+            for (; j < tag.length; ++j) {
+                if (data[index + j] != tag[j]) {
+                    if (unique)
+                        i = index + j;
+
+                    break;
+                }
+            }
+
+            if (j == tag.length)
+                return index;
+        }
+
+        return -1;
+    }
+
+    public static String urlAppendKugouResTag(String url) {
+        if (TextUtils.isEmpty(url))
+            return "";
+
+        char sep = '?';
+        if (url.indexOf(sep) >= 0) {
+            sep = '&';
+        }
+
+        return url + sep + "with_res_tag=1";
+    }
+
+    private void notifyContentException(int netException, String url, int statusCode,
+            byte[] content, Object recv) {
+        if (recv instanceof IHttpException) {
+            IHttpException e = (IHttpException) recv;
+            e.onContentException(netException, url, statusCode, content);
+        }
+    }
+
+    private void notifyHeaderException(int netException, String url, int statusCode,
+            Header[] headers, Object recv) {
+        if (recv instanceof IHttpException) {
+            IHttpException e = (IHttpException) recv;
+            e.onHeaderException(netException, url, statusCode, headers);
+        }
+    }
+
+    private void checkip(RequestPackage requestPackage) throws Exception {
+        if (requestPackage instanceof ICheckChinaIP) {
+            ICheckChinaIP check = (ICheckChinaIP) requestPackage;
+            check.checkIp();
+        }
+    }
+
+    public RequestDelay getRequestDelay() {
+        return mRequestDelay;
+    }
+
+    /**
+     * 请求返回状态码大于600， 为私有的
+     */
+    public static final int SC_PRIVATE = 600;
+}
