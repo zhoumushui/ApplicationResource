@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "name": "北京",
+            "proid": "1",
+            "proname": "北京"
+        },
+        {
+            "id": "3",
+            "name": "上海",
+            "proid": "3",
+            "proname": "上海"
+        },
+        {
+            "id": "143",
+            "name": "广州",
+            "proid": "19",
+            "proname": "广东"
+        },
+        {
+            "id": "146",
+            "name": "深圳",
+            "proid": "19",
+            "proname": "广东"
+        },
+        {
+            "id": "34",
+            "name": "杭州",
+            "proid": "24",
+            "proname": "浙江"
+        },
+        {
+            "id": "181",
+            "name": "南京",
+            "proid": "25",
+            "proname": "江苏"
+        },
+        {
+            "id": "131",
+            "name": "成都",
+            "proid": "16",
+            "proname": "四川"
+        },
+        {
+            "id": "176",
+            "name": "武汉",
+            "proid": "23",
+            "proname": "湖北"
+        },
+        {
+            "id": "2",
+            "name": "天津",
+            "proid": "2",
+            "proname": "天津"
+        }
+    ]
+}
