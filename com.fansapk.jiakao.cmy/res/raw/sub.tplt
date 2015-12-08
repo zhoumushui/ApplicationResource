@@ -1,0 +1,52 @@
+{
+	"localId": "value_localId",
+	"onlineId": "value_onlineId",
+	"assemblyId": "value_assemblyId",
+	"productId": "value_assemblyId",
+	"hash": "value_hash",
+	"platform": 2,
+	"size": value_size,
+	"updatedTime": value_updatedTime,
+	"version": "1.0",
+	"authors": 
+		{    
+			"fallback": "value_vendor"  
+		},  
+	"designers": 
+		{    
+			"fallback": "value_vendor"  
+		},  
+	"titles": 
+		{    
+			"fallback": "value_localId"  
+		},  
+	"descriptions": 
+		{    
+			"fallback": "value_descriptions"  
+		},  
+	"builtInThumbnails": 
+		{    
+			"fallback":	[      "preview_fonts_small_0.png",      "preview_fonts_0.png"    ]  
+		}, 
+	"builtInPreviews": 
+		{    
+			"fallback": [      "preview_fonts_0.png"    ]  
+		},  
+	"thumbnails": [    {      "localPath": "preview_fonts_small_0.png",      "onlinePath": ""    }  ],  
+	"previews": [    {      "localPath": "preview_fonts_0.png",      "onlinePath": ""    }  ],  
+	"parentResources": 
+		[    
+			{ 
+				"localId": "value_localIdtheme",      
+				"resourceCode": "theme",      
+				"extraMeta": {},      
+				"metaPath": null,      
+				"contentPath": null    
+			} 
+		],  
+	"subResources": [],  
+	"extraMeta": {},  
+	"metaPath": null,  
+	"contentPath": null,  
+	"rightsPath": null
+}
