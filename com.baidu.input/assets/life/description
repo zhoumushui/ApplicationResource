@@ -1,0 +1,17 @@
+{
+	"application": {
+		"name": "生活手记",
+		"logo": "./menu_icon.png",
+		"storeIcon": "./store_icon.png",
+		"summary": "记录点点滴滴",
+		"detail": "输入法中的记事本，遇见就记不错过。",
+		"link": "www.baidu.com",
+		"thumbnail": ["./thumb1.jpg","./thumb2.jpg"]
+	},
+	"extra": {
+		
+	},
+	"plugin": {
+		"has_entrance": "Y"
+	}
+}

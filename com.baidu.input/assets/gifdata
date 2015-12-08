@@ -1,0 +1,51 @@
+{"Frames": [
+                {
+               "BrowCondition" : "0",
+               "EyeCondition" : "0",
+               "HeadAbove" : "0",
+               "HeadRect" : "{(66,7),(153,132)}",
+               "HeadRotation" : "0",
+               "MouthCondition" : "0"
+            },
+            {
+               "BrowCondition" : "0",
+               "EyeCondition" : "5",
+               "HeadAbove" : "0",
+               "HeadRect" : "{(66,7),(153,132)}",
+               "HeadRotation" : "4",
+               "MouthCondition" : "1"
+            },
+            {
+               "BrowCondition" : "0",
+               "EyeCondition" : "5",
+               "HeadAbove" : "0",
+               "HeadRect" : "{(66,7),(153,132)}",
+               "HeadRotation" : "7",
+               "MouthCondition" : "0"
+            },
+            {
+               "BrowCondition" : "0",
+               "EyeCondition" : "0",
+               "HeadAbove" : "0",
+               "HeadRect" : "{(66,7),(153,132)}",
+               "HeadRotation" : "0",
+               "MouthCondition" : "1"
+            },
+            {
+               "BrowCondition" : "0",
+               "EyeCondition" : "0",
+               "HeadAbove" : "0",
+               "HeadRect" : "{(66,7),(153,132)}",
+               "HeadRotation" : "-4",
+               "MouthCondition" : "0"
+            },
+            {
+               "BrowCondition" : "0",
+               "EyeCondition" : "0",
+               "HeadAbove" : "0",
+               "HeadRect" : "{(66,7),(153,132)}",
+               "HeadRotation" : "-7",
+               "MouthCondition" : "1"
+            }
+            ]
+}
