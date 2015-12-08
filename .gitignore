@@ -51,6 +51,7 @@
 *.ms3d
 *.native
 *.nls
+*.obj
 *.odf
 *.one
 *.otf
