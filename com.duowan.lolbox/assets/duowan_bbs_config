@@ -1,0 +1,3 @@
+login_activity=com.duowan.lolbox.user.BoxLoginGlobalActivity
+offer_token_service=com.duowan.lolbox.service.BBSTokenService
+project=lolbox
