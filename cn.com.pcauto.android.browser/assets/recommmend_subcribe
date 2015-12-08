@@ -1,0 +1,246 @@
+{
+ads: [
+{
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1308/13/c9/24440713_1376387144385_270x202.jpg",
+serialId: 354,
+serialName: "马自达6",
+price: "12.98-15.98万"
+}
+],
+list: [
+{
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1307/24/c16/23702964_1374654889218_270x202.jpg",
+serialId: 3404,
+serialName: "福克斯",
+price: "9.98-16.99万"
+},
+{
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1307/16/c13/23389440_1373956410390_270x202.jpg",
+serialId: 9306,
+serialName: "马自达CX-5",
+price: "16.98-25.28万"
+},
+{
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1202/28/c3/10633808_10633808_1330395935562_270x202.jpg",
+serialId: 3344,
+serialName: "劳恩斯",
+price: "39.8-58.8万"
+},
+{
+serialId: 3524,
+serialName: "奥迪A4L",
+price: "27.28~57.81 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_3524.jpg"
+},
+{
+serialId: 3404,
+serialName: "福克斯",
+price: "9.98~16.99 万",
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1307/24/c16/23702964_1374654889218_270x202.jpg"
+},
+{
+serialId: 4457,
+serialName: "奥迪Q5",
+price: "35.85~56.77 万",
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1307/22/c2/23599105_1374459941531_270x202.jpg"
+},
+{
+serialId: 7793,
+serialName: "AC M6 700",
+price: "358~358 万",
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1112/23/c1/10032980_10032980_1324633695295_270x202.jpg"
+},
+{
+serialId: 2143,
+serialName: "蒙迪欧",
+price: "17.98~26.58 万",
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1310/17/c19/27624664_1382004008375_270x202.jpg"
+},
+{
+serialId: 9322,
+serialName: "杰德",
+price: "14.98~18.38 万",
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1311/18/c4/28751120_1384764398437_270x202.jpg"
+},
+{
+serialId: 98,
+serialName: "大众Polo",
+price: "8.59~15.89 万",
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1309/05/c8/25299005_1378374386122_270x202.jpg"
+},
+{
+serialId: 7197,
+serialName: "宝马i3",
+price: "45.00~52.00万",
+image: "http://img.pconline.com.cn/images/upload/upc/tx/auto5/1408/01/c5/36951671_36951671_1406879881093_120x90.jpg"
+},
+{
+serialId: 5000,
+serialName: "奥迪A8",
+price: "null",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_5000.jpg"
+},
+{
+serialId: 8800,
+serialName: "奥迪R10",
+price: "null",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_8800.jpg"
+},
+{
+serialId: 8289,
+serialName: "奥迪S6",
+price: "105.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_8289.jpg"
+},
+{
+serialId: 8119,
+serialName: "奥迪S7",
+price: "134.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_8119.jpg"
+},
+{
+serialId: 8320,
+serialName: "奥迪SQ5",
+price: "69.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_8320.jpg"
+},
+{
+serialId: 7610,
+serialName: "奥迪S5",
+price: "72.8~85.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_7610.jpg"
+},
+{
+serialId: 9091,
+serialName: "奥迪TTS",
+price: "66.2~70.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_9091.jpg"
+},
+{
+serialId: 7271,
+serialName: "奥迪Q6",
+price: "null",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_7271.jpg"
+},
+{
+serialId: 10671,
+serialName: "奥迪R18",
+price: "null",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_10671.jpg"
+},
+{
+serialId: 9817,
+serialName: "奥迪Q4",
+price: "null",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_9817.jpg"
+},
+{
+serialId: 7609,
+serialName: "奥迪S8",
+price: "198.3 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_7609.jpg"
+},
+{
+serialId: 7532,
+serialName: "奥迪A9",
+price: "null",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_7532.jpg"
+},
+{
+serialId: 6,
+serialName: "奥迪A6",
+price: "63.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_6.jpg"
+},
+{
+serialId: 8,
+serialName: "奥迪TT",
+price: "51.9~59.2 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_8.jpg"
+},
+{
+serialId: 3746,
+serialName: "奥迪A1",
+price: "19.98~29.98 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_3746.jpg"
+},
+{
+serialId: 5,
+serialName: "奥迪A4",
+price: "46.98 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_5.jpg"
+},
+{
+serialId: 3605,
+serialName: "奥迪Q5(进口)",
+price: "60.8~65.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_3605.jpg"
+},
+{
+serialId: 3975,
+serialName: "奥迪Q3(进口)",
+price: "37.7~47.9 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_3975.jpg"
+},
+{
+serialId: 7499,
+serialName: "宝马i8",
+price: "null",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_7499.jpg"
+},
+{
+serialId: 10650,
+serialName: "宝马X7",
+price: "null",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_10650.jpg"
+},
+{
+serialId: 499,
+serialName: "宝马6系",
+price: "113.9~201.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_499.jpg"
+},
+{
+serialId: 9351,
+serialName: "宝马2系",
+price: "32~51.7 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_9351.jpg"
+},
+{
+serialId: 161,
+serialName: "宝马3系(进口)",
+price: "39.96~66.9 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_161.jpg"
+},
+{
+serialId: 8270,
+serialName: "宝马4系",
+price: "48~80.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_8270.jpg"
+},
+{
+serialId: 7611,
+serialName: "宝马M3",
+price: "100~129.7 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_7611.jpg"
+},
+{
+serialId: 7699,
+serialName: "宝马M5",
+price: "178.8~197.8 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_7699.jpg"
+},
+{
+serialId: 8240,
+serialName: "宝马X5 M",
+price: "210.7 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_8240.jpg"
+},
+{
+serialId: 9646,
+serialName: "宝马M4",
+price: "105 万",
+image: "http://www1.pcauto.com.cn/piclib/20000/nEO_IMG_9646.jpg"
+}
+]
+}

@@ -12,6 +12,7 @@
 *.cfg
 *.class
 *.conf
+*.config
 *.css
 *.csv
 *.dat
