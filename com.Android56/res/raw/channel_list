@@ -1,0 +1,86 @@
+{
+    "data": [
+        {
+            "cid": "57",
+            "cname": "最人气",
+            "ctype": "0",
+            "is_img_portrait": 1
+        },
+        {
+            "cid": "1",
+            "cname": "娱乐",
+            "ctype": "0",
+            "is_img_portrait": 1
+        },
+        {
+            "cid": "4",
+            "cname": "搞笑",
+            "ctype": "0",
+            "is_img_portrait": 1
+        },
+        {
+            "cid": "2",
+            "cname": "热点",
+            "ctype": "0",
+            "is_img_portrait": 1
+        },
+        {
+            "cid": "41",
+            "cname": "音乐",
+            "ctype": "0",
+            "is_img_portrait": 1
+        },
+        {
+            "cid": "3",
+            "cname": "原创",
+            "ctype": "0",
+            "is_img_portrait": 1
+        },
+        {
+            "cid": "56",
+            "cname": "56出品",
+            "ctype": "3",
+            "is_img_portrait": 2
+        },
+        {
+            "cid": "35",
+            "cname": "电视剧",
+            "ctype": "2",
+            "is_img_portrait": 2
+        },
+        {
+            "cid": "25",
+            "cname": "电影",
+            "ctype": "1",
+            "is_img_portrait": 2
+        },
+        {
+            "cid": "45",
+            "cname": "综艺",
+            "ctype": "3",
+            "is_img_portrait": 2
+        },
+        {
+            "cid": "26",
+            "cname": "游戏",
+            "ctype": "0",
+            "is_img_portrait": 1
+        },
+        {
+            "cid": "8",
+            "cname": "动漫",
+            "ctype": "2",
+            "is_img_portrait": 2
+        }
+    ],
+    "num": 12,
+    "error": {
+        "code": 0,
+        "msg": "ok"
+    },
+    "version_code": 0,
+    "config":{
+    "icon_version":0,
+    "icon_url":"http://s3.56img.com/style/3g/client_app/images/"
+    }
+}
