@@ -1,0 +1,195 @@
+
+	<style>
+		.label-style1 {font-size: 17px; color:#393939; font-weight:bold;}
+		.label-style2 {font-size: 17px; color:#393939; font-weight:bold;}
+		.label-style3 {font-size: 14px; color:#393939; }
+		.label-style5 {font-size: 15px; color:#393939; font-weight:bold;}
+		.label-style4 {font-size: 17px; color:#393939; font-weight:bold; right:1px;}
+		.table1 {border:1px #617cac solid;background-color:#fafbff;}
+		.table2 {border:1px #617cac solid;background-color:#fafbff;height:215px;}
+		.table3 {border-top:1px #e1e1e1 solid; top:44px;}
+		.div1 {display:none;}
+		.div2 {display:none;}
+		.button1 {background-image:url(local:blueSButton.png);color:#ffffff;width:60px;height:30px;right:9px; font-size:15px;background-color:#0000ff;}
+		.button2 {background-image:url(local:blueButton.png);color:#ffffff;width:300px;font-size:20px;}
+		.button4 {background-image:url(local:redButton.png);color:#ffffff;width:300px;font-size:20px;}
+		.button5 {background-image:url(local:redMButton.png);color:#ffffff;width:146px;font-size:20px;}
+		.button3 {background-image:url(local:blueSButton.png);color:#ffffff;height:30px;right:5px;width:60px; font-size:15px;}
+		button:active {background-color:#4a4a4a;font-size:14px;}
+		select {font-size:20px;background-color:#adbdcd;border:1px #aeafb3 solid;font-weight:bold;height:100px;color:#353536;text-align:center;}
+		.input1 {width:150px;font-size: 15px; color:#393939;}
+	</style>
+	<form method='post' action='http://210.51.52.81:80/atompub/form/16'>
+		<div styleIndex='3' class='table1' >
+			<label class='label-style1' >乘机人：</label>
+			<input styleIndex='5' type='button' name='choosecjrbutton' class='button1' value='编辑' accessory='cusv_button://choose_cjr_div' />
+            <table name='cjr_table' class='table3'>
+                <tr>
+                    <td valign='middle'>
+                        <label class='label-style2'>Andoird/td</label>
+                        <label class='label-style3'>成人</label>
+                        <br/>
+                        <label class='label-style5' >证件号:</label>
+                        <label class='label-style3' >153987190909099876</label>
+                        <br/>
+                        <label class='label-style5' >里程卡:</label>
+                        <input type='hidden' name='id' value='43'></input>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div name='lxr_table' styleIndex='3' class='table1' >
+            <label class='label-style1' >联系人：</label>
+            <input styleIndex='5' type='button' name='chooselxrbutton' class='button1' value='编辑' accessory='cusv_button://choose_lxr_div' />
+            <table name='lxr_table' class='table3'>
+                <tr>
+                    <td valign='middle'>
+                        <label class='label-style2'>Android/an</label>
+                        <br/>
+                        <label class='label-style5'>电话:</label>
+                        <label class='label-style3'>13800000000</label>
+                        <input type='hidden' name='contactId' value='40'></input>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <input type='hidden' name='n' value='rest.do%3FtranCode%3DTM0103%26tempOrderId%3D67'/>
+        <input styleIndex='6' type='submit' name='submitcjr_lxr_button' class='button2' value='确定'/>
+    </form>
+    <br/>
+    <div name='choose_cjr_div' class='div1' >
+        <form method='post' action='http://210.51.52.81:80/atompub/form/16'>
+            <table name='addcjr_table' styleIndex='3' class='table2'>
+                <tr>
+                    <td>
+                        <input type='checkbox' name='id1' value='43' backValue = 'Andoird/td,成人|证件号:,153987190909099876|里程卡:'></input>
+                    </td>
+                    <td valign='middle'>
+                        <label class='label-style2'>Andoird/td</label>
+                        <label class='label-style3'>成人</label>
+                        <br/>
+                        <label class='label-style5' >证件号:</label>
+                        <label class='label-style3' >153987190909099876</label>
+                        <br/>
+                        <label class='label-style5' >里程卡:</label>
+                    </td>
+                </tr >
+            </table>
+            <input type='hidden' name='n' value='rest.do%3FtranCode%3DTM0104%26tempOrderId%3D67'/>
+            <br/>
+            <input styleIndex='6' type='button' name='button2' class='button2' value='确认' buttonAction='confirm' />
+            <br/>
+            <input styleIndex='6' type='button' name='button5' class='button5' value='添加乘机人' buttonAction='add' accessory='cusv_add://add_cjr_div' />
+            <input styleIndex='6' type='submit' name='button5' class='button5' value='删除乘机人' buttonAction='del' />
+        </form >
+    </div>
+    <br/>
+    <div name='add_cjr_div' class='div2'>
+        <form method='post' action='http://210.51.52.81:80/atompub/form/16'>
+            <table name='table_chengren_ertong' styleIndex='3' class='table1' >
+                <tr >
+                    <td>
+						<input type='hidden' name='passengerType' value ='ADT'></input>
+						<label class='label-style4' >姓名：</label>
+					</td>
+					<td>
+						<input name='name' type='text' class='input1' id='name' style="-wap-input-required: 'true'" value='' >                    </input>
+					</td>
+				</tr>
+				<tr accessory='inclu_select://idType'>
+					<td>
+						<label class='label-style4' >证件类型：</label>
+					</td>
+					<td>
+						<select name='idType' id='idType' styleIndex='4' >
+							<option class='label-style1' value='NI'>身份证</option>
+							<option class='label-style1' value='PP'>护照</option>
+							<option class='label-style1' value='ID'>其它</option>
+						</select>
+					</td>
+				</tr>
+				<tr >
+					<td>
+						<label class='label-style4' >证件号：</label>
+					</td>
+					<td>
+						<input name='idNo' type='text' class='input1' id='idNo'  style="-wap-input-format: 'N'; -wap-input-required: 'true'" value='' >                    </input>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class='label-style4' >里程卡：</label>
+					</td>
+					<td>
+						<input name='mileageCard' type='text' class='input1' id='mileageCard' style="-wap-input-format: 'N'" value='' >                    </input>
+					</td>
+				</tr>
+			</table>
+			<input type='hidden' name='n' value='rest.do%3FtranCode%3DTM0107%26tempOrderId%3D67'/>
+			<input styleIndex='6' type='submit' name='addButton' class='button2' value='确定' />
+        </form>
+	</div>
+	<div name='choose_lxr_div' class='div1' >
+		<form method='post' action='http://210.51.52.81:80/atompub/form/16'>
+			<table name='addlxr_table' styleIndex='3' class='table2' >
+				<tr>
+					<td>
+						<input type='checkbox' name='contactId1' value='37' backValue = 'Andoird/td|电话:,13009876098'></input>
+					</td>
+					<td valign='middle'>
+						<label class='label-style2'>Andoird/td</label>
+						<br/>
+						<label class='label-style5'>电话:</label>
+						<label class='label-style3'>13009876098</label>
+					</td>
+					<td>
+						<input styleIndex='5' type='button' name='addLxrButton' class='button1' value='确定' buttonAction='confirm' />
+					</td>
+				</tr >
+				<tr>
+					<td>
+						<input type='checkbox' name='contactId2' value='40' backValue = 'Android/an|电话:,13800000000'></input>
+                    </td>
+                    <td valign='middle'>
+                        <label class='label-style2'>Android/an</label>
+                        <br/>
+                        <label class='label-style5'>电话:</label>
+                        <label class='label-style3'>13800000000</label>
+                    </td>
+                    <td>
+                        <input styleIndex='5' type='button' name='addLxrButton' class='button1' value='确定' buttonAction='confirm' />
+                    </td>
+                </tr >
+            </table>
+            <input type='hidden' name='n' value='rest.do%3FtranCode%3DTM0105%26tempOrderId%3D67'/>
+            <br/>
+            <input styleIndex='6' type='button' name='button1' class='button5' value='添加联系人' buttonAction='add' accessory='cusv_add://add_lxr_div' />
+            <input styleIndex='6' type='submit' name='button3' class='button5' value='删除联系人' buttonAction='del' />
+        </form >
+    </div>
+    <br/>
+    <div name='add_lxr_div' class='div2'>
+        <form method='post' action='http://210.51.52.81:80/atompub/form/16'>
+            <table name='table_lianxiren' styleIndex='3' class='table1' >
+                <tr >
+                    <td>
+                        <label class='label-style4' >姓名：</label>
+                    </td>
+                    <td>
+                        <input name='contactName' type='text' class='input1' id='contactName' style="-wap-input-required: 'true'" value='' >                </input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class='label-style4' >电话：</label>
+                    </td>
+                    <td>
+                        <input name='contactTel' type='text' class='input1' id='contactTel' minleng='11' maxleng='11' style="-wap-input-format: 'phone'; -wap-input-required: 'true'" value='' >                </input>
+                    </td>
+                </tr>
+            </table>
+            <input type='hidden' name='n' value='rest.do%3FtranCode%3DTM0108%26tempOrderId%3D67'/>
+            <input styleIndex='6' type='submit' name='addLxrButton' class='button2' value='确定' />
+        </form>
+    </div>
+
