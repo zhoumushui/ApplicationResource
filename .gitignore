@@ -25,6 +25,7 @@
 *.dll
 *.emf
 *.eot
+*.fs
 *.glsl
 *.gzip
 *.htm
@@ -49,6 +50,7 @@
 *.one
 *.pak
 *.pem
+*.plist
 *.ppt
 *.pptx
 *.properties
