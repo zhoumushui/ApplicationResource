@@ -1,0 +1,6 @@
+#accmgr
+#Tue Apr 09 19:06:01 ????????+0800 2013
+#second font path
+#second_font_path=/system/fonts/DroidSansChineseslim.ttf
+#custom font path
+custom_font_path=/data/skin/fonts
