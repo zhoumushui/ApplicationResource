@@ -1,0 +1,13 @@
+{
+"xiaomi":{
+"reportdataurl":"http://apns.ios.ijinshan.com/rpc/taskback/mi",
+"reportregurl":"http://apns.ios.ijinshan.com/rpc/mireport",
+"appid":"2882303761517134236",
+"appkey":"5771713490236"
+},
+"gcm":{
+"reportdataurl":"http://cm.gcm.ksmobile.com/rpc/taskback/gcm",
+"reportregurl":"http://cm.gcm.ksmobile.com/rpc/gcm/report",
+"sendid":"510876452445"
+}
+}
