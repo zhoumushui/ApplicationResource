@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="64" tilewidth="40" tileheight="40" nextobjectid="34">
+ <tileset firstgid="1" name="sky_bg" tilewidth="40" tileheight="40">
+  <image source="sky_bg.png" width="2048" height="1024"/>
+ </tileset>
+ <layer name="scene" width="16" height="64">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="layer_level">
+  <object name="level1" x="231" y="2365">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level2" x="175" y="2243">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level3" x="169" y="2120">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level4" x="217" y="1998">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level5" x="281" y="1876">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level6" x="324" y="1753">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level7" x="321" y="1631">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level8" x="267" y="1509">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level9" x="203" y="1386">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level10" x="135" y="1264">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level11" x="94" y="1142">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level12" x="70" y="1020">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level13" x="79" y="897">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level14" x="115" y="775">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level15" x="172" y="653">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level16" x="230" y="530">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level17" x="281" y="408">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level18" x="320" y="286">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level19" x="323" y="163">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level20" x="300" y="41">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="layer_element">
+  <object id="23" name="pic_castal_1" x="513" y="139" width="127" height="81"/>
+  <object id="24" name="pic_ballon_red" x="100" y="34" width="109" height="122"/>
+  <object id="25" name="pic_castal_2" x="0" y="343" width="128" height="312"/>
+  <object id="26" name="pic_ferriswheel" x="390" y="823" width="291" height="315"/>
+  <object id="27" name="pic_bird" x="381" y="714" width="88" height="56"/>
+  <object id="28" name="pic_ballon_blue" x="376" y="1315" width="147" height="165"/>
+  <object id="29" name="pic_castal_3" x="0" y="1483" width="142" height="390"/>
+  <object id="30" name="pic_ballon_red" x="425" y="2349" width="109" height="122"/>
+  <object id="32" name="pic_castal_4" x="450" y="1866" width="190" height="316"/>
+ </objectgroup>
+</map>

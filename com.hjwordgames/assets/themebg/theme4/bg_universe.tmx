@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="64" tilewidth="40" tileheight="40" nextobjectid="34">
+ <tileset firstgid="1" name="universe_bg" tilewidth="40" tileheight="40">
+  <image source="universe_bg.png" width="2048" height="1024"/>
+ </tileset>
+ <layer name="scene" width="16" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzF1lPXJVYWBdD7lW3brkq6bNs2k5Rt22aSsm3bTDpl27aV7lTmHSP/IQ/z8Tystc/Y5ywLHQgsZwUrWcVq1rCWdaxnAxvZxGa2sJWrXOM6N7jJLW5zh7vc4z4PeMgjHvOEqGECgWhEJwYxiUVs4hCXeMQnAQlJRGKSUJRiFKcEJSlFacpQlnKUpwIVqURlqtCVbnSnBz3pRW/60Jd+9GcAAxnEYIawlGUsZwUrWcVq1rCWdaxnAxvZxGa28B8dZCcHOclFbvKQl3zkpwAFKURhilCUn2hOC1rSita0oS3taE8HOtKJznShK78ynRnMZBazmcNc5jGfBSxkEYtZwlL+yx8c5wQnOcVpznCWc5znAhe5xGWu8H/+4hsBfYQQitCEISzhCE8EIhKJyETh+2CHZCcHOclFbvKQl3zkpwAFKURhivAjP9GcFrSkFa1pQ1va0Z4OdKQTnenCL/zKdGYwk1nMZg5zmcd8FrCQRSxmCTtCAoGd7GI3e9jLPvZzgIMc4jBHOMoxfuM5L3jJK17zhre84z0f+MgnPvOFr/xJ8lCBQApSkorUpCEt6UhPBjKSicxkISvZqE4NalKL2tShLvWoTwMa0ojGNKEpzRjOCEYyitGMYSzjGM8EJjKJyUxhKtPYzg52sovd7GEv+9jPAQ5yiMMc4SjHeMZzXvCSV7zmDW95x3s+8JFPfOYLX0nm3iYnBSlJRWrSkJZ0pCcDGclEZrKQNbh3zWAlq1jNGtayjvVsYCOb2MwWtrKN7VznBje5xW3ucJd73OcBD3nEY57wlGdElyEGMYlFbOIQl3jEJwEJSURikpA0mJ3ilKAkpShNGcpSjvJUoCKVqEwVqlKN7vSgJ73oTR/60o/+DGAggxjMEIYyjOWsYCWrWM0a1rKO9WxgI5vYzBa2so1rXOcGN7nFbe5wl3vc5wEPecRjnvCUaGYYnRjEJBaxiUNc4hGfBCQkEYlJQtLg3jWDmcxiNnOYyzzms4CFLGIxS1jKMpZznBOc5BSnOcNZznGeC1zkEpe5wlWu8Y2AHCGEIjRhCEs4whOBiEQiMlGIGsxOdnKQk1zkJg95yUd+ClCQQhSmCEUpRnNa0JJWtKYNbWlHezrQkU50pgtd6cZ0ZjCTWcxmDnOZx3wWsJBFLGYJS1nGHxznBCc5xWnOcJZznOcCF7nEZa5wlb/4RsAsQwhFaMIQlnCEJwIRiURkogT/PsGd4WgqUpOGtKQjPRnISCYyk4WsZOM7vqcmtahNHepSj/o0oCGNaEwTmtKMH/iRkYxiNGMYyzjGM4GJTGIyU5jKNH7mF3ayi93sYS/72M8BDnKIwxzhKMf4jd95wUte8Zo3vOUd7/nARz7xmS985U/+Rwr3NyWpSE0a0pKO9GQgI5nITBayko3vqEFNalGbOtSlHvVpQEMa0ZgmNKUZPzCCkYxiNGMYyzjGM4GJTGIyU5jKNH4mpgyxiE0c4hKP+CQgIYlITBKSkozkweyUpBSlKUNZylGeClSkEpWpQlWqUZ0a9KQXvelDX/rRnwEMZBCDGcJQhjGcEaxkFatZw1rWsZ4NbGQTm9nCVraxnR3c4Ca3uM0d7nKP+zzgIY94zBOe8oznxAh2SCxiE4e4xCM+CUhIIhKThKQkIzklKEkpSlOGspSjPBWoSCUqU4WqVKM6PehJL3rTh770oz8DGMggBjOEoQxjOP+s38A/399AWMIRnghEJBKRiUJUohE9mJ2c5CI3echLPvJTgIIUojBFKEoxilOClrSiNW1oSzva04GOdKIzXehKN7rTg5nMYjZzmMs85rOAhSxiMUtYyjKWs4ITnOQUpznDWc5xngtc5BKXucJVrnGdYIEhhCI0YQhLOMITgYhEIjJRiEo0opODnOQiN3nISz7yU4CCFKIwRShKMYrTgpa0ojVtaEs72tOBjnSiM13oSje6h/z77//ff6bvqg==
+  </data>
+ </layer>
+ <objectgroup name="layer_level">
+  <object name="level1" x="231" y="2365">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level2" x="175" y="2243">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level3" x="169" y="2120">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level4" x="217" y="1998">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level5" x="281" y="1876">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level6" x="324" y="1753">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level7" x="321" y="1631">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level8" x="267" y="1509">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level9" x="203" y="1386">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level10" x="135" y="1264">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level11" x="94" y="1142">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level12" x="70" y="1020">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level13" x="79" y="897">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level14" x="115" y="775">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level15" x="172" y="653">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level16" x="230" y="530">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level17" x="281" y="408">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level18" x="320" y="286">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level19" x="323" y="163">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+  <object name="level20" x="300" y="41">
+   <properties>
+    <property name="show" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="layer_element">
+  <object id="23" name="pic_star_1" x="414" y="3" width="217" height="242"/>
+  <object id="24" name="pic_comet" x="55" y="159" width="275" height="295"/>
+  <object id="25" name="pic_ufo" x="511" y="517" width="161" height="102"/>
+  <object id="26" name="pic_bigstar_4" x="-64" y="1446" width="198" height="102"/>
+  <object id="27" name="pic_bigstar_1" x="409" y="873" width="139" height="139"/>
+  <object id="28" name="pic_bigstar_2" x="468" y="1539" width="61" height="60"/>
+  <object id="29" name="pic_rocket" x="102" y="1690" width="126" height="227"/>
+  <object id="31" name="pic_star_1" x="508" y="1636" width="217" height="242"/>
+  <object id="32" name="pic_bigstar_3" x="409" y="2198" width="141" height="141"/>
+  <object id="33" name="pic_star_1" x="-8" y="2262" width="217" height="242"/>
+ </objectgroup>
+</map>
