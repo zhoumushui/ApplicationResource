@@ -1,0 +1,3 @@
+{"pages": [
+  "page1.html"
+]}
