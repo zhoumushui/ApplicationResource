@@ -1,0 +1,23 @@
+CREATE TABLE material_category(
+	_id integer PRIMARY KEY ,
+	category_id text  NOT NULL,
+	name text  ,
+	url text  ,
+	update_time text  ,
+	count integer  ,
+	new_count integer  ,
+	need_update int  NOT NULL DEFAULT('1'),
+	thumbnail text  ,
+	innerthumb text  ,
+	minversion int  ,
+	maxversion int  ,
+	district_type int  NOT NULL DEFAULT('0'),
+	banner_title text  ,
+	pop_title text  ,
+	pop_describe text  ,
+	download_url text  ,
+	appid text  ,
+	placementid text  ,
+	type_order int  ,
+	material_enname TEXT  
+)

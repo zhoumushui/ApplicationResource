@@ -1,0 +1,9 @@
+CREATE TABLE material_ad(
+	_id integer PRIMARY KEY ,
+	ad_id text  ,
+	title text  ,
+	category_id TEXT  NOT NULL,
+	pic text  ,
+	url text  ,
+	open_type integer  NOT NULL DEFAULT('0')
+)

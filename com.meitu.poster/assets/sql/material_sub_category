@@ -1,0 +1,21 @@
+CREATE TABLE material_sub_category(
+	_id integer PRIMARY KEY ,
+	category_id text  NOT NULL,
+	sub_category_id text  NOT NULL,
+	name text  ,
+	url text  ,
+	update_time text  ,
+	need_update integer  NOT NULL DEFAULT('1'),
+	thumbnail text  ,
+	minversion integer  ,
+	maxversion integer  ,
+	district_type integer  NOT NULL DEFAULT('0'),
+	banner_title text  ,
+	pop_title text  ,
+	pop_describe text  ,
+	download_url text  ,
+	appid text  ,
+	placement_id text  ,
+	count integer  ,
+	new_count integer  
+)
