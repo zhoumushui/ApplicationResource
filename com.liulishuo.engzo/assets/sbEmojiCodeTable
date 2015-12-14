@@ -1,0 +1,467 @@
+{"sbint": 57935, "id": 1740, "sbcode": "0x0e24f", "utf16": "ae"}
+{"sbint": 57934, "id": 1690, "sbcode": "0x0e24e", "utf16": "a9"}
+{"sbint": 57635, "id": 98320, "sbcode": "0x0e123", "utf16": "2668"}
+{"sbint": 57938, "id": 98880, "sbcode": "0x0e252", "utf16": "26a0"}
+{"sbint": 57402, "id": 99810, "sbcode": "0x0e03a", "utf16": "26fd"}
+{"sbint": 57373, "id": 99920, "sbcode": "0x0e01d", "utf16": "2708"}
+{"sbint": 57372, "id": 99730, "sbcode": "0x0e01c", "utf16": "26f5"}
+{"sbint": 57633, "id": 99700, "sbcode": "0x0e121", "utf16": "26f2"}
+{"sbint": 57634, "id": 99780, "sbcode": "0x0e122", "utf16": "26fa"}
+{"sbint": 57399, "id": 99620, "sbcode": "0x0e037", "utf16": "26ea"}
+{"sbint": 58679, "id": 84820, "sbcode": "0x0e537", "utf16": "2122"}
+{"sbint": 58163, "id": 100600, "sbcode": "0x0e333", "utf16": "274c"}
+{"sbint": 58162, "id": 110930, "sbcode": "0x0e332", "utf16": "2b55"}
+{"sbint": 57931, "id": 99340, "sbcode": "0x0e24b", "utf16": "26ce"}
+{"sbint": 57930, "id": 98110, "sbcode": "0x0e24a", "utf16": "2653"}
+{"sbint": 57929, "id": 98100, "sbcode": "0x0e249", "utf16": "2652"}
+{"sbint": 57928, "id": 98090, "sbcode": "0x0e248", "utf16": "2651"}
+{"sbint": 57927, "id": 98080, "sbcode": "0x0e247", "utf16": "2650"}
+{"sbint": 57926, "id": 98070, "sbcode": "0x0e246", "utf16": "264f"}
+{"sbint": 57925, "id": 98060, "sbcode": "0x0e245", "utf16": "264e"}
+{"sbint": 57924, "id": 98050, "sbcode": "0x0e244", "utf16": "264d"}
+{"sbint": 57923, "id": 98040, "sbcode": "0x0e243", "utf16": "264c"}
+{"sbint": 57922, "id": 98030, "sbcode": "0x0e242", "utf16": "264b"}
+{"sbint": 57921, "id": 98020, "sbcode": "0x0e241", "utf16": "264a"}
+{"sbint": 57920, "id": 98010, "sbcode": "0x0e240", "utf16": "2649"}
+{"sbint": 57919, "id": 98000, "sbcode": "0x0e23f", "utf16": "2648"}
+{"sbint": 57861, "id": 100360, "sbcode": "0x0e205", "utf16": "2734"}
+{"sbint": 57862, "id": 100350, "sbcode": "0x0e206", "utf16": "2733"}
+{"sbint": 58125, "id": 129510, "sbcode": "0x0e30d", "utf16": "3297"}
+{"sbint": 58133, "id": 129530, "sbcode": "0x0e315", "utf16": "3299"}
+{"sbint": 57866, "id": 98550, "sbcode": "0x0e20a", "utf16": "267f"}
+{"sbint": 57916, "id": 91930, "sbcode": "0x0e23c", "utf16": "23e9"}
+{"sbint": 57917, "id": 91940, "sbcode": "0x0e23d", "utf16": "23ea"}
+{"sbint": 57914, "id": 96540, "sbcode": "0x0e23a", "utf16": "25b6"}
+{"sbint": 57915, "id": 96640, "sbcode": "0x0e23b", "utf16": "25c0"}
+{"sbint": 57913, "id": 86010, "sbcode": "0x0e239", "utf16": "2199"}
+{"sbint": 57912, "id": 86000, "sbcode": "0x0e238", "utf16": "2198"}
+{"sbint": 57911, "id": 85980, "sbcode": "0x0e237", "utf16": "2196"}
+{"sbint": 57910, "id": 85990, "sbcode": "0x0e236", "utf16": "2197"}
+{"sbint": 57908, "id": 101450, "sbcode": "0x0e234", "utf16": "27a1"}
+{"sbint": 57909, "id": 110130, "sbcode": "0x0e235", "utf16": "2b05"}
+{"sbint": 57907, "id": 110150, "sbcode": "0x0e233", "utf16": "2b07"}
+{"sbint": 57906, "id": 110140, "sbcode": "0x0e232", "utf16": "2b06"}
+{"sbint": 57661, "id": 98890, "sbcode": "0x0e13d", "utf16": "26a1"}
+{"sbint": 57416, "id": 99240, "sbcode": "0x0e048", "utf16": "26c4"}
+{"sbint": 57417, "id": 97290, "sbcode": "0x0e049", "utf16": "2601"}
+{"sbint": 57419, "id": 97480, "sbcode": "0x0e04b", "utf16": "2614"}
+{"sbint": 57418, "id": 97280, "sbcode": "0x0e04a", "utf16": "2600"}
+{"sbint": 57413, "id": 97490, "sbcode": "0x0e045", "utf16": "2615"}
+{"sbint": 57644, "id": 123490, "sbcode": "0x0e12c", "utf16": "303d"}
+{"sbint": 57869, "id": 98300, "sbcode": "0x0e20d", "utf16": "2666"}
+{"sbint": 57871, "id": 98270, "sbcode": "0x0e20f", "utf16": "2663"}
+{"sbint": 57868, "id": 98290, "sbcode": "0x0e20c", "utf16": "2665"}
+{"sbint": 57870, "id": 98240, "sbcode": "0x0e20e", "utf16": "2660"}
+{"sbint": 57364, "id": 99710, "sbcode": "0x0e014", "utf16": "26f3"}
+{"sbint": 57366, "id": 99180, "sbcode": "0x0e016", "utf16": "26be"}
+{"sbint": 57368, "id": 99170, "sbcode": "0x0e018", "utf16": "26bd"}
+{"sbint": 58131, "id": 99860, "sbcode": "0x0e313", "utf16": "2702"}
+{"sbint": 57873, "id": 101750, "sbcode": "0x0e211", "utf16": "27bf"}
+{"sbint": 57353, "id": 97420, "sbcode": "0x0e009", "utf16": "260e"}
+{"sbint": 57359, "id": 97570, "sbcode": "0x0e00f", "utf16": "261d"}
+{"sbint": 57362, "id": 99950, "sbcode": "0x0e012", "utf16": "270b"}
+{"sbint": 57361, "id": 99960, "sbcode": "0x0e011", "utf16": "270c"}
+{"sbint": 57360, "id": 99940, "sbcode": "0x0e010", "utf16": "270a"}
+{"sbint": 58166, "id": 100680, "sbcode": "0x0e336", "utf16": "2754"}
+{"sbint": 58167, "id": 100690, "sbcode": "0x0e337", "utf16": "2755"}
+{"sbint": 58158, "id": 100240, "sbcode": "0x0e32e", "utf16": "2728"}
+{"sbint": 57378, "id": 100840, "sbcode": "0x0e022", "utf16": "2764"}
+{"sbint": 58388, "id": 97860, "sbcode": "0x0e414", "utf16": "263a"}
+{"sbint": 57872, "id": 252920, "sbcode": "0x0e210", "utf16": "23 20e3"}
+{"sbint": 57893, "id": 253050, "sbcode": "0x0e225", "utf16": "30 20e3"}
+{"sbint": 57892, "id": 253140, "sbcode": "0x0e224", "utf16": "39 20e3"}
+{"sbint": 57891, "id": 253130, "sbcode": "0x0e223", "utf16": "38 20e3"}
+{"sbint": 57890, "id": 253120, "sbcode": "0x0e222", "utf16": "37 20e3"}
+{"sbint": 57889, "id": 253110, "sbcode": "0x0e221", "utf16": "36 20e3"}
+{"sbint": 57888, "id": 253100, "sbcode": "0x0e220", "utf16": "35 20e3"}
+{"sbint": 57887, "id": 253090, "sbcode": "0x0e21f", "utf16": "34 20e3"}
+{"sbint": 57886, "id": 253080, "sbcode": "0x0e21e", "utf16": "33 20e3"}
+{"sbint": 57885, "id": 253070, "sbcode": "0x0e21d", "utf16": "32 20e3"}
+{"sbint": 57884, "id": 253060, "sbcode": "0x0e21c", "utf16": "31 20e3"}
+{"sbint": 57667, "id": 2270400, "sbcode": "0x0e143", "utf16": "d83c df8c"}
+{"sbint": 57650, "id": 2271990, "sbcode": "0x0e132", "utf16": "d83c dfc1"}
+{"sbint": 58144, "id": 2247250, "sbcode": "0x0e320", "utf16": "d83d dc88"}
+{"sbint": 57680, "id": 2262820, "sbcode": "0x0e150", "utf16": "d83d de8f"}
+{"sbint": 57651, "id": 2271480, "sbcode": "0x0e133", "utf16": "d83c dfb0"}
+{"sbint": 57865, "id": 2252290, "sbcode": "0x0e209", "utf16": "d83d dd30"}
+{"sbint": 57655, "id": 2263540, "sbcode": "0x0e137", "utf16": "d83d dea7"}
+{"sbint": 57678, "id": 2263480, "sbcode": "0x0e14e", "utf16": "d83d dea5"}
+{"sbint": 57637, "id": 2271330, "sbcode": "0x0e125", "utf16": "d83c dfab"}
+{"sbint": 57375, "id": 2262520, "sbcode": "0x0e01f", "utf16": "d83d de85"}
+{"sbint": 58421, "id": 2262490, "sbcode": "0x0e435", "utf16": "d83d de84"}
+{"sbint": 57401, "id": 2262640, "sbcode": "0x0e039", "utf16": "d83d de89"}
+{"sbint": 57374, "id": 2262460, "sbcode": "0x0e01e", "utf16": "d83d de83"}
+{"sbint": 58415, "id": 2263150, "sbcode": "0x0e42f", "utf16": "d83d de9a"}
+{"sbint": 58417, "id": 2262880, "sbcode": "0x0e431", "utf16": "d83d de91"}
+{"sbint": 58416, "id": 2262910, "sbcode": "0x0e430", "utf16": "d83d de92"}
+{"sbint": 58418, "id": 2262940, "sbcode": "0x0e432", "utf16": "d83d de93"}
+{"sbint": 57689, "id": 2262730, "sbcode": "0x0e159", "utf16": "d83d de8c"}
+{"sbint": 57690, "id": 2263000, "sbcode": "0x0e15a", "utf16": "d83d de95"}
+{"sbint": 57371, "id": 2263060, "sbcode": "0x0e01b", "utf16": "d83d de97"}
+{"sbint": 58414, "id": 2263120, "sbcode": "0x0e42e", "utf16": "d83d de99"}
+{"sbint": 57654, "id": 2263870, "sbcode": "0x0e136", "utf16": "d83d deb2"}
+{"sbint": 57613, "id": 2262370, "sbcode": "0x0e10d", "utf16": "d83d de80"}
+{"sbint": 57653, "id": 2263450, "sbcode": "0x0e135", "utf16": "d83d dea4"}
+{"sbint": 57858, "id": 2263390, "sbcode": "0x0e202", "utf16": "d83d dea2"}
+{"sbint": 58419, "id": 2271060, "sbcode": "0x0e433", "utf16": "d83c dfa2"}
+{"sbint": 57636, "id": 2271030, "sbcode": "0x0e124", "utf16": "d83c dfa1"}
+{"sbint": 58444, "id": 2266440, "sbcode": "0x0e44c", "utf16": "d83c df08"}
+{"sbint": 58653, "id": 2258440, "sbcode": "0x0e51d", "utf16": "d83d ddfd"}
+{"sbint": 58443, "id": 2266290, "sbcode": "0x0e44b", "utf16": "d83c df03"}
+{"sbint": 58441, "id": 2266350, "sbcode": "0x0e449", "utf16": "d83c df05"}
+{"sbint": 57421, "id": 2266320, "sbcode": "0x0e04d", "utf16": "d83c df04"}
+{"sbint": 57403, "id": 2258380, "sbcode": "0x0e03b", "utf16": "d83d ddfb"}
+{"sbint": 58633, "id": 2258410, "sbcode": "0x0e509", "utf16": "d83d ddfc"}
+{"sbint": 58632, "id": 2273310, "sbcode": "0x0e508", "utf16": "d83c dfed"}
+{"sbint": 58630, "id": 2273400, "sbcode": "0x0e506", "utf16": "d83c dff0"}
+{"sbint": 58629, "id": 2273370, "sbcode": "0x0e505", "utf16": "d83c dfef"}
+{"sbint": 57684, "id": 2273130, "sbcode": "0x0e154", "utf16": "d83c dfe7"}
+{"sbint": 57670, "id": 2266380, "sbcode": "0x0e146", "utf16": "d83c df06"}
+{"sbint": 58442, "id": 2266410, "sbcode": "0x0e44a", "utf16": "d83c df07"}
+{"sbint": 58628, "id": 2273280, "sbcode": "0x0e504", "utf16": "d83c dfec"}
+{"sbint": 58429, "id": 2247550, "sbcode": "0x0e43d", "utf16": "d83d dc92"}
+{"sbint": 57688, "id": 2273160, "sbcode": "0x0e158", "utf16": "d83c dfe8"}
+{"sbint": 58625, "id": 2273190, "sbcode": "0x0e501", "utf16": "d83c dfe9"}
+{"sbint": 57686, "id": 2273220, "sbcode": "0x0e156", "utf16": "d83c dfea"}
+{"sbint": 57677, "id": 2273100, "sbcode": "0x0e14d", "utf16": "d83c dfe6"}
+{"sbint": 57685, "id": 2273070, "sbcode": "0x0e155", "utf16": "d83c dfe5"}
+{"sbint": 57683, "id": 2273010, "sbcode": "0x0e153", "utf16": "d83c dfe3"}
+{"sbint": 57400, "id": 2272980, "sbcode": "0x0e038", "utf16": "d83c dfe2"}
+{"sbint": 57687, "id": 2273250, "sbcode": "0x0e157", "utf16": "d83c dfeb"}
+{"sbint": 57398, "id": 2272920, "sbcode": "0x0e036", "utf16": "d83c dfe0"}
+{"sbint": 57390, "id": 2253550, "sbcode": "0x0e02e", "utf16": "d83d dd5a"}
+{"sbint": 57389, "id": 2253520, "sbcode": "0x0e02d", "utf16": "d83d dd59"}
+{"sbint": 57388, "id": 2253490, "sbcode": "0x0e02c", "utf16": "d83d dd58"}
+{"sbint": 57387, "id": 2253460, "sbcode": "0x0e02b", "utf16": "d83d dd57"}
+{"sbint": 57386, "id": 2253430, "sbcode": "0x0e02a", "utf16": "d83d dd56"}
+{"sbint": 57385, "id": 2253400, "sbcode": "0x0e029", "utf16": "d83d dd55"}
+{"sbint": 57384, "id": 2253370, "sbcode": "0x0e028", "utf16": "d83d dd54"}
+{"sbint": 57383, "id": 2253340, "sbcode": "0x0e027", "utf16": "d83d dd53"}
+{"sbint": 57382, "id": 2253310, "sbcode": "0x0e026", "utf16": "d83d dd52"}
+{"sbint": 57381, "id": 2253280, "sbcode": "0x0e025", "utf16": "d83d dd51"}
+{"sbint": 57380, "id": 2253250, "sbcode": "0x0e024", "utf16": "d83d dd50"}
+{"sbint": 57391, "id": 2253580, "sbcode": "0x0e02f", "utf16": "d83d dd5b"}
+{"sbint": 57883, "id": 2252380, "sbcode": "0x0e21b", "utf16": "d83d dd33"}
+{"sbint": 57881, "id": 2252410, "sbcode": "0x0e219", "utf16": "d83d dd34"}
+{"sbint": 57882, "id": 2252350, "sbcode": "0x0e21a", "utf16": "d83d dd32"}
+{"sbint": 58677, "id": 2254620, "sbcode": "0x0e535", "utf16": "d83c dd7e"}
+{"sbint": 58676, "id": 2255100, "sbcode": "0x0e534", "utf16": "d83c dd8e"}
+{"sbint": 58675, "id": 2254230, "sbcode": "0x0e533", "utf16": "d83c dd71"}
+{"sbint": 58674, "id": 2254200, "sbcode": "0x0e532", "utf16": "d83c dd70"}
+{"sbint": 57918, "id": 2252260, "sbcode": "0x0e23e", "utf16": "d83d dd2f"}
+{"sbint": 57673, "id": 2248480, "sbcode": "0x0e149", "utf16": "d83d dcb1"}
+{"sbint": 57674, "id": 2248720, "sbcode": "0x0e14a", "utf16": "d83d dcb9"}
+{"sbint": 57937, "id": 2250490, "sbcode": "0x0e251", "utf16": "d83d dcf4"}
+{"sbint": 57936, "id": 2250460, "sbcode": "0x0e250", "utf16": "d83d dcf3"}
+{"sbint": 57646, "id": 2255460, "sbcode": "0x0e12e", "utf16": "d83c dd9a"}
+{"sbint": 57860, "id": 2247940, "sbcode": "0x0e204", "utf16": "d83d dc9f"}
+{"sbint": 57897, "id": 2255280, "sbcode": "0x0e229", "utf16": "d83c dd94"}
+{"sbint": 57863, "id": 2251750, "sbcode": "0x0e207", "utf16": "d83d dd1e"}
+{"sbint": 58121, "id": 2264230, "sbcode": "0x0e309", "utf16": "d83d debe"}
+{"sbint": 58420, "id": 2262580, "sbcode": "0x0e434", "utf16": "d83d de87"}
+{"sbint": 57679, "id": 2254650, "sbcode": "0x0e14f", "utf16": "d83c dd7f"}
+{"sbint": 57864, "id": 2263720, "sbcode": "0x0e208", "utf16": "d83d dead"}
+{"sbint": 57658, "id": 2264170, "sbcode": "0x0e13a", "utf16": "d83d debc"}
+{"sbint": 57657, "id": 2264110, "sbcode": "0x0e139", "utf16": "d83d deba"}
+{"sbint": 57656, "id": 2264080, "sbcode": "0x0e138", "utf16": "d83d deb9"}
+{"sbint": 57681, "id": 2264140, "sbcode": "0x0e151", "utf16": "d83d debb"}
+{"sbint": 57896, "id": 2258580, "sbcode": "0x0e228", "utf16": "d83c de02"}
+{"sbint": 57880, "id": 2260200, "sbcode": "0x0e218", "utf16": "d83c de38"}
+{"sbint": 57879, "id": 2260170, "sbcode": "0x0e217", "utf16": "d83c de37"}
+{"sbint": 57878, "id": 2259300, "sbcode": "0x0e216", "utf16": "d83c de1a"}
+{"sbint": 57877, "id": 2260140, "sbcode": "0x0e215", "utf16": "d83c de36"}
+{"sbint": 57901, "id": 2260260, "sbcode": "0x0e22d", "utf16": "d83c de3a"}
+{"sbint": 57900, "id": 2259930, "sbcode": "0x0e22c", "utf16": "d83c de2f"}
+{"sbint": 57895, "id": 2260230, "sbcode": "0x0e227", "utf16": "d83c de39"}
+{"sbint": 57894, "id": 2260920, "sbcode": "0x0e226", "utf16": "d83c de50"}
+{"sbint": 57899, "id": 2260050, "sbcode": "0x0e22b", "utf16": "d83c de33"}
+{"sbint": 57898, "id": 2260110, "sbcode": "0x0e22a", "utf16": "d83c de35"}
+{"sbint": 57867, "id": 2250550, "sbcode": "0x0e20b", "utf16": "d83d dcf6"}
+{"sbint": 57859, "id": 2258550, "sbcode": "0x0e203", "utf16": "d83c de01"}
+{"sbint": 58631, "id": 2271180, "sbcode": "0x0e507", "utf16": "d83c dfa6"}
+{"sbint": 57876, "id": 2255220, "sbcode": "0x0e214", "utf16": "d83c dd92"}
+{"sbint": 57875, "id": 2255430, "sbcode": "0x0e213", "utf16": "d83c dd99"}
+{"sbint": 57932, "id": 2251720, "sbcode": "0x0e24c", "utf16": "d83d dd1d"}
+{"sbint": 57874, "id": 2255310, "sbcode": "0x0e212", "utf16": "d83c dd95"}
+{"sbint": 57933, "id": 2255370, "sbcode": "0x0e24d", "utf16": "d83c dd97"}
+{"sbint": 58433, "id": 2243950, "sbcode": "0x0e441", "utf16": "d83d dc1a"}
+{"sbint": 58436, "id": 2268060, "sbcode": "0x0e444", "utf16": "d83c df3e"}
+{"sbint": 58120, "id": 2267790, "sbcode": "0x0e308", "utf16": "d83c df35"}
+{"sbint": 58119, "id": 2267760, "sbcode": "0x0e307", "utf16": "d83c df34"}
+{"sbint": 57625, "id": 2268180, "sbcode": "0x0e119", "utf16": "d83c df42"}
+{"sbint": 58439, "id": 2268210, "sbcode": "0x0e447", "utf16": "d83c df43"}
+{"sbint": 57624, "id": 2268150, "sbcode": "0x0e118", "utf16": "d83c df41"}
+{"sbint": 58115, "id": 2267940, "sbcode": "0x0e303", "utf16": "d83c df3a"}
+{"sbint": 58117, "id": 2267970, "sbcode": "0x0e305", "utf16": "d83c df3b"}
+{"sbint": 57394, "id": 2267910, "sbcode": "0x0e032", "utf16": "d83c df39"}
+{"sbint": 57616, "id": 2268120, "sbcode": "0x0e110", "utf16": "d83c df40"}
+{"sbint": 58116, "id": 2267850, "sbcode": "0x0e304", "utf16": "d83c df37"}
+{"sbint": 57392, "id": 2267880, "sbcode": "0x0e030", "utf16": "d83c df38"}
+{"sbint": 58118, "id": 2247490, "sbcode": "0x0e306", "utf16": "d83d dc90"}
+{"sbint": 58656, "id": 2244490, "sbcode": "0x0e520", "utf16": "d83d dc2c"}
+{"sbint": 57428, "id": 2244700, "sbcode": "0x0e054", "utf16": "d83d dc33"}
+{"sbint": 57369, "id": 2244100, "sbcode": "0x0e019", "utf16": "d83d dc1f"}
+{"sbint": 58658, "id": 2244130, "sbcode": "0x0e522", "utf16": "d83d dc20"}
+{"sbint": 57610, "id": 2243920, "sbcode": "0x0e10a", "utf16": "d83d dc19"}
+{"sbint": 58661, "id": 2243980, "sbcode": "0x0e525", "utf16": "d83d dc1b"}
+{"sbint": 57429, "id": 2244340, "sbcode": "0x0e055", "utf16": "d83d dc27"}
+{"sbint": 58670, "id": 2243770, "sbcode": "0x0e52e", "utf16": "d83d dc14"}
+{"sbint": 58659, "id": 2244250, "sbcode": "0x0e523", "utf16": "d83d dc24"}
+{"sbint": 58657, "id": 2244310, "sbcode": "0x0e521", "utf16": "d83d dc26"}
+{"sbint": 58669, "id": 2243560, "sbcode": "0x0e52d", "utf16": "d83d dc0d"}
+{"sbint": 58662, "id": 2243890, "sbcode": "0x0e526", "utf16": "d83d dc18"}
+{"sbint": 58665, "id": 2243680, "sbcode": "0x0e529", "utf16": "d83d dc11"}
+{"sbint": 58672, "id": 2244460, "sbcode": "0x0e530", "utf16": "d83d dc2b"}
+{"sbint": 57652, "id": 2243590, "sbcode": "0x0e134", "utf16": "d83d dc0e"}
+{"sbint": 57370, "id": 2244730, "sbcode": "0x0e01a", "utf16": "d83d dc34"}
+{"sbint": 58664, "id": 2243710, "sbcode": "0x0e528", "utf16": "d83d dc12"}
+{"sbint": 57609, "id": 2244760, "sbcode": "0x0e109", "utf16": "d83d dc35"}
+{"sbint": 58671, "id": 2243860, "sbcode": "0x0e52f", "utf16": "d83d dc17"}
+{"sbint": 58667, "id": 2244550, "sbcode": "0x0e52b", "utf16": "d83d dc2e"}
+{"sbint": 57611, "id": 2244820, "sbcode": "0x0e10b", "utf16": "d83d dc37"}
+{"sbint": 57425, "id": 2244940, "sbcode": "0x0e051", "utf16": "d83d dc3b"}
+{"sbint": 58663, "id": 2244370, "sbcode": "0x0e527", "utf16": "d83d dc28"}
+{"sbint": 57424, "id": 2244580, "sbcode": "0x0e050", "utf16": "d83d dc2f"}
+{"sbint": 58673, "id": 2244850, "sbcode": "0x0e531", "utf16": "d83d dc38"}
+{"sbint": 58666, "id": 2244910, "sbcode": "0x0e52a", "utf16": "d83d dc3a"}
+{"sbint": 58668, "id": 2244610, "sbcode": "0x0e52c", "utf16": "d83d dc30"}
+{"sbint": 58660, "id": 2244880, "sbcode": "0x0e524", "utf16": "d83d dc39"}
+{"sbint": 57427, "id": 2244520, "sbcode": "0x0e053", "utf16": "d83d dc2d"}
+{"sbint": 57426, "id": 2244790, "sbcode": "0x0e052", "utf16": "d83d dc36"}
+{"sbint": 57423, "id": 2244640, "sbcode": "0x0e04f", "utf16": "d83d dc31"}
+{"sbint": 58430, "id": 2266500, "sbcode": "0x0e43e", "utf16": "d83c df0a"}
+{"sbint": 58435, "id": 2266200, "sbcode": "0x0e443", "utf16": "d83c df00"}
+{"sbint": 57420, "id": 2266950, "sbcode": "0x0e04c", "utf16": "d83c df19"}
+{"sbint": 58185, "id": 2268270, "sbcode": "0x0e349", "utf16": "d83c df45"}
+{"sbint": 58186, "id": 2268300, "sbcode": "0x0e34a", "utf16": "d83c df46"}
+{"sbint": 58183, "id": 2268690, "sbcode": "0x0e347", "utf16": "d83c df53"}
+{"sbint": 58184, "id": 2268390, "sbcode": "0x0e348", "utf16": "d83c df49"}
+{"sbint": 58182, "id": 2268420, "sbcode": "0x0e346", "utf16": "d83c df4a"}
+{"sbint": 58181, "id": 2268540, "sbcode": "0x0e345", "utf16": "d83c df4e"}
+{"sbint": 57414, "id": 2269560, "sbcode": "0x0e046", "utf16": "d83c df70"}
+{"sbint": 58187, "id": 2270100, "sbcode": "0x0e34b", "utf16": "d83c df82"}
+{"sbint": 58431, "id": 2269290, "sbcode": "0x0e43f", "utf16": "d83c df67"}
+{"sbint": 58170, "id": 2269260, "sbcode": "0x0e33a", "utf16": "d83c df66"}
+{"sbint": 58172, "id": 2269110, "sbcode": "0x0e33c", "utf16": "d83c df61"}
+{"sbint": 58179, "id": 2269140, "sbcode": "0x0e343", "utf16": "d83c df62"}
+{"sbint": 57671, "id": 2269650, "sbcode": "0x0e147", "utf16": "d83c df73"}
+{"sbint": 58169, "id": 2269020, "sbcode": "0x0e339", "utf16": "d83c df5e"}
+{"sbint": 58189, "id": 2269620, "sbcode": "0x0e34d", "utf16": "d83c df72"}
+{"sbint": 58176, "id": 2268960, "sbcode": "0x0e340", "utf16": "d83c df5c"}
+{"sbint": 58174, "id": 2268900, "sbcode": "0x0e33e", "utf16": "d83c df5a"}
+{"sbint": 58173, "id": 2268840, "sbcode": "0x0e33d", "utf16": "d83c df58"}
+{"sbint": 58178, "id": 2268870, "sbcode": "0x0e342", "utf16": "d83c df59"}
+{"sbint": 58180, "id": 2269170, "sbcode": "0x0e344", "utf16": "d83c df63"}
+{"sbint": 58188, "id": 2269590, "sbcode": "0x0e34c", "utf16": "d83c df71"}
+{"sbint": 58177, "id": 2268930, "sbcode": "0x0e341", "utf16": "d83c df5b"}
+{"sbint": 58175, "id": 2268990, "sbcode": "0x0e33f", "utf16": "d83c df5d"}
+{"sbint": 58171, "id": 2269050, "sbcode": "0x0e33b", "utf16": "d83c df5f"}
+{"sbint": 57632, "id": 2268720, "sbcode": "0x0e120", "utf16": "d83c df54"}
+{"sbint": 57411, "id": 2269680, "sbcode": "0x0e043", "utf16": "d83c df74"}
+{"sbint": 58123, "id": 2269740, "sbcode": "0x0e30b", "utf16": "d83c df76"}
+{"sbint": 57412, "id": 2269800, "sbcode": "0x0e044", "utf16": "d83c df78"}
+{"sbint": 58124, "id": 2269890, "sbcode": "0x0e30c", "utf16": "d83c df7b"}
+{"sbint": 57415, "id": 2269860, "sbcode": "0x0e047", "utf16": "d83c df7a"}
+{"sbint": 58168, "id": 2269710, "sbcode": "0x0e338", "utf16": "d83c df75"}
+{"sbint": 57397, "id": 2247430, "sbcode": "0x0e035", "utf16": "d83d dc8e"}
+{"sbint": 57396, "id": 2247400, "sbcode": "0x0e034", "utf16": "d83d dc8d"}
+{"sbint": 58140, "id": 2247130, "sbcode": "0x0e31c", "utf16": "d83d dc84"}
+{"sbint": 58147, "id": 2245930, "sbcode": "0x0e323", "utf16": "d83d dc5c"}
+{"sbint": 57630, "id": 2248810, "sbcode": "0x0e11e", "utf16": "d83d dcbc"}
+{"sbint": 58428, "id": 2266260, "sbcode": "0x0e43c", "utf16": "d83c df02"}
+{"sbint": 58136, "id": 2245630, "sbcode": "0x0e318", "utf16": "d83d dc52"}
+{"sbint": 57614, "id": 2245600, "sbcode": "0x0e10e", "utf16": "d83d dc51"}
+{"sbint": 58627, "id": 2271270, "sbcode": "0x0e503", "utf16": "d83c dfa9"}
+{"sbint": 58132, "id": 2270040, "sbcode": "0x0e314", "utf16": "d83c df80"}
+{"sbint": 58146, "id": 2245840, "sbcode": "0x0e322", "utf16": "d83d dc59"}
+{"sbint": 58145, "id": 2245810, "sbcode": "0x0e321", "utf16": "d83d dc58"}
+{"sbint": 58137, "id": 2245780, "sbcode": "0x0e319", "utf16": "d83d dc57"}
+{"sbint": 58114, "id": 2245690, "sbcode": "0x0e302", "utf16": "d83d dc54"}
+{"sbint": 57350, "id": 2245720, "sbcode": "0x0e006", "utf16": "d83d dc55"}
+{"sbint": 58139, "id": 2246110, "sbcode": "0x0e31b", "utf16": "d83d dc62"}
+{"sbint": 57662, "id": 2246050, "sbcode": "0x0e13e", "utf16": "d83d dc60"}
+{"sbint": 58138, "id": 2246080, "sbcode": "0x0e31a", "utf16": "d83d dc61"}
+{"sbint": 57351, "id": 2246020, "sbcode": "0x0e007", "utf16": "d83d dc5f"}
+{"sbint": 57409, "id": 2271720, "sbcode": "0x0e041", "utf16": "d83c dfb8"}
+{"sbint": 57408, "id": 2271690, "sbcode": "0x0e040", "utf16": "d83c dfb7"}
+{"sbint": 57410, "id": 2271780, "sbcode": "0x0e042", "utf16": "d83c dfba"}
+{"sbint": 58122, "id": 2271210, "sbcode": "0x0e30a", "utf16": "d83c dfa7"}
+{"sbint": 57404, "id": 2271120, "sbcode": "0x0e03c", "utf16": "d83c dfa4"}
+{"sbint": 58626, "id": 2271240, "sbcode": "0x0e502", "utf16": "d83c dfa8"}
+{"sbint": 57672, "id": 2249590, "sbcode": "0x0e148", "utf16": "d83d dcd6"}
+{"sbint": 58113, "id": 2249800, "sbcode": "0x0e301", "utf16": "d83d dcdd"}
+{"sbint": 58148, "id": 2271360, "sbcode": "0x0e324", "utf16": "d83c dfac"}
+{"sbint": 57645, "id": 2243280, "sbcode": "0x0e12d", "utf16": "d83c dc04"}
+{"sbint": 57648, "id": 2271450, "sbcode": "0x0e130", "utf16": "d83c dfaf"}
+{"sbint": 57643, "id": 2246950, "sbcode": "0x0e12b", "utf16": "d83d dc7e"}
+{"sbint": 57649, "id": 2272140, "sbcode": "0x0e131", "utf16": "d83c dfc6"}
+{"sbint": 57363, "id": 2271930, "sbcode": "0x0e013", "utf16": "d83c dfbf"}
+{"sbint": 57367, "id": 2272080, "sbcode": "0x0e017", "utf16": "d83c dfc4"}
+{"sbint": 58413, "id": 2272260, "sbcode": "0x0e42d", "utf16": "d83c dfca"}
+{"sbint": 58412, "id": 2271510, "sbcode": "0x0e42c", "utf16": "d83c dfb1"}
+{"sbint": 57365, "id": 2271900, "sbcode": "0x0e015", "utf16": "d83c dfbe"}
+{"sbint": 58410, "id": 2271960, "sbcode": "0x0e42a", "utf16": "d83c dfc0"}
+{"sbint": 58411, "id": 2272200, "sbcode": "0x0e42b", "utf16": "d83c dfc8"}
+{"sbint": 57659, "id": 2247280, "sbcode": "0x0e13b", "utf16": "d83d dc89"}
+{"sbint": 58127, "id": 2247310, "sbcode": "0x0e30f", "utf16": "d83d dc8a"}
+{"sbint": 57619, "id": 2252140, "sbcode": "0x0e113", "utf16": "d83d dd2b"}
+{"sbint": 58129, "id": 2248060, "sbcode": "0x0e311", "utf16": "d83d dca3"}
+{"sbint": 58126, "id": 2263690, "sbcode": "0x0e30e", "utf16": "d83d deac"}
+{"sbint": 57393, "id": 2252320, "sbcode": "0x0e031", "utf16": "d83d dd31"}
+{"sbint": 57647, "id": 2248450, "sbcode": "0x0e12f", "utf16": "d83d dcb0"}
+{"sbint": 57631, "id": 2248750, "sbcode": "0x0e11f", "utf16": "d83d dcba"}
+{"sbint": 57664, "id": 2264200, "sbcode": "0x0e140", "utf16": "d83d debd"}
+{"sbint": 57663, "id": 2264290, "sbcode": "0x0e13f", "utf16": "d83d dec0"}
+{"sbint": 57602, "id": 2250310, "sbcode": "0x0e102", "utf16": "d83d dcee"}
+{"sbint": 57601, "id": 2250220, "sbcode": "0x0e101", "utf16": "d83d dceb"}
+{"sbint": 57603, "id": 2250160, "sbcode": "0x0e103", "utf16": "d83d dce9"}
+{"sbint": 57604, "id": 2250430, "sbcode": "0x0e104", "utf16": "d83d dcf2"}
+{"sbint": 57615, "id": 2248000, "sbcode": "0x0e10f", "utf16": "d83d dca1"}
+{"sbint": 57622, "id": 2252050, "sbcode": "0x0e116", "utf16": "d83d dd28"}
+{"sbint": 57407, "id": 2251360, "sbcode": "0x0e03f", "utf16": "d83d dd11"}
+{"sbint": 57668, "id": 2251390, "sbcode": "0x0e144", "utf16": "d83d dd12"}
+{"sbint": 57669, "id": 2251420, "sbcode": "0x0e145", "utf16": "d83d dd13"}
+{"sbint": 57620, "id": 2251240, "sbcode": "0x0e114", "utf16": "d83d dd0d"}
+{"sbint": 57675, "id": 2249920, "sbcode": "0x0e14b", "utf16": "d83d dce1"}
+{"sbint": 57640, "id": 2250700, "sbcode": "0x0e128", "utf16": "d83d dcfb"}
+{"sbint": 58135, "id": 2249980, "sbcode": "0x0e317", "utf16": "d83d dce3"}
+{"sbint": 57666, "id": 2249950, "sbcode": "0x0e142", "utf16": "d83d dce2"}
+{"sbint": 57665, "id": 2251150, "sbcode": "0x0e141", "utf16": "d83d dd0a"}
+{"sbint": 57641, "id": 2250730, "sbcode": "0x0e129", "utf16": "d83d dcfc"}
+{"sbint": 58134, "id": 2248840, "sbcode": "0x0e316", "utf16": "d83d dcbd"}
+{"sbint": 57355, "id": 2249890, "sbcode": "0x0e00b", "utf16": "d83d dce0"}
+{"sbint": 57354, "id": 2250400, "sbcode": "0x0e00a", "utf16": "d83d dcf1"}
+{"sbint": 57642, "id": 2250670, "sbcode": "0x0e12a", "utf16": "d83d dcfa"}
+{"sbint": 57356, "id": 2248780, "sbcode": "0x0e00c", "utf16": "d83d dcbb"}
+{"sbint": 57405, "id": 2271150, "sbcode": "0x0e03d", "utf16": "d83c dfa5"}
+{"sbint": 57352, "id": 2250580, "sbcode": "0x0e008", "utf16": "d83d dcf7"}
+{"sbint": 57639, "id": 2248930, "sbcode": "0x0e127", "utf16": "d83d dcc0"}
+{"sbint": 57638, "id": 2248900, "sbcode": "0x0e126", "utf16": "d83d dcbf"}
+{"sbint": 58128, "id": 2270280, "sbcode": "0x0e310", "utf16": "d83c df88"}
+{"sbint": 58130, "id": 2270310, "sbcode": "0x0e312", "utf16": "d83c df89"}
+{"sbint": 58149, "id": 2251450, "sbcode": "0x0e325", "utf16": "d83d dd14"}
+{"sbint": 57618, "id": 2270070, "sbcode": "0x0e112", "utf16": "d83c df81"}
+{"sbint": 57395, "id": 2270160, "sbcode": "0x0e033", "utf16": "d83c df84"}
+{"sbint": 58440, "id": 2270190, "sbcode": "0x0e448", "utf16": "d83c df85"}
+{"sbint": 57627, "id": 2246860, "sbcode": "0x0e11b", "utf16": "d83d dc7b"}
+{"sbint": 58437, "id": 2270130, "sbcode": "0x0e445", "utf16": "d83c df83"}
+{"sbint": 58438, "id": 2270550, "sbcode": "0x0e446", "utf16": "d83c df91"}
+{"sbint": 58434, "id": 2270520, "sbcode": "0x0e442", "utf16": "d83c df90"}
+{"sbint": 58432, "id": 2270250, "sbcode": "0x0e440", "utf16": "d83c df87"}
+{"sbint": 57623, "id": 2270220, "sbcode": "0x0e117", "utf16": "d83c df86"}
+{"sbint": 58427, "id": 2270490, "sbcode": "0x0e43b", "utf16": "d83c df8f"}
+{"sbint": 58425, "id": 2270610, "sbcode": "0x0e439", "utf16": "d83c df93"}
+{"sbint": 58426, "id": 2270580, "sbcode": "0x0e43a", "utf16": "d83c df92"}
+{"sbint": 58424, "id": 2270460, "sbcode": "0x0e438", "utf16": "d83c df8e"}
+{"sbint": 58423, "id": 2247880, "sbcode": "0x0e437", "utf16": "d83d dc9d"}
+{"sbint": 58422, "id": 2270430, "sbcode": "0x0e436", "utf16": "d83c df8d"}
+{"sbint": 58394, "id": 2245180, "sbcode": "0x0e41a", "utf16": "d83d dc43"}
+{"sbint": 58393, "id": 2245090, "sbcode": "0x0e419", "utf16": "d83d dc40"}
+{"sbint": 58395, "id": 2245150, "sbcode": "0x0e41b", "utf16": "d83d dc42"}
+{"sbint": 58396, "id": 2245210, "sbcode": "0x0e41c", "utf16": "d83d dc44"}
+{"sbint": 57347, "id": 2247340, "sbcode": "0x0e003", "utf16": "d83d dc8b"}
+{"sbint": 58678, "id": 2246140, "sbcode": "0x0e536", "utf16": "d83d dc63"}
+{"sbint": 57628, "id": 2247010, "sbcode": "0x0e11c", "utf16": "d83d dc80"}
+{"sbint": 58654, "id": 2247070, "sbcode": "0x0e51e", "utf16": "d83d dc82"}
+{"sbint": 58652, "id": 2246770, "sbcode": "0x0e51c", "utf16": "d83d dc78"}
+{"sbint": 57422, "id": 2246890, "sbcode": "0x0e04e", "utf16": "d83d dc7c"}
+{"sbint": 57682, "id": 2246470, "sbcode": "0x0e152", "utf16": "d83d dc6e"}
+{"sbint": 58651, "id": 2246740, "sbcode": "0x0e51b", "utf16": "d83d dc77"}
+{"sbint": 58647, "id": 2246620, "sbcode": "0x0e517", "utf16": "d83d dc73"}
+{"sbint": 58646, "id": 2246590, "sbcode": "0x0e516", "utf16": "d83d dc72"}
+{"sbint": 58645, "id": 2246560, "sbcode": "0x0e515", "utf16": "d83d dc71"}
+{"sbint": 58648, "id": 2246650, "sbcode": "0x0e518", "utf16": "d83d dc74"}
+{"sbint": 58649, "id": 2246680, "sbcode": "0x0e519", "utf16": "d83d dc75"}
+{"sbint": 58650, "id": 2246710, "sbcode": "0x0e51a", "utf16": "d83d dc76"}
+{"sbint": 57348, "id": 2246290, "sbcode": "0x0e004", "utf16": "d83d dc68"}
+{"sbint": 57349, "id": 2246320, "sbcode": "0x0e005", "utf16": "d83d dc69"}
+{"sbint": 57346, "id": 2246260, "sbcode": "0x0e002", "utf16": "d83d dc67"}
+{"sbint": 57345, "id": 2246230, "sbcode": "0x0e001", "utf16": "d83d dc66"}
+{"sbint": 58141, "id": 2247160, "sbcode": "0x0e31d", "utf16": "d83d dc85"}
+{"sbint": 58143, "id": 2247220, "sbcode": "0x0e31f", "utf16": "d83d dc87"}
+{"sbint": 58142, "id": 2247190, "sbcode": "0x0e31e", "utf16": "d83d dc86"}
+{"sbint": 58405, "id": 2247520, "sbcode": "0x0e425", "utf16": "d83d dc91"}
+{"sbint": 57617, "id": 2247460, "sbcode": "0x0e111", "utf16": "d83d dc8f"}
+{"sbint": 58406, "id": 2260660, "sbcode": "0x0e426", "utf16": "d83d de47"}
+{"sbint": 57939, "id": 2247040, "sbcode": "0x0e253", "utf16": "d83d dc81"}
+{"sbint": 58403, "id": 2260600, "sbcode": "0x0e423", "utf16": "d83d de45"}
+{"sbint": 58404, "id": 2260630, "sbcode": "0x0e424", "utf16": "d83d de46"}
+{"sbint": 58409, "id": 2246500, "sbcode": "0x0e429", "utf16": "d83d dc6f"}
+{"sbint": 58655, "id": 2247100, "sbcode": "0x0e51f", "utf16": "d83d dc83"}
+{"sbint": 58408, "id": 2246380, "sbcode": "0x0e428", "utf16": "d83d dc6b"}
+{"sbint": 57621, "id": 2272050, "sbcode": "0x0e115", "utf16": "d83c dfc3"}
+{"sbint": 57857, "id": 2263990, "sbcode": "0x0e201", "utf16": "d83d deb6"}
+{"sbint": 57676, "id": 2248270, "sbcode": "0x0e14c", "utf16": "d83d dcaa"}
+{"sbint": 58399, "id": 2245540, "sbcode": "0x0e41f", "utf16": "d83d dc4f"}
+{"sbint": 58397, "id": 2260900, "sbcode": "0x0e41d", "utf16": "d83d de4f"}
+{"sbint": 58407, "id": 2260810, "sbcode": "0x0e427", "utf16": "d83d de4c"}
+{"sbint": 57904, "id": 2245330, "sbcode": "0x0e230", "utf16": "d83d dc48"}
+{"sbint": 57905, "id": 2245360, "sbcode": "0x0e231", "utf16": "d83d dc49"}
+{"sbint": 57903, "id": 2245300, "sbcode": "0x0e22f", "utf16": "d83d dc47"}
+{"sbint": 57902, "id": 2245270, "sbcode": "0x0e22e", "utf16": "d83d dc46"}
+{"sbint": 58402, "id": 2245570, "sbcode": "0x0e422", "utf16": "d83d dc50"}
+{"sbint": 58398, "id": 2245420, "sbcode": "0x0e41e", "utf16": "d83d dc4b"}
+{"sbint": 57357, "id": 2245390, "sbcode": "0x0e00d", "utf16": "d83d dc4a"}
+{"sbint": 58400, "id": 2245450, "sbcode": "0x0e420", "utf16": "d83d dc4c"}
+{"sbint": 58401, "id": 2245510, "sbcode": "0x0e421", "utf16": "d83d dc4e"}
+{"sbint": 57358, "id": 2245480, "sbcode": "0x0e00e", "utf16": "d83d dc4d"}
+{"sbint": 57434, "id": 2248240, "sbcode": "0x0e05a", "utf16": "d83d dca9"}
+{"sbint": 57629, "id": 2251960, "sbcode": "0x0e11d", "utf16": "d83d dd25"}
+{"sbint": 57406, "id": 2271630, "sbcode": "0x0e03e", "utf16": "d83c dfb5"}
+{"sbint": 58150, "id": 2271660, "sbcode": "0x0e326", "utf16": "d83c dfb6"}
+{"sbint": 58161, "id": 2248150, "sbcode": "0x0e331", "utf16": "d83d dca6"}
+{"sbint": 58160, "id": 2248210, "sbcode": "0x0e330", "utf16": "d83d dca8"}
+{"sbint": 57660, "id": 2248090, "sbcode": "0x0e13c", "utf16": "d83d dca4"}
+{"sbint": 58164, "id": 2248030, "sbcode": "0x0e334", "utf16": "d83d dca2"}
+{"sbint": 58165, "id": 2267130, "sbcode": "0x0e335", "utf16": "d83c df1f"}
+{"sbint": 58153, "id": 2247730, "sbcode": "0x0e329", "utf16": "d83d dc98"}
+{"sbint": 58151, "id": 2247580, "sbcode": "0x0e327", "utf16": "d83d dc93"}
+{"sbint": 57379, "id": 2247610, "sbcode": "0x0e023", "utf16": "d83d dc94"}
+{"sbint": 58155, "id": 2247790, "sbcode": "0x0e32b", "utf16": "d83d dc9a"}
+{"sbint": 58152, "id": 2247700, "sbcode": "0x0e328", "utf16": "d83d dc97"}
+{"sbint": 58157, "id": 2247850, "sbcode": "0x0e32d", "utf16": "d83d dc9c"}
+{"sbint": 58154, "id": 2247760, "sbcode": "0x0e32a", "utf16": "d83d dc99"}
+{"sbint": 58156, "id": 2247820, "sbcode": "0x0e32c", "utf16": "d83d dc9b"}
+{"sbint": 57612, "id": 2246920, "sbcode": "0x0e10c", "utf16": "d83d dc7d"}
+{"sbint": 57626, "id": 2246980, "sbcode": "0x0e11a", "utf16": "d83d dc7f"}
+{"sbint": 58380, "id": 2260180, "sbcode": "0x0e40c", "utf16": "d83d de37"}
+{"sbint": 58376, "id": 2259790, "sbcode": "0x0e408", "utf16": "d83d de2a"}
+{"sbint": 58390, "id": 2259520, "sbcode": "0x0e416", "utf16": "d83d de21"}
+{"sbint": 57433, "id": 2259490, "sbcode": "0x0e059", "utf16": "d83d de20"}
+{"sbint": 57607, "id": 2260000, "sbcode": "0x0e107", "utf16": "d83d de31"}
+{"sbint": 58384, "id": 2260030, "sbcode": "0x0e410", "utf16": "d83d de32"}
+{"sbint": 58386, "id": 2258590, "sbcode": "0x0e412", "utf16": "d83d de02"}
+{"sbint": 58385, "id": 2259880, "sbcode": "0x0e411", "utf16": "d83d de2d"}
+{"sbint": 58387, "id": 2259550, "sbcode": "0x0e413", "utf16": "d83d de22"}
+{"sbint": 58374, "id": 2259580, "sbcode": "0x0e406", "utf16": "d83d de23"}
+{"sbint": 58379, "id": 2259730, "sbcode": "0x0e40b", "utf16": "d83d de28"}
+{"sbint": 58383, "id": 2259970, "sbcode": "0x0e40f", "utf16": "d83d de30"}
+{"sbint": 58369, "id": 2259640, "sbcode": "0x0e401", "utf16": "d83d de25"}
+{"sbint": 58375, "id": 2259190, "sbcode": "0x0e407", "utf16": "d83d de16"}
+{"sbint": 57432, "id": 2259430, "sbcode": "0x0e058", "utf16": "d83d de1e"}
+{"sbint": 58371, "id": 2259130, "sbcode": "0x0e403", "utf16": "d83d de14"}
+{"sbint": 57608, "id": 2259100, "sbcode": "0x0e108", "utf16": "d83d de13"}
+{"sbint": 58370, "id": 2258980, "sbcode": "0x0e402", "utf16": "d83d de0f"}
+{"sbint": 58382, "id": 2259070, "sbcode": "0x0e40e", "utf16": "d83d de12"}
+{"sbint": 58377, "id": 2259400, "sbcode": "0x0e409", "utf16": "d83d de1d"}
+{"sbint": 57605, "id": 2259370, "sbcode": "0x0e105", "utf16": "d83d de1c"}
+{"sbint": 58372, "id": 2258560, "sbcode": "0x0e404", "utf16": "d83d de01"}
+{"sbint": 58378, "id": 2258890, "sbcode": "0x0e40a", "utf16": "d83d de0c"}
+{"sbint": 58381, "id": 2260060, "sbcode": "0x0e40d", "utf16": "d83d de33"}
+{"sbint": 58391, "id": 2259310, "sbcode": "0x0e417", "utf16": "d83d de1a"}
+{"sbint": 58392, "id": 2259250, "sbcode": "0x0e418", "utf16": "d83d de18"}
+{"sbint": 57606, "id": 2258920, "sbcode": "0x0e106", "utf16": "d83d de0d"}
+{"sbint": 58373, "id": 2258800, "sbcode": "0x0e405", "utf16": "d83d de09"}
+{"sbint": 57431, "id": 2258620, "sbcode": "0x0e057", "utf16": "d83d de03"}
+{"sbint": 57430, "id": 2258830, "sbcode": "0x0e056", "utf16": "d83d de0a"}
+{"sbint": 58389, "id": 2258650, "sbcode": "0x0e415", "utf16": "d83d de04"}
+{"sbint": 58638, "id": 22578570, "sbcode": "0x0e50e", "utf16": "d83c dde9 d83c ddea"}
+{"sbint": 58640, "id": 22577850, "sbcode": "0x0e510", "utf16": "d83c ddec d83c dde7"}
+{"sbint": 58642, "id": 22583310, "sbcode": "0x0e512", "utf16": "d83c ddf7 d83c ddfa"}
+{"sbint": 58639, "id": 22582770, "sbcode": "0x0e50f", "utf16": "d83c ddee d83c ddf9"}
+{"sbint": 58641, "id": 22582380, "sbcode": "0x0e511", "utf16": "d83c ddea d83c ddf8"}
+{"sbint": 58637, "id": 22582140, "sbcode": "0x0e50d", "utf16": "d83c ddeb d83c ddf7"}
+{"sbint": 58636, "id": 22582860, "sbcode": "0x0e50c", "utf16": "d83c ddfa d83c ddf8"}
+{"sbint": 58643, "id": 22580970, "sbcode": "0x0e513", "utf16": "d83c dde8 d83c ddf3"}
+{"sbint": 58644, "id": 22582290, "sbcode": "0x0e514", "utf16": "d83c ddf0 d83c ddf7"}
+{"sbint": 58635, "id": 22581720, "sbcode": "0x0e50b", "utf16": "d83c ddef d83c ddf5"}
