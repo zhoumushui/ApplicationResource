@@ -1,0 +1,84 @@
+{"data":[
+{"market":[22,18,17,33,34,144,145,146],"remark":"沪深A股" ,"tabs":[
+{"tabname":"买卖队列", "layoutid":"16","permission":"0010", "datasrc":"1"},
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"1", "datasrc":"1"},
+{"tabname":"论股", "layoutid":"5"},
+{"tabname":"公告", "layoutid":"13","url":"http://basic.10jqka.com.cn/mobile/%1$s/pubn.html"},
+{"tabname":"简况", "layoutid":"14","url":"http://basic.10jqka.com.cn/mobile/%1$s/companyn.html"},
+{"tabname":"财务", "layoutid":"15", "url":"http://basic.10jqka.com.cn/mobile/%1$s/financen.html"},
+{"tabname":"研报", "layoutid":"2"}]},
+
+{"market":[16,32,88],"remark":"指数", "tabs":[
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"19", "datasrc":"1"},
+{"tabname":"聊大盘", "layoutid":"5"}]},
+
+{"market":[176],"remark":"港股指数", "tabs":[
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"19", "datasrc":"1"},
+{"tabname":"聊大盘", "layoutid":"5"}]},
+
+{"market":[217],"remark":"港股指数", "tabs":[
+{"tabname":"新闻", "layoutid":"4"}, 
+{"tabname":"盘口", "layoutid":"19", "datasrc":"1"}]},
+
+{"market":[179,177,178,73,180,181,182],"remark":"港股" ,"tabs":[
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"17", "datasrc":"1"},
+{"tabname":"论股", "layoutid":"5"},
+{"tabname":"公告", "layoutid":"13", "url":"http://basic.10jqka.com.cn/mobile/%1$s/pub.html"}, 
+{"tabname":"简况", "layoutid":"14", "url":"http://basic.10jqka.com.cn/mobile/%1$s/company.html"},
+{"tabname":"财务", "layoutid":"15", "url":"http://basic.10jqka.com.cn/mobile/%1$s/finance.html"}]},
+
+{"market":[189,188,171,168,170,169,184,185,186],"remark":"美股" ,"tabs":[
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"18", "datasrc":"1"},
+{"tabname":"公告", "layoutid":"13","url":"http://basic.10jqka.com.cn/mobile/%1$s/pub.html"},
+{"tabname":"简况", "layoutid":"14", "url":"http://basic.10jqka.com.cn/mobile/%1$s/company.html"},
+{"tabname":"财务", "layoutid":"15", "url":"http://basic.10jqka.com.cn/mobile/%1$s/finance.html"},
+{"tabname":"论股", "layoutid":"5"}]},
+
+{"market":[48],"remark":"板块" ,"tabs":[
+{"tabname":"领涨股", "layoutid":"6", "datasrc":"1"},
+{"tabname":"领跌股", "layoutid":"7", "datasrc":"1"},
+{"tabname":"盘口", "layoutid":"19", "datasrc":"1"}, 
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"概念解析", "layoutid":"9","permission":"0001"},
+{"tabname":"论股", "layoutid":"5"}]},
+
+
+{"market":[20,36],"remark":"基金" ,"tabs":[
+{"tabname":"买卖队列", "layoutid":"16","permission":"0010", "datasrc":"1"},
+
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"20", "datasrc":"1"},
+{"tabname":"论股", "layoutid":"5"},
+{"tabname":"公告", "layoutid":"13", "url":"http://basic.10jqka.com.cn/mobile/%1$s/pub.html"},
+{"tabname":"简况", "layoutid":"14", "url":"http://basic.10jqka.com.cn/mobile/%1$s/company.html"},
+{"tabname":"财务", "layoutid":"15", "url":"http://basic.10jqka.com.cn/mobile/%1$s/finance.html"}]},
+
+
+{"market":[19,35],"remark":"债券" ,"tabs":[
+{"tabname":"买卖队列", "layoutid":"16","permission":"0010", "datasrc":"1"},
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"20", "datasrc":"1"}]},
+
+{"market":[233],"remark":"期权标的券" ,"tabs":[
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"21", "datasrc":"1"}]},
+
+{"market":[0,65,66,67,97,98,99,129],"remark":"其它" ,"tabs":[
+{"tabname":"新闻", "layoutid":"4"}]},
+
+{"market":[129],"remark":"股指期货" ,"tabs":[
+{"tabname":"新闻", "layoutid":"4"},
+{"tabname":"盘口", "layoutid":"23", "datasrc":"1"}]},
+
+{"market":[217],"remark":"A50", "tabs":[
+{"tabname":"新闻", "layoutid":"4"}, 
+{"tabname":"盘口", "layoutid":"22", "datasrc":"1"}]},
+
+{"market":[41],"remark":"贵金属" ,"tabs":[
+{"tabname":"贵金属新闻", "layoutid":"4"}]}
+]}
