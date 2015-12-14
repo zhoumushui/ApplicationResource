@@ -1,0 +1,1 @@
+PlatformSpacer = createNewPlatformView(View)

@@ -1,0 +1,11 @@
+channel_id=netease
+base_config_flow=nr_gone
+base_config_update=visible
+base_config_update_later=nr_gone
+base_config_update_later_interval=30
+base_config_ad=visible
+base_config_app_recommend=visible
+base_config_app_recommend_column=visible
+base_config_send_gold=nr_gone
+base_config_push=visible
+base_config_push_switch=visible
