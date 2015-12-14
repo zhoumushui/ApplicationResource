@@ -1,0 +1,26 @@
+
+dashicon.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+dash_icon_progress
+  rotate: false
+  xy: 1, 1
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+dash_icon_progress_bg
+  rotate: false
+  xy: 93, 1
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+dash_icon_pause
+  rotate: false
+  xy: 185, 61
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1

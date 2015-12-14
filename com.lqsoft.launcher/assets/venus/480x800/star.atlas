@@ -1,0 +1,18 @@
+star.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dark_star
+  rotate: false
+  xy: 0, 15
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+heigh_light_star
+  rotate: false
+  xy: 0, 0
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1

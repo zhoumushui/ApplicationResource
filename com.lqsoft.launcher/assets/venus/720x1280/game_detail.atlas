@@ -1,0 +1,32 @@
+game_detail.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+game_detail_button_pressed
+  rotate: false
+  xy: 0, 753
+  size: 40, 80
+  orig: 40, 80
+  offset: 0, 0
+  index: -1
+game_detail_bg
+  rotate: false
+  xy: 0, 0
+  size: 514, 753
+  orig: 514, 753
+  offset: 0, 0
+  index: -1
+game_detail_button
+  rotate: false
+  xy: 0, 913
+  size: 40, 80
+  orig: 40, 80
+  offset: 0, 0
+  index: -1
+game_detail_button_bg
+  rotate: false
+  xy: 0, 833
+  size: 40, 80
+  orig: 40, 80
+  offset: 0, 0
+  index: -1

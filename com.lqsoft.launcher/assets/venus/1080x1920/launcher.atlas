@@ -1,0 +1,1090 @@
+
+launcher.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+live_half_drawer_bg
+  rotate: false
+  xy: 0, 161
+  size: 47, 867
+  orig: 47, 867
+  offset: 0, 0
+  index: -1
+kk_panel_frame
+  rotate: false
+  xy: 49, 645
+  size: 287, 383
+  orig: 287, 383
+  offset: 0, 0
+  index: -1
+wallpaper_default
+  rotate: false
+  xy: 49, 331
+  size: 231, 312
+  orig: 231, 312
+  offset: 0, 0
+  index: -1
+wallpaper_online
+  rotate: false
+  xy: 338, 716
+  size: 231, 312
+  orig: 231, 312
+  offset: 0, 0
+  index: -1
+wallpaper_system
+  rotate: false
+  xy: 571, 716
+  size: 231, 312
+  orig: 231, 312
+  offset: 0, 0
+  index: -1
+plus
+  rotate: false
+  xy: 804, 789
+  size: 239, 239
+  orig: 239, 239
+  offset: 0, 0
+  index: -1
+lq_shadow
+  rotate: false
+  xy: 1045, 849
+  size: 188, 179
+  orig: 188, 179
+  offset: 0, 0
+  index: -1
+live_drawer_config_center
+  rotate: false
+  xy: 282, 126
+  size: 43, 517
+  orig: 43, 517
+  offset: 0, 0
+  index: -1
+effect_ball
+  rotate: false
+  xy: 1235, 859
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+effect_cylinder
+  rotate: false
+  xy: 1406, 859
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+effect_wheel
+  rotate: false
+  xy: 1577, 859
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+live_setting_update
+  rotate: false
+  xy: 1748, 859
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_add_batch
+  rotate: false
+  xy: 49, 160
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+kk_panel_highlight
+  rotate: false
+  xy: 338, 688
+  size: 297, 26
+  orig: 297, 26
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_app_store
+  rotate: false
+  xy: 804, 618
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_hide_app
+  rotate: false
+  xy: 975, 618
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_recent_install_app
+  rotate: false
+  xy: 338, 517
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_recent_use_app
+  rotate: false
+  xy: 327, 346
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_show_app
+  rotate: false
+  xy: 327, 175
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_sort_app_asc
+  rotate: false
+  xy: 509, 517
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_sort_app_desc
+  rotate: false
+  xy: 498, 346
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_sort_app_self
+  rotate: false
+  xy: 498, 175
+  size: 169, 169
+  orig: 169, 169
+  offset: 0, 0
+  index: -1
+effect_blind
+  rotate: false
+  xy: 327, 5
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_cloth
+  rotate: false
+  xy: 497, 5
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_toolbar_ic_delete_focus
+  rotate: false
+  xy: 680, 594
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect_cross
+  rotate: false
+  xy: 1146, 679
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_crystal
+  rotate: false
+  xy: 1316, 689
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_crystalball
+  rotate: false
+  xy: 1486, 689
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_fan
+  rotate: false
+  xy: 1656, 689
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_flip3d
+  rotate: false
+  xy: 1146, 509
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_flip_zoom
+  rotate: false
+  xy: 1316, 519
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_gs3
+  rotate: false
+  xy: 1486, 519
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_inbox
+  rotate: false
+  xy: 1656, 519
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_toolbar_ic_delete_normal
+  rotate: false
+  xy: 1826, 737
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+live_toolbar_ic_info_focus
+  rotate: false
+  xy: 1826, 615
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+live_toolbar_ic_info_normal
+  rotate: false
+  xy: 1826, 493
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect_origami
+  rotate: false
+  xy: 680, 424
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_outbox
+  rotate: false
+  xy: 669, 254
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_random
+  rotate: false
+  xy: 850, 448
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_rock
+  rotate: false
+  xy: 669, 84
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_toolbar_ic_uninstall_focus
+  rotate: false
+  xy: 1020, 496
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+live_toolbar_ic_uninstall_normal
+  rotate: false
+  xy: 0, 38
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+kk_screenmanager_add
+  rotate: false
+  xy: 122, 53
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+effect_scroll
+  rotate: false
+  xy: 850, 278
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+effect_wave
+  rotate: false
+  xy: 839, 108
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_setting_app_manage
+  rotate: false
+  xy: 1020, 326
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_setting_desktop_settings
+  rotate: false
+  xy: 1190, 339
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_setting_feed_back
+  rotate: false
+  xy: 1360, 349
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_setting_screen_manage
+  rotate: false
+  xy: 1530, 349
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_setting_settings
+  rotate: false
+  xy: 1020, 156
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_setting_share_desktop
+  rotate: false
+  xy: 1190, 169
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_setting_theme_manage
+  rotate: false
+  xy: 1360, 179
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+live_drawer_edit_icon_selected
+  rotate: false
+  xy: 1700, 417
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+live_drawer_menu_icon_selected
+  rotate: false
+  xy: 1530, 247
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+live_configcenter_app_nornal
+  rotate: false
+  xy: 220, 269
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+live_configcenter_app_selected
+  rotate: false
+  xy: 220, 207
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+live_half_drawer_selected
+  rotate: false
+  xy: 1045, 789
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+live_drawer_menu_all_bg_normal
+  rotate: false
+  xy: 1105, 789
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+kk_folder_editing_bg
+  rotate: false
+  xy: 1700, 325
+  size: 100, 90
+  orig: 100, 90
+  offset: 0, 0
+  index: -1
+live_drawer_search_back_selected
+  rotate: false
+  xy: 1802, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+live_dot_indicator_topmenu
+  rotate: false
+  xy: 1904, 430
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+live_drawer_search_clear_normal
+  rotate: false
+  xy: 1530, 145
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+live_drawer_search_clear_selected
+  rotate: false
+  xy: 1802, 289
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_confirm_cancel
+  rotate: false
+  xy: 667, 40
+  size: 120, 42
+  orig: 120, 42
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_confirm_cancel_focus
+  rotate: false
+  xy: 1009, 112
+  size: 120, 42
+  orig: 120, 42
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_confirm_ok
+  rotate: false
+  xy: 839, 64
+  size: 120, 42
+  orig: 120, 42
+  offset: 0, 0
+  index: -1
+kk_drawer_widget_title_bg
+  rotate: false
+  xy: 1919, 984
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+live_drawer_search_selected
+  rotate: false
+  xy: 1632, 223
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+kk_toolbar_ic_delete_focus
+  rotate: false
+  xy: 1632, 129
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_confirm_ok_focus
+  rotate: false
+  xy: 1190, 125
+  size: 120, 42
+  orig: 120, 42
+  offset: 0, 0
+  index: -1
+live_configcenter_widget_normal
+  rotate: false
+  xy: 1904, 368
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+live_configcenter_widget_selected
+  rotate: false
+  xy: 1734, 263
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+lq_app_icon_unread_sign
+  rotate: false
+  xy: 1904, 306
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+kk_toolbar_ic_delete_normal
+  rotate: false
+  xy: 229, 32
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+kk_drawer_topbar_bg
+  rotate: false
+  xy: 327, 539
+  size: 5, 104
+  orig: 5, 104
+  offset: 0, 0
+  index: -1
+kk_toolbar_bg
+  rotate: false
+  xy: 839, 317
+  size: 1, 105
+  orig: 1, 105
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_tab_bg
+  rotate: false
+  xy: 1796, 229
+  size: 4, 94
+  orig: 4, 94
+  offset: 0, 0
+  index: -1
+kk_folder_icon
+  rotate: false
+  xy: 1802, 207
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+clear_up_box_bg
+  rotate: false
+  xy: 1884, 207
+  size: 71, 80
+  orig: 71, 80
+  offset: 0, 0
+  index: -1
+kk_panel_frame_normal
+  rotate: false
+  xy: 1726, 121
+  size: 70, 100
+  orig: 70, 100
+  offset: 0, 0
+  index: -1
+kk_screenmanager_delete_focus
+  rotate: false
+  xy: 1798, 125
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+kk_screenmanager_delete_normal
+  rotate: false
+  xy: 1880, 125
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_tab_select_bg
+  rotate: false
+  xy: 1009, 182
+  size: 4, 94
+  orig: 4, 94
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_tab_touch_bg
+  rotate: false
+  xy: 1919, 888
+  size: 4, 94
+  orig: 4, 94
+  offset: 0, 0
+  index: -1
+live_drawer_menu_all_bg_selected
+  rotate: false
+  xy: 1925, 924
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+kk_screenmanager_home
+  rotate: false
+  xy: 1131, 99
+  size: 52, 55
+  orig: 52, 55
+  offset: 0, 0
+  index: -1
+live_drawer_edit_icon_normal
+  rotate: false
+  xy: 1185, 43
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+live_drawer_menu_icon_normal
+  rotate: false
+  xy: 1267, 43
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+kk_drawer_widget_bg
+  rotate: false
+  xy: 637, 688
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+half_drawer_tab_bg
+  rotate: false
+  xy: 1015, 234
+  size: 3, 42
+  orig: 3, 42
+  offset: 0, 0
+  index: -1
+half_drawer_tab_selected
+  rotate: false
+  xy: 1015, 190
+  size: 3, 42
+  orig: 3, 42
+  offset: 0, 0
+  index: -1
+kk_drawer_widget_all
+  rotate: false
+  xy: 961, 32
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+live_drawer_search_back_normal
+  rotate: false
+  xy: 1037, 30
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+live_drawer_search_normal
+  rotate: false
+  xy: 1360, 97
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+live_folder_bg
+  rotate: false
+  xy: 1442, 97
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_back
+  rotate: false
+  xy: 1349, 15
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+live_applist_add
+  rotate: false
+  xy: 1431, 21
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+locate_icon
+  rotate: false
+  xy: 1524, 70
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+lq_app_icon_lock_view
+  rotate: false
+  xy: 1599, 54
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+live_drawer_menu_bg_normal
+  rotate: false
+  xy: 1674, 69
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+lq_drawer_app_select
+  rotate: false
+  xy: 1715, 46
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+live_drawer_menu_bg_selected
+  rotate: false
+  xy: 1119, 39
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+kk_drawer_tab_selected
+  rotate: false
+  xy: 1904, 289
+  size: 33, 15
+  orig: 33, 15
+  offset: 0, 0
+  index: -1
+live_drawer_menu_bottom_bg_normal
+  rotate: false
+  xy: 789, 24
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+lq_drawer_app_uninstall
+  rotate: false
+  xy: 1790, 46
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+lq_drawer_app_unselect
+  rotate: false
+  xy: 1865, 50
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_tab_container_left_bg
+  rotate: false
+  xy: 1940, 56
+  size: 20, 67
+  orig: 20, 67
+  offset: 0, 0
+  index: -1
+live_drawer_search_box
+  rotate: false
+  xy: 1160, 71
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+live_drawer_menu_bottom_bg_selected
+  rotate: false
+  xy: 1674, 9
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+live_drawer_menu_top_bg_normal
+  rotate: false
+  xy: 1925, 864
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+live_drawer_menu_top_bg_selected
+  rotate: false
+  xy: 1507, 10
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_tab_container_bg
+  rotate: false
+  xy: 1548, 18
+  size: 20, 50
+  orig: 20, 50
+  offset: 0, 0
+  index: -1
+kk_screenmanager_add_bg_focus
+  rotate: false
+  xy: 220, 175
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+kk_screenmanager_add_bg_normal
+  rotate: false
+  xy: 0, 0
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+kk_screenmanager_screen_focus
+  rotate: false
+  xy: 1734, 231
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+kk_screenmanager_screen_normal
+  rotate: false
+  xy: 1312, 137
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+kk_dot_indicator_normal
+  rotate: false
+  xy: 667, 6
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+kk_dot_indicator_selected
+  rotate: false
+  xy: 1715, 12
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+kk_screenmanager_home_bar_focus
+  rotate: false
+  xy: 1632, 327
+  size: 44, 20
+  orig: 44, 20
+  offset: 0, 0
+  index: -1
+kk_screenmanager_home_bar_normal
+  rotate: false
+  xy: 701, 18
+  size: 44, 20
+  orig: 44, 20
+  offset: 0, 0
+  index: -1
+live_dot_indicator_normal
+  rotate: false
+  xy: 1678, 327
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+live_configcenter_menu_bg
+  rotate: false
+  xy: 669, 460
+  size: 1, 55
+  orig: 1, 55
+  offset: 0, 0
+  index: -1
+live_configcenter_pressed
+  rotate: false
+  xy: 1142, 561
+  size: 1, 55
+  orig: 1, 55
+  offset: 0, 0
+  index: -1
+live_configcenter_selected
+  rotate: false
+  xy: 323, 69
+  size: 1, 55
+  orig: 1, 55
+  offset: 0, 0
+  index: -1
+live_folder_editing_bg
+  rotate: false
+  xy: 1570, 40
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+kk_line_indicator_normal
+  rotate: false
+  xy: 1749, 26
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+kk_line_indicator_selected
+  rotate: false
+  xy: 747, 20
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+kk_drawer_tab_selected_pressed
+  rotate: false
+  xy: 1786, 29
+  size: 33, 15
+  orig: 33, 15
+  offset: 0, 0
+  index: -1
+kk_folder_content_bg
+  rotate: false
+  xy: 1939, 289
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+workspace_edit_background_plus
+  rotate: false
+  xy: 1948, 845
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+kk_default_widget_preview_holo
+  rotate: false
+  xy: 39, 10
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+kk_panel_frame_focus
+  rotate: false
+  xy: 1160, 44
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+live_dot_indicator_selected
+  rotate: false
+  xy: 1802, 497
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+task_killer_icon_titile_background
+  rotate: false
+  xy: 259, 185
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+kk_drawer_content_bg
+  rotate: false
+  xy: 830, 68
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+kk_folder_scrollbar
+  rotate: false
+  xy: 1524, 162
+  size: 4, 15
+  orig: 4, 15
+  offset: 0, 0
+  index: -1
+live_folder_scrollbar
+  rotate: false
+  xy: 1524, 145
+  size: 4, 15
+  orig: 4, 15
+  offset: 0, 0
+  index: -1
+tab_line_selected
+  rotate: false
+  xy: 1119, 103
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+live_toolbar_ic_background
+  rotate: false
+  xy: 1919, 882
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+task_killer_center_line
+  rotate: false
+  xy: 0, 32
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+half_drawer_bg
+  rotate: false
+  xy: 1235, 852
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+kk_drawer_tab_pressed
+  rotate: false
+  xy: 1316, 512
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+live_half_drawer_all_bg
+  rotate: false
+  xy: 122, 46
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_confirm_bg1
+  rotate: false
+  xy: 327, 532
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+lq_drawer_setting_confirm_bg2
+  rotate: false
+  xy: 842, 417
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+kk_menu_vertical_line
+  rotate: false
+  xy: 1235, 849
+  size: 3, 1
+  orig: 3, 1
+  offset: 0, 0
+  index: -1
+tab_line_normal
+  rotate: false
+  xy: 1919, 859
+  size: 5, 3
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+default_blur_background
+  rotate: false
+  xy: 1182, 68
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+kk_menu_background
+  rotate: false
+  xy: 1316, 509
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+kk_menu_click_background
+  rotate: false
+  xy: 1182, 65
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+kk_menu_horizontal_line
+  rotate: false
+  xy: 1319, 509
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+live_toolbar_delete_border
+  rotate: false
+  xy: 1182, 62
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+live_toolbar_ic_divider
+  rotate: false
+  xy: 1182, 59
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+live_toolbar_info_border
+  rotate: false
+  xy: 1182, 56
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+live_toolbar_uninstall_border
+  rotate: false
+  xy: 1182, 53
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

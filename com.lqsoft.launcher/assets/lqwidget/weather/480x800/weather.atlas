@@ -1,0 +1,397 @@
+
+weather.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+weather_preview
+  rotate: false
+  xy: 0, 146
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: -1
+cloudy
+  rotate: false
+  xy: 0, 76
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 202, 198
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+duststrom
+  rotate: false
+  xy: 0, 6
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+fog
+  rotate: false
+  xy: 89, 76
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+haze
+  rotate: false
+  xy: 291, 198
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+heavyrain
+  rotate: false
+  xy: 89, 6
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+heavysnow
+  rotate: false
+  xy: 380, 198
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+night-less-cloudy
+  rotate: false
+  xy: 469, 198
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+night
+  rotate: false
+  xy: 558, 198
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+partly-cloudy
+  rotate: false
+  xy: 647, 198
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+rain-snow
+  rotate: false
+  xy: 736, 198
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+rain
+  rotate: false
+  xy: 202, 128
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+sand
+  rotate: false
+  xy: 291, 128
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+sandstorm
+  rotate: false
+  xy: 380, 128
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+sleet-rain
+  rotate: false
+  xy: 469, 128
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+sleet
+  rotate: false
+  xy: 558, 128
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+snow
+  rotate: false
+  xy: 647, 128
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+sunny
+  rotate: false
+  xy: 736, 128
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+back_box
+  rotate: false
+  xy: 825, 112
+  size: 26, 154
+  orig: 26, 154
+  offset: 0, 0
+  index: -1
+thunderstorm
+  rotate: false
+  xy: 178, 58
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+wind
+  rotate: false
+  xy: 267, 58
+  size: 87, 68
+  orig: 87, 68
+  offset: 0, 0
+  index: -1
+background
+  rotate: false
+  xy: 356, 68
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+flip_bg
+  rotate: false
+  xy: 401, 68
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+weather-bg
+  rotate: false
+  xy: 446, 75
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+mini_cloudy
+  rotate: false
+  xy: 178, 19
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_dust
+  rotate: false
+  xy: 496, 89
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_duststorm
+  rotate: false
+  xy: 228, 19
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_fog
+  rotate: false
+  xy: 546, 89
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_haze
+  rotate: false
+  xy: 278, 19
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_heavyrain
+  rotate: false
+  xy: 596, 89
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_heavysnow
+  rotate: false
+  xy: 646, 89
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_night-less-cloudy
+  rotate: false
+  xy: 696, 89
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_night
+  rotate: false
+  xy: 746, 89
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_partly-cloudy
+  rotate: false
+  xy: 328, 19
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_rain-snow
+  rotate: false
+  xy: 378, 29
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_rain
+  rotate: false
+  xy: 496, 50
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_sand
+  rotate: false
+  xy: 546, 50
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_sandstorm
+  rotate: false
+  xy: 596, 50
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_sleet-rain
+  rotate: false
+  xy: 646, 50
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_sleet
+  rotate: false
+  xy: 696, 50
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_snow
+  rotate: false
+  xy: 746, 50
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_sunny
+  rotate: false
+  xy: 446, 36
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_thunderstorm
+  rotate: false
+  xy: 496, 11
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+mini_wind
+  rotate: false
+  xy: 546, 11
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+down_background
+  rotate: false
+  xy: 596, 22
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+up_background
+  rotate: false
+  xy: 641, 22
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+tabbg
+  rotate: false
+  xy: 796, 50
+  size: 29, 60
+  orig: 29, 60
+  offset: 0, 0
+  index: -1
+searchbox
+  rotate: false
+  xy: 827, 72
+  size: 18, 38
+  orig: 18, 38
+  offset: 0, 0
+  index: -1
+location
+  rotate: false
+  xy: 178, 0
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+search
+  rotate: false
+  xy: 686, 29
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 428, 42
+  size: 5, 24
+  orig: 5, 24
+  offset: 0, 0
+  index: -1
+scrollbar
+  rotate: false
+  xy: 827, 52
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+weather_devideline
+  rotate: false
+  xy: 853, 261
+  size: 2, 5
+  orig: 2, 5
+  offset: 0, 0
+  index: -1
+clock_devideline
+  rotate: false
+  xy: 178, 143
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 356, 65
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

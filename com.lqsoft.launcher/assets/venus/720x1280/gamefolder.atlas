@@ -1,0 +1,26 @@
+
+gamefolder.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+rocket
+  rotate: false
+  xy: 1, 1
+  size: 51, 72
+  orig: 51, 72
+  offset: 0, 0
+  index: -1
+game_folder_close
+  rotate: false
+  xy: 54, 37
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+point
+  rotate: false
+  xy: 54, 1
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1

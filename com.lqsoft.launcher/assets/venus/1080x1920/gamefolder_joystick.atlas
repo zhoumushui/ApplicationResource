@@ -1,0 +1,32 @@
+gamefolder_joystick.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+joystick
+  rotate: false
+  xy: 2, 2
+  size: 100, 110
+  orig: 100, 110
+  offset: 0, 0
+  index: 1
+joystick
+  rotate: false
+  xy: 104, 2
+  size: 100, 110
+  orig: 100, 110
+  offset: 0, 0
+  index: 3
+joystick
+  rotate: false
+  xy: 2, 114
+  size: 100, 110
+  orig: 100, 110
+  offset: 0, 0
+  index: 5
+joystick
+  rotate: false
+  xy: 104, 114
+  size: 100, 110
+  orig: 100, 110
+  offset: 0, 0
+  index: 8

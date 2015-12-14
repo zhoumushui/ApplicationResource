@@ -1,0 +1,404 @@
+
+weather.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+weather_preview
+  rotate: false
+  xy: 0, 116
+  size: 258, 150
+  orig: 258, 150
+  offset: 0, 0
+  index: -1
+cloudy
+  rotate: false
+  xy: 0, 12
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 260, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+duststorm
+  rotate: false
+  xy: 128, 12
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+fog
+  rotate: false
+  xy: 388, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+haze
+  rotate: false
+  xy: 516, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+heavyrain
+  rotate: false
+  xy: 644, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+heavysnow
+  rotate: false
+  xy: 772, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+night-less-cloudy
+  rotate: false
+  xy: 900, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+night
+  rotate: false
+  xy: 1028, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+partly-cloudy
+  rotate: false
+  xy: 1156, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+rain-snow
+  rotate: false
+  xy: 1284, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+rain
+  rotate: false
+  xy: 1412, 164
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+sand
+  rotate: false
+  xy: 260, 60
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+sleet-rain
+  rotate: false
+  xy: 388, 60
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+sleet
+  rotate: false
+  xy: 516, 60
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+snow
+  rotate: false
+  xy: 644, 60
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+standstorm
+  rotate: false
+  xy: 772, 60
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+sunny
+  rotate: false
+  xy: 900, 60
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+thunderstorm
+  rotate: false
+  xy: 1028, 60
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+wind
+  rotate: false
+  xy: 1156, 60
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+background
+  rotate: false
+  xy: 256, 0
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+flip_bg
+  rotate: false
+  xy: 301, 0
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+back_box
+  rotate: false
+  xy: 1540, 112
+  size: 26, 154
+  orig: 26, 154
+  offset: 0, 0
+  index: -1
+mini_cloudy
+  rotate: false
+  xy: 346, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_dust
+  rotate: false
+  xy: 1284, 108
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_duststorm
+  rotate: false
+  xy: 415, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_fog
+  rotate: false
+  xy: 1353, 108
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_haze
+  rotate: false
+  xy: 484, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_heavyrain
+  rotate: false
+  xy: 1422, 108
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_heavysnow
+  rotate: false
+  xy: 553, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_night-less-cloudy
+  rotate: false
+  xy: 622, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_night
+  rotate: false
+  xy: 691, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_partly-cloudy
+  rotate: false
+  xy: 760, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_rain-snow
+  rotate: false
+  xy: 829, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_rain
+  rotate: false
+  xy: 898, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_sand
+  rotate: false
+  xy: 967, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_sandstorm
+  rotate: false
+  xy: 1036, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_sleet-rain
+  rotate: false
+  xy: 1105, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_sleet
+  rotate: false
+  xy: 1174, 4
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_snow
+  rotate: false
+  xy: 1284, 52
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_sunny
+  rotate: false
+  xy: 1353, 52
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+mini_thunderstorm
+  rotate: false
+  xy: 1422, 52
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+weather_refresh
+  rotate: false
+  xy: 1243, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+weather-bg
+  rotate: false
+  xy: 1568, 215
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+searchbox
+  rotate: false
+  xy: 1491, 90
+  size: 26, 72
+  orig: 26, 72
+  offset: 0, 0
+  index: -1
+tabbg
+  rotate: false
+  xy: 1568, 153
+  size: 29, 60
+  orig: 29, 60
+  offset: 0, 0
+  index: -1
+down_background
+  rotate: false
+  xy: 1295, 24
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+up_background
+  rotate: false
+  xy: 1340, 24
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 1519, 105
+  size: 11, 57
+  orig: 11, 57
+  offset: 0, 0
+  index: -1
+search
+  rotate: false
+  xy: 1568, 117
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+mini_wind
+  rotate: false
+  xy: 1491, 34
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+location
+  rotate: false
+  xy: 1385, 21
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+scrollbar
+  rotate: false
+  xy: 1599, 195
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+weather_devideline
+  rotate: false
+  xy: 256, 109
+  size: 2, 5
+  orig: 2, 5
+  offset: 0, 0
+  index: -1
+clock_devideline
+  rotate: false
+  xy: 0, 9
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 346, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,39 @@
+clock.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hour
+  rotate: false
+  xy: 172, 2
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+clock_bg
+  rotate: false
+  xy: 342, 2
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+top
+  rotate: false
+  xy: 2, 2
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+second
+  rotate: false
+  xy: 2, 172
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+minute
+  rotate: false
+  xy: 2, 342
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,54 @@
+
+related.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+light
+  rotate: false
+  xy: 1, 375
+  size: 1011, 351
+  orig: 1011, 351
+  offset: 0, 0
+  index: -1
+btn_yes
+  rotate: false
+  xy: 1, 249
+  size: 887, 124
+  orig: 887, 124
+  offset: 0, 0
+  index: -1
+icon_default
+  rotate: false
+  xy: 1, 97
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 890, 274
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+btn_close
+  rotate: false
+  xy: 1, 30
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 153, 198
+  size: 56, 49
+  orig: 56, 49
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 1, 1
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,60 @@
+rainy.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+iconAni2
+  rotate: false
+  xy: 2, 58
+  size: 80, 26
+  orig: 80, 26
+  offset: 0, 0
+  index: 2
+leaves2
+  rotate: false
+  xy: 84, 2
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: 2
+iconAni3
+  rotate: false
+  xy: 2, 30
+  size: 80, 26
+  orig: 80, 26
+  offset: 0, 0
+  index: 3
+iconAni4
+  rotate: false
+  xy: 2, 2
+  size: 80, 26
+  orig: 80, 26
+  offset: 0, 0
+  index: 4
+iconAni5
+  rotate: false
+  xy: 2, 114
+  size: 80, 26
+  orig: 80, 26
+  offset: 0, 0
+  index: 5
+leaves3
+  rotate: false
+  xy: 2, 142
+  size: 55, 37
+  orig: 55, 37
+  offset: 0, 0
+  index: 3
+iconAni1
+  rotate: false
+  xy: 2, 86
+  size: 80, 26
+  orig: 80, 26
+  offset: 0, 0
+  index: 1
+leaves1
+  rotate: false
+  xy: 84, 26
+  size: 30, 19
+  orig: 30, 19
+  offset: 0, 0
+  index: 1

@@ -1,0 +1,25 @@
+cloudy.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud1
+  rotate: false
+  xy: 2, 2
+  size: 623, 242
+  orig: 623, 242
+  offset: 0, 0
+  index: 1
+iconAni1
+  rotate: false
+  xy: 627, 87
+  size: 119, 82
+  orig: 119, 82
+  offset: 0, 0
+  index: 1
+cloud2
+  rotate: false
+  xy: 627, 2
+  size: 168, 83
+  orig: 168, 83
+  offset: 0, 0
+  index: 2

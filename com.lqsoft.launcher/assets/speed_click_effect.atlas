@@ -1,0 +1,11 @@
+speed_click_effect.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+speed_effect
+  rotate: false
+  xy: 0, 0
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,158 @@
+Calendar.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bottomnum
+  rotate: false
+  xy: 176, 242
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 5
+topnum
+  rotate: false
+  xy: 172, 2
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 6
+bottomnum
+  rotate: false
+  xy: 118, 242
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 6
+topnum
+  rotate: false
+  xy: 2, 174
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 2
+bottomnum
+  rotate: false
+  xy: 118, 290
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 2
+topnum
+  rotate: false
+  xy: 176, 338
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 7
+bottombg
+  rotate: false
+  xy: 2, 88
+  size: 168, 84
+  orig: 168, 84
+  offset: 0, 0
+  index: -1
+bottomnum
+  rotate: false
+  xy: 60, 222
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 7
+topnum
+  rotate: false
+  xy: 172, 146
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 3
+bottomnum
+  rotate: false
+  xy: 60, 270
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 3
+topnum
+  rotate: false
+  xy: 118, 338
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 8
+bottomnum
+  rotate: false
+  xy: 2, 222
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 8
+topnum
+  rotate: false
+  xy: 118, 194
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 0
+topnum
+  rotate: false
+  xy: 172, 98
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 4
+bottomnum
+  rotate: false
+  xy: 2, 318
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 0
+bottomnum
+  rotate: false
+  xy: 2, 270
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 4
+topbg
+  rotate: false
+  xy: 2, 2
+  size: 168, 84
+  orig: 168, 84
+  offset: 0, 0
+  index: -1
+topnum
+  rotate: false
+  xy: 60, 318
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 9
+bottomnum
+  rotate: false
+  xy: 176, 194
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 9
+topnum
+  rotate: false
+  xy: 60, 174
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 1
+topnum
+  rotate: false
+  xy: 172, 50
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 5
+bottomnum
+  rotate: false
+  xy: 176, 290
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: 1

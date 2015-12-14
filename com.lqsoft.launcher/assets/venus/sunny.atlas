@@ -1,0 +1,116 @@
+sunny.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+iconAni8
+  rotate: false
+  xy: 2, 472
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 8
+sunny_sun
+  rotate: false
+  xy: 282, 195
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+iconAni9
+  rotate: false
+  xy: 332, 451
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 9
+iconAni2
+  rotate: false
+  xy: 240, 359
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 2
+sunny_cloud1
+  rotate: false
+  xy: 282, 2
+  size: 186, 98
+  orig: 186, 98
+  offset: 0, 0
+  index: 1
+iconAni3
+  rotate: false
+  xy: 148, 374
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 3
+iconAni4
+  rotate: false
+  xy: 2, 380
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 4
+iconAni5
+  rotate: false
+  xy: 332, 359
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 5
+sunny_spot
+  rotate: false
+  xy: 446, 195
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+iconAni10
+  rotate: false
+  xy: 186, 543
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 10
+sunny_halo
+  rotate: false
+  xy: 2, 2
+  size: 278, 278
+  orig: 278, 278
+  offset: 0, 0
+  index: -1
+iconAni1
+  rotate: false
+  xy: 148, 282
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 1
+sunny_cloud2
+  rotate: false
+  xy: 2, 282
+  size: 144, 96
+  orig: 144, 96
+  offset: 0, 0
+  index: 2
+sunny_cloud3
+  rotate: false
+  xy: 282, 102
+  size: 174, 91
+  orig: 174, 91
+  offset: 0, 0
+  index: 3
+iconAni6
+  rotate: false
+  xy: 240, 451
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 6
+iconAni7
+  rotate: false
+  xy: 94, 466
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: 7

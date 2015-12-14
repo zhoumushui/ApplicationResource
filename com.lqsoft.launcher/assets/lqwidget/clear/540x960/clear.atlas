@@ -1,0 +1,47 @@
+
+clear.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+clear_preview
+  rotate: false
+  xy: 1, 98
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+Clear_progress_bottom
+  rotate: false
+  xy: 1, 1
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+Clear_progress_top
+  rotate: false
+  xy: 98, 98
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+fengshan
+  rotate: false
+  xy: 98, 1
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+icon_bg
+  rotate: false
+  xy: 195, 98
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+top
+  rotate: false
+  xy: 195, 1
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
