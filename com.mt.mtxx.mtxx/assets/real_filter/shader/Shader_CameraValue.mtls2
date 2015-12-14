@@ -1,0 +1,351 @@
+{
+    "version":1,
+    "devices":[
+        {
+            "mode":"MI 3",
+            "front_camera_preview_value":0,
+            "front_camera_picture_value":0,
+            "back_camera_preview_value":0,
+            "back_camera_picture_value":0,
+            "is_support_effect_mode":"1"
+        },
+        {
+            "mode":"M032",
+            "front_camera_preview_value":0,
+            "front_camera_picture_value":0,
+            "back_camera_preview_value":0,
+            "back_camera_picture_value":0,
+            "is_support_effect_mode":"1"
+        },
+        {
+            "mode":"MeituKiss",
+            "front_camera_preview_value":0,
+            "front_camera_picture_value":0,
+            "back_camera_preview_value":0,
+            "back_camera_picture_value":0,
+            "is_support_effect_mode":"1"
+        },
+        {
+            "mode":"Meitu Kiss",
+            "front_camera_preview_value":0,
+            "front_camera_picture_value":0,
+            "back_camera_preview_value":0,
+            "back_camera_picture_value":0,
+            "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"MI 2S",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"MI 2SC",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"MI 2A",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"MI 2",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"MI 1",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"MI 1S",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"MI 1SC",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"MI-ONE Plus",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9500",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9502",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9505",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9507",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9508",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9509",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"SCH-N719",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-N7000",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-N7102",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-N7108",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9300",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9305",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9308",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"Nexus S",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"Lenovo s960",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"HTC x920e",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-I9100G",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"0"
+        } ,
+        {
+        "mode":"GT-I9100",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"Lenovo A789",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"AMOI N807",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-S5830i",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"LT22i",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"GT-S7562",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"Nexus 4",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"HTC Sensation XE with Beats Audio Z715e",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"HTC Desire HD",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"X907",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"X909",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"U705T",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"HTC Sensation XL with Beats Audio X315e",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        } ,
+        {
+        "mode":"Lenovo A65",
+        "front_camera_preview_value":0,
+        "front_camera_picture_value":0,
+        "back_camera_preview_value":0,
+        "back_camera_picture_value":0,
+        "is_support_effect_mode":"1"
+        }
+        
+
+    ]
+}
