@@ -1,0 +1,67 @@
+option java_package = "com.meilapp.meila.push.meila";
+option java_outer_classname = "MeilaPushMsg";
+
+//消息类型，四位数字，前两位表示大类，后两们表示小类
+enum MessageType{
+
+    //系统，官方消息类
+    NEW_APP_VERISON = 1001;                                         //有新的app版本
+    SYS_ANNOUNCEMENT = 1002;                                        //美啦公告
+    SYS_FOUND_OPEN_FRIENDS = 1003;                                  //美啦为您找到了好友
+    SYS_ADD_PRODUCT_COMPLETE = 1004;                                //用户添加产品已补充完毕
+
+    //SNS类
+    SNS_FOLLOWED = 2001;                                            //有人关注了我，点击跳到用户主页
+    SNS_CHAT = 2002;                                                //聊天，点击跳到聊天界面，获取消息列表
+
+    //ProductComment类
+    UGC_CHECKFAIL_PRODUCT_COMMENT = 3001;                           //发表点评审核失败，点击跳到产品详情页
+    UGC_RANKBEST_PRODUCT_COMMENT = 3002;                            //发表点评被加精，点击跳到产品详情页
+
+    //有新Object类
+    NEW_VBOOK = 4001;                                               //有新的微美刊
+    NEW_VTALK = 4002;                                               //有新的精品话题
+
+    //VTalk类
+    UGC_CHECKFAIL_VTALK = 5001;                                     //发表的话题审核失败，点击跳到话题详情页
+    UGC_RANKBEST_VTALK = 5002;                                      //发表的话题被加精，点击跳到话题详情页
+    MY_VTALK_NEW_COMMENT = 5003;                                    //我创建的话题有新评论，点击跳到话题详情页
+    MY_COMMENT_NEW_REPLY = 5004;                                    //我发表的评论有新回复，点击跳到评论详情页
+    MY_REPLY_NEW_REPLY = 5005;                                      //有人回复我的回复，点击跳到评论详情页
+    UGC_CHECKFAIL_VTALK_COMMENT = 5006;                             //发表的评论审核失败，点击跳到话题详情页
+}
+
+//点击消息的动作类型
+enum ActionType{
+    NONE = 0;                                                       //无
+    HTTP_BROWSER = 1;                                               //浏览器请求url地址
+    APP_INSIDE_PAGE = 2;                                            //转往app内部的页面
+}
+
+//根据ActionType做不同跳转，action_data里面放对应slug值
+message MessageAction{
+    required ActionType type = 1;
+    optional string action_data = 2;                                //存储额外数据，如url地址等
+    optional string trigger_type = 3;                               //trigger_type
+}
+
+message MessageBody{
+    required MessageType type = 1;                                  //消息类型
+    required int32 create_time = 2;                                 //消息的创建时间，unix时间，东八区时区
+    optional string user_receiver_slug = 3;                         //接收此消息的用户slug
+    optional string user_trigger_slug = 4;                          //触发此消息的用户slug
+    optional string user_trigger_nickname = 5;                      //触发此消息的用户昵称
+    optional int32 trigger_object_id = 6;                           //触发消息的实体id，如点评审核通过，则为该点评的id
+    optional string summary = 7;                                    //消息的一段说明文字，如新增2个粉丝，1个点评审核通过
+    optional MessageAction action = 8;                              //消息动作
+    optional bool is_pop = 9;                                       //是否弹出提示，强提醒
+    optional int32 new_msg_count = 10;                              //未读的消息条数
+    optional string msg_id = 11;                                    //消息的字符串id，如 pnmessage:235554 或 groupmessage:12，none:10表示不确定类型
+}
+
+message CommonMessageBody{
+    required MessageBody msg = 1;
+    optional string device_token = 2;
+    optional int32 device_type = 3;
+}
+

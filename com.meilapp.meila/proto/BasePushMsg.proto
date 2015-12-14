@@ -1,0 +1,15 @@
+option java_package = "com.meilapp.meila.push.meila";
+option java_outer_classname = "BasePushMsg";
+
+//推送的基本消息结构
+message Request{
+	required string mud = 1;
+	required string client_version = 2;
+	optional string device_token = 3;	
+}
+
+message BaseResponse{
+	required int32 ret = 1;
+	optional string msg = 2;
+}
+

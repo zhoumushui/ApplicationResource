@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------------------------------
+--
+-- 升级脚本命令格式为：dbName_oldVer_newVer
+-- 一条语句以半角英文分号作为结束
+-- 列名全部大写
+-- 列名不要使用数字
+
+
+--java字段类型与sqlite的列的类型对照表，见com.pdw.framework.orm.Utils.getSQLiteTypeString
+
+--java类型					sqlite类型
+--String					text
+-------------------------------------------------
+--short						int
+--int/Integer				int
+--long/Long					int
+--java.sql.Timestamp		int
+--java.util.Date			int
+-------------------------------------------------
+--double/Double				real
+--float/Float				real
+-------------------------------------------------
+--[B						blob
+--boolean/Boolean			bool
+-------------------------------------------------
+
+
+-- 常见用法：
+-- 让orm自己根据model定义创建表
+--   @orm.create(tableName);
+-- 改表名
+--   alter table oldTableName rename to newTableName;
+-- 创建新表后，转移表中数据
+--   insert into tableName1 select column1, column2 [, ...] from tableName2;
+--   insert into tableName1(column1, column2 [, ...]) select column1, column2 [, ...] from tableName2;
+-- 添加列
+--   alter table tableName add column  "newColumn" type [DEFAULT(defaultValue)];
+-- 每页10条，查第3页
+--   select * from tableName limit 10 offset 20; 
+--
+--------------------------------------------------------------------------------------------------
+
+
+
+--删除没用到的空表
+--drop table if exists USER;
+
+--新添加的表
+@orm.create(MsgModel);
+@orm.create(ResponseCacheItemModel);
