@@ -1,0 +1,769 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>umeng_android_socialize/res/drawable/umeng_socialize_actionbar_bg.9.png at master · hehonghui/umeng_android_socialize</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="http://github.umeng.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="https://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta property="og:image" content="http://github.umeng.com/images/modules/logos_page/Octocat.png">
+    <meta name="hostname" content="github-umeng-com">
+    <meta name="ruby" content="ruby 1.9.3p194-tcs-github-tcmalloc (2012-05-25, TCS patched 2012-05-27, GitHub v1.0.38) [x86_64-linux]">
+    <link rel="assets" href="http://github.umeng.com/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="l18cnsR3RxgKOA2BRAPnmZunIIt8juYBqZGd6J5mABE=" name="csrf-token" />
+
+    <link href="http://github.umeng.com/assets/github-ebabf6192b06e4c175e043ca6468fe86e2b69727.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="http://github.umeng.com/assets/github2-50e2a4ec41a8a4fd3319cd5b01b9f590d4dd5cd4.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+      <script src="http://github.umeng.com/assets/frameworks-f86a2975a82dceee28e5afe598d1ebbfd7109d79.js" type="text/javascript"></script>
+      <script src="http://github.umeng.com/assets/github-f999a123ca14593b35429825dd4f46f47d3e0d44.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="57fe45520139cf4edbd3a622cce9077d">
+
+        <link data-pjax-transient rel='permalink' href='/hehonghui/umeng_android_socialize/blob/87b0f087531ebb4f8012b626993185e3a6ec5923/res/drawable/umeng_socialize_actionbar_bg.9.png'>
+  <meta property="og:title" content="umeng_android_socialize"/>
+  <meta property="og:type" content="githubog:gitrepository"/>
+  <meta property="og:url" content="https://github.com/hehonghui/umeng_android_socialize"/>
+  <meta property="og:image" content="http://github.umeng.com/images/gravatars/gravatar-user-420.png"/>
+  <meta property="og:site_name" content="GitHub"/>
+  <meta property="og:description" content="Contribute to umeng_android_socialize development by creating an account on GitHub."/>
+
+  <meta name="description" content="Contribute to umeng_android_socialize development by creating an account on GitHub." />
+
+  
+  <link href="http://github.umeng.com/hehonghui/umeng_android_socialize/commits/master.atom?login=hehonghui&token=10791783ffd5ded123a7aafde0ff2987" rel="alternate" title="Recent Commits to umeng_android_socialize:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="private-mode logged_in enterprise env-production macintosh vis-private fork page-blob">
+    <div class="wrapper">
+      
+      
+      
+
+
+      <div class="header header-logged-in true">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="http://github.umeng.com/">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+    <div class="divider-vertical"></div>
+
+    
+    <a href="/notifications" class="notification-indicator tooltipped downwards" data-gotokey="n" title="You have unread notifications">
+        <span class="mail-status unread"></span>
+</a>    <div class="divider-vertical"></div>
+
+
+      <div class="command-bar js-command-bar  in-repository">
+          <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    data-username="hehonghui"
+      data-repo="hehonghui/umeng_android_socialize"
+      data-branch="master"
+      data-sha="793f99f29517058cc1dbc1fe264166ebb10d7300"
+  >
+
+    <input type="hidden" name="nwo" value="hehonghui/umeng_android_socialize" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+        <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+            <li><a href="http://github.umeng.com/gist">Gist</a></li>
+          <li><a href="https://help.github.com">Help</a></li>
+        </ul>
+      </div>
+
+    
+
+
+  <ul id="user-links">
+    <li>
+      <a href="/hehonghui" class="name">
+        <img height="20" src="https://secure.gravatar.com/avatar/1f6a55349a0ca76ed8a68a6fb94f026b?d=https%3A%2F%2Fidenticons.github.com%2F5878a7ab84fb43402106c575658472fa.png&amp;s=140" width="20" /> hehonghui
+      </a>
+    </li>
+
+      <li>
+        <a href="/new" id="new_repo" class="tooltipped downwards" title="Create a new repo" aria-label="Create a new repo">
+          <span class="octicon octicon-repo-create"></span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/settings/profile" id="account_settings"
+          class="tooltipped downwards"
+          aria-label="Account settings "
+          title="Account settings ">
+          <span class="octicon octicon-tools"></span>
+        </a>
+      </li>
+      <li>
+        <a class="tooltipped downwards" href="/logout" data-method="post" id="logout" title="Sign out" aria-label="Sign out">
+          <span class="octicon octicon-log-out"></span>
+        </a>
+      </li>
+
+  </ul>
+
+<div class="js-new-dropdown-contents hidden">
+  
+
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo-create"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+
+    <li class="section-title">
+      <span title="hehonghui/umeng_android_socialize">This repository</span>
+    </li>
+    <li>
+      <a href="/hehonghui/umeng_android_socialize/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+    </li>
+      <li>
+        <a href="/hehonghui/umeng_android_socialize/settings/collaboration"><span class="octicon octicon-person-add"></span> New collaborator</a>
+      </li>
+</ul>
+
+</div>
+
+
+    
+  </div>
+</div>
+
+      
+
+      
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="l18cnsR3RxgKOA2BRAPnmZunIIt8juYBqZGd6J5mABE=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="915" />
+
+    <div class="select-menu js-menu-container js-select-menu">
+        <a class="social-count js-social-count" href="/hehonghui/umeng_android_socialize/watchers">
+          1
+        </a>
+      <span class="minibutton select-menu-button with-count js-menu-target">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye-unwatch"></span>
+          Unwatch
+        </span>
+      </span>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notification status</span>
+            <span class="octicon octicon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container">
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_included" name="do" type="radio" value="included" />
+                <h4>Not watching</h4>
+                <span class="description">You only receive notifications for discussions in which you participate or are @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-watch"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_subscribed" name="do" type="radio" value="subscribed" />
+                <h4>Watching</h4>
+                <span class="description">You receive notifications for all discussions in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-unwatch"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore" />
+                <h4>Ignoring</h4>
+                <span class="description">You do not receive any notifications for discussions in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+  
+<div class="js-toggler-container js-social-container starring-container on">
+  <a href="/hehonghui/umeng_android_socialize/unstar" class="minibutton with-count js-toggler-target star-button starred upwards" title="Unstar this repo" data-remote="true" data-method="post" rel="nofollow">
+    <span class="octicon octicon-star-delete"></span><span class="text">Unstar</span>
+  </a>
+  <a href="/hehonghui/umeng_android_socialize/star" class="minibutton with-count js-toggler-target star-button unstarred upwards" title="Star this repo" data-remote="true" data-method="post" rel="nofollow">
+    <span class="octicon octicon-star"></span><span class="text">Star</span>
+  </a>
+  <a class="social-count js-social-count" href="/hehonghui/umeng_android_socialize/stargazers">1</a>
+</div>
+
+  </li>
+
+
+        <li>
+          <a href="/hehonghui/umeng_android_socialize/fork" class="minibutton with-count js-toggler-target fork-button lighter upwards" title="Fork this repo" rel="facebox nofollow">
+            <span class="octicon octicon-git-branch-create"></span><span class="text">Fork</span>
+          </a>
+          <a href="/hehonghui/umeng_android_socialize/network" class="social-count">6</a>
+        </li>
+
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title private">
+          <span class="repo-label"><span>private</span></span>
+          <span class="mega-octicon octicon-repo-forked"></span>
+          <span class="author">
+            <a href="/hehonghui" class="url fn" itemprop="url" rel="author"><span itemprop="title">hehonghui</span></a></span
+          ><span class="repohead-name-divider">/</span><strong
+          ><a href="/hehonghui/umeng_android_socialize" class="js-current-repository js-repo-home-link">umeng_android_socialize</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+            <span class="fork-flag">
+              <span class="text">forked from <a href="/SDK/umeng_android_socialize">SDK/umeng_android_socialize</a></span>
+            </span>
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+
+      <div class="repository-with-sidebar repo-container ">
+
+        <div class="repository-sidebar">
+            
+
+<div class="repo-nav repo-nav-full js-repository-container-pjax js-octicon-loaders">
+  <div class="repo-nav-contents">
+    <ul class="repo-menu">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/hehonghui/umeng_android_socialize" aria-label="Code" class="js-selected-navigation-item selected" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /hehonghui/umeng_android_socialize">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+      <li class="tooltipped leftwards" title="Pull Requests"><a href="/hehonghui/umeng_android_socialize/pulls" aria-label="Pull Requests" class="js-selected-navigation-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /hehonghui/umeng_android_socialize/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>0</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped leftwards" title="Wiki">
+          <a href="/hehonghui/umeng_android_socialize/wiki" aria-label="Wiki" class="js-selected-navigation-item " data-pjax="true" data-selected-links="repo_wiki /hehonghui/umeng_android_socialize/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="repo-menu-separator"></div>
+    <ul class="repo-menu">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/hehonghui/umeng_android_socialize/pulse" aria-label="Pulse" class="js-selected-navigation-item " data-pjax="true" data-selected-links="pulse /hehonghui/umeng_android_socialize/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/hehonghui/umeng_android_socialize/graphs" aria-label="Graphs" class="js-selected-navigation-item " data-pjax="true" data-selected-links="repo_graphs repo_contributors /hehonghui/umeng_android_socialize/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/hehonghui/umeng_android_socialize/network" aria-label="Network" class="js-selected-navigation-item js-disable-pjax" data-selected-links="repo_network /hehonghui/umeng_android_socialize/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+      <div class="repo-menu-separator"></div>
+      <ul class="repo-menu">
+        <li class="tooltipped leftwards" title="Settings">
+          <a href="/hehonghui/umeng_android_socialize/settings" data-pjax aria-label="Settings">
+            <span class="octicon octicon-tools"></span> <span class="full-word">Settings</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </a>
+        </li>
+      </ul>
+  </div>
+</div>
+
+            <div class="only-with-full-nav">
+              
+
+  
+
+<div class="clone-url "
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=push">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+
+  <input type="text" class="clone js-url-field"
+         value="http://github.umeng.com/hehonghui/umeng_android_socialize.git" readonly="readonly">
+
+  <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="http://github.umeng.com/hehonghui/umeng_android_socialize.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+</div>
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=push">
+  <h3><strong>SSH</strong> clone URL</h3>
+
+  <input type="text" class="clone js-url-field"
+         value="git@github.umeng.com:hehonghui/umeng_android_socialize.git" readonly="readonly">
+
+  <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="git@github.umeng.com:hehonghui/umeng_android_socialize.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=push">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+
+  <input type="text" class="clone js-url-field"
+         value="http://github.umeng.com/hehonghui/umeng_android_socialize" readonly="readonly">
+
+  <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="http://github.umeng.com/hehonghui/umeng_android_socialize" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+</div>
+
+
+
+<p class="clone-options">You can clone with
+    <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+    <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
+    <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>,
+  and <a href="https://help.github.com/articles/which-remote-url-should-i-use">other methods.</a>
+</p>
+
+  <a href="github-mac://openRepo/http://github.umeng.com/hehonghui/umeng_android_socialize" class="minibutton sidebar-button">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/hehonghui/umeng_android_socialize/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   title="Download this repository as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+            </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:de174a6d93423b7f0494d253b103644a -->
+<!-- blob contrib frag key: views10/v8/blob_contributors:v21:de174a6d93423b7f0494d253b103644a -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/hehonghui/umeng_android_socialize/find/master" data-pjax data-hotkey="t" style="display:none">Show File Finder</a>
+
+<div class="file-navigation">
+  
+
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master" role="button" aria-label="Switch branches or tags">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Find or create a branch…" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Find or create a branch…">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/3.4/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="3.4" data-skip-pjax="true" rel="nofollow" title="3.4">3.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/Dev/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="Dev" data-skip-pjax="true" rel="nofollow" title="Dev">Dev</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/facebook-buildin/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="facebook-buildin" data-skip-pjax="true" rel="nofollow" title="facebook-buildin">facebook-buildin</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/for_gaode_3.3.1/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="for_gaode_3.3.1" data-skip-pjax="true" rel="nofollow" title="for_gaode_3.3.1">for_gaode_3.3.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/handleRefactor/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="handleRefactor" data-skip-pjax="true" rel="nofollow" title="handleRefactor">handleRefactor</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/instagram/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="instagram" data-skip-pjax="true" rel="nofollow" title="instagram">instagram</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/jenkins/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="jenkins" data-skip-pjax="true" rel="nofollow" title="jenkins">jenkins</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/master/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="master" data-skip-pjax="true" rel="nofollow" title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/online/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="online" data-skip-pjax="true" rel="nofollow" title="online">online</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/oom/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="oom" data-skip-pjax="true" rel="nofollow" title="oom">oom</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/review/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="review" data-skip-pjax="true" rel="nofollow" title="review">review</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/sdk-3.3.3/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="sdk-3.3.3" data-skip-pjax="true" rel="nofollow" title="sdk-3.3.3">sdk-3.3.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/sdk-3.3.4/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="sdk-3.3.4" data-skip-pjax="true" rel="nofollow" title="sdk-3.3.4">sdk-3.3.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/sdk-3.3.5-callback/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="sdk-3.3.5-callback" data-skip-pjax="true" rel="nofollow" title="sdk-3.3.5-callback">sdk-3.3.5-callback</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/sdk-3.3.6/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="sdk-3.3.6" data-skip-pjax="true" rel="nofollow" title="sdk-3.3.6">sdk-3.3.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/sdk-3.3.7/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="sdk-3.3.7" data-skip-pjax="true" rel="nofollow" title="sdk-3.3.7">sdk-3.3.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/sdk_with_scrshot_jar/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="sdk_with_scrshot_jar" data-skip-pjax="true" rel="nofollow" title="sdk_with_scrshot_jar">sdk_with_scrshot_jar</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/shake/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="shake" data-skip-pjax="true" rel="nofollow" title="shake">shake</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/shareContent/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="shareContent" data-skip-pjax="true" rel="nofollow" title="shareContent">shareContent</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/shareboard/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="shareboard" data-skip-pjax="true" rel="nofollow" title="shareboard">shareboard</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/sharemedia/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="sharemedia" data-skip-pjax="true" rel="nofollow" title="sharemedia">sharemedia</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/twitter/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="twitter" data-skip-pjax="true" rel="nofollow" title="twitter">twitter</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/unittest/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="unittest" data-skip-pjax="true" rel="nofollow" title="unittest">unittest</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/v3.2/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v3.2" data-skip-pjax="true" rel="nofollow" title="v3.2">v3.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/v3.3/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="v3.3" data-skip-pjax="true" rel="nofollow" title="v3.3">v3.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hehonghui/umeng_android_socialize/blob/wx_callback/res/drawable/umeng_socialize_actionbar_bg.9.png" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="wx_callback" data-skip-pjax="true" rel="nofollow" title="wx_callback">wx_callback</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <form accept-charset="UTF-8" action="/hehonghui/umeng_android_socialize/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="l18cnsR3RxgKOA2BRAPnmZunIIt8juYBqZGd6J5mABE=" /></div>
+            <span class="octicon octicon-git-branch-create select-menu-item-icon"></span>
+            <div class="select-menu-item-text">
+              <h4>Create branch: <span class="js-new-item-name"></span></h4>
+              <span class="description">from ‘master’</span>
+            </div>
+            <input type="hidden" name="name" id="name" class="js-new-item-value">
+            <input type="hidden" name="branch" id="branch" value="master" />
+            <input type="hidden" name="path" id="branch" value="res/drawable/umeng_socialize_actionbar_bg.9.png" />
+          </form> <!-- /.select-menu-item -->
+
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/hehonghui/umeng_android_socialize" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">umeng_android_socialize</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/hehonghui/umeng_android_socialize/tree/master/res" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">res</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/hehonghui/umeng_android_socialize/tree/master/res/drawable" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">drawable</span></a></span><span class="separator"> / </span><strong class="final-path">umeng_socialize_actionbar_bg.9.png</strong> <span class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="res/drawable/umeng_socialize_actionbar_bg.9.png" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+  <div class="commit commit-loader file-history-tease js-deferred-content" data-url="/hehonghui/umeng_android_socialize/contributors/master/res/drawable/umeng_socialize_actionbar_bg.9.png">
+    Fetching contributors…
+
+    <div class="participation">
+      <p class="loader-loading"><img alt="Octocat-spinner-32-eaf2f5" height="16" src="http://github.umeng.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
+      <p class="loader-error">Cannot retrieve contributors at this time</p>
+    </div>
+  </div>
+
+<div id="files" class="bubble">
+  <div class="file">
+    <div class="meta">
+      <div class="info">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+        <span>0.346 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+          <a href="/hehonghui/umeng_android_socialize/raw/master/res/drawable/umeng_socialize_actionbar_bg.9.png" class="button minibutton " id="raw-url">Raw</a>
+          <a href="/hehonghui/umeng_android_socialize/commits/master/res/drawable/umeng_socialize_actionbar_bg.9.png" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+            <a class="minibutton danger empty-icon tooltipped downwards"
+               href="/hehonghui/umeng_android_socialize/delete/master/res/drawable/umeng_socialize_actionbar_bg.9.png"
+               title=""
+               data-method="post" data-test-id="delete-blob-file" rel="nofollow">
+            Delete
+          </a>
+      </div><!-- /.actions -->
+
+    </div>
+        <div class="blob-wrapper data type-text js-blob-data">
+      <div class="image js-image">
+          <span class="border-wrap"><img src="/hehonghui/umeng_android_socialize/blob/master/res/drawable/umeng_socialize_actionbar_bg.9.png?raw=true" /></span>
+      </div>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.09636s from github-umeng-com">GitHub</span>, Inc.</li>
+        <li><a href="/features">Features</a></li>
+        <li><a href="https://help.github.com">Help</a></li>
+        <li><a href="mailto:operations@umeng.com">Support</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/hehonghui/umeng_android_socialize/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+    
+  </body>
+</html>
+
