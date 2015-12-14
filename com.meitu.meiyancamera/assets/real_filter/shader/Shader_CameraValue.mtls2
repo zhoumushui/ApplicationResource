@@ -1,0 +1,14 @@
+{
+    "version":1,
+    "devices":[
+        {
+            "mode":"MI 3;MK150;M032;MeituKiss;Meitu Kiss;MI 2S;MI 2SC;MI 2A;MI 2;MI 1;MI 1S;MI 1SC;MI-ONE Plus;GT-I9500;GT-I9502;GT-I9505;GT-I9507;GT-I9508;GT-I9509;GT-I9300;GT-I9305;GT-I9308;SCH-N719;GT-N7000;GT-N7102;GT-N7108;Nexus S;Lenovo s960;HTC x920e;GT-I9100G;GT-I9100;Lenovo A789;AMOI N807;GT-S5830i;LT22i;GT-S7562;Nexus 4;HTC Sensation XE with Beats Audio Z715e;HTC Desire HD;X907;X909;U705T;HTC Sensation XL with Beats Audio X315e;Lenovo A65;vivo X1St;GT-S7568;vivo Y19t;SCH-I699;X909T;Lenovo A298t;R815T;GT-S7562i;GT-I8552;LT18i;ZTE U807;GT-S7572;GT-I8262D;HUAWEI C8813Q;SCH-I739",
+            "front_camera_preview_value":0,
+            "front_camera_picture_value":0,
+            "back_camera_preview_value":0,
+            "back_camera_picture_value":0,
+            "is_support_effect_mode":"1"
+        }
+
+    ]
+}
