@@ -1,0 +1,17 @@
+com.handcent.nextsms/com.handcent.sms.ui.ConversationExList
+com.android.mms/com.android.mms.MainUISelection
+com.android.contacts/com.android.mms.ui.ConversationList
+com.android.mms/com.android.mms.ui.ConversationList
+com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity
+com.android.mms/com.android.mms.ui.MmsTabActivity
+com.android.mms/com.android.mms.ui.ConversationComposer
+com.motorola.messaging/com.motorola.messaging.activity.ConversationListActivity
+com.lenovo.ideafriend/com.lenovo.ideafriend.alias.MmsActivity
+com.android.contacts/com.android.contacts.MmsConversationActivity
+com.android.mms/com.android.mms.ui.BootActivity
+com.htc.sense.mms/com.htc.sense.mms.ui.MessageTabActivity
+com.android.mms/com.android.mms.ui.UiController
+com.android.mms/com.yulong.android.mms.ui.MmsMainListFormActivity
+com.htc.sense.mms/com.htc.sense.mms.ui.ConversationList
+com.android.mms/com.android.mms.ui.ModeChooser
+com.google.android.talk/com.google.android.talk.SigningInActivity

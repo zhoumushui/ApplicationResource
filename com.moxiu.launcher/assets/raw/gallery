@@ -1,0 +1,9 @@
+com.android.gallery/com.android.gallery.ui.MainActivity
+com.sonyericsson.gallery/com.sonyericsson.gallery.Gallery
+com.cooliris.media/com.sec.android.gallery3d.app.MediaFlow
+com.miui.gallery/com.miui.gallery.app.Gallery
+com.cooliris.media/com.cooliris.media.Gallery
+com.android.gallery3d/com.android.gallery3d.app.Gallery
+com.motorola.MotGallery2/com.android.gallery3d.app.GalleryActivity
+com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity
+com.android.gallery3d/com.android.gallery3d.app.GalleryActivity

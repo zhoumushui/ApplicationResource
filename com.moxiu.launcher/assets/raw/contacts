@@ -1,0 +1,16 @@
+com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity
+com.android.htccontacts/com.android.htccontacts.ContactsTabActivity
+com.android.contacts/com.sec.android.app.contacts.contactBookTopMenuActivity
+com.sonyericsson.android.socialcontactbook/com.sonyericsson.android.socialcontactbook.SocialcontactbookActivity
+com.android.htccontacts/com.android.htccontacts.BrowseLayerCarouselActivity
+com.android.contacts/com.android.contacts.activities.PeopleActivity
+com.google.android.contacts/com.android.contacts.activities.PeopleActivity
+com.htc.contacts/com.htc.contacts.BrowseLayerCarouselActivity
+com.sonyericsson.android.socialcontactbook/com.sonyericsson.android.socialcontactbook.LaunchActivity
+com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.activities.SocialPhonebookActivity
+com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.LaunchActivity
+com.yulong.android.contacts/com.yulong.android.contacts.ui.main.ContactMainActivity
+com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity
+com.android.contacts/com.sec.android.app.contacts.PhoneBookTopMenuActivity
+com.meizu.mzsnssyncservice/com.meizu.mzsnssyncservice.ui.SnsTabActivity
+com.lenovo.ideafriend/com.lenovo.ideafriend.alias.PeopleActivity
