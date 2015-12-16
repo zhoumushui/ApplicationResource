@@ -1,0 +1,423 @@
+// this file must be obfuscated before use
+//x5mttRuleDelimiter AutoPlayVideo
+javascript:
+function tencent_log_print(msg)
+{
+  //console.log(msg);
+  //x5mtt.log(msg);
+}
+
+window.tencent_qq_browser_video_utils = {
+  getElementPosition: function(e) {
+    var orignalEle = e;
+    var x = 0, y = 0;
+    while (e != null) {
+	x += e.offsetLeft;
+	y += e.offsetTop;
+	e = e.offsetParent;
+    }
+    
+    var width = orignalEle.clientLeft + orignalEle.clientWidth + orignalEle.offsetLeft;
+    var height = orignalEle.clientTop + orignalEle.clientHeight + orignalEle.offsetTop;
+    
+    x += width / 2;
+    y += height /2;
+    
+    return { x: x, y: y };
+  },
+
+        
+  createTouchStartEvent: function(ele, x, y)
+  {
+      console.log("createTouchStartEvent for ele:" + ele + "x= " + x + ",y = "  + y);
+      var evt = document.createEvent('TouchEvent');
+
+      //var touch = document.createTouch(window, ele, 0, ele.offsetLeft + ele.offsetWidth /2 , ele.offsetTop + ele.offsetHeight / 2, ele.offsetLeft + ele.offsetWidth /2 , ele.offsetTop + ele.offsetHeight / 2);
+      var touch = document.createTouch(window, ele, 0, x, y, x, y);
+    var touches = document.createTouchList(touch);
+    var targetTouches = document.createTouchList(touch);
+    var changedTouches = document.createTouchList(touch);
+
+
+    evt.initTouchEvent(touches, targetTouches, changedTouches, "touchstart", window, 0, 0, 0, 0, 0, 0, 0, 0);
+    //evt.initTouchEvent("touchstart", true, true, window, null, 0, 0, 0, 0, false, false, false, false,
+      //touches, targetTouches, changedTouches, 1, 0);
+    return evt;
+  },
+
+            
+  createTouchEndEvent: function(ele, x, y)
+  {
+      console.log("createTouchEndEvent for ele:" + ele + "x= " + x + ",y = "  + y);
+      var evt = document.createEvent('TouchEvent');
+
+      //PassRefPtr<Touch> createTouch(DOMWindow*, EventTarget*, int identifier, int pageX, int pageY, int screenX, int screenY, int radiusX, int radiusY, float rotationAngle, float force, ExceptionCode&) const;
+      
+      //var touch = document.createTouch(window, ele, 0, ele.offsetLeft + ele.offsetWidth /2 , ele.offsetTop + ele.offsetHeight / 2, ele.offsetLeft + ele.offsetWidth /2 , ele.offsetTop + ele.offsetHeight / 2);
+      var touch = document.createTouch(window, ele, 0, x, y, x, y);
+      
+    var touches = document.createTouchList(touch);
+    var targetTouches = document.createTouchList(touch);
+    var changedTouches = document.createTouchList(touch);
+ 
+    evt.initTouchEvent(touches, targetTouches, changedTouches, "touchend", window, 0, 0, 0, 0, 0, 0, 0, 0);
+    
+    //evt.initTouchEvent("touchend", true, true, window, null, 0, 0, 0, 0, false, false, false, false,
+     // touches, targetTouches, changedTouches, 1, 0);
+    return evt;
+  },
+  
+  simulateTouchClick: function(root, ele)
+  {
+    var obj = this.getElementPosition(ele);
+    tencent_log_print("send the touchstart, touchend event at pos(" + obj.x + ", " + obj.y + ")");
+    
+    root.dispatchEvent(this.createTouchStartEvent(ele, obj.x, obj.y));
+    root.dispatchEvent(this.createTouchEndEvent(ele, obj.x, obj.y));
+  }, 
+  
+  ClickItemInfo:function(root, target, triggerAction)
+  {
+    this.rootNode = root;
+    this.targetNode = target;
+    this.triggerAction = triggerAction;
+  },
+  ClickType:
+  {
+    Touch:0,
+    Click:1,
+    Mouse:2
+  },
+  setUpClickMapInfo: function()
+  {
+    var map = {};
+    map["m.v.qq.com"] = new this.ClickItemInfo('div[class="tvp_overlay_play"]', 'div[class="tvp_overlay_play"]', tencent_qq_browser_video_utils.ClickType.Touch);
+    map["v.youku.com"] = new this.ClickItemInfo('div[class="x-video-button"]', 'div[class="x-video-button"]', tencent_qq_browser_video_utils.ClickType.Touch);
+    map["m.fun.tv"] = new this.ClickItemInfo('video[id="html-video-fun-2"]', 'video[id="html-video-fun-2"]', tencent_qq_browser_video_utils.ClickType.Click);
+    map["info.3g.qq.com"] = new this.ClickItemInfo('video', 'video', tencent_qq_browser_video_utils.ClickType.Click);
+    map["www.tudou.com"] = new this.ClickItemInfo('div[class="touch"]', 'div[class="touch"]', tencent_qq_browser_video_utils.ClickType.Click);  
+    
+    return map;
+  },
+  
+  
+  getNode: function(nodeAttr)
+  {
+    if(nodeAttr.constructor == String)
+    {
+      return document.querySelectorAll(nodeAttr)[0];
+    }
+    
+    return nodeAttr;
+  }
+};
+
+
+//the max retry times
+kMaxTry = 10;
+
+window.tencent_qq_browser_play_video = function()
+{
+  tencent_log_print("enter playVideo...");
+    var clickInfo = tencent_qq_browser_video_utils.setUpClickMapInfo()[location.host];
+    
+    if(clickInfo == undefined)
+    {
+      tencent_log_print("we not support the domain:" + location.host);
+      return;
+    }
+    
+    tencent_log_print("we support the domain" + location.host);
+    
+        
+    var rootNode = tencent_qq_browser_video_utils.getNode(clickInfo.rootNode);
+    var targetNode = tencent_qq_browser_video_utils.getNode(clickInfo.targetNode);
+    
+    if((rootNode == undefined || targetNode == undefined) && --kMaxTry > 0)
+    {
+      tencent_log_print("not found the target node, sleep 300ms for next find this = " + this);
+      window.setTimeout(window.tencent_qq_browser_play_video, 600);
+      return;
+    }
+    
+    switch(clickInfo.triggerAction)
+    {
+      case tencent_qq_browser_video_utils.ClickType.Touch:
+	tencent_qq_browser_video_utils.simulateTouchClick(rootNode, targetNode);
+	break;
+      case tencent_qq_browser_video_utils.ClickType.Click:
+	targetNode.click();
+	break;
+    
+    }
+    
+    tencent_qq_browser_video_utils.simulateTouchClick(rootNode, targetNode);  
+    
+    //check the video has played, if not re send click event again
+    window.setTimeout(function(){
+    	tencent_log_print("detect video played x5mtt.getAutoPlayNextVideoFlag() = " + x5mtt.getAutoPlayNextVideoFlag() + ", kMaxTry = " + kMaxTry);
+      if(x5mtt.getAutoPlayNextVideoFlag() && --kMaxTry > 0){
+	  	tencent_log_print("video not play automatic resend click event");
+	  	window.tencent_qq_browser_play_video();
+      }
+      else
+      {
+      	tencent_log_print("video has played automatic");
+		//window.tencent_qq_browser_video_utils = null;
+		//window.tencent_qq_browser_play_video = null;
+      }
+    }, 600);
+};
+
+window.tencent_qq_browser_play_video();
+
+
+
+//x5mttRuleDelimiter FullScreenEventDetect
+function tencent_log_print(msg) {
+  //console.log("FullScreenEventDetect:" + msg);
+  //x5mtt.log("FullScreenEventDetect:" + msg);
+}
+
+window.tencent_qq_browser_video_utils = {
+    ClickItemInfo: function(pattern, video, fullscreen, parentLevel) {
+        this.pattern = pattern;
+        this.videoNode = video;
+        this.fullsceenNode = fullscreen;
+        this.parentLevel = parentLevel;
+    },
+
+    getClickMapInfo: function(str) {
+        var array = new Array(
+        		new this.ClickItemInfo(/^http:\/\/.*\.qq\.com/, 'video', 'button[title="切换全屏"]', 3), 
+        		new this.ClickItemInfo(/^http:\/\/.*\.youku\.com/, 'video', 'button[title="全屏模式"]', 6),
+        		new this.ClickItemInfo(/^http:\/\/.*\.tudou\.com/, 'video', 'div[id="fullscreen"]', 2),  
+        		new this.ClickItemInfo(/^http:\/\/.*\.letv\.com/, 'video', 'div[class="hv_botbar_btn"]', 3), 
+        		new this.ClickItemInfo(/^http:\/\/.*\.sohu\.com/, 'video', 'div[class="fullscreen disabled svp_ctrl_full_screen"]', 4),
+        		new this.ClickItemInfo(/^http:\/\/.*\.acfun\.tv/, 'video[class="container-video-entity active"]', 'div[class="controller-btn-fullscreen"]', 1),
+				new this.ClickItemInfo(/^http:\/\/.*\.bilibili\.com/, 'video[webkit-playsinline=""]', 'i[class="player-icon icon-widescreen"]', 5)
+        		);
+
+        for (info in array) {
+            if (array[info].pattern.test(str)) return array[info];
+        }
+    },
+
+    getNode: function(parentNode, nodeAttr) {
+        if (nodeAttr.constructor == String) {
+            return parentNode.querySelectorAll(nodeAttr)[0];
+        }
+
+        return nodeAttr;
+    },
+    getNodes: function(nodeAttr) {
+        if (nodeAttr.constructor == String) {
+            return document.querySelectorAll(nodeAttr);
+        }
+
+        return nodeAttr;
+    }
+};
+
+//the max retry times
+kMaxTry = 10;
+
+window.tencent_qq_browser_register_fullscreen_detect_function = function() {	
+    tencent_log_print("enter tencent_qq_browser_register_fullscreen_detect_function...");
+    var clickInfo = tencent_qq_browser_video_utils.getClickMapInfo(location.href);
+
+    /*if(e.target != fullscreenNode)
+    {
+      tencent_log_print("not target to fullscreenNode");
+      return;
+    }*/
+
+    if (clickInfo == undefined) {
+        tencent_log_print("we not support the url:" + location.href);
+        return;
+    }
+
+    tencent_log_print("we support the url:" + location.href + ", clickInfo = " + clickInfo + ", clickInfo.videoNode = " + clickInfo.videoNode);
+
+    var fullscreenNodes = tencent_qq_browser_video_utils.getNodes(clickInfo.fullsceenNode);
+
+	tencent_log_print("try to find  all video node for fullscreenNodes " + fullscreenNodes);
+	
+    for (var i = 0; i <  fullscreenNodes.length; ++i) {
+    
+    	var fullscreenNode = fullscreenNodes.item(i);
+        var parentNode = fullscreenNode;
+        
+        tencent_log_print("try to find video node for fullscreenNode " + fullscreenNode);
+        
+        for (var j = 0; j < clickInfo.parentLevel; ++j) {
+            parentNode = parentNode.parentElement;
+        }
+
+        var videoNode = tencent_qq_browser_video_utils.getNode(parentNode, clickInfo.videoNode);
+
+        if ((videoNode == undefined || fullscreenNode == undefined) && --kMaxTry > 0) {
+            tencent_log_print("not found the target node, sleep 300ms for next find this = " + this);
+            window.setTimeout(window.tencent_qq_browser_register_fullscreen_detect_function, 600);
+            return;
+        }
+
+        tencent_log_print("find videoNode = " + videoNode + ", fullscreenNode =" + fullscreenNode);
+
+        var touchDownPoint = {};
+        function touchstart(e) {
+            tencent_log_print("touch start...pageX: " + e.pageX + ", pageY:" + e.pageY);
+
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+
+            touchDownPoint.touchedX = e.changedTouches[0].clientX;
+            touchDownPoint.touchedY = e.changedTouches[0].clientY;
+        }
+
+        var slop = 5;
+        function touchend(e) {
+            tencent_log_print("touch touchend...pageXsd: " + e.pageX + ", pageY:" + e.pageY);
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+
+            if (Math.abs(touchDownPoint.touchedX - e.changedTouches[0].clientX) < slop && Math.abs(touchDownPoint.touchedY - e.changedTouches[0].clientY) < slop) {
+                tencent_log_print("enter fullscreen from touch end");
+                videoNode.webkitEnterFullscreen();
+            }
+        }
+
+        function touchmove(e) {
+            tencent_log_print("touch touchmove...pageX: " + e.pageX + ", pageY:" + e.pageY);
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+
+            if (Math.abs(touchDownPoint.touchedX - e.changedTouches[0].clientX) < slop && Math.abs(touchDownPoint.touchedY - e.changedTouches[0].clientY) < slop && (e.target == fullscreenNode)) {
+                //videoNode.webkitEnterFullscreen();     
+            }
+        }
+
+        function handleClick() {
+            tencent_log_print("handleClick");
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+
+            tencent_log_print("enter fullscreen from handleClick");
+            videoNode.webkitEnterFullscreen();
+        }
+
+        fullscreenNode.ontouchstart = null;
+        fullscreenNode.ontouchmove = null;
+        fullscreenNode.ontouchend = null;
+        fullscreenNode.onclick = null;
+
+        fullscreenNode.addEventListener("touchstart", touchstart, true);
+        fullscreenNode.addEventListener("touchmove", touchmove, true);
+        fullscreenNode.addEventListener("touchend", touchend, true);
+        fullscreenNode.addEventListener("click", handleClick, true);
+    }
+
+};
+
+window.tencent_qq_browser_register_fullscreen_detect_function();
+
+//x5mttRuleDelimiter VideoElementsDectect
+javascript:
+function tencent_log_print(msg) {
+//    console.log("VideoElementsDectect:" + msg);
+//    x5mtt.log(msg);
+}
+
+window.tencent_qq_browser_video_utils = {
+    VideoInfo: function(src, type, title, pageurl) {
+        this.src = src;
+        this.type = type;
+        this.title = title;
+        this.pageurl = pageurl;
+    },
+    checkSourceElement: function(video, sourceElement) {
+        return sourceElement.src && (sourceElement.type && video.canPlayType(sourceElement.type) || !sourceElement.type);
+    },
+    processOneVideo: function(video) {
+        tencent_log_print("processOneVideo " + video + ", !video=" + !video);
+        
+        if (!video)
+            return;
+        
+        var src = video.getAttribute('src') ? video.src: null;
+        var type = null;
+        var title = document.title;
+        if (!src) 
+        {
+            var sourceElements = video.getElementsByTagName('source');
+            for (var i = 0; i < sourceElements.length; ++i) 
+            {
+                if (window.tencent_qq_browser_video_utils.checkSourceElement(video, sourceElements[i])) 
+                {
+                    src = sourceElements[i].getAttribute('src')? sourceElements[i].src:null;
+                    type = sourceElements[i].type;
+                    break;
+                }
+            }
+        }
+        
+        if (src) 
+        {
+            return new window.tencent_qq_browser_video_utils.VideoInfo(src, type, title, location.href);
+        }
+        
+        return null;
+    },
+    
+    collectVideoInfos: function() {
+        tencent_log_print("collectVideoInfos");
+        
+        var videos = document.querySelectorAll('video');
+        tencent_log_print("we found " + videos.length + " video elements");
+        var videoInfos = new Array();
+        for (var i = 0; i <= videos.length; ++i) 
+        {
+            var videoInfo = window.tencent_qq_browser_video_utils.processOneVideo(videos[i]);
+            if (videoInfo != null) 
+            {
+                videoInfos.push(videoInfo);
+            }
+        }
+        
+        tencent_log_print("collectVideoInfos:" + videoInfos);
+        
+        return videoInfos;
+    }
+};
+
+//the max retry times
+kMaxTry = 10;
+
+window.tencent_qq_browser_register_video_elements_detect_function = function() {
+    tencent_log_print("enter tencent_qq_browser_register_video_elements_detect_function...");
+    var videoInfos = tencent_qq_browser_video_utils.collectVideoInfos();
+    
+    tencent_log_print("we have collect: " + videoInfos.length + " video infos");
+    if (videoInfos && videoInfos.length > 0) 
+    {
+        x5mtt.video().reportVideoElementInfos(JSON.stringify(videoInfos));
+        return;
+    }
+
+    if (--kMaxTry > 0) {
+        tencent_log_print("no video elements found, sleep 600ms for next find this = " + this);
+        window.setTimeout(window.tencent_qq_browser_register_video_elements_detect_function, 600);
+        return;
+    }
+
+};
+
+window.tencent_qq_browser_register_video_elements_detect_function();
+
+
+
+
