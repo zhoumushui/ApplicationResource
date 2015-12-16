@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ec",
+    "name": "英汉翻译",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "ce",
+    "name": "汉英翻译",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "cj",
+    "name": "中日翻译",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "jc",
+    "name": "日中翻译",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "ck",
+    "name": "中韩翻译",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "kc",
+    "name": "韩中翻译",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "cf",
+    "name": "中法翻译",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "fc",
+    "name": "法中翻译",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "hh",
+    "name": "现代汉语大词典",
+    "num": 9,
+    "expand": true
+  },
+  {
+    "id": "ce_new",
+    "name": "新汉英大词典",
+    "num": 8,
+    "expand": true
+  },
+  {
+    "id": "collins",
+    "name": "柯林斯英汉双解大词典",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "ec21",
+    "name": "21世纪大英汉词典",
+    "num": 2,
+    "expand": false
+  },
+  {
+      "id": "exam_dict",
+      "name": "学习词典",
+      "num": 3,
+      "expand": true
+  },
+  {
+    "id": "ee",
+    "name": "英英释义",
+    "num": 7,
+    "expand": false
+  },
+  {
+    "id": "special",
+    "name": "专业释义",
+    "num": -1,
+    "expand": false
+  },
+  {
+    "id": "web_trans",
+    "name": "网络释义",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "pic_dict",
+    "name": "图片词典",
+    "num": -1,
+    "expand": false
+  },
+  {
+    "id": "rel_word",
+    "name": "同根词",
+    "num": -1,
+    "expand": false
+  },
+  {
+    "id": "phrs",
+    "name": "词组短语",
+    "num": 5,
+    "expand": true
+  },
+  {
+    "id": "syno",
+    "name": "同近义词",
+    "num": 4,
+    "expand": false
+  },
+  {
+    "id": "wordform",
+    "name": "词态变形",
+    "num": 6,
+    "expand": true
+  },
+  {
+    "id": "blng_sents_part",
+    "name": "双语例句",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "auth_sents_part",
+    "name": "权威例句",
+    "num": -1,
+    "expand": false
+  },
+  {
+    "id": "media_sents_part",
+    "name": "原声例句",
+    "num": -1,
+    "expand": false
+  },
+  {
+    "id": "baike",
+    "name": "百科",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "wikipedia_digest",
+    "name": "百科",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "typos",
+    "name": "输入纠错",
+    "num": -1,
+    "expand": true
+  },
+  {
+    "id": "fanyi",
+    "name": "翻译结果",
+    "num": -1,
+    "expand": true
+  }
+]
