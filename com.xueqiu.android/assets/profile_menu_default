@@ -1,0 +1,58 @@
+[
+  [
+    {
+      "name": "ACTIVITY",
+      "icon": "activity_icon",
+      "title": "雪球下单抽现金 单笔最高88元",
+      "sub_title": "",
+      "url": "http://xueqiu.com/3771154167/40091198",
+      "badge": true
+    }
+  ],
+  [
+    {
+      "name": "SECURITY",
+      "icon": "icon_me_broker",
+      "title": "实盘交易",
+      "sub_title": "",
+      "url": "http://xueqiu.com/broker/myaccount",
+      "badge": false
+    }
+  ],
+  [
+    {
+      "name": "CUBE",
+      "icon": "icon_me_cube",
+      "title": "我的投资组合",
+      "sub_title": "",
+      "url": "",
+      "badge": false
+    },
+    {
+      "name": "ORDER",
+      "icon": "icon_me_order",
+      "title": "我的订单",
+      "sub_title": "",
+      "url": "http://xueqiu.com/cube/order-list",
+      "badge": false
+    },
+    {
+      "name": "WALLET",
+      "icon": "icon_me_wallet",
+      "title": "钱包",
+      "sub_title": "",
+      "url": "http://xueqiu.com/wallet/assets",
+      "badge": true
+    }
+  ],
+  [
+    {
+      "name": "FAV",
+      "icon": "icon_me_star",
+      "title": "收藏",
+      "sub_title": "",
+      "url": "",
+      "badge": false
+    }
+  ]
+]

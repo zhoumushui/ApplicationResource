@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "name": "SECURITY",
+      "icon": "icon_me_broker",
+      "title": "我的证券账户",
+      "sub_title": "",
+      "url": "http://xueqiu.com/broker/myaccount",
+      "badge": false
+    }
+  ],
+  [
+    {
+      "name": "FAV",
+      "icon": "icon_me_star",
+      "title": "收藏",
+      "sub_title": "",
+      "url": "",
+      "badge": false
+    }
+  ]
+]

@@ -1,0 +1,1304 @@
+[
+	{
+		"code": "93",
+		"name_en": "Afghanistan",
+		"name_py": "afuhan",
+		"name_cn": "阿富汗"
+	},
+	{
+		"code": "358",
+		"name_en": "Aland Islands",
+		"name_py": "aolanqundao",
+		"name_cn": "奥兰群岛"
+	},
+	{
+        "code": "355",
+        "name_en": "Albania",
+        "name_py": "aebaniya",
+        "name_cn": "阿尔巴尼亚"
+    },
+	{
+		"code": "213",
+		"name_en": "Algeria",
+		"name_py": "aejiliya",
+		"name_cn": "阿尔及利亚"
+	},
+	{
+		"code": "1684",
+		"name_py": "meisushamoya",
+		"name_en": "American Samoa",
+		"name_cn": "美属萨摩亚"
+	},
+	{
+		"code": "376",
+		"name_py": "andaoer",
+		"name_en": "Andorra",
+		"name_cn": "安道尔"
+	},
+	{
+		"code": "244",
+		"name_py": "angela",
+		"name_en": "Angola",
+		"name_cn": "安哥拉"
+	},
+	{
+		"code": "1264",
+		"name_py": "anguila",
+		"name_en": "Anguilla",
+		"name_cn": "安圭拉"
+	},
+	{
+		"code": "1268",
+		"name_py": "antiguahebabuda",
+		"name_en": "Antigua and Barbuda",
+		"name_cn": "安提瓜和巴布达"
+	},
+	{
+		"code": "54",
+		"name_py": "agenting",
+		"name_en": "Argentina",
+		"name_cn": "阿根廷"
+	},
+	{
+		"code": "374",
+		"name_py": "yameiniya",
+		"name_en": "Armenia",
+		"name_cn": "亚美尼亚"
+	},
+	{
+		"code": "297",
+		"name_py": "alubadao",
+		"name_en": "Aruba",
+		"name_cn": "阿鲁巴岛"
+	},
+	{
+		"code": "247",
+		"name_py": "asensong",
+		"name_en": "Ascension",
+		"name_cn": "阿森松"
+	},
+	{
+		"code": "61",
+		"name_py": "aodaliya",
+		"name_en": "Australia",
+		"name_cn": "澳大利亚"
+	},
+	{
+		"code": "43",
+		"name_py": "aodili",
+		"name_en": "Austria",
+		"name_cn": "奥地利"
+	},
+	{
+		"code": "994",
+		"name_py": "asaibaijiang",
+		"name_en": "Azerbaijan",
+		"name_cn": "阿塞拜疆"
+	},
+	{
+		"code": "1242",
+		"name_py": "bahama",
+		"name_en": "Bahamas",
+		"name_cn": "巴哈马"
+	},
+	{
+		"code": "973",
+		"name_py": "balin",
+		"name_en": "Bahrain",
+		"name_cn": "巴林"
+	},
+	{
+		"code": "880",
+		"name_py": "mengjialguo",
+		"name_en": "Bangladesh",
+		"name_cn": "孟加拉国"
+	},
+	{
+		"code": "1246",
+		"name_py": "babaduosi",
+		"name_en": "Barbados",
+		"name_cn": "巴巴多斯"
+	},
+	{
+		"code": "375",
+		"name_py": "baieluosi",
+		"name_en": "Belarus",
+		"name_cn": "白俄罗斯"
+	},
+	{
+		"code": "32",
+		"name_py": "bilishi",
+		"name_en": "Belgium",
+		"name_cn": "比利时"
+	},
+	{
+		"code": "501",
+		"name_py": "bolizi",
+		"name_en": "Belize",
+		"name_cn": "伯利兹"
+	},
+	{
+		"code": "229",
+		"name_py": "beining",
+		"name_en": "Benin",
+		"name_cn": "贝宁"
+	},
+	{
+		"code": "1441",
+		"name_py": "baimuda",
+		"name_en": "Bermuda",
+		"name_cn": "百慕大"
+	},
+	{
+		"code": "975",
+		"name_py": "budan",
+		"name_en": "Bhutan",
+		"name_cn": "不丹"
+	},
+	{
+		"code": "591",
+		"name_py": "boliweiya",
+		"name_en": "Bolivia",
+		"name_cn": "玻利维亚"
+	},
+	{
+		"code": "387",
+		"name_py": "bohei",
+		"name_en": "Bosnia and Herzegovina",
+		"name_cn": "波黑"
+	},
+	{
+		"code": "267",
+		"name_py": "bociwana",
+		"name_en": "Botswana",
+		"name_cn": "博茨瓦纳"
+	},
+	{
+		"code": "55",
+		"name_py": "baxi",
+		"name_en": "Brazil",
+		"name_cn": "巴西"
+	},
+	{
+		"code": "1284",
+		"name_py": "yinsuweierjinqundao",
+		"name_en": "British Virgin Islands",
+		"name_cn": "英属维尔京群岛"
+	},
+	{
+		"code": "673",
+		"name_py": "wenlai",
+		"name_en": "Brunei",
+		"name_cn": "文莱"
+	},
+	{
+		"code": "359",
+		"name_py": "baojialiya",
+		"name_en": "Bulgaria",
+		"name_cn": "保加利亚"
+	},
+	{
+		"code": "226",
+		"name_py": "bujilafasuo",
+		"name_en": "Burkina Faso",
+		"name_cn": "布基拉法索"
+	},
+	{
+		"code": "257",
+		"name_py": "bulongdi",
+		"name_en": "Burundi",
+		"name_cn": "布隆迪"
+	},
+	{
+		"code": "855",
+		"name_py": "jianpuzhai",
+		"name_en": "Cambodia",
+		"name_cn": "柬埔寨"
+	},
+	{
+		"code": "237",
+		"name_py": "kamailong",
+		"name_en": "Cameroon",
+		"name_cn": "喀麦隆"
+	},
+	{
+		"code": "1",
+		"name_py": "jianada",
+		"name_en": "Canada",
+		"name_cn": "加拿大"
+	},
+	{
+		"code": "3491",
+		"name_py": "jianaliqundao",
+		"name_en": "Canary Islands",
+		"name_cn": "加那利群岛"
+	},
+	{
+		"code": "238",
+		"name_py": "fodejiao",
+		"name_en": "Cape Verde",
+		"name_cn": "佛得角"
+	},
+	{
+		"code": "1345",
+		"name_py": "kaimanqundao",
+		"name_en": "Cayman Islands",
+		"name_cn": "开曼群岛"
+	},
+	{
+		"code": "236",
+		"name_py": "zhongfei",
+		"name_en": "Central Africa",
+		"name_cn": "中非"
+	},
+	{
+		"code": "235",
+		"name_py": "zhade",
+		"name_en": "Chad",
+		"name_cn": "乍得"
+	},
+	{
+		"code": "56",
+		"name_py": "zhili",
+		"name_en": "Chile",
+		"name_cn": "智利"
+	},
+	{
+		"code": "86",
+		"name_py": "zhongguo",
+		"name_en": "China",
+		"name_cn": "中国大陆"
+	},
+	{
+		"code": "61",
+		"name_py": "shengdandao",
+		"name_en": "Christmas Island",
+		"name_cn": "圣诞岛"
+	},
+	{
+		"code": "57",
+		"name_py": "gelunbiya",
+		"name_en": "Colombia",
+		"name_cn": "哥伦比亚"
+	},
+	{
+		"code": "269",
+		"name_py": "kemoluo",
+		"name_en": "Comoros",
+		"name_cn": "科摩罗"
+	},
+	{
+		"code": "242",
+		"name_py": "gangguo",
+		"name_en": "Congo",
+		"name_cn": "刚果"
+	},
+	{
+		"code": "243",
+		"name_py": "gangguominzhugongheguo",
+		"name_en": "Congo Dem Rep",
+		"name_cn": "刚果民主共和国"
+	},
+	{
+		"code": "506",
+		"name_py": "gesidalijia",
+		"name_en": "Costa Rica",
+		"name_cn": "哥斯达黎加"
+	},
+	{
+		"code": "385",
+		"name_py": "keluodiqv",
+		"name_en": "Croatia",
+		"name_cn": "克罗地亚"
+	},
+	{
+		"code": "357",
+		"name_py": "saipulusi",
+		"name_en": "Cyprus",
+		"name_cn": "塞浦路斯"
+	},
+	{
+		"code": "420",
+		"name_py": "jieke",
+		"name_en": "Czech Republic",
+		"name_cn": "捷克"
+	},
+	{
+		"code": "45",
+		"name_py": "danmai",
+		"name_en": "Denmark",
+		"name_cn": "丹麦"
+	},
+	{
+		"code": "253",
+		"name_py": "jibuti",
+		"name_en": "Djibouti",
+		"name_cn": "吉布提"
+	},
+	{
+		"code": "1767",
+		"name_py": "duominike",
+		"name_en": "Dominica",
+		"name_cn": "多米尼克"
+	},
+	{
+		"code": "1809",
+		"name_py": "duominijiagongheguo",
+		"name_en": "Dominican Republic",
+		"name_cn": "多米尼加共和国"
+	},
+	{
+		"code": "593",
+		"name_py": "eguaduoer",
+		"name_en": "Ecuador",
+		"name_cn": "厄瓜多尔"
+	},
+	{
+		"code": "20",
+		"name_py": "aiji",
+		"name_en": "Egypt",
+		"name_cn": "埃及"
+	},
+	{
+		"code": "503",
+		"name_py": "saerwaduo",
+		"name_en": "El Salvador",
+		"name_cn": "萨尔瓦多"
+	},
+	{
+		"code": "240",
+		"name_py": "chidaojineiya",
+		"name_en": "Equatorial Guinea",
+		"name_cn": "赤道几内亚"
+	},
+	{
+		"code": "291",
+		"name_py": "eliteliya",
+		"name_en": "Eritrea",
+		"name_cn": "厄立特里亚"
+	},
+	{
+		"code": "372",
+		"name_py": "aishaniya",
+		"name_en": "Estonia",
+		"name_cn": "爱沙尼亚"
+	},
+	{
+		"code": "251",
+		"name_py": "aisiaerbiya",
+		"name_en": "Ethiopia",
+		"name_cn": "埃塞俄比亚"
+	},
+	{
+		"code": "298",
+		"name_py": "faluoqundao",
+		"name_en": "Faroe Islands",
+		"name_cn": "法罗群岛"
+	},
+	{
+		"code": "679",
+		"name_py": "feiji",
+		"name_en": "Fiji",
+		"name_cn": "斐济"
+	},
+	{
+		"code": "358",
+		"name_py": "fenlan",
+		"name_en": "Finland",
+		"name_cn": "芬兰"
+	},
+	{
+		"code": "33",
+		"name_py": "faguo",
+		"name_en": "France",
+		"name_cn": "法国"
+	},
+	{
+		"code": "594",
+		"name_py": "fasuguiyana",
+		"name_en": "French Guiana",
+		"name_cn": "法属圭亚那"
+	},
+	{
+		"code": "689",
+		"name_py": "fasubolinixiya",
+		"name_en": "French Polynesia",
+		"name_cn": "法属波利尼西亚"
+	},
+	{
+		"code": "241",
+		"name_py": "jiapeng",
+		"name_en": "Gabon",
+		"name_cn": "加蓬"
+	},
+	{
+		"code": "220",
+		"name_py": "gangbiya",
+		"name_en": "Gambia",
+		"name_cn": "冈比亚"
+	},
+	{
+		"code": "995",
+		"name_py": "gelujiya",
+		"name_en": "Georgia",
+		"name_cn": "格鲁吉亚"
+	},
+	{
+		"code": "49",
+		"name_py": "deguo",
+		"name_en": "Germany",
+		"name_cn": "德国"
+	},
+	{
+		"code": "233",
+		"name_py": "jiana",
+		"name_en": "Ghana",
+		"name_cn": "加纳"
+	},
+	{
+		"code": "350",
+		"name_py": "zhibuluotuo",
+		"name_en": "Gibraltar",
+		"name_cn": "直布罗陀"
+	},
+	{
+		"code": "30",
+		"name_py": "xila",
+		"name_en": "Greece",
+		"name_cn": "希腊"
+	},
+	{
+		"code": "299",
+		"name_py": "gelinglandao",
+		"name_en": "Greenland",
+		"name_cn": "格陵兰岛"
+	},
+	{
+		"code": "1473",
+		"name_py": "gelinnada",
+		"name_en": "Grenada",
+		"name_cn": "格林纳达"
+	},
+	{
+		"code": "590",
+		"name_py": "guadeluopu",
+		"name_en": "Guadeloupe",
+		"name_cn": "瓜德罗普"
+	},
+	{
+		"code": "1671",
+		"name_py": "guandao",
+		"name_en": "Guam",
+		"name_cn": "关岛"
+	},
+	{
+		"code": "502",
+		"name_py": "weidimala",
+		"name_en": "Guatemala",
+		"name_cn": "危地马拉"
+	},
+	{
+		"code": "224",
+		"name_py": "jineiya",
+		"name_en": "Guinea",
+		"name_cn": "几内亚"
+	},
+	{
+		"code": "592",
+		"name_py": "guiyana",
+		"name_en": "Guyana",
+		"name_cn": "圭亚那"
+	},
+	{
+		"code": "509",
+		"name_py": "haidi",
+		"name_en": "Haiti",
+		"name_cn": "海地"
+	},
+	{
+		"code": "504",
+		"name_py": "haidulasi",
+		"name_en": "Honduras",
+		"name_cn": "洪都拉斯"
+	},
+	{
+		"code": "852",
+		"name_py": "zhongguoxianggang",
+		"name_en": "Hong Kong",
+		"name_cn": "中国香港"
+	},
+	{
+		"code": "36",
+		"name_py": "xiongyali",
+		"name_en": "Hungary",
+		"name_cn": "匈牙利"
+	},
+	{
+		"code": "354",
+		"name_py": "bingdao",
+		"name_en": "Iceland",
+		"name_cn": "冰岛"
+	},
+	{
+		"code": "91",
+		"name_py": "yindu",
+		"name_en": "India",
+		"name_cn": "印度"
+	},
+	{
+		"code": "62",
+		"name_py": "yindunixiya",
+		"name_en": "Indonesia",
+		"name_cn": "印度尼西亚"
+	},
+	{
+		"code": "98",
+		"name_py": "yilang",
+		"name_en": "Iran",
+		"name_cn": "伊朗"
+	},
+	{
+		"code": "964",
+		"name_py": "yilake",
+		"name_en": "Iraq",
+		"name_cn": "伊拉克"
+	},
+	{
+		"code": "353",
+		"name_py": "aierlan",
+		"name_en": "Ireland",
+		"name_cn": "爱尔兰"
+	},
+	{
+		"code": "972",
+		"name_py": "yiselie",
+		"name_en": "Israel",
+		"name_cn": "以色列"
+	},
+	{
+		"code": "39",
+		"name_py": "yidali",
+		"name_en": "Italy",
+		"name_cn": "意大利"
+	},
+	{
+		"code": "225",
+		"name_py": "ketediwa",
+		"name_en": "Ivory Coast",
+		"name_cn": "科特迪瓦"
+	},
+	{
+		"code": "1876",
+		"name_py": "yamaijia",
+		"name_en": "Jamaica",
+		"name_cn": "牙买加"
+	},
+	{
+		"code": "81",
+		"name_py": "riben",
+		"name_en": "Japan",
+		"name_cn": "日本"
+	},
+	{
+		"code": "962",
+		"name_py": "yuedan",
+		"name_en": "Jordan",
+		"name_cn": "约旦"
+	},
+	{
+		"code": "254",
+		"name_py": "kenniya",
+		"name_en": "Kenya",
+		"name_cn": "肯尼亚"
+	},
+	{
+		"code": "82",
+		"name_py": "hanguo",
+		"name_en": "Korea",
+		"name_cn": "韩国"
+	},
+	{
+		"code": "850",
+		"name_py": "chaoxian",
+		"name_en": "Korea Dem People's Rep",
+		"name_cn": "朝鲜"
+	},
+	{
+		"code": "883",
+		"name_py": "kesuowo",
+		"name_en": "Kosovo",
+		"name_cn": "科索沃"
+	},
+	{
+		"code": "965",
+		"name_py": "keweite",
+		"name_en": "Kuwait",
+		"name_cn": "科威特"
+	},
+	{
+		"code": "996",
+		"name_py": "jierjisitan",
+		"name_en": "Kyrgyzstan",
+		"name_cn": "吉尔吉斯斯坦"
+	},
+	{
+		"code": "856",
+		"name_py": "laowo",
+		"name_en": "Laos PDR",
+		"name_cn": "老挝"
+	},
+	{
+		"code": "371",
+		"name_py": "latuoweiya",
+		"name_en": "Latvia",
+		"name_cn": "拉脱维亚"
+	},
+	{
+		"code": "961",
+		"name_py": "libanen",
+		"name_en": "Lebanon",
+		"name_cn": "黎巴嫩"
+	},
+	{
+		"code": "266",
+		"name_py": "laisuotuo",
+		"name_en": "Lesotho",
+		"name_cn": "莱索托"
+	},
+	{
+		"code": "231",
+		"name_py": "libiliya",
+		"name_en": "Liberia",
+		"name_cn": "利比里亚"
+	},
+	{
+		"code": "218",
+		"name_py": "libiya",
+		"name_en": "Libya",
+		"name_cn": "利比亚"
+	},
+	{
+		"code": "423",
+		"name_py": "liezhidunshideng",
+		"name_en": "Liechtenstein",
+		"name_cn": "列支敦士登"
+	},
+	{
+		"code": "370",
+		"name_py": "litaowan",
+		"name_en": "Lithuania",
+		"name_cn": "立陶宛"
+	},
+	{
+		"code": "352",
+		"name_py": "lusenbao",
+		"name_en": "Luxembourg",
+		"name_cn": "卢森堡"
+	},
+	{
+		"code": "853",
+		"name_py": "zhongguoaomen",
+		"name_en": "Macau",
+		"name_cn": "中国澳门"
+	},
+	{
+		"code": "389",
+		"name_py": "maqidun",
+		"name_en": "Macedonia",
+		"name_cn": "马其顿"
+	},
+	{
+		"code": "261",
+		"name_py": "madajiasijia",
+		"name_en": "Madagascar",
+		"name_cn": "马达加斯加"
+	},
+	{
+		"code": "265",
+		"name_py": "malawei",
+		"name_en": "Malawi",
+		"name_cn": "马拉维"
+	},
+	{
+		"code": "60",
+		"name_py": "malaixiya",
+		"name_en": "Malaysia",
+		"name_cn": "马来西亚"
+	},
+	{
+		"code": "960",
+		"name_py": "maerdaifu",
+		"name_en": "Maldives",
+		"name_cn": "马尔代夫"
+	},
+	{
+		"code": "223",
+		"name_py": "shengmalinuo",
+		"name_en": "San Marino",
+		"name_cn": "圣马力诺"
+	},
+	{
+		"code": "223",
+		"name_py": "mali",
+		"name_en": "Mali",
+		"name_cn": "马里"
+	},
+	{
+		"code": "356",
+		"name_py": "maerta",
+		"name_en": "Malta",
+		"name_cn": "马耳他"
+	},
+	{
+		"code": "692",
+		"name_py": "mashaoequndao",
+		"name_en": "Marshall Islands",
+		"name_cn": "马绍尔群岛"
+	},
+	{
+		"code": "596",
+		"name_py": "matinike",
+		"name_en": "Martinique",
+		"name_cn": "马提尼克"
+	},
+	{
+		"code": "222",
+		"name_py": "maolitaniya",
+		"name_en": "Mauritania",
+		"name_cn": "毛里塔尼亚"
+	},
+	{
+		"code": "230",
+		"name_py": "maoliqiusi",
+		"name_en": "Mauritius",
+		"name_cn": "毛里求斯"
+	},
+	{
+		"code": "262",
+		"name_py": "liuniwangdao",
+		"name_en": "Mayotte",
+		"name_cn": "留尼旺岛"
+	},
+	{
+		"code": "262",
+		"name_py": "mayuete",
+		"name_en": "Mayotte",
+		"name_cn": "马约特"
+	},
+	{
+		"code": "52",
+		"name_py": "moxige",
+		"name_en": "Mexico",
+		"name_cn": "墨西哥"
+	},
+	{
+		"code": "691",
+		"name_py": "mikeluonixiyalianbang",
+		"name_en": "Micronesia",
+		"name_cn": "密克罗尼西亚联邦"
+	},
+	{
+		"code": "373",
+		"name_py": "moeduowa",
+		"name_en": "Moldova",
+		"name_cn": "摩尔多瓦"
+	},
+	{
+		"code": "377",
+		"name_py": "monage",
+		"name_en": "Monaco",
+		"name_cn": "摩纳哥"
+	},
+	{
+		"code": "976",
+		"name_py": "menggu",
+		"name_en": "Mongolia",
+		"name_cn": "蒙古"
+	},
+	{
+		"code": "382",
+		"name_py": "mengteneigeluo",
+		"name_en": "Montenegro",
+		"name_cn": "蒙特內哥羅"
+	},
+	{
+		"code": "1664",
+		"name_py": "mengsailatedao",
+		"name_en": "Montserrat",
+		"name_cn": "蒙塞拉特岛"
+	},
+	{
+		"code": "212",
+		"name_py": "moluoge",
+		"name_en": "Morocco",
+		"name_cn": "摩洛哥"
+	},
+	{
+		"code": "258",
+		"name_py": "mosangbike",
+		"name_en": "Mozambique",
+		"name_cn": "莫桑比克"
+	},
+	{
+		"code": "95",
+		"name_py": "miandian",
+		"name_en": "Myanmar",
+		"name_cn": "缅甸"
+	},
+	{
+		"code": "264",
+		"name_py": "namibiya",
+		"name_en": "Namibia",
+		"name_cn": "纳米比亚"
+	},
+	{
+		"code": "977",
+		"name_py": "niboe",
+		"name_en": "Nepal",
+		"name_cn": "尼泊尔"
+	},
+	{
+		"code": "31",
+		"name_py": "helan",
+		"name_en": "Netherlands",
+		"name_cn": "荷兰"
+	},
+	{
+		"code": "599",
+		"name_py": "hesuandeliesi",
+		"name_en": "Netherlands Antilles",
+		"name_cn": "荷属安的列斯"
+	},
+	{
+		"code": "687",
+		"name_py": "xinkaliduoniya",
+		"name_en": "New Caledonia",
+		"name_cn": "新喀里多尼亚"
+	},
+	{
+		"code": "64",
+		"name_py": "xinxilan",
+		"name_en": "New Zealand",
+		"name_cn": "新西兰"
+	},
+	{
+		"code": "505",
+		"name_py": "nijialagua",
+		"name_en": "Nicaragua",
+		"name_cn": "尼加拉瓜"
+	},
+	{
+		"code": "227",
+		"name_py": "nirier",
+		"name_en": "Niger",
+		"name_cn": "尼日尔"
+	},
+	{
+		"code": "234",
+		"name_py": "niriliya",
+		"name_en": "Nigeria",
+		"name_cn": "尼日利亚"
+	},
+	{
+		"code": "1670",
+		"name_py": "beimaliyanaquandao",
+		"name_en": "Northern Mariana Islands",
+		"name_cn": "北马里亚纳群岛"
+	},
+	{
+		"code": "47",
+		"name_py": "nuowei",
+		"name_en": "Norway",
+		"name_cn": "挪威"
+	},
+	{
+		"code": "968",
+		"name_py": "aman",
+		"name_en": "Oman",
+		"name_cn": "阿曼"
+	},
+	{
+		"code": "92",
+		"name_py": "bajisitan",
+		"name_en": "Pakistan",
+		"name_cn": "巴基斯坦"
+	},
+	{
+		"code": "680",
+		"name_py": "palao",
+		"name_en": "Palau",
+		"name_cn": "帕劳"
+	},
+	{
+		"code": "970",
+		"name_py": "balesitan",
+		"name_en": "Palestine",
+		"name_cn": "巴勒斯坦"
+	},
+	{
+		"code": "507",
+		"name_py": "banama",
+		"name_en": "Panama",
+		"name_cn": "巴拿马"
+	},
+	{
+		"code": "595",
+		"name_py": "balagui",
+		"name_en": "Paraguay",
+		"name_cn": "巴拉圭"
+	},
+	{
+		"code": "51",
+		"name_py": "bilu",
+		"name_en": "Peru",
+		"name_cn": "秘鲁"
+	},
+	{
+		"code": "63",
+		"name_py": "feilvbin",
+		"name_en": "Philippines",
+		"name_cn": "菲律宾"
+	},
+	{
+		"code": "48",
+		"name_py": "bolan",
+		"name_en": "Poland",
+		"name_cn": "波兰"
+	},
+	{
+		"code": "351",
+		"name_py": "putaoya",
+		"name_en": "Portugal",
+		"name_cn": "葡萄牙"
+	},
+	{
+		"code": "1787",
+		"name_py": "boduolige",
+		"name_en": "Puerto Rico",
+		"name_cn": "波多黎各"
+	},
+	{
+		"code": "974",
+		"name_py": "kataer",
+		"name_en": "Qatar",
+		"name_cn": "卡塔尔"
+	},
+	{
+		"code": "40",
+		"name_py": "luomaniya",
+		"name_en": "Romania",
+		"name_cn": "罗马尼亚"
+	},
+	{
+		"code": "7",
+		"name_py": "eluosi",
+		"name_en": "Russia/Kazakhstan",
+		"name_cn": "俄罗斯"
+	},
+	{
+		"code": "250",
+		"name_py": "luwangda",
+		"name_en": "Rwanda",
+		"name_cn": "卢旺达"
+	},
+	{
+		"code": "685",
+		"name_py": "xisamoya",
+		"name_en": "Samoa",
+		"name_cn": "西萨摩亚"
+	},
+	{
+		"code": "378",
+		"name_py": "shengmalinuo",
+		"name_en": "San Marino",
+		"name_cn": "圣马力诺"
+	},
+	{
+		"code": "966",
+		"name_py": "shatealabo",
+		"name_en": "Saudi Arabia",
+		"name_cn": "沙特阿拉伯"
+	},
+	{
+		"code": "221",
+		"name_py": "saineijiaer",
+		"name_en": "Senegal",
+		"name_cn": "塞内加尔"
+	},
+	{
+		"code": "381",
+		"name_py": "saierweiya",
+		"name_en": "Serbia",
+		"name_cn": "塞尔维亚"
+	},
+	{
+		"code": "248",
+		"name_py": "saishee",
+		"name_en": "Seychelles",
+		"name_cn": "塞舌尔"
+	},
+	{
+		"code": "232",
+		"name_py": "sailaliang",
+		"name_en": "Sierra Leone",
+		"name_cn": "塞拉利昂"
+	},
+	{
+		"code": "65",
+		"name_py": "xinjiapo",
+		"name_en": "Singapore",
+		"name_cn": "新加坡"
+	},
+	{
+		"code": "421",
+		"name_py": "siluofake",
+		"name_en": "Slovakia",
+		"name_cn": "斯洛伐克"
+	},
+	{
+		"code": "386",
+		"name_py": "siluoweiniya",
+		"name_en": "Slovenia",
+		"name_cn": "斯洛文尼亚"
+	},
+	{
+		"code": "252",
+		"name_py": "suomali",
+		"name_en": "Somalia",
+		"name_cn": "索马里"
+	},
+	{
+		"code": "27",
+		"name_py": "nanfei",
+		"name_en": "South Africa",
+		"name_cn": "南非"
+	},
+	{
+		"code": "34",
+		"name_py": "xibanya",
+		"name_en": "Spain",
+		"name_cn": "西班牙"
+	},
+	{
+		"code": "94",
+		"name_py": "sililanka",
+		"name_en": "Sri Lanka",
+		"name_cn": "斯里兰卡"
+	},
+	{
+		"code": "1869",
+		"name_py": "shengjiciheniweisi",
+		"name_en": "St Kitts and Nevis",
+		"name_cn": "圣基茨和尼维斯"
+	},
+	{
+		"code": "1758",
+		"name_py": "shengluxiya",
+		"name_en": "St Lucia",
+		"name_cn": "圣卢西亚"
+	},
+	{
+		"code": "508",
+		"name_py": "shengpiaierhemikeluoqundao",
+		"name_en": "St Pierre and Miquelon",
+		"name_cn": "圣皮埃尔和密克隆群岛"
+	},
+	{
+		"code": "1784",
+		"name_py": "shengwensentehegelinnadingsi",
+		"name_en": "St Vincent Grenadines",
+		"name_cn": "圣文森特和格林纳丁斯"
+	},
+	{
+		"code": "249",
+		"name_py": "sudan",
+		"name_en": "Sudan",
+		"name_cn": "苏丹"
+	},
+	{
+		"code": "597",
+		"name_py": "sulinan",
+		"name_en": "Suriname",
+		"name_cn": "苏里南"
+	},
+	{
+		"code": "268",
+		"name_py": "siweishilan",
+		"name_en": "Swaziland",
+		"name_cn": "斯威士兰"
+	},
+	{
+		"code": "46",
+		"name_py": "ruidian",
+		"name_en": "Sweden",
+		"name_cn": "瑞典"
+	},
+	{
+		"code": "41",
+		"name_py": "ruishi",
+		"name_en": "Switzerland",
+		"name_cn": "瑞士"
+	},
+	{
+		"code": "963",
+		"name_py": "xvliya",
+		"name_en": "Syria",
+		"name_cn": "叙利亚"
+	},
+	{
+		"code": "886",
+		"name_py": "zhongguotaiwan",
+		"name_en": "Taiwan",
+		"name_cn": "中国台湾"
+	},
+	{
+		"code": "992",
+		"name_py": "tajikesitan",
+		"name_en": "Tajikistan",
+		"name_cn": "塔吉克斯坦"
+	},
+	{
+		"code": "255",
+		"name_py": "tansangniya",
+		"name_en": "Tanzania",
+		"name_cn": "坦桑尼亚"
+	},
+	{
+		"code": "66",
+		"name_py": "taiguo",
+		"name_en": "Thailand",
+		"name_cn": "泰国"
+	},
+	{
+		"code": "228",
+		"name_py": "duoge",
+		"name_en": "Togo",
+		"name_cn": "多哥"
+	},
+	{
+		"code": "676",
+		"name_py": "tangjia",
+		"name_en": "Tonga",
+		"name_cn": "汤加"
+	},
+	{
+		"code": "1868",
+		"name_py": "tielinidajiduobage",
+		"name_en": "Trinidad and Tobago",
+		"name_cn": "特里尼达及多巴哥"
+	},
+	{
+		"code": "216",
+		"name_py": "tunisi",
+		"name_en": "Tunisia",
+		"name_cn": "突尼斯"
+	},
+	{
+		"code": "90",
+		"name_py": "tuerqi",
+		"name_en": "Turkey",
+		"name_cn": "土耳其"
+	},
+	{
+		"code": "993",
+		"name_py": "tukumansitan",
+		"name_en": "Turkmenistan",
+		"name_cn": "土库曼斯坦"
+	},
+	{
+		"code": "1649",
+		"name_py": "tesikehekaikesiqundao",
+		"name_en": "Turks and Caicos Islands",
+		"name_cn": "特克斯和凯科斯群岛"
+	},
+	{
+		"code": "688",
+		"name_py": "tuwalu",
+		"name_en": "Tuvalu",
+		"name_cn": "图瓦卢"
+	},
+	{
+		"code": "1340",
+		"name_py": "meisuweierjingqundao",
+		"name_en": "U.S. Virgin Islands",
+		"name_cn": "美属维尔京群岛"
+	},
+	{
+		"code": "256",
+		"name_py": "wuganda",
+		"name_en": "Uganda",
+		"name_cn": "乌干达"
+	},
+	{
+		"code": "380",
+		"name_py": "wukelan",
+		"name_en": "Ukraine",
+		"name_cn": "乌克兰"
+	},
+	{
+		"code": "971",
+		"name_py": "alabolianheqiuzhangguo",
+		"name_en": "United Arab Emirates",
+		"name_cn": "阿拉伯联合酋长国"
+	},
+	{
+		"code": "44",
+		"name_py": "yingguo",
+		"name_en": "United Kingdom",
+		"name_cn": "英国"
+	},
+	{
+		"code": "1",
+		"name_py": "meiguo",
+		"name_en": "United States",
+		"name_cn": "美国"
+	},
+	{
+		"code": "598",
+		"name_py": "wulagui",
+		"name_en": "Uruguay",
+		"name_cn": "乌拉圭"
+	},
+	{
+		"code": "998",
+		"name_py": "wuzibiekesitan",
+		"name_en": "Uzbekistan",
+		"name_cn": "乌兹别克斯坦"
+	},
+	{
+		"code": "379",
+		"name_py": "fandigang",
+		"name_en": "Vatican City",
+		"name_cn": "梵蒂冈"
+	},
+	{
+		"code": "58",
+		"name_py": "weiniruila",
+		"name_en": "Venezuela",
+		"name_cn": "委内瑞拉"
+	},
+	{
+		"code": "84",
+		"name_py": "yuenan",
+		"name_en": "Vietnam",
+		"name_cn": "越南"
+	},
+	{
+		"code": "212",
+		"name_py": "xisahala",
+		"name_en": "Western Sahara",
+		"name_cn": "西撒哈拉"
+	},
+	{
+		"code": "967",
+		"name_py": "yemen",
+		"name_en": "Yemen",
+		"name_cn": "也门"
+	},
+	{
+		"code": "260",
+		"name_py": "zanbiya",
+		"name_en": "Zambia",
+		"name_cn": "赞比亚"
+	}
+]
