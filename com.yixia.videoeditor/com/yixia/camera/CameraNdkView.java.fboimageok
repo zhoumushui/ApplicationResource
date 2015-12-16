@@ -1,0 +1,183 @@
+/*
+ * Copyright (C) 2009 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.yixia.camera;
+
+/*
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import io.vov.vitamio.EGL;
+
+import java.io.IOException;
+
+import javax.microedition.khronos.egl.EGLConfig;
+import javax.microedition.khronos.opengles.GL10;
+
+import android.content.Context;
+import android.graphics.SurfaceTexture;
+import android.hardware.Camera;
+import android.opengl.GLES11Ext;
+import android.opengl.GLES20;
+import android.opengl.GLSurfaceView;
+import android.util.AttributeSet;
+import android.util.Log;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+import android.view.SurfaceHolder.Callback;
+
+import com.yixia.videoeditor.adapter.UtilityAdapter;
+
+/**
+ * A simple GLSurfaceView sub-class that demonstrate how to perform OpenGL ES
+ * 2.0 rendering into a GL Surface. Note the following important details:
+ * 
+ * - The class must use a custom context factory to enable 2.0 rendering. See
+ * ContextFactory class definition below.
+ * 
+ * - The class must use a custom EGLConfigChooser to be able to select an
+ * EGLConfig that supports 2.0. This is done by providing a config specification
+ * to eglChooseConfig() that has the attribute EGL10.ELG_RENDERABLE_TYPE
+ * containing the EGL_OPENGL_ES2_BIT flag set. See ConfigChooser class
+ * definition below.
+ * 
+ * - The class must select the surface's format, then choose an EGLConfig that
+ * matches it exactly (with regards to red/green/blue/alpha channels bit
+ * depths). Failure to do so would result in an EGL_BAD_MATCH error.
+ */
+public class CameraNdkView extends SurfaceView implements SurfaceTexture.OnFrameAvailableListener, Callback, Runnable {
+	private static String TAG = "GL2JNIView";
+	private boolean updateSurface = false;
+	private boolean bKill = false;
+    private Camera mCamera = null;
+    private SurfaceTexture mSurface = null;
+    private EGL egl = null;
+    private Thread thread = null;
+	//private Renderer renderer;
+
+	public CameraNdkView(Context context) {
+		super(context);
+		init();
+	}
+
+	public CameraNdkView(Context context, AttributeSet attributeset) {
+		super(context, attributeset);
+		init();
+	}
+
+	public CameraNdkView(Context context, boolean translucent, int depth,
+			int stencil) {
+		super(context);
+		init();
+	}
+
+	private void init() {
+		getHolder().addCallback(this);
+	}
+
+	public void setCamera(Camera cam) {
+    	mCamera = cam;
+    }
+	public void setDisplayRatio(int iw, int ih, int ow, int oh) {
+		this.getHolder().setFixedSize(ow, oh);
+		this.setRotationX(((float) ow / oh) / ((float)iw /ih));
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+    	egl = new EGL();
+    	egl.initialize(getHolder());
+		int textureId = UtilityAdapter.RenderViewInit(0, 0);
+        mSurface = new SurfaceTexture(textureId);
+        mSurface.setOnFrameAvailableListener(this);
+        if (mCamera != null) {
+	        try {
+	            mCamera.setPreviewTexture(mSurface);
+	        } catch (IOException t) {
+	            Log.e(TAG, "Cannot set preview texture target!");
+	        }
+        }
+		synchronized(this) {
+            updateSurface = false;
+        }
+
+    	while(!bKill){
+    		Log.e("dew","draw process");
+            if (updateSurface) {
+            	//GLES20.glBindTexture(GLES11Ext.GL_TEXTURE_EXTERNAL_OES, textureId);
+            	mSurface.updateTexImage();
+//				float[] mtx = new float[16];
+//				mSurface.getTransformMatrix(mtx);
+//				Matrix.setIdentityM(mtx, 0);
+//				Matrix.rotateM(mtx, 0, 90.0f, 0.0f, 0.0f, 1.0f);
+//				for(int i=0;i<16;i++) {
+//					Log.e("test",mtx[i]);
+//				}
+//				GLES20.glUniformMatrix4fv(maMatrixHandle, 1, false, mtx, 0);
+                updateSurface = false;
+                UtilityAdapter.RenderStep();
+                egl.swap();
+            }
+            try {
+				Thread.sleep(20);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+        }
+    	thread = null;
+	}
+
+	@Override
+	public void surfaceChanged(SurfaceHolder arg0, int arg1, int arg2, int arg3) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void surfaceCreated(SurfaceHolder holder) {
+		// TODO Auto-generated method stub
+		thread = new Thread(this);
+		bKill = false;
+		thread.start();
+	}
+
+	@Override
+	public void surfaceDestroyed(SurfaceHolder holder) {
+		// TODO Auto-generated method stub
+		bKill = true;
+		
+	}
+
+	@Override
+	synchronized public void onFrameAvailable(SurfaceTexture arg0) {
+		// TODO Auto-generated method stub
+		updateSurface = true;
+	}
+}
