@@ -1,0 +1,64 @@
+<style>
+		.table1 {border:1px #617cac solid;background-color:#fafbff;}
+		.button1 {background-image:url(local:blueButton.png);color:#ffffff;width:146px;font-size:22px;}
+		button:active {background-color:#4a4a4a;font-size:20px;}
+		select{font-size:20px;background-color:#adbdcd;border:1px #aeafb3 solid;height:100px;color:#353536;font-weight:bold;text-align:center;}
+		.input1 {width:130px; font-size: 15px; color:#393939;}.label-style1 {font-size:14px; color:#ff5a00;}
+		.label-style2 {font-size:15px; color:#393939; right:1px;}
+	</style>
+	<img src="ewp_app_logo"></img>
+	<form action="http://devtr.lightpole.net:3000/phone_s/getuc">
+		<input type="hidden" name="ewp_cookie" value="_session_id=1caa17bd95654a0d63ed06d6d34dc2db"></input>
+		<input type="hidden" name="ewp_session_key" value="d289woWVOaJaH9Ece5tuHA=="></input>
+		<input type="hidden" name="channelType" value="UMP" ></input>
+		<label class='label-style1'>如果您之前注册过，请填写同样的注册信息，以确保我们的系统为您返回原有账户信息!</label>
+		<br/>
+		<label class='label-style1'>首次登录注册信息验证</label>
+		<br/>
+		<table styleIndex='3' class='table1'>
+			<tr>
+				<td>
+					<label class='label-style2'>姓名：</label>
+				</td>
+				<td>
+					<input class='input1' type="text"  name="userName" style="-wap-input-required: 'true'"  minleng='2' maxleng='30'></input>
+				</td>
+			</tr>
+			<tr accessory='inclu_select://certType'>
+				<td>
+					<label class='label-style2'>证件类型：</label>
+				</td>
+				<td>
+					<select name='certType' styleIndex='4'>
+						<option value='NI'>身份证</option>
+						<option value='PP'>护照</option>
+						<option value='ID'>其它</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label class='label-style2'>证件号：</label>
+				</td>
+				<td>
+					<input class='input1' type="text"  name="certNo" style="-wap-input-required: 'true'"  maxleng='20'></input>
+				</td>
+			</tr>
+			<tr>
+
+				<td>
+					<input class='input1' type="text"  name="phoneNo" style="-wap-input-format: 'phone'; -wap-input-required: 'true'"  minleng='11' maxleng='11'></input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label class='label-style2'>东方万里行卡：</label>
+				</td>
+				<td>
+					<input class='input1' type="text"  name="mileageCard" maxleng='20'></input>
+				</td>
+			</tr>
+		</table>
+		<input class='button1' styleIndex='6' type="submit" name='ewp_login_app' value="提交"/>
+		<input  class='button1' styleIndex='6' type="button" name='ewp_close_app' value="退出"/>
+	</form>
