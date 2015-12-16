@@ -1,0 +1,232 @@
+{
+pomodoro_succeed_card: [
+{
+title: "获得番茄学霸卡",
+content: "使用「番茄工作法」学习{time_thistime}，高效专注，绝对的学霸！",
+pic: "http://staticp.iamxueba.com/card/xueba.jpg",
+sns: "q"
+}
+],
+study_failed_card: [
+{
+title: "获得不乖卡",
+content: "我做了对不起父母、家人的事…没有好好学习！",
+pic: "http://staticp.iamxueba.com/card/buguai.jpg",
+sns: "q"
+},
+{
+title: "获得求鄙视卡",
+content: "又管不住自己玩手机，求鄙视！",
+pic: "http://staticp.iamxueba.com/card/qiubishi.jpg",
+sns: "q"
+},
+{
+title: "获得悔恨卡",
+content: "一玩手机深似海，从此学霸是路人。我好恨！",
+pic: "http://staticp.iamxueba.com/card/huihen.jpg",
+sns: "q"
+},
+{
+title: "获得真爱卡",
+content: "我爱你，你却爱学习。",
+pic: "http://staticp.iamxueba.com/card/ai.jpg",
+sns: "q"
+},
+{
+title: "获得人丑就该多读书卡",
+content: "如题。",
+pic: "http://staticp.iamxueba.com/card/chou.jpg",
+sns: "q"
+},
+{
+title: "获得矮穷挫卡",
+content: "照照镜子，努力学习才有出路。",
+pic: "http://staticp.iamxueba.com/card/aiqiongcuo.jpg",
+sns: "q"
+},
+{
+title: "获得呵呵卡",
+content: "你也配当学霸？呵呵，呵呵。",
+pic: "http://staticp.iamxueba.com/card/hehe.jpg",
+sns: "q"
+},
+{
+title: "获得傲娇卡",
+content: "小爷我学不下去了！爱谁谁吧！",
+pic: "http://staticp.iamxueba.com/card/aojiao.jpg",
+sns: "q"
+},
+{
+title: "获得傲娇卡",
+content: "老娘学不下去了！烧死我吧！",
+pic: "http://staticp.iamxueba.com/card/aojiao.jpg",
+sns: "q"
+},
+{
+title: "获得单恋卡",
+content: "爱上一只学霸，可惜我是个学渣。",
+pic: "http://staticp.iamxueba.com/card/danlian.jpg",
+sns: "q"
+},
+{
+title: "获得备胎卡",
+content: "学渣只能当备胎。",
+pic: "http://staticp.iamxueba.com/card/beitai.jpg",
+sns: "q"
+},
+{
+title: "获得偷看卡",
+content: "偷看了男友的短信，已无心学习…",
+pic: "http://staticp.iamxueba.com/card/toukan.jpg",
+sns: "q"
+},
+{
+title: "获得请客卡",
+content: "我在学习的时候玩手机，为了惩罚自己决定请大家吃饭！",
+pic: "http://staticp.iamxueba.com/card/qingke.jpg",
+sns: "q"
+},
+{
+title: "获得好人卡",
+content: "我是个好人，只是没法打动热爱学习的你。",
+pic: "http://staticp.iamxueba.com/card/haoren.jpg",
+sns: "q"
+},
+{
+title: "获得二货卡",
+content: "你个二货永远成不了学霸！",
+pic: "http://staticp.iamxueba.com/card/erhuo.jpg",
+sns: "q"
+},
+{
+title: "获得屌丝卡",
+content: "好好学习才能逆袭。",
+pic: "http://staticp.iamxueba.com/card/diaosi.jpg",
+sns: "q"
+},
+{
+title: "获得相思卡",
+content: "在自习，可是忍不住想男神。",
+pic: "http://staticp.iamxueba.com/card/xiangsi.jpg",
+sns: "q"
+},
+{
+title: "获得相思卡",
+content: "在自习，可是忍不住想女神。",
+pic: "http://staticp.iamxueba.com/card/xiangsi.jpg",
+sns: "q"
+},
+{
+title: "获得剁手卡",
+content: "再玩手机就剁手，求监督。",
+pic: "http://staticp.iamxueba.com/card/duoshou.jpg",
+sns: "q"
+},
+{
+title: "获得手贱卡",
+content: "手贱又去玩手机，恨自己！",
+pic: "http://staticp.iamxueba.com/card/shoujian.jpg",
+sns: "q"
+},
+{
+title: "获得单身卡",
+content: "不好好学习，一辈子单身。",
+pic: "http://staticp.iamxueba.com/card/danshen.jpg",
+sns: "q"
+},
+{
+title: "获得学渣卡",
+content: "我是学渣，孤独一生，没人疼没人爱。",
+pic: "http://staticp.iamxueba.com/card/xuezha.jpg",
+sns: "q"
+}
+],
+sleep_failed_card: [
+{
+title: "获得真爱卡",
+content: "好像坠入爱河了，睡不着，怎么办…",
+pic: "http://staticp.iamxueba.com/card/ai.jpg",
+sns: "q"
+},
+{
+title: "获得偷看卡",
+content: "偷看了男友的短信，睡不着了。",
+pic: "http://staticp.iamxueba.com/card/toukan.jpg",
+sns: "q"
+},
+{
+title: "获得失恋卡",
+content: "失恋了，睡不着。",
+pic: "http://staticp.iamxueba.com/card/shilian.jpg",
+sns: "q"
+},
+{
+title: "获得单恋卡",
+content: "睡不着，喜欢上了一个人。",
+pic: "http://staticp.iamxueba.com/card/danlian.jpg",
+sns: "q"
+},
+{
+title: "获得求鄙视卡",
+content: "早睡早起计划又失败了，求鄙视！",
+pic: "http://staticp.iamxueba.com/card/qiubishi.jpg",
+sns: "q"
+},
+{
+title: "获得求鄙视卡",
+content: "连早睡早起都做不到，鄙视我自己！",
+pic: "http://staticp.iamxueba.com/card/qiubishi.jpg",
+sns: "q"
+},
+{
+title: "获得请客卡",
+content: "早睡计划失败，为了惩罚自己决定请大家吃饭！",
+pic: "http://staticp.iamxueba.com/card/qingke.jpg",
+sns: "q"
+},
+{
+title: "获得相思卡",
+content: "男神一直不理我，睡不着睡不着睡不着。",
+pic: "http://staticp.iamxueba.com/card/xiangsi.jpg",
+sns: "q"
+},
+{
+title: "获得相思卡",
+content: "在等女神回复，不能早睡了。",
+pic: "http://staticp.iamxueba.com/card/xiangsi.jpg",
+sns: "q"
+},
+{
+title: "获得寂寞卡",
+content: "寂寞难耐，无心睡眠。",
+pic: "http://staticp.iamxueba.com/card/jimo.jpg",
+sns: "q"
+},
+{
+title: "获得拖延症卡",
+content: "拖延症晚期，死都不肯早睡。",
+pic: "http://staticp.iamxueba.com/card/tuoyanzheng.jpg",
+sns: "q"
+},
+{
+title: "获得吃货卡",
+content: "吃太多，撑得睡不着。",
+pic: "http://staticp.iamxueba.com/card/chihuo.jpg",
+sns: "q"
+}
+],
+study_succeed_card: [
+{
+title: "获得学霸卡",
+content: "专心学习{time_thistime}，绝对的学霸！",
+pic: "http://staticp.iamxueba.com/card/xueba.jpg",
+sns: "q"
+},
+{
+title: "获得学霸卡",
+content: "专心学习{time_thistime}，没有动手机一下，绝对的学霸！",
+pic: "http://staticp.iamxueba.com/card/xueba.jpg",
+sns: "q"
+}
+]
+}

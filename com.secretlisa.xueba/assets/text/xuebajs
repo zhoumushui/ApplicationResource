@@ -1,0 +1,8 @@
+javascript:
+	if(!window.xueba){
+		window.xueba = {
+			openMenu:function(){
+				return prompt('xueba://openMenu');
+			},
+		};
+	}
