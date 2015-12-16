@@ -1,0 +1,8 @@
+!!!!!NOTE!!!!!
+
+
+All this JSON classes under this package is USED and ONLY USED when user upgrade old zebra app version(version <= 1.2), otherwise, please use
+Android default JSON classes under package: org.json.*.
+
+Yonnie
+2013-06-26

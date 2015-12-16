@@ -1,0 +1,49 @@
+/*
+ * 名称: 水印相机 黄钻相关服务
+ * (c) Copyright 2014 Tencent.com. All Rights Reserved.
+ *
+ * 注意: 务必和CommClientInterface.jce配合使用
+ *
+ * 技术接口人:
+ * 1. williamfqwu
+ * 2. jianghongwu
+ *
+ * 版本变更:
+ * 1.20140208 williamfqwu新建
+ * 1.20140220 williamfqwu修改部分字段
+ * 
+ * 
+ * 
+ */
+
+module QZVipClientInterface
+{ 
+  // Datastructures
+  struct stQZVipInfo{
+    0  require  string uin;                      // 用户QQ号
+    1  require  string nickName;                 // 用户昵称
+    2  require  map<int, string> avatarUrls;     // 用户头像的url map，index 为头像的大小
+    3  require  bool   isYDVip = false;          // 是否是黄钻用户
+    4  require  int    ydLevel = 0;              // 黄钻等级
+    5  optional bool   isSupportOpenQzVip = false; // 是否显示开通黄钻的按钮
+  };
+  
+  struct stQZVipPayMenuItem{
+    0  require  string id;                       // 支付选项的ID，在iOS中对应apple id
+    1  require  string refName;                  // 支付显示名
+    2  require  string productId;                // procuct id
+    3  require  int    openMonth;                // open month    
+    4  require  string type;                     // type
+    5  require  double price = 0.0;              // 价格
+  };
+  
+  struct stQueryQZVipInfoRsp{
+    0  require  stQZVipInfo vipInfo;             // 用户Qzone 信息
+  };
+  
+  struct stQueryQZVipPayMenuRsp{
+    0  require  vector<stQZVipPayMenuItem> payMenu; // Qzone 黄钻支付信息
+  };
+ 
+  
+};

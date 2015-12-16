@@ -1,0 +1,176 @@
+/*
+ * 名称: 水印相机 水印库APP接口
+ * (c) Copyright 2013 Tencent.com. All Rights Reserved.
+ *
+ * 注意: 务必和CommClientInterface.jce配合使用
+ *
+ * 技术接口人:
+ * 1. williamfqwu
+ * 2. jianghongwu
+ *
+ * 版本变更:
+ * 1.20130712 新建
+ * 2.20130729 变更：修改闪屏返回，修改push输入参数，增加scene中的复杂element定义，恢复miniSupportVersion
+ * 3.20130730 变更：去除textResouce、scene以及shareText部分，改为直接下发xml
+ * 4.20130805 变更：添加stAD的version字段
+ * 5.20130812 变更：添加Android Push的keyname字段     
+ * 6.20130822 变更：增加新接口GetpicUrlByKeys
+ * 7.20131015 变更：修改水印接口，增加本地水印和二维码等运营水印的数据返回。
+ * 8.20131105 变更：修改水印库协议，添加水印增加和广告更改标志位拉取
+ * 9.20131219 变更：修改AD协议
+ * 10.20131223 变更：增加push字段，1227继续增加
+ */
+
+module WMDBClientInterface
+{ 
+  // Datastructures
+  struct stWatermark{
+    0  require  string id;                       // 水印 id
+    1  require  string name;                     // 水印名（中文）
+    2  require  string categoryId;               // 类别名
+    3  require  string thumbUrl;                 // 缩略图url
+    4  require  string packageUrl4Android;       // android水印包url
+    5  require  string packageUrl4iPhone;        // iPhone水印包url
+    6  require  int    miniSupportVersion = 0;   // 支持这个水印的最低版本号
+    8  require  int    mask = 1;                 // 水印掩码，用于标示水印权限如，000001为普通水印，0000010为黄钻水印
+    9  require  int    version = 1;              // 水印版本号
+    10 require  int    priority = 1;             // 水印优先级，用于排序
+  };
+  
+  struct stCategory{
+    0  require  string id;                       // 类别 id
+    1  require  string name;                     // 类别名（中文）
+    2  require  string iconUrl;                  // 类别对应的icon url
+    3  require  string iconSelectedUrl;          // 类别icon选中之后的url
+    4  require  int    priority = 1;             // 类别优先级，用于排序
+  };
+  
+  struct stWMResource{
+    0  require  string wmId;                     // 所属的水印 id
+    1  require  bool   isEncrypted = true;       // 是否加密（默认加密！）
+    2  require  int    version = 1;              // xml资源版本，
+                                                 // 注意！使用的时候要和本地已经下载的资源版本做比对，只有在版本提升的时候才重新下载更新。
+                                                
+    3  require  string xmlResUrl;                // xml资源下载路径
+  };
+  
+  struct stFlashScreen{
+    0  require  string id;                       // 闪屏 id Android：hdpi,xhdpi。 iOS：1x, 2x, 568
+    1  require  string furl;                     // 闪屏url
+    2  require  string bgtime;                   // 开始时间，默认值为0000-00-00 00:00:00
+    3  require  string edtime;                   // 结束时间，默认值为0000-00-00 00:00:00    
+  };
+  
+  struct stAndroidPush{
+    0  require  string content;                  // push推送语
+    1  require  int    mode;                     // 0 代表推送新水印，1 代表推送新场景
+    2  require  string wmId;                     // 水印ID
+    3  require  string sceneId;                  // 场景ID
+    4  optional string keyname;                  // keyname
+    5  optional string guidePicUrl;              // push引导页面底图的url
+    6  optional string guideTitle;               // push引导页title内容
+    7  optional string guideContent;             // push引导页content内容
+  };
+  
+  struct stAD{
+    0  require  int    appid;                    // APPID
+    1  require  int    positionId;               // 广告位ID，Banner广告位为1，倒数第二屏水印广告位为2，最后一屏广告位为3，取景框按钮广告为4，手空独立版常驻入口为5，手空水印相机+号入口为,6，说说+号入口为7
+    2  require  int    mode;                     // 每个广告位的模式
+                                                 // Banner广告位对应的mode：1.独立版广告，2.水印广告，3.其他广告（弹出窗口）；取景框广告位mode：1. 代表点击后显示广告，2. 代表立即显示广告；
+                                                 //入口广告：mode 1表示每次都弹，mode 2表示只弹一次，mode 3表示一天一次
+    3  require  bool   isUpdated;                // 当前position广告是否已经更新
+    4  require  int    onOff;                    // 广告开关：0为关，1为开
+    5  require  string coverUrl;                 // 广告封面url，    
+    6  require  string title;                    // 广告title, 取景框按钮广告的时候代表button的图片url
+    7  require  string content;                  // 广告内容
+    8  optional string wmId;                     // 水印广告模式下的水印ID
+    9  optional string wmPackageUrl;             // 水印包的链接, 取景框按钮广告的时候代表webview url
+    10 optional string packageUrl;               // 独立版广告模式下代表安装包url，手空+号入口代表下载链接
+    11 optional int    packageVersion;           // 独立版广告模式下代表安装包版本号
+    12 optional int    version;                  // 该广告位广告版本号
+  };
+
+  
+  struct stOpDataItem{   // 需服务器下发的一些运营需求。打开第一个显示的水印等
+    0  require  string wmId;                     // 运营水印ID
+    1  require  string sceneId;                  // 运营场景ID 
+    2  require  int    mask = 0;                 // 运营掩码，第一位为1代表是打开水印相机需要第一个显示的水印（0000001）
+    3  require  string bgtime;                   // 开始时间，默认值为0000-00-00 00:00:00
+    4  require  string edtime;                   // 结束时间，默认值为0000-00-00 00:00:00
+  };
+    
+  struct stVersions{  
+    0  require  int watermarkVersion;            // online水印版本号
+    1  require  int wmResourceVersion;           // 水印资源总版本号
+    2  require  int flashSceenVersion;           // 闪屏版本号
+    3  require  int androidPushVersion;          // andorid推送版本号
+    4  require  int adVersion;                   // 广告版本号
+    5  require  int opVersion;                   // 运营数据版本号
+    6  optional int watermarkVersionInt;         // internal水印版本号
+    7  optional int watermarkVersionAdv;         // 用于二维码等渠道传播的advertising水印版本号
+  };
+  
+  struct stReturns{   // 每个子请求的返回值， 0代表成功但是无数据， 1代表成功并有数据返回， -1代表异常
+    0  require  int retWatermark    = 0;
+    1  require  int retWMResource   = 0;
+    2  require  int retFlashScreen  = 0;
+    3  require  int retAndroidPush  = 0;
+    4  require  int retAD           = 0;
+    5  require  int retOperation    = 0;
+    6  optional int retWatermarkInt = 0;
+    7  optional int retWatermarkAdv = 0;
+  };
+  
+  struct stWMDBCombinReq{
+    0  require  stVersions versions;             // 当前的版本号
+                                                 // 使用说明：服务器会根据客户端发送的当前版本号去返回指定数据，
+                                                 // 如果第一次访问（安装后第一次打开）请将所有版本号置0。如果想强制 不 刷新某个数据，请将指定版本号置为-1
+    1  require  int        richFlagMask = 1;     // 用户的特权mask，定义和水印中的mask定义相同
+    2  require  string     flashId;              // 闪屏ID，定义见stFlashScreen
+  };
+  
+  struct stWMDBCombinRsp{
+    0  require  stVersions curVersions;          // 最新版本号
+    1  require  stReturns retures;               // 各类型数据返回状态
+    2  require  vector<stWatermark>  watermarks; // 水印数据
+    3  require  vector<stCategory>   categories; // 类别数据，属于水印数据
+    4  require  vector<stWMResource> wmResources;// 水印的XML资源
+    5  require  stFlashScreen        flashScreen;// 闪屏
+    6  require  stAndroidPush        androidPush;// Android水印和场景推送数据
+    7  require  vector<stAD>         ads;        // 广告
+    8  require  vector<stOpDataItem> opData;     // 需要服务器下发的运营指令
+    9  optional vector<stWatermark>  watermarksInt; // 本地水印数据
+    10 optional vector<stWatermark>  watermarksAdv; // 用于二维码等渠道传播的广告水印数据
+  };
+ 
+  struct stWMDBAndroidPushReq{
+    0  require  int pushVersion;                 // 当前的push版本号
+    1  require  int richFlagMask = 1;            // 用户的特权mask，定义和水印中的mask定义相同
+    2  optional string province;                 // 根据地理位置推送
+    3  optional string city;                     // 根据地理位置推送
+  };
+
+  struct stWMDBAndroidPushRsp{
+    0  require  int curPushVersion;              // 当前的push版本号
+    1  require  int retAndroidPush = 0;          // 返回码0代表正常返回，但是没有push数据，1代表有push数据，负值代表出错
+    2  require  stAndroidPush androidPush;       // Android水印和场景推送数据
+  };
+  
+  struct stGetPicUrlByKeysReq{
+    0  require  map<string, string> keys;        // 查找URL的关键字及值
+  };
+
+  struct stGetPicUrlByKeysRsp{
+    0  require  string picUrl;                   // 当前的push版本号
+  };
+  
+  struct stGetChangeFlagReq{
+    0  require  int changeVersion;               // 当前的小黄点版本号
+  };
+  
+  struct stGetChangeFlagRsp{
+    0  require  int changeFlag;                  // 小黄点变更标志位，0代表无变更，1代表有变更
+    1  require  int curChangeVersion;            // 当前的小黄点版本号
+  };
+  
+};

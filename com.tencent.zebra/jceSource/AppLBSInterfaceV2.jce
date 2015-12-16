@@ -1,0 +1,335 @@
+/*
+ * 名称: TR LBS移动app定义文件
+ * (c) Copyright 2013 stevenrao@tencent.com. All Rights Reserved.
+ *
+ * 注意: 务必和CommClientInterface.jce配合使用 
+ *
+ * 技术接口人:
+ * 1. williamfqwu (20130605)
+ *
+ * 版本变更:
+ * 1.20130605  第二版新接口
+ * 2.20130702  增加天气预报和天气预警信息
+ * 3.20130807  天气请求里添加天气预报天数字段 jiang
+ */
+
+module LBSClientInterfaceV2
+{
+
+    enum ERRCODE
+    {
+        ERR_SUCCESS    = 0,       //成功
+        ERR_DECODE     = -22201,  //协议解包失败
+        ERR_CMD        = -22202,  //错误协议命令字
+        ERR_PARAM      = -22203,  //错误打包参数
+        ERR_TIMEOUT    = -22204,  //超时错误
+        ERR_SERVER     = -22205,  //server逻辑错误
+        ERR_L5         = -22206,  //获取L5失败
+        ERR_LOCATE     = -22207,  //客户端定位精确度为-1（定位失败）
+        ERR_NO_DATA    = -22208,  //定位成功但是数据是空的
+        ERR_WEATHER    = -22209,  //取天气失败
+        ERR_UNPACK     = -22212,  //后端解包失败
+        ERR_PACK       = -22213,  //后端打包失败
+    };
+
+
+    enum GPSTYPE
+    {
+        GPS_WGS84  = 0,    // WGS-84系统的坐标(一般手机硬件读到数值的是该系统)
+        GPS_MARS   = 1,    // 火星坐标(按保密局要求加扰后的坐标，// 用于国内地图展示或POI相对位置处理等)
+        GPS_WGS_REAL  = 2  // 确认输入为硬件读出来的GPS，而不是像iphone或android自己使用cell,wifi定位的数值
+    };
+    
+
+    // 1.以下经度、纬度数值均为标准经纬度
+    // 2.默认值为非法值,表示该无该字段属性
+    struct stGPS
+    {
+        0 require double fLat = 900.0; // 纬度
+        1 require double fLon = 900.0; // 经度
+        2 require int    iAlt = -10000000; // 海拨
+        3 require int    eType= 2;         // = GPS_WGS84; // 如果是SDK返回使用GPS_MARS
+    };
+
+    // 这里是一级分类，便于程序使用。
+    // 二级、三级分类由于条数太多，需要的请向stevenrao索取详细文件
+    // 接口输入的“接受分类”属性可以输入任意级别的分类
+    enum POITYPE
+    {
+        POI_FOOD     = 100000, // 餐饮酒楼
+        POI_ORG      = 120000, // 机构团体
+        POI_SHOPPING = 130000, // 购物
+        POI_SERVICE  = 140000, // 生活服务
+        POI_ENTM     = 160000, // 休闲娱乐
+        POI_CULTURE  = 170000, // 教育学校,文化场馆
+        POI_HEALTH   = 200000, // 医疗保健
+        POI_HOTEL    = 210000, // 酒店宾馆
+        POI_TOUR     = 220000, // 旅游景点
+        POI_PLACE    = 260000, // 地名地址
+        POI_INFRA    = 270000, // 交通设施
+        POI_WORK     = 280000  // 办公
+    };
+    
+    //排序类型
+    enum SORTTYPE
+    {
+        NEAR_POI     = 1,    //按距离排序
+        HOT_POI      = 2,    //按热点排序，建议
+    };
+    
+    //天气
+    enum WEATHER
+    {
+        DEFAULT = -1,     //默认
+        SUNSHINE = 0,     //晴
+        CLOUDY,           //多云
+        OVERCAST,         //阴
+        RAINY,            //雨
+        SNOW,             //雪
+        FOG,              //雾
+        RAINANDSNOW,      //雨夹雪
+        THUNDERSHOWER,    //雷阵雨
+        SAND,             //沙 
+        WIND,             //风
+    };
+    enum WIND_DIRECTION
+    {
+        NO_WIND = 0,      //无风
+        EAST_NORTH,       //东北
+        EAST,             //东
+        EAST_SOUTH,       //东南
+        SOUTH,            //南
+        WEST_SOUTH,       //西南
+        WEST,             //西
+        WEST_NORTH,       //西北
+        NORTH,            //北
+        UNCERTAINTY,      //旋转不定
+    };
+    
+    struct Date
+    {
+        0 require short _year; // 年
+        1 require short _mon;  // 月
+        2 require short _day;  // 日
+    };
+    
+    struct stPoiInfo
+    {
+        0 require string   strPoiId;         // poiID
+        1 require string   strName;          // poi名称
+        2 require int      iType;            // POI 类型
+        3 require string   strTypeName;      // 类型名称
+        4 require string   strAddress;       // poi地址
+        5 require int      iDistrictCode=0;  // 行政区划编码，与身份证号前6位意义相同
+        6 require stGPS    stGps;            // 定位的gps坐标
+        7 require int      iDistance;        // 离输入点距离,单位:米
+        8 optional int     iHotValue = 0;    // 热度值
+        9 optional string  strPhone;         // 电话
+        10 optional string  strCountry;      // 国家
+        11 optional string  strProvince;     // 省、直辖市、自治区、特别行政区
+        12 optional string  strCity;         // 地区、地级市、自治州、盟
+        13 optional int     sorttype = 1;    // 排序类型
+    };
+    
+    
+    //---------------------------------------------
+    // 搜索POI列表
+    //
+    // 说明:
+    // 1.查询条件可以是具体GPS坐标，也可以是城市ID+关键字，也可以是网关IP加关键字
+    // 2.支持分页
+    // 3.支持按POI类型检索
+    //---------------------------------------------
+    struct stGetPoiInfoReq
+    {
+        0 require stGPS      stGps;              // 定位的gps坐标
+        1 require string     strClientIP;        // 根据网关IP搜索
+        2 require string     strKeyWord  = "";   // 带关键字搜索
+        3 require int        iDistance  = 100;   // 查找范围半径,单位m，范围(50,500]
+        4 require int        iPage    = 1;       // 需要请求的页码，起始为1(翻页使用)
+        5 require int        iNum    = 30;       // 希望返回至多POI的数量
+        6 optional int       iAccuracy  = 0;     // 精度，单位m；如果获取不到数据，这里填-1上报后台
+        7 optional int       iLocateCostTime = 0;  // 获取这个精度需要时间，单位ms
+    };
+
+    struct stGetPoiInfoRsp
+    {
+        0 require vector<stPoiInfo> vPoiList; //POI列表
+        1 optional int              iTotalNum;//POI总数 
+    };
+   
+
+    //---------------------------------------------
+    // 查询地理位置信息
+    //
+    // 说明:
+    // 根据坐标或网关IP查询地理位置
+    // 
+    // 
+    //--------------------------------------------
+    struct stGeoInfo
+    {
+        0 require int     iDistrictCode=0;// 行政区号(像身份证号前6位)
+        1 require int     iRange = -1;    // 定位的精确度，-1表示无此信息, 单位:m
+        2 require string  strCountry;     // 国家
+        3 require string  strProvince;    // 省、直辖市、自治区、特别行政区
+        4 require string  strCity;        // 地区、地级市、自治州、盟
+        5 require string  strDistrict;    // 县级市、自治县、旗、自治旗、特区、林区，以及市辖区
+        6 require string  strTown;        // 乡、镇、民族乡、街道
+        7 require string  strVillage;     // 村
+        8 require string  strRoad;        // 路,街道
+        9 require string  strDisplayName; // 显示名称
+    };
+    
+    struct stGetPositionReq
+    {
+        0 require  stGPS    stGps;             // 定位的gps坐标
+        1 require  string   strClientIP;       // 根据网关IP搜索
+        2 optional int    iAccuracy = 0;       // 精度，单位m；如果获取不到数据，这里填-1上报后台
+        3 optional int    iLocateCostTime = 0; // 获取这个坐标精度需要时间，单位ms  
+    };
+    
+    struct stGetPositionRsp
+    {
+        0 require stGPS     stUsrLoc;          // 用户的坐标,火星坐标,可用于在google地图与soso地图上准确显示
+        1 require stGeoInfo stGeoInfo;         // 位置信息  
+    };
+    
+      // 天气预报信息
+    struct ForecastInfo
+    {
+        0 require Date _date;   // 日期
+        1 require string _bwea; // 白天天气
+        2 require string _ewea; // 晚间天气
+        3 require string _bwd;  // 白天风向
+        4 require string _ewd;  // 晚间风向
+        5 require string _bws;  // 白天风力
+        6 require string _ews;  // 晚间风力
+        7 require short _tmax;  // 最高温
+        8 require short _tmin;  // 最低温
+        9 require string _ct;     // 穿衣指数详情
+        10 require string _ct_n;  // 穿衣指数
+        11 require string _co;    // 感冒指数详情
+        12 require string _co_n;  // 感冒指数
+        13 require string _cl;    // 晨练指数详情
+        14 require string _cl_n;  // 晨练指数
+        15 require string _gm;    // 感冒指数详情
+        16 require string _gm_n;  // 感冒指数
+        17 require string _ac;    // 空调开启指数详情
+        18 require string _ac_n;  // 空调开启指数
+        19 require string _xc;    // 洗车指数详情
+        20 require string _xc_n;  // 洗车指数
+        21 require string _ys;    // 雨伞指数详情
+        22 require string _ys_n;  // 雨伞指数
+        23 require string _pl;    // 污染条件指数详情
+        24 require string _pl_n;  // 污染条件指数
+        25 require string _pj;    // 啤酒指数详情
+        26 require string _pj_n;  // 啤酒指数
+        27 require string _ls;    // 晾晒指数详情
+        28 require string _ls_n;  // 晾晒指数
+        29 require string _tr;    // 旅游指数详情
+        30 require string _tr_n;  // 旅游指数
+        31 require string _gj;    // 逛街指数详情
+        32 require string _gj_n;  // 逛街指数
+        33 require string _uv;    // 紫外线强度指数详情
+        34 require string _uv_n;  // 紫外线强度指数
+        35 require string _zs;    // 中暑指数详情
+        36 require string _zs_n;  // 中暑指数
+        37 require string _bp;    // 不太清楚意义
+        38 require string _bp_n;  // 不太清楚意义
+    };
+    //预警信息
+    struct AlarmInfo
+    {
+        0 require unsigned int stationId;
+        1 require string stationName; //站点名称
+        2 require string signalType; //预警类型
+        3 require string signalLevel; //预警级别
+        4 require int issueTime; //发布时间
+        5 require int relieveTime; //缓解时间
+        6 require string issueContent; //预警内容
+        7 require float lon;
+        8 require float lat;
+        9 optional int signalTypeInt; //预警类型数值, 1-14分别代表道路结冰,暴雪,暴雨,冰雹,大风,大雾,高温,干旱,寒潮,雷电,霾,沙尘暴,霜冻,台风,0代表其他
+        10 optional int signalLevelInt; //预警级别数值，1-4分别代表蓝色,黄色,橙色,红色,0代表其他
+    };
+    
+    
+    //天气信息
+    struct stWeatherInfo
+    {
+        0 require int iRet;
+        1 require int iCityCode;              //城市编码  
+        2 require string strCityName;         //城市名称 
+        3 require string strDate;             //当天日期
+        4 require int iHour;                  //当天时间 
+        5 require int iWeather;               //天气   详细见WEATHER的定义
+        6 require int iWind;                  //风向   详细见WIND_DIRECTION的定义 
+        7 require int iTempCurr;              //时时温度 
+        8 require int iTempMax;               //当天最高温
+        9 require int iTempMin;               //当天最低温
+        10 require int iHumidity;             //当天湿度
+        11 optional string strSunriseTime;    //日出时间
+        12 optional string strSunsetTime;     //日落时间
+        13 optional string strPressure;       //大气压力
+        14 optional int iWindForce;           //风力               
+        15 optional string strDeviceName;     //设备名 
+        16 optional int iPM2p5;               //pm2.5
+        17 optional map<short, ForecastInfo> mapForecastInfo; // 更多的天气信息  key为0 1 2 3 4  0表示当天的天气 1表示明天 以此类推
+        18 optional map<string, AlarmInfo> mapAlarminfo; //预警信息 key为预警的类型
+    };
+    
+    struct stGetWeatherReq
+    {
+        0 require stGPS    stGps;             // 定位的gps坐标
+        1 require string   strClientIP;       // 根据网关IP搜
+        2 require string   strDate = "";      // 日期，默认不填为当天
+        3 optional int	   iForecastDay	= 0;  // 需要获取几天的天气预报  0表示不需要天气预报
+    };
+    
+    //天气信息
+    struct stGetWeatherRsp
+    {
+        0 require stWeatherInfo stWeather;    // Weather
+    };
+    
+    //---------------------------------------------
+    // 查询地理位置信息、POI信息和天气信息
+    //
+    // 说明:
+    // 根据坐标或网关IP查询地理位置、POI和天气
+    // 可以根据iMode来选择需要的功能 iMode=0表示获取Geo和Poi(兼容老的请求)
+    // 返回所有类型的POI
+    // 
+    //---------------------------------------------
+    struct stGetLbsCombinReq
+    {
+        0 require stGPS   stGps;               // 定位的gps坐标
+        1 require string  strClientIP;         // 根据网关IP搜索
+        2 require int     iReqNum      = 30;   // 希望返回至多POI的数量      
+        3 optional int    iAccuracy    = 0;    // 读取GPS()精度，单位m；如果获取不到数据，这里填-1上报后台
+        4 optional int    iLocateCostTime = 0; // 获取这个精度需要时间，单位ms
+        5 optional int		iForecastDay	= 0;   // 需要获取几天的天气预报  0表示不需要天气预报
+    };
+    
+    struct stGetLbsCombinRsp
+    {
+        0 require stGPS            stGps;      // 用户的火星坐标
+        1 require stGeoInfo        stPosition; // 用户的位置信息
+        2 require stGetPoiInfoRsp  stPoiInfo;  // 用户周边的
+        3 require stWeatherInfo    stWeather;  // 用户的天气信息
+    };
+
+    struct stAddPoiTraceReq
+    {
+        0 require  string  strPoiId = "";      // poiID
+        1 optional stGPS   stGps;              // 用户当前GPS
+    };
+
+    struct stAddPoiTraceRsp
+    {
+        0 require  int     iTotalNum;          // 该POI下签到总人数
+    };
+
+
+};

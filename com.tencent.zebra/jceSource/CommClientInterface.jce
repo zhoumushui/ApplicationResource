@@ -1,0 +1,80 @@
+/*
+ * 名称: COMMON jce request interface
+ * (c) Copyright 2013 stevenrao@tencent.com. All Rights Reserved.
+ *
+ * 技术接口人:
+ * 1. williamfqwu (20130603)
+ *
+ * 版本变更:
+ * 1.20130603 新建
+ */
+
+module CommonClientInterface
+{
+  ///////////////////////////////////////////////
+  //请求包公共段
+  ///////////////////////////////////////////////
+	struct stReqComm
+  {
+    0   require  int    iAppId;          // APPID,定义见E_APP_ID
+  	1   require  int    iPlat;           // Platform ID, 定义见E_PLATFORM_ID
+    2   require  string sAppVersion;     // APP版本
+    3   require  string sDeviceName;     // 设备名
+    4   require  string sOSVersion;      // 系统版本号
+    5   require  string sDeviceID;       // 设备唯一ID，如android填IMEI， IOS填deviceid
+          
+    6   optional int    iAuthType;       // 授权类型, 非登录态请求可不填写
+    7   optional string sUid;            // QQ号或其他，在可以获得qq号的时候请尽量填写，以便定位问题
+    8   optional string sSessionKey;     // Session key 非登录态请求可不填写
+     
+    9   optional string sReserved1;      // 预留使用
+    10  optional string sReserved2;      // 预留使用
+  };
+  
+  
+  enum E_APP_ID
+  {
+	  QQIMAGE_ANDROID	            = 1000,  // QQ影像 android
+	  QQIMAGE_IPHONE	            = 2000,  // QQ影像 iphone
+	  WATERMARK_CAMERA_ANDROID    = 1001,  // 水印相机 android
+	  WATERMARK_CAMERA_IPHONE     = 2001,  // 水印相机 iphone
+	  QQPLAYER_ANDROID            = 1002,  // QQ影音 android
+	  QQPLAYER_IPHONE             = 2002,  // QQ影音 iphone
+	  QZONE_ANDROID               = 1003,  // Qzone android
+	  QZONE_IPHONE                = 2003,  // Qzone iphone
+	  MOBILEQQ_ANDROID            = 1004,  // 手机qq android
+	  MOBILEQQ_IPHONE             = 2004,  // 手机qq iphone
+	  TTPIC_ANDROID				  = 1006,  // 天天P图 android
+	  TTPIC_IPHONE				  = 2006,  // 天天P图 iphone
+	  
+  };
+
+  enum E_PLATFORM_ID
+  {
+	  PLAT_ANDROID	            = 1,
+	  PLAT_IPHONE  	            = 2,
+	  PLAT_SYB                  = 3,
+	  PLAT_WINDOWSPHONE         = 4,	  
+	  
+	  PLAT_OTHER   	            = 10, 	  
+  };
+  
+  
+  
+  // 请求包头
+  struct stReqHeader
+  {
+    0  require  stReqComm reqComm;         // 公共请求头stReqComm
+    1  require  string    sApply;          // Apply String; 填写方法见文档
+    2  require  string    sCmd;            // CMD string; 填写方法见文档
+  };
+  
+  // 返回包头
+  struct stRspHeader
+  {
+    0  require  int       iRet;            // 返回状态。 0代表成功
+    1  require  string    sErrmsg;         // error message
+  };
+
+
+};
