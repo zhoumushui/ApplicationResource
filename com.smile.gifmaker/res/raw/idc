@@ -1,0 +1,38 @@
+{
+    "idc_list": {
+        "api": [
+            "180.186.38.200",
+            "101.251.217.210"
+        ],
+        "upload": [
+            "upload.gifshow.com",
+            "180.186.38.200",
+            "101.251.217.210"
+        ],
+        "ulog": [
+            "ulog.gifshow.com"
+        ],
+        "https": [
+            "180.186.38.200",
+            "101.251.217.210"
+        ]
+    },
+    "idc_backup": {
+        "api": [
+            "api.gifshow.com",
+            "api.ksapisrv.com"
+        ],
+        "upload": [
+            "upload.gifshow.com",
+            "upload.ksapisrv.com"
+        ],
+        "ulog": [
+            "ulog.gifshow.com",
+            "ulog.ksapisrv.com"
+        ],
+        "https": [
+            "api.gifshow.com",
+            "api.ksapisrv.com"
+        ]
+    }
+}
