@@ -1,0 +1,8 @@
+#ABNF 1.0 UTF-8;
+language zh-CN; 
+mode voice;
+
+root $main;
+$main = ($up | $down) 频道;
+$up = 上一个 | 上个   ;
+$down = 下一个 | 下个;

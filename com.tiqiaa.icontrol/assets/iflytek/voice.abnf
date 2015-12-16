@@ -1,0 +1,348 @@
+#ABNF 1.0 UTF-8;
+language zh-CN;
+tag-format <semantics/1.0>;
+mode voice;
+
+root $main;
+$main = $openorclosekey
+| $signalinfokey
+| $informationinfokey
+| $backlookkey
+| $tovoicegroup
+| $tochanelkey
+| $tonumchanelkey
+| $menuexitkey
+| $playgroup
+| $playpreviousornextgroup
+| $titlekey
+| $fangroup
+| $soundchannelkey
+| $dvdgroup
+| $cameragroup
+| $airconditiongroup
+| $airandfanschedulegroup
+| $projectorgroup
+| $menugroup
+| $menukey;
+/*电器类型*/
+$machinetv = 电视[机]{out.machineType = "1";}
+| 彩电{out.machineType = "1";}
+ | 液晶电视{out.machineType = "1";}
+  | TV!en-us{out.machineType = "1";};
+$machineair = [壁挂 | 柜式 | 中央]空调 {out.machineType = "2";} | AC!en-us{out.machineType = "2";};
+$machinefan = (风扇 | 落地扇 | 床头扇 | Fan!en-us ) {out.machineType = "3";};
+$machineprojector = (投影[仪] | PJT!en-us) {out.machineType = "4";};
+$machinestb = (机顶盒 | STB) {out.machineType = "5";};
+$machinedvd = (DVD!en-us | DV!en-us| DC!en-us| VCD!en-us| 影碟机 ){out.machineType = "6";};
+$machinecamera = [照]相机{out.machineType = "7";}
+| (单反[相机]){out.machineType = "7";}
+ | 摄像机{out.machineType = "7";} | SLR!en-us{out.machineType = "7";} ;
+$machineir = 红外开关{out.machineType = "8";} | 红外控制器{out.machineType = "8";} | 灯泡{out.machineType = "8";};
+$machineamplifier = 功放 {out.machineType = "9";}
+| 音响{out.machineType = "9";} |音箱{out.machineType = "9";}
+| 喇叭{out.machineType = "9";} | 扩音器{out.machineType = "9";} ;
+$machineiptv = IPTV!en-us {out.machineType = "10";};
+$machineottbox = 盒子{out.machineType = "11";} | 电视盒子{out.machineType = "11";}
+| 互联网盒子{out.machineType = "11";} | BOX!en-us{out.machineType = "11";};
+
+$machineinfo = $machinetv{out.machineType = rules.machinetv.machineType;}
+| $machineair{out.machineType = rules.machineair.machineType;}
+| $machinefan{out.machineType = rules.machinefan.machineType;}
+| $machineprojector{out.machineType = rules.machineprojector.machineType;}
+| $machinestb{out.machineType = rules.machinestb.machineType;}
+| $machinedvd{out.machineType = rules.machinedvd.machineType;}
+| $machinecamera{out.machineType = rules.machinecamera.machineType;}
+| $machineir{out.machineType = rules.machineir.machineType;}
+| $machineamplifier{out.machineType = rules.machineamplifier.machineType;}
+| $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;};
+
+/*数字表示*/
+ $Digit =
+零 {out.channelnum="0";}
+| 一 {out.channelnum="1";}
+| 二 {out.channelnum="2";} | 两 {out.channelnum="2";}
+| 三 {out.channelnum="3";}
+| 四 {out.channelnum="4";}
+| 五 {out.channelnum="5";}
+| 六 {out.channelnum="6";}
+| 七 {out.channelnum="7";}
+| 八 {out.channelnum="8";}
+| 九 {out.channelnum="9";};
+ $Digit1 =
+ 二 {out.channelnum="2";} | 两 {out.channelnum="2";}
+| 三 {out.channelnum="3";}
+| 四 {out.channelnum="4";}
+| 五 {out.channelnum="5";}
+| 六 {out.channelnum="6";}
+| 七 {out.channelnum="7";}
+| 八 {out.channelnum="8";}
+| 九 {out.channelnum="9";};
+$Digit8 = 拾{out.channelnum="10";};
+$Digit7 = 拾{out.channelnum = "1";}$Digit{out.channelnum +=rules.Digit.channelnum;};
+$Digit2 = $Digit1 拾 {out.channelnum = rules.Digit1.channelnum + "0";};
+$Digit3 = $Digit {out.channelnum = rules.Digit.channelnum;} 拾 $Digit {out.channelnum += rules.Digit.channelnum;};
+$Digit4 = $Digit 百 {out.channelnum = rules.Digit.channelnum + "00"};
+$Digit5 = $Digit {out.channelnum = rules.Digit.channelnum} 百 $Digit {out.channelnum += rules.Digit.channelnum} 拾  $Digit {out.channelnum += rules.Digit.channelnum;};
+$Digit6 = $Digit {out.channelnum = rules.Digit.channelnum} 百 $Digit {out.channelnum += rules.Digit.channelnum} $Digit {out.channelnum += rules.Digit.channelnum;};
+$num1 = $Digit7{out.channelnum = rules.Digit7.channelnum;}
+	|$Digit2{out.channelnum = rules.Digit2.channelnum;}
+ | $Digit3{out.channelnum = rules.Digit3.channelnum;};
+$num = $Digit{out.channelnum = rules.Digit.channelnum;}
+ | $Digit7{out.channelnum = rules.Digit7.channelnum;}
+ | $Digit8{out.channelnum = rules.Digit8.channelnum;}
+ | $Digit2{out.channelnum = rules.Digit2.channelnum;}
+ | $Digit3{out.channelnum = rules.Digit3.channelnum;}
+ | $Digit4{out.channelnum = rules.Digit4.channelnum;}
+ | $Digit5{out.channelnum = rules.Digit5.channelnum;}
+ | $Digit6{out.channelnum = rules.Digit6.channelnum;};
+
+/*操作类型*/
+/*开关电源键*/
+$openorclosekey =[$machineinfo{out.machineType = rules.machineinfo.machineType;}] ([打开|关闭]电源 | 关掉 | 关了 | 关闭 | 开启 | 打开 | 开了){out.keyType = "800"} [$machineinfo{out.machineType = rules.machineinfo.machineType;}];
+
+/*信号源*/
+$signalinfokey = [$machinetv{out.machineType = rules.machinetv.machineType;}] (信源|信号源|数据源){out.keyType = "802";out.machineType = rules.machinetv.machineType;};
+
+/*信息显示键*/
+$informationinfokey = [$machinetv{out.machineType = rules.machinetv.machineType;} |
+$machinestb{out.machineType = rules.machinestb.machineType;} |
+$machineiptv{out.machineType = rules.machineiptv.machineType;}|
+$machineottbox{out.machineType = rules.machineottbox.machineType;}] (信息显示|显示信息|信息){out.keyType="802"};
+
+/*回看*/
+$backlookkey = ([$machinetv{out.machineType = rules.machinetv.machineType;}
+| $machinestb{out.machineType = rules.machinestb.machineType;} | $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;}])回看{out.keyType = "803"};
+
+/*声音*/
+$voicemachineinfo = $machinetv{out.machineType = rules.machinetv.machineType;}
+| $machineprojector{out.machineType = rules.machineprojector.machineType;}
+| $machinestb{out.machineType = rules.machinestb.machineType;}
+| $machinedvd{out.machineType = rules.machinedvd.machineType;}
+| $machineamplifier{out.machineType = rules.machineamplifier.machineType;}
+| $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;};
+$upvoice = [$voice] $up [$voice] {out.keyType = "809";};
+$downvoice = [$voice] $down [$voice] {out.keyType = "810";};
+$nonevoice = (静音 | 声音关[掉|了]){out.keyType ="804";};
+$up = [再|还](大[一][点] | [提]高[点] | [调][增]大 |加);
+$down =[再|还]([减][调]小 [一][点] | [降]低 | [减][调]弱 | 减);
+$voice = 音量 | [声]音 | 声[音];
+$tovoicegroup = [$voicemachineinfo{out.machineType = rules.voicemachineinfo.machineType;}]
+($upvoice{out.keyType = rules.upvoice.keyType;} | $downvoice{out.keyType = rules.downvoice.keyType;} | $nonevoice{out.keyType = rules.nonevoice.keyType;});
+
+
+/*频道*/
+$tochanelkey = [$machinetv{out.machineType = rules.machinetv.machineType;}
+| $machinestb{out.machineType = rules.machinestb.machineType;}
+| $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;}]($upchanel{out.keyType = rules.upchanel.keyType;} | $downchanel{out.keyType = rules.downchanel.keyType;});
+
+$chanel = 频道 | [电视]台;
+$upchanel =[$chanel] (上[一]个 | 上一 | 向上 |加) [$chanel] {out.keyType = "807";};
+$downchanel =[$chanel] (下[一]个|下一| 减 | 向下)[$chanel] {out.keyType = "808";};
+/*数字频道*/
+$tonumchanelkey = [$machinetv{out.machineType = rules.machinetv.machineType;}
+| $machinestb{out.machineType = rules.machinestb.machineType;}
+| $machinedvd{out.machineType = rules.machinedvd.machineType;}
+| $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;}][打开] [$chanel] [第]$num{out.channelnum =rules.num.channelnum;}[个] [$chanel] ;
+
+/*菜单退出*/
+$menuexitkey = [$machinetv{out.machineType = rules.machinetv.machineType;}
+| $machineprojector{out.machineType = rules.machineprojector.machineType;}]([菜单]退出){out.keyType = "823"};
+
+
+/*前进键*/
+$machineplay = $machinestb{out.machineType = rules.machinestb.machineType;}
+| $machinedvd{out.machineType = rules.machinedvd.machineType;}
+| $machineamplifier{out.machineType = rules.machineamplifier.machineType;}
+| $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;};
+$forwardinfo = ([播放]前进  | 向前[播放] | 往前[放|走]){out.keyType = "824";};
+/*后退键*/
+$rewind = ([播放]后退|退回去){out.keyType = "825";};
+/*暂停播放键*/
+$playpause = ([播放]暂停 | 播放){out.keyType = "826";};
+/*播放停止*/
+$playstop =([播放]停止[播放]){out.keyType = "827";};
+/*到顶*/
+$playtopinfo = ([播放]到顶 | 回到最开始 | 重头放 | 重新放){out.keyType = "830";};
+/*到底*/
+$playbottom = [播放]到底{out.keyType = "831";};
+/*播放组合键*/
+$playgroup = [$machineplay{out.machineType = rules.machineplay.machineType}]
+			($forwardinfo{out.keyType = rules.forwardinfo.keyType;}
+			|$rewind{out.keyType = rules.rewind.keyType;}
+			|$playpause{out.keyType = rules.playpause.keyType;}
+			|$playstop{out.keyType = rules.playstop.keyType;}
+			|$playtopinfo{out.keyType = rules.playtopinfo.keyType;}
+			|$playbottom{out.keyType = rules.playbottom.keyType;});
+
+
+
+
+/*播放上下*/
+$playpreviousornextgroup = [$machinestb{out.machineType = rules.machinestb.machineType;}
+| $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;}]
+($playprevious{out.keyType = rules.playprevious.keyType;}|$playnext{out.keyType = rules.playnext.keyType;});
+/*播放上一个*/
+$playprevious =	([播放]上一[篇|首|部|个]){out.keyType = "828"};
+/*播放下一个*/
+$playnext =	([播放]下一[篇|首|部|个]){out.keyType = "829"};
+
+
+/*攻放标题*/
+$titlekey = [$machineamplifier{out.machineType = rules.machineamplifier.machineType}]标题{out.keyType = "840";}{out.machineType = "9";};
+
+/*风扇 专属按键*/
+$fangroup = [$machinefan{out.machineType = rules.machinefan.machineType;}]
+($shakeheadfan {out.keyType = rules.shakeheadfan.keyType;}
+ |$windclass{out.keyType = rules.windclass.keyType;}
+ |$windvelocity{out.keyType = rules.windvelocity.keyType;}
+ |$windcool{out.keyType="1000";out.machineType = rules.machinefan.machineType;}){out.machineType = "3";};
+$shakeheadfan = (摇头 | 摇摆 | 动起来){out.keyType = "836";};
+/*风类*/
+$windclass = 风类{out.keyType = "837";};
+/*风扇风速*/
+$windvelocity = (风速|风档){out.keyType="838";};
+$windcool = (冷风 | 凉风){out.keyType="1000";};
+
+/*声道*/
+$soundchannelkey = [$machinedvd{out.machineType = rules.machinedvd.machineType;}
+			| $machineamplifier{out.machineType = rules.machineamplifier.machineType;}]
+			声道{out.keyType ="844"};
+
+
+/*DVD专属按键*/
+/*dvd开关仓*/
+$dvdgroup = [$machinedvd{out.machineType = rules.machinedvd.machineType;}]
+($dvdopenclose{out.keyType = rules.dvdopenclose.keyType;}
+| $dvdlanguage{out.keyType = rules.dvdlanguage.keyType;}
+| $dvdscreen{out.keyType = rules.dvdscreen.keyType;}
+| $dvdstandard{out.keyType = rules.dvdstandard.keyType;}
+| $dvdsubtitles{out.keyType = rules.dvdsubtitles.keyType;}
+| $dvdstepslow{out.keyType = rules.dvdstepslow.keyType;})
+{out.machineType = "6";};
+
+$dvdopenclose = ([开|关|出]仓){out.keyType = "839";};
+/*$dvdtenplus = 加十 {out.keyType = "841";};*/
+$dvdlanguage = 语言 {out.keyType = "842";};
+$dvdscreen = 屏幕{out.keyType = "843";};
+$dvdstandard = 制式{out.keyType = "845";};
+$dvdsubtitles = 字母{out.keyType = "846";};
+$dvdstepslow = (放慢点|慢放|播放慢点){out.keyType = "851";};
+
+/*单反相机专属按键*/
+$cameragroup = [$machinecamera{out.machineType = rules.machinecamera.machineType;}]
+($shutteronecamera{out.keyType = rules.shutteronecamera.keyType;})
+{out.out.machineType = "7";} ;
+
+$shutteronecamera = (单反主键 | 照相 | 拍照 | 田七 | 茄子 | 拍吧 | 咔擦 ){out.keyType = "852";};
+/*$shuttertwocamera = 单反副键 {out.keyType = "853"};*/
+
+
+/*空调语音遥控  专属按键*/
+$airconditiongroup = [$machineair{out.machineType = rules.machineair.machineType;}]
+( $airtempup{out.keyType = rules.airtempup.keyType;}
+| $airtempdown{out.keyType = rules.airtempdown.keyType;}
+| $airwindhorizontal{out.keyType = rules.airwindhorizontal.keyType;}
+| $airwindvertical{out.keyType = rules.airwindvertical.keyType;}
+| $airmount{out.keyType = rules.airmount.keyType;}
+| $airtempdisplay {out.keyType = rules.airtempdisplay.keyType;}
+| $airwinddirection {out.keyType = rules.airwinddirection.keyType;}
+| $airquicktemp {out.keyType = rules.airquicktemp.keyType;}
+| $airstatus{out.keyType = rules.airstatus.keyType;}
+| $tempnum{out.tempdegree = rules.tempnum.tempdegree;}){out.machineType = "2";};
+
+$tempnum = [温度][调到] $num1{ out.tempdegree = rules.num1.channelnum; }度;
+$airtempup = (温度高点 | 增加温度 | 调高温度 | 调大温度 | 热一点 | 太冷了){out.keyType = "811";};
+$airtempdown = (温度低点 | 温度低些 | 温度调低 | 温度减小 | 冷一点 | 太热了){out.keyType = "812";};
+$airwinddirection =风向{out.keyType = "870"};
+$airwindhorizontal = (水平风向 | 水平风 | 横向风){out.keyType = "834";};
+$airwindvertical = (垂直风向 | 垂直风 | 竖直风){out.keyType = "835";};
+$airmount = 风量{out.keyType = "833";};
+$airstatus = [切换] [状态]((超强 | 强力){out.keyType = "872";}
+| (节能 |省电){out.keyType = "879";}
+| (舒适 | 舒服){out.keyType = "880";}
+| (清新 | 换气 | 透气 | 新风){out.keyType ="874";}
+| (敷热 | 干燥){out.keyType = "875";}
+| 加湿{out.keyType = "877";}) [状态];
+$airtempdisplay = (温度显示 | 显示温度){out.keyType = "881"};
+$airquicktemp = (一键冷| 快速冷){out.keyType = "882";} | (一键热 | 快速热){out.keyType = "883";};
+
+/*空调和风扇的共同属性*/
+
+$airandfanschedulegroup = [$machineair{out.machineType = rules.machineair.machineType}
+				|$machinefan{out.machineType = rules.machinefan.machineType}]
+				($airtimeschedule{out.keyType = rules.airtimeschedule.keyType;out.time = rules.airandfanschedule.time;}
+				|$airandfanmode{out.keyType = "832";}
+				|$airandfanlight{out.keyType = "871";}
+				|$airandfansleep{out.keyType = "873";}
+				|$airandfananion{out.keyType = "878";});
+
+$airtimeschedule = {out.keyType = "876";} 定时$num{out.time =rules.num.channelnum;}分钟;
+$airandfanmode = 模式{out.keyType = "832";};
+$airandfanlight = 灯光{out.keyType = "871"};
+$airandfansleep = [切换][状态](睡眠 | 睡觉)[状态] {out.keyType = "873";};
+$airandfananion = 负离子 {out.keyType = "878";};
+
+
+/*投影仪专属按键*/
+/*投影仪双画面*/
+$projectorgroup =[$machineprojector{out.machineType = rules.machineprojector.machineType;}]
+				($projectordualscreen{out.keyType = rules.projectordualscreen.keyType;}
+				| $projectorfreeze{out.keyType = rules.projectorfreeze.keyType;}
+				| $projectorreset{out.keyType = rules.projectorreset.keyType;}
+				| $projectorvideo{out.keyType = rules.projectorvideo.keyType;}
+				|$projectorsignal{out.keyType = rules.projectorsignal.keyType;}
+				|$projectorbrightness{out.keyType = rules.projectorbrightness.keyType;}
+				|$projectorpc{out.keyType = rules.projectorpc.keyType;}
+				|$zoomup{out.keyType = rules.zoomup.keyType;}
+				|$zoomdown{out.keyType = rules.zoomdown.keyType;})
+				{out.machineType = "4";};
+
+$projectordualscreen = 双画面 {out.keyType = "847";};
+$projectorfreeze = [画面]冻结{out.keyType = "848";};
+$projectorreset = (重置|重设){out.keyType = "849"};
+$projectorvideo = 视频{out.keyType = "850";};
+$projectorsignal = 投影仪信号源{out.keyType="901";};
+$projectorbrightness= 亮度{out.keyType = "902";};
+$projectorpc = (电脑 | PC!en-us) {out.keyType ="903"};
+/*放大键*/
+$zoomup =(放大[点]|变大[点]|增大[点]){out.keyType = "813";};
+/*缩小键*/
+$zoomdown = (放小[点]|变小[点]|减小[点]){out.keyType = "814";};
+
+/*菜单组合键*/
+$menumachineinfo = $machinetv{out.machineType = rules.machinetv.machineType;}
+| $machineprojector{out.machineType = rules.machineprojector.machineType;}
+| $machinestb{out.machineType = rules.machinestb.machineType;}
+| $machinedvd{out.machineType = rules.machinedvd.machineType;}
+| $machinecamera{out.machineType = rules.machinecamera.machineType;}
+| $machineamplifier{out.machineType = rules.machineamplifier.machineType;}
+| $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;};
+
+$menuok = (OK!en-us | 好了 | 可以了 | 搞定 | 行了){out.keyType = "817";};
+$menuleft = (菜单向左 | 向左 | 往左 | 左翻 | left!en-us){out.keyType = "20";};
+$menuright = (菜单向右 | 向右 | 往右 | 右翻 | right!en-us){out.keyType = "821";};
+$menuup = (菜单向上|向上|往上|上翻|上面|up!en-us) {out.keyType = "818";};
+$menudown = (菜单向下|向下|往下|下翻|下面|down){out.keyType = "819";};
+
+$menugroup = [$menumachineinfo{out.machineType = rules.menumachineinfo.machineType;}] ($menuok{out.keyType = rules.menuok.keyType;}
+|$menuleft{out.keyType = rules.menuleft.keyType;}
+|$menuright{out.keyType = rules.menuright.keyType;}
+|$menuup{out.keyType = rules.menuup.keyType;}
+|$menudown{out.keyType = rules.menudown.keyType;});
+
+$menukey = [$machinetv{out.machineType = rules.machinetv.machineType;}
+| $machineprojector{out.machineType = rules.machineprojector.machineType;}
+| $machinestb{out.machineType = rules.machinestb.machineType;}
+| $machinedvd{out.machineType = rules.machinedvd.machineType;}
+| $machinecamera{out.machineType = rules.machinecamera.machineType;}
+| $machineiptv{out.machineType = rules.machineiptv.machineType;}
+| $machineottbox{out.machineType = rules.machineottbox.machineType;}] 菜单 { out.keyType = "822";};
+
