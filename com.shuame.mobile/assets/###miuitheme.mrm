@@ -1,0 +1,50 @@
+﻿{
+  "localId": "极限煞笔theme",
+  "onlineId": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "assemblyId": "CCCCCCCCCCCCCCCCCCCCCC",
+  "productId": "CCCCCCCCCCCCCCCCCCCCCC",
+  "hash": "HHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+  "platform": 2,
+  "size": @@@,
+  "updatedTime": DDDDDDDDDDDD,
+  "version": "1.0",
+  "authors": {
+    "fallback": "字体管家"
+  },
+  "designers": {
+    "fallback": "字体管家"
+  },
+  "titles": {
+    "fallback": "###"
+  },
+  "descriptions": {
+    "fallback": "字体管家是最好的字体美化工具"
+  },
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_fonts_small_0.png",
+      "preview_fonts_0.png"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_fonts_0.png"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [],
+  "subResources": [
+    {
+      "localId": "###",
+      "resourceCode": "fonts",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null
+}

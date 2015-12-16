@@ -1,0 +1,38 @@
+﻿{
+  "localId": "###",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "platform": 0,
+  "hash": "2d9549055c70f2f61cea2d5e2a554c296ad565c0",
+  "title": "###",
+  "description": null,
+  "author": "字体管家",
+  "designer": null,
+  "version": "1.0",
+  "updatedTime": 0,
+  "size": @@@,
+  "buildInThumbnails": [
+    "preview_fonts_small_0.jpg",
+    "preview_fonts_0.jpg"
+  ],
+  "buildInPreviews": [
+    "preview_fonts_0.jpg"
+  ],
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "###theme",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null
+}
