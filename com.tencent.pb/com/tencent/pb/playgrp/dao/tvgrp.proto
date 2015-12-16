@@ -1,0 +1,25 @@
+option java_package = "com.tencent.pb.playgrp.dao";
+option java_outer_classname = "TvGroupEntity";
+option optimize_for = CODE_SIZE;
+
+package qqcontacts;
+
+import "qqcontacts.proto";
+
+message TvGroupItem
+{
+	optional int32 playItemId = 1; 
+	optional uint64 grpId = 2;
+	optional string shareUrl = 3;
+	repeated ResMemInfo resMembers = 4; 
+	optional int32 hostuuid = 5;
+	optional ResGrpFlag resgrpflag = 6;
+	optional string shortshareurl = 7;
+	optional int32 type = 8;
+	optional PlayItemInfo playItem = 9;
+}
+
+message TvGroupItems
+{
+	repeated TvGroupItem items = 1; 
+}

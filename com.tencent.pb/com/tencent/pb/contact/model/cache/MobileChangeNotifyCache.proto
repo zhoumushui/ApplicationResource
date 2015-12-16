@@ -1,0 +1,27 @@
+option java_package = "com.tencent.pb.contact.model.cache";
+option java_outer_classname = "MobileChangeNotifyCache";
+option optimize_for = LITE_RUNTIME;
+
+
+package qqcontacts;
+
+// 换号通知
+message MobileChangeNotify
+{
+	optional uint32 id = 1;	
+	optional string area = 2;	// 换号者新的国家码
+	optional string mid = 3;	// 换号者新的手机号
+	optional uint32 uuid = 4;	// 换号者的uuid
+	optional string oldarea = 5;	// 换号者老的国家码
+	optional string oldmid = 6;	// 换号者老的手机号 
+	optional bool readed = 7;	// 是否已读
+	optional uint32 timestamps = 8;		//收到消息的客户端时间
+	optional string nickname = 9;	// 换号者微信昵称
+}
+
+// 换号通知列表缓存
+message MobileChangeNotifyList
+{
+	repeated MobileChangeNotify msgNotify = 1;
+}
+

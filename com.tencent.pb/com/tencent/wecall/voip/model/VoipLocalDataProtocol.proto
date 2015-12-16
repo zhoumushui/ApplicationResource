@@ -1,0 +1,13 @@
+option java_package = "com.tencent.wecall.voip.model";
+option java_outer_classname = "VoipLocalDataProtocol";
+option optimize_for = CODE_SIZE;
+
+message VoipHeartBeatConf
+{
+	optional bool disableVoipHeartBeat = 1;
+	optional uint32 rgbThreshold = 2;
+	optional uint32 computeBpmDuration = 3;
+	optional uint32 samplingRate = 4;
+	optional uint32 samplingFrameWidth = 5;
+	optional uint32 samplingFrameHeight = 6;
+}

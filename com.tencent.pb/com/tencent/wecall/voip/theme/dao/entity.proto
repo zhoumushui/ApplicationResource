@@ -1,0 +1,18 @@
+option java_package = "com.tencent.wecall.voip.theme.dao";
+option java_outer_classname = "FeastTheme";
+option optimize_for = CODE_SIZE;
+
+package qqcontacts;
+
+import "qqcontacts.proto";
+
+message GoodFeastTheme
+{
+	optional bool notified = 1;
+	optional MsgFeastTheme theme = 2;
+}
+
+message MsgFeastThemes
+{
+	repeated GoodFeastTheme themes = 1;
+}

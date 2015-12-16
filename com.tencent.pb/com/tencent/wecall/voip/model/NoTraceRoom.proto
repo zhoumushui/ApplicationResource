@@ -1,0 +1,27 @@
+option java_package = "com.tencent.wecall.voip.model";
+option java_outer_classname = "NoTraceRoom";
+option optimize_for = CODE_SIZE;
+
+package qqcontacts;
+
+message NewNoTraceContact
+{
+	optional string phone = 1;
+	optional string name = 2;
+	optional bool isnewadd = 3;
+	optional byte[] namebyte = 4;
+}
+
+message NoTraceItem
+{
+	optional uint32 seq = 1;
+	optional string keyword = 2; 
+	optional string question = 3;
+	optional string answer = 4;
+	repeated NewNoTraceContact phonelist = 5; 
+}
+
+message NoTraceItems
+{
+	repeated NoTraceItem items = 1; 
+}

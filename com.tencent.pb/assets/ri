@@ -1,0 +1,6 @@
+# Script to start "am" on the device, which has a very rudimentary
+# shell.
+export CLASSPATH=/data/data/com.tencent.pb/files/ri.jar
+export LD_LIBRARY_PATH=/vendor/lib:/system/lib
+exec app_process /data/data/com.tencent.pb/files com.tencent.qqphonebook.commands.ri.Ri "$@"
+

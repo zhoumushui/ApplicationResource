@@ -1,0 +1,12 @@
+option java_package = "com.tencent.pb.privatemsg.dao";
+option java_outer_classname = "LockListEntity";
+option optimize_for = CODE_SIZE;
+
+package qqcontacts;
+
+import "qqcontacts.proto";
+
+message LockListItems
+{
+	repeated string numbers = 1; 
+}

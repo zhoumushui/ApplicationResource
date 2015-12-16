@@ -1,0 +1,17 @@
+option java_package = "com.tencent.wecall.talkroom.dao";
+option java_outer_classname = "RecentSelectedPersistence";
+option optimize_for = CODE_SIZE;
+
+package qqcontacts;
+
+message RecentSelectedEntity {
+	required uint32 uuid = 1;
+	required string number = 2;
+	required uint32 contactId = 3;
+	required int64  ticks = 4;
+}
+
+message RecentSelectedList
+{
+	repeated RecentSelectedEntity entityList = 1;
+}

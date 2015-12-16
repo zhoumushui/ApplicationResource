@@ -1,0 +1,21 @@
+option java_package = "com.tencent.pb.common.network.protocol";
+option java_outer_classname = "ProtocolApnNoop";
+option optimize_for=LITE_RUNTIME;
+
+
+package qqcontacts;
+
+// 每个接入点的心跳信息
+message ApnNoopCacheInfo
+{
+	optional string apnsInfoStr = 1; // 接入点标识信息
+	optional bool needServerNoop = 2; // 是否需要server心跳
+	optional int64 lastUpdateTime = 3; // 上次更新时间
+}
+
+// 接入点心跳信息列表
+message ApnNoopCacheInfoList
+{
+	repeated ApnNoopCacheInfo infoList = 1;
+}
+

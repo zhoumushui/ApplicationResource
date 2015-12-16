@@ -1,0 +1,29 @@
+option java_package = "com.tencent.pb.netyellow.dao";
+option java_outer_classname = "CatagoryInfo";
+option optimize_for = CODE_SIZE;
+
+package qqcontacts;
+
+import "qqcontacts.proto";
+
+message Catagory
+{
+	optional YellowSortItem data = 1;
+}
+
+message Catagorys
+{
+	repeated Catagory catagorys = 1;
+	optional bytes cookie = 2;
+	optional string city = 3;
+	optional double longitude = 4;	//经度
+	optional double latitude = 5;	//纬度
+	repeated string history = 6;
+	optional string gpsCity = 7;
+	optional string lastGpsCity = 8;
+}
+
+message Keyword2YellowResps
+{
+	repeated SCKeyword2YellowResp item = 1;
+}

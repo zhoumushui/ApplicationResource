@@ -1,0 +1,65 @@
+option java_package = "com.tencent.pb.contact.model.cache";
+option java_outer_classname = "ContactAbstractCache";
+option optimize_for = LITE_RUNTIME;
+
+
+package qqcontacts;
+
+// 联系人
+message BaseContactAbstract
+{
+    optional uint32 mIndexId = 1;	//索引ID，分组、联系人、sim卡联系人公用
+    optional uint32 mContactId = 2;	//联系人id，分组为分组id
+    optional uint64 mContactRowId = 3;		//row_contacts表中的contact_id外键
+    optional uint32 mPhoneId = 4;	
+    optional string area = 5;		
+    repeated string phones = 6;		
+    optional string mName = 7;		
+    optional string mNotes = 8;
+    optional uint32 pinyinHead = 9;	
+    repeated CacheOrganization organizations = 10;
+    optional uint32 mask = 11;
+    optional string mHeadUrl = 12;
+    optional bool isRecent = 13;
+    optional bytes mPinyinBytes = 14;
+    optional string mAccountName = 15;
+    optional string mAccountType = 16;	
+    repeated BaseContactAbstract teams = 17;
+    optional bool isFromSim = 18;	// 是否sim卡联系人
+    optional uint32 simslot = 19;	// sim卡标识
+	optional string mRington = 20;   // 自定义铃声
+	repeated uint32 teamIds = 21;   // 群组id
+//    repeated CacheLocalTeamInfo teamInfo = 20;
+}
+
+//公司、组织信息
+message CacheOrganization
+{	
+        optional string company = 1;		
+        optional string title = 2;	
+}
+
+//联系人缓存列表
+message ContactCacheList
+{
+	repeated BaseContactAbstract contact = 1;
+}
+
+//已上传号码列表缓存
+message UpLoadedPhoneList
+{
+	repeated string phone = 1;
+}
+
+//用户自定义头像
+message BasePhone2LocalPic
+{
+	optional string phone = 1;	//电话号码
+	optional string pic = 2;	//头像url
+}
+
+//用户自定义头像本地缓存
+message ContactLocalPicCache
+{
+	repeated BasePhone2LocalPic phone2Pic = 1;	
+}

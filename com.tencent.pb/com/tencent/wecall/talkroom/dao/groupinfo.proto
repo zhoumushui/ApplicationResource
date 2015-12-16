@@ -1,0 +1,27 @@
+option java_package = "com.tencent.wecall.talkroom.dao";
+option java_outer_classname = "GroupInfoEntity";
+option optimize_for = CODE_SIZE;
+
+package qqcontacts;
+
+import "qqcontacts.proto";
+
+message VoiceGroupMemberInfoItem
+{
+	optional VoiceGroupUsrProfile profile = 1;
+	optional VoiceGroupMem memInfo = 2;
+}
+
+message VoiceGroupInfoItem {
+	optional string groupId = 1;
+	optional string tmpId = 2;
+	optional uint32 routeId = 3;
+	optional VoiceGroupInfo roomInfo = 4;
+	repeated VoiceGroupMemberInfoItem memberInfo = 5;
+    optional int32 isShowMailSubject = 6;
+}
+
+message VoiceGroupInfoItemList
+{
+	repeated VoiceGroupInfoItem groupInfo = 1;
+}
