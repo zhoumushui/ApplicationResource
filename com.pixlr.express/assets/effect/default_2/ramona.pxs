@@ -1,0 +1,74 @@
+{
+	"name" : "Ramona",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 1
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "threshold",
+			"param" :
+			{
+				"value" : 180
+			}
+		},
+		{
+			"type" : "boxblur",
+			"param" :
+			{
+				"amount" : 100
+			}
+		},
+		{
+			"type" : "merge",
+			"param" :
+			{
+				"blend" : "screen"
+			}
+		},
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "colorize",
+			"param" : 
+			{
+				"hue" : 265
+			}
+		},
+		{
+			"type" : "saturation",
+			"param" : 
+			{
+				"amount" : 20
+			}
+		},
+		{
+			"type" : "brightness",
+			"param" : 
+			{
+				"amount" : 20
+			}
+		},
+		{
+			"type" : "merge",
+			"param" :
+			{
+				"blend" : "overlay",
+				"opacity" : 50
+			}
+		}
+	]
+}

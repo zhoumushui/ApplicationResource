@@ -1,0 +1,55 @@
+{
+	"name" : "Sara",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 1
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "saturation",
+			"param" :
+			{
+				"amount" : 100
+			}
+
+		},
+		{
+			"type" : "blur",
+			"param" :
+			{
+				"amount" : 5,
+				"quality" : 3
+			}
+			
+		},
+		{
+			"type" : "contrast",
+			"target" : 0,
+			"param" :
+			{
+				"amount" : 25
+			}
+
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" :
+			{
+				"blend" : "lighten",
+				"opacity" : 80
+			}
+		}
+	]
+}

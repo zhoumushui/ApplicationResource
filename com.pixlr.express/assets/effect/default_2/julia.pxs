@@ -1,0 +1,41 @@
+{
+	"name" : "Julia",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 1
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "saturation",
+			"param" : 
+			{
+				"amount" : 100
+			}
+		},
+		{
+			"type" : "waterdown",
+			"param" : { }
+		},
+		{
+			"type" : "saturation",
+			"param" : 
+			{
+				"amount" : 100
+			}
+		},
+		{
+			"type" : "contrast",
+			"param" : 
+			{
+				"amount" : 10
+			}
+		}
+	]
+}

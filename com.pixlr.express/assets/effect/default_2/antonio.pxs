@@ -1,0 +1,42 @@
+{
+	"name" : "Antonio",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 1
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "desaturate",
+			"param" : { }
+
+		},
+		{
+			"type" : "blur",
+			"param" :
+			{
+				"amount" : 10,
+				"quality" : 10
+			}
+			
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" :
+			{
+				"blend" : "hardlight"
+			}
+		}
+	]
+}

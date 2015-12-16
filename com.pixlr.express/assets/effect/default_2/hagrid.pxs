@@ -1,0 +1,87 @@
+{
+	"name" : "Hagrid",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 1
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "invert",
+			"target" : 1,
+			"param" : { }
+		},
+		{
+			"type" : "desaturate",
+			"param" : { }
+		},
+		{
+			"type" : "blur",
+			"param" : 
+			{
+				"amount" : 50,
+				"quality" : 10
+			}
+		},
+		{
+			"type" : "merge",
+			"param" :
+			{
+				"blend" : "overlay"
+			}
+		},
+		{
+			"type" : "duplicate",
+			"target" : 1,
+			"param" : { }
+		},
+		{
+			"type" : "invert",
+			"param" : { }
+		},
+		{
+			"type" : "blur",
+			"param" :
+			{
+				"amount" : 5,
+				"quality" : 3
+			}
+		},
+		{
+			"type" : "merge",
+			"param" :
+			{
+				"opacity" : 40
+			}
+		},
+		{
+			"type" : "levels",
+			"param" :
+			{
+				"min" : 85,
+				"max" : 170
+			}
+		},
+		{
+			"type" : "merge",
+			"param" :
+			{
+				"blend" : "overlay"
+			}
+		}
+	]
+}

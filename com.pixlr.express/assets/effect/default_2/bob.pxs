@@ -1,0 +1,49 @@
+{
+	"name" : "Bob",
+	"description" : "",
+	"author" : "Ola Sevandersson",
+	"version" : 1,
+
+	"engine" :
+	{
+		"power" : "v6",
+		"version" : 1
+	},
+	
+	"actions" :
+	[
+		{
+			"type" : "saturation",
+			"param" :
+			{
+				"amount" : -60
+			}
+		},
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "duplicate",
+			"param" : { }
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+				"blend" : "screen",
+				"opacity" : 40
+			}
+		},
+		{
+			"type" : "merge",
+			"target" : 1,
+			"param" : 
+			{
+				"blend" : "hardlight",
+				"opacity" : 40
+			}
+		}
+	]
+}
