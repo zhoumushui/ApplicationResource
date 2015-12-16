@@ -1,0 +1,9 @@
+<div style="margin-top:10px;margin-bottom:10px;">
+	<img style="float:left;background:#ccc;" src="{imgSrc}" width="100%"/>
+	<img style="float:left;width:20px;height:10px;margin-top:-10px;margin-left:20px;" src="file:///android_asset/article_detail/article_detail_0/imgs/up_arrow.png" />
+	<div style="clear:both;"></div>
+	<span style="float:left;font-size:14px;line-height:19px;color:#999999;padding:10px;background:#f7f7f7;">
+	{desc}
+	</span>
+	<div style="clear:both;"></div>
+</div>

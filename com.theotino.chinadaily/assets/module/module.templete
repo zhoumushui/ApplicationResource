@@ -1,0 +1,37 @@
+<div id="{player}" class="jp-jplayer"></div>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+	$("{player}").jPlayer({
+		ready: function (event) {
+			$(this).jPlayer("setMedia", {
+				title: "Bubble",
+				m4a: ${sound}
+			});
+			$("{player}").jPlayer("play");
+		},
+		waiting: function (event) {
+			$("{button}").text("waiting");
+		},
+		loadeddata: function (event) {
+			$("{button}").text("loadedtata");
+		},
+		playing: function (event) {
+			$("button").text("playing");
+		},
+		ended: function (event) {
+			$("{button}").text("ended");
+		},
+		swfPath: "jplayer",
+		supplied: "m4a, oga",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true,
+		remainingDuration: true,
+		toggleDuration: true
+	});
+});
+//]]>
+</script>

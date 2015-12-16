@@ -1,0 +1,9 @@
+<div width="100%">
+	<img style="float:left;display:block;margin-top:10px;" src="{imgSrc}" width="100%"/>
+	<div style="float:left;margin-top:-10px;padding-left:20px;overflow:hidden;width:100%;">
+		<img style="float:left;width:20px;height:10px;" src="file:///android_asset/details/img_separation/imgs/up_arrow.png" />
+	</div>
+	<div style="clear:both;padding:10px;font-weight:normal;background:#f7f7f7;width:auto;color:#999999;" class="desc">
+			{desc}
+	</div>
+</div>
