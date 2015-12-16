@@ -1,0 +1,125 @@
+/*
+ * 名称: 天天P图 素材库接口
+ * (c) Copyright 2014 Tencent.com. All Rights Reserved.
+ *
+ * 注意: 务必和CommClientInterface.jce配合使用
+ *
+ * 技术接口人:
+ * 1. williamfqwu
+ * 2. jianghongwu
+ *
+ * 版本变更:
+ * 1.20140312 新建
+ *
+ *
+ *
+ */
+
+module PituClientInterface
+{ 
+  const string MAIN_CATEGORY_ID_TEXT         = "text";
+  const string MAIN_CATEGORY_ID_FRAME        = "frame";
+  const string MAIN_CATEGORY_ID_CARTOON      = "cartoon";
+  const string MAIN_CATEGORY_ID_FILTER       = "filter";
+  const string MAIN_CATEGORY_ID_DOODLE       = "doodle";  
+  const string MAIN_CATEGORY_ID_COLLAGE      = "collage";
+  const string MAIN_CATEGORY_ID_BATCH        = "batch";
+  const string MAIN_CATEGORY_ID_BUCKLE       = "buckle";
+  const string MAIN_CATEGORY_ID_COSMETICS    = "cosmetics";  
+  const string MAIN_CATEGORY_ID_STICKER    = "sticker";  
+  const string MAIN_CATEGORY_ID_GRID    = "grid";  
+  
+  const string SUB_CATEGORY_ID_BUCKLE_3D     = "buckle_3d";
+  const string SUB_CATEGORY_ID_BUCKLE_ART    = "buckle_art";  
+  const string SUB_CATEGORY_ID_BUCKLE_SCENE  = "buckle_scene";
+  const string SUB_CATEGORY_ID_BATCH_4       = "batch_4";  
+  const string SUB_CATEGORY_ID_BATCH_6       = "batch_6";    
+  const string SUB_CATEGORY_ID_BATCH_9       = "batch_9"; 
+  const string SUB_CATEGORY_ID_COLLAGE_STORY = "collage_story";
+  const string SUB_CATEGORY_ID_COLLAGE_LONG  = "collage_long";
+  const string SUB_CATEGORY_ID_COLLAGE_SIMPLE  = "collage_simple";
+  const string SUB_CATEGORY_ID_COSMETICS_XGIRL  = "cosmetics_cosXgirl";
+  const string SUB_CATEGORY_ID_COSMETICS_RECOMMEND  = "cosmetics_recommend";
+  
+
+  // Datastructures
+  struct stMaterial{
+    0  require  string id;                       // 素材 id
+    1  require  string name;                     // 素材名（中文）
+    2  require  string description;				       // 素材的描述，对于九图里面会用到一句话的描述
+    3  require  string subCategoryId;            // 子类别名（如：四图，六图）
+    4  require  string thumbUrl;                 // 缩略图url
+    5  require  string bigThumbUrl;              // 大缩略图url
+    6  require  string packageUrl;               // 素材包url
+    7  require  int    miniSptVersion = 0;       // 支持这个素材的最低版本号
+    8  require  int    mask = 0;                 // 素材是否需要解锁标识。0不需，1需要。
+    9  require  int    version = 1;              // 素材版本号
+    10 require  int    priority = 1;             // 素材优先级，用于排序，值越大越靠前
+    11 optional int    width;                    // 素材宽度
+    12 optional int    height;                   // 素材高度
+	13 optional int    miniShowVersion;          // 最低显示版本号
+	14 optional string localizedMap;             // 本地语言表
+	15 optional string language;                 // 语言
+	16 optional string thirdCategory;            // 子子类名
+  };
+  
+  struct stCategory{
+    0  require  string id;                       // 类别 id
+    1  require  string name;                     // 类别名（中文）
+    2  require  string iconUrl;                  // 类别对应的icon url
+    3  require  int    miniSptVersion=99999999;  // 类别支持的最低版本号，如不支持建议隐藏
+    4  require  int    priority = 1;             // 类别优先级，用于排序
+    5  require  vector<stMaterial> materials;    // 此类别的素材数据
+  };
+  
+  struct stBanner{
+  	0  require  long   id;											 // Banner id如2014031301
+    1  require  string picUrl;                   // Banner图片地址
+    2  require  long   timeFinish;               // Banner结束时间:201403101210
+    3  require  int    mode;                     // Banner模式
+    4  require  string url;                      // 用户外部的url或者内部启动某个模块的internal url
+	5  optional string language;                 // 语言
+  };
+    
+     
+  struct stVersions{     // 如果第一次访问直接传空值即可
+    0  require  map<string, int> mainCategoryVersions;   // Category id and version 
+    1  require  int  bannerVersion;              // Banner data version
+    2  require  int  opVersion;                  // 运营数据的version，注意：当某个条运营数据有更新的时候，将下发所有运营数据，请判断运营数据中的version字段
+
+  };
+  
+  struct stReturnCodes{   // 每个子请求的返回值， 0代表成功但是无数据， 1代表成功并有数据返回， -1代表异常
+    0  require  map<string, int> mainCategoryRetCodes;   // 素材资源的return code
+    1  require  int bannerRetCode;               // Banner return code
+    2  require  int opRetCode;                   // 运营信息的return code
+  };
+  
+  struct stOpData{        // 用于运营的特殊数据，具体每个运营类别及字段请参见wiki
+  	0  require  int opId;                        // 运营信息的ID
+  	1  require  long timeBegin;                  // 这条运营信息的生效时间，如：201403101210
+  	2  require  long timeEnd;                    // 这条运营信息的失效时间，如：201403101210
+  	3  require  int version;                     // 这条运营信息的版本号，版本号升高则更新
+  	4  require  int status;                      // 打开或者关闭状态，0则关闭，1则打开
+  	5  require  map<string, string> data;        // 运营信息所需字段及值，具体分配参考wiki
+    6  optional vector< map<string, string> > datas;  // 当含多条运营信息时使用，具体分配参考wiki
+	7  optional string language;                 // 语言
+  };
+  
+  struct stPTCenterCombinReq{
+    0  require  stVersions versions;             // 当前的版本号
+                                                 // 使用说明：服务器会根据客户端发送的当前版本号去返回指定数据，
+                                              
+
+  };
+  
+  struct stPTCenterCombinRsp{
+    0  require  stVersions         curVersions;       // 最新版本号
+    1  require  stReturnCodes      retCodes;          // 返回码
+    2  require  map<string, stCategory> materialData; // 所有分类及素材数据
+    3  require  vector<stBanner>   bannerData;        // 所有banner数据
+    4  require  vector<stOpData>   opData;            // 所有运营相关的数据
+  };
+ 
+  
+};

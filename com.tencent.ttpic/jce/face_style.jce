@@ -1,0 +1,104 @@
+module face_style {
+
+    // 请求类型，每个CMD 对应 一组 request 和 response。
+    enum FACE_STYLE_CMD
+    {
+        FACE_STYLE_NEW          = 1, // 对人脸进行风格化
+        FACE_STYLE_GET          = 2, // 取回风格化图片
+        FACE_STYLE_NOMC_NEW     = 3, // 对人脸进行风格化(NOMC)
+        FACE_STYLE_NOMC_GET     = 4, // 取回风格化图片(NOMC)
+    };
+
+    // 每个图层的类型
+    enum LAYER_TYPE
+    {
+        IMAGE_BUFF_RAW,                  // 原始的图像
+        IMAGE_BUFF_JPG,                  // JPG
+        IMAGE_BUFF_JPG_ALPHA,            // JPG + alpha JPG
+        IMAGE_BUFF_JPG_ZLIB,             // JPG zlib
+        IMAGE_BUFF_JPG_ALPHA_ZLIB,       // JPG + alpha JPG zlib
+        IMAGE_BUFF_PNG,                  // PNG
+        IMAGE_BUFF_WEBP,                 // WEBP
+    };
+
+    // new
+    struct face_style_request_new
+    {
+        0 require string uuid;          // 唯一标识一个用户
+        1 require vector<byte> imgbuf;  // 图像数据
+        2 require int imgtype;          // 图像格式 LAYER_TYPE
+        3 require int face_x;           // 人脸框x
+        4 require int face_y;           // 人脸框y
+        5 require int face_w;           // 人脸框w
+        6 require int face_h;           // 人脸框h
+        7 require int prefer_res_num;   // 总的结果数目 = 1
+        8 require int prefer_gender;    // 性别 = -1
+        9 require int prefer_glasses;   // 眼镜 = -1
+        10 require int platform;        // 平台 0=ios 1=android
+    };
+
+    struct face_style_response_new
+    {
+        0 require int res_num;          // 总的结果数目 = 1
+        1 require int gender;           // 性别 = 0/1
+        2 require int glasses;          // 眼镜 = 0/1
+    };
+
+    // get res
+    struct face_style_request_get
+    {
+        0 require string uuid;          // 唯一标识一个用户
+        1 require vector<int> res_id;   // 当前是第几个请求，从0开始
+        2 require int prefer_imgtype;   // 图像格式偏好
+    };
+
+    struct face_style_response_get
+    {
+        0 require int res_id;               // 当前是第几个请求，从0开始
+        1 require string backgroundid;      // 背景ID
+        2 require string glassesid;         // 眼镜ID
+        3 require string hairid;            // 头发ID
+        4 require string foregroundid;      // 装饰ID
+        5 require string clothesid;         // 衣服ID
+        6 require string closest_hair;      // 最像的头发素材ID
+        7 require int closest_hair_flip;    // 最像的头发素材镜像 = 0/1
+        8 require int imgtype;
+        9 require vector<byte> facecontent; // 420x460
+        10 optional vector<byte> alphacontent; // 420x460
+    };
+
+
+    // new no material center
+    struct face_style_nomc_request_new
+    {
+        0 require string uuid;          // 唯一标识一个用户
+        1 require vector<byte> imgbuf;  // 图像数据
+        2 require int imgtype;          // 图像格式 LAYER_TYPE
+        3 require int face_x;           // 人脸框x
+        4 require int face_y;           // 人脸框y
+        5 require int face_w;           // 人脸框w
+        6 require int face_h;           // 人脸框h
+        7 require string text;          // 文本
+        8 require int prefer_gender;    // 性别 = -1
+    };
+
+    struct face_style_nomc_response_new
+    {
+        0 require int gender;           // 性别 = 0/1
+    };
+
+    // get nomc
+    struct face_style_nomc_request_get
+    {
+        0 require string uuid;          // 唯一标识一个用户
+        1 require int prefer_imgtype;   // 图像格式偏好
+    };
+
+    struct face_style_nomc_response_get
+    {
+        0 require int imgtype;
+        1 require vector<byte> facecontent; // 640x640
+        2 optional vector<byte> alphacontent; // 640x640
+    };
+
+};
