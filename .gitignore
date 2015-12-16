@@ -34,6 +34,7 @@
 *.eot
 *.fs
 *.glsl
+*.gradle
 *.gzip
 *.htm
 *.html
@@ -100,6 +101,7 @@
 
 #Special File
 channel
+COPYING
 daemon
 daemonmonitor
 build
