@@ -1,0 +1,10 @@
+%YAML:1.0
+train_augnumber: 20                                 #augnumber for training
+max_numfeats: [1000, 1000, 1000, 500, 500, 500, 400, 400]   #number of features in different stages
+bagging_overlap: 0.4                                        #overlapping between different trees
+max_radio_radius: [0.4, 0.3, 0.2, 0.15, 0.12, 0.10, 0.08, 0.06, 0.06, 0.05]    #radio radius in different stages
+max_numtrees: 8                                             #number of trees for each landmark in one stage
+max_depth: 5                                                #depth of trees                                   
+max_numstage: 5                                             #number of iterative stages
+LM_NUM: 28                                                  #number of landmark points
+
