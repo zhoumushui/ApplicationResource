@@ -1,0 +1,82 @@
+{
+error_code: 22000,
+result: {
+skin_list: [
+{
+skin_id: "13",
+title: "马上有歌",
+desc: "马上有歌",
+thumbnail: "",
+pic: "",
+skin_version: "1",
+skin_version_id: "43",
+size: "0.3",
+url: "http://music.baidu.com/cms/mobile/static/skin/马上有歌.zip.png",
+version_thumbnail: "http://c.hiphotos.baidu.com/ting/pic/item/6159252dd42a28343f0a455f59b5c9ea15cebf31.jpg",
+version_pic: "",
+start_build_no: "40500",
+end_build_no: "0"
+},
+{
+skin_id: "12",
+title: "卡哇伊",
+desc: "卡哇伊",
+thumbnail: "",
+pic: "",
+skin_version: "1",
+skin_version_id: "35",
+size: "0.5",
+url: "http://music.baidu.com/cms/mobile/static/skin/卡哇伊.zip.png",
+version_thumbnail: "http://b.hiphotos.baidu.com/ting/pic/item/1e30e924b899a90184523d641f950a7b0208f579.jpg",
+version_pic: "",
+start_build_no: "40500",
+end_build_no: "0"
+},
+{
+skin_id: "11",
+title: "拇指人",
+desc: "拇指人",
+thumbnail: "",
+pic: "",
+skin_version: "1",
+skin_version_id: "34",
+size: "0.4",
+url: "http://music.baidu.com/cms/mobile/static/skin/拇指人.zip.png",
+version_thumbnail: "http://c.hiphotos.baidu.com/ting/pic/item/622762d0f703918f7a335a98533d269758eec486.jpg",
+version_pic: "",
+start_build_no: "40500",
+end_build_no: "0"
+},
+{
+skin_id: "10",
+title: "沙漠风暴",
+desc: "沙漠风暴",
+thumbnail: "",
+pic: "",
+skin_version: "1",
+skin_version_id: "33",
+size: "0.7",
+url: "http://music.baidu.com/cms/mobile/static/skin/沙漠风暴.zip.png",
+version_thumbnail: "http://a.hiphotos.baidu.com/ting/pic/item/d833c895d143ad4bdf2daf9280025aafa40f0664.jpg",
+version_pic: "",
+start_build_no: "40500",
+end_build_no: "0"
+},
+{
+skin_id: "7",
+title: "粉有爱",
+desc: "粉有爱",
+thumbnail: "",
+pic: "",
+skin_version: "1",
+skin_version_id: "8",
+size: "0.3",
+url: "http://music.baidu.com/cms/mobile/static/skin/粉有爱.zip.png",
+version_thumbnail: "http://a.hiphotos.baidu.com/ting/pic/item/d4628535e5dde711905ef1a5a5efce1b9c1661d0.jpg",
+version_pic: "",
+start_build_no: "40500",
+end_build_no: "0"
+}
+]
+}
+}
