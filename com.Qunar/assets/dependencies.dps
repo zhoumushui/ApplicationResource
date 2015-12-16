@@ -1,0 +1,179 @@
+{
+    "packageName": "com.Qunar",
+    "versionCode": 110,
+    "versionName": "8.2.5",
+    "libDependenciesList": [
+        {
+            "packageName": "com.qunar.spider.atomenv",
+            "versionCode": "1.0.2"
+        },
+        {
+            "packageName": "com.qunar.spider.qmapapi",
+            "versionCode": "2.1.0"
+        },
+        {
+            "packageName": "com.qunar.spider.nethttp",
+            "versionCode": "1.0.7"
+        },
+        {
+            "packageName": "com.qunar.spider.hallua",
+            "versionCode": "1.0.3"
+        },
+        {
+            "packageName": "com.qunar.spider.goblin",
+            "versionCode": "2.7.0"
+        },
+        {
+            "packageName": "com.qunar.spider.imp",
+            "versionCode": "1.0.0"
+        },
+        {
+            "packageName": "com.qunar.spider.mobad",
+            "versionCode": "1.0.2"
+        },
+        {
+            "packageName": "com.qunar.spider.basectx",
+            "versionCode": "1.1.2"
+        },
+        {
+            "packageName": "com.qunar.spider.storage",
+            "versionCode": "1.0.1"
+        },
+        {
+            "packageName": "com.qunar.spider.tools",
+            "versionCode": "1.0.0"
+        },
+        {
+            "packageName": "com.qunar.spider.adrfastjson",
+            "versionCode": "1.1.45"
+        },
+        {
+            "packageName": "com.qunar.spider.json",
+            "versionCode": "1.0.0"
+        },
+        {
+            "packageName": "com.qunar.spider.commonio",
+            "versionCode": "2.4.0"
+        },
+        {
+            "packageName": "com.qunar.3dparty.libammsdk",
+            "versionCode": "1.0.2"
+        },
+        {
+            "packageName": "com.squareup.wire.wire-runtime",
+            "versionCode": "1.3.1"
+        },
+        {
+            "packageName": "com.qunar.spider.picasso",
+            "versionCode": "1.0.2"
+        },
+        {
+            "packageName": "com.qunar.spider.crash",
+            "versionCode": "1.0.1"
+        },
+        {
+            "packageName": "com.qunar.spider.diffpatch",
+            "versionCode": "1.0.4"
+        },
+        {
+            "packageName": "com.qunar.3dparty.gpushsdk",
+            "versionCode": "2.6.1.0"
+        },
+        {
+            "packageName": "com.qunar.3dparty.payecoplugin",
+            "versionCode": "1.0.2"
+        },
+        {
+            "packageName": "com.qunar.spider.hyres",
+            "versionCode": "1.0.6"
+        },
+        {
+            "packageName": "com.qunar.yacca.clientsdk",
+            "versionCode": "1.0.0"
+        },
+        {
+            "packageName": "com.qunar.spider.libtask",
+            "versionCode": "1.0.9"
+        },
+        {
+            "packageName": "com.parse.bolts.bolts-android",
+            "versionCode": "1.1.4"
+        },
+        {
+            "packageName": "com.nineoldandroids.library",
+            "versionCode": "2.4.0"
+        },
+        {
+            "packageName": "com.qunar.3dparty.baidumapapi",
+            "versionCode": "3.5.0"
+        },
+        {
+            "packageName": "com.squareup.okio.okio",
+            "versionCode": "1.3.0"
+        },
+        {
+            "packageName": "com.squareup.okhttp.okhttp",
+            "versionCode": "2.3.0"
+        },
+        {
+            "packageName": "com.squareup.okhttp.okhttp-urlconnection",
+            "versionCode": "2.3.0"
+        },
+        {
+            "packageName": "org.apache.httpcomponents.httpmime",
+            "versionCode": "4.2.5"
+        },
+        {
+            "packageName": "com.qunar.3dparty.baidu_nettts",
+            "versionCode": "1.1.0"
+        },
+        {
+            "packageName": "com.qunar.3dparty.baiduvoicegalaxy",
+            "versionCode": "1.0.0"
+        },
+        {
+            "packageName": "com.qunar.3dparty.msc",
+            "versionCode": "1.0.0"
+        },
+        {
+            "packageName": "com.android.support.support-v4",
+            "versionCode": "23.0.1"
+        },
+        {
+            "packageName": "com.android.optional.org.apache.http.legacy",
+            "versionCode": "1.0.0"
+        },
+        {
+            "packageName": "com.qunar.3dparty.alipay_plugin",
+            "versionCode": "2.0.1"
+        },
+        {
+            "packageName": "com.qunar.spider.remote",
+            "versionCode": "1.0.2"
+        },
+        {
+            "packageName": "com.qunar.spider.qbase64",
+            "versionCode": "1.0.0"
+        },
+        {
+            "packageName": "com.android.support.gridlayout-v7",
+            "versionCode": "21.0.3"
+        },
+        {
+            "packageName": "com.qunar.3dparty.baidupayplugin",
+            "versionCode": "1.0.2"
+        },
+        {
+            "packageName": "com.qunar.spider.acra",
+            "versionCode": "1.0.1"
+        },
+        {
+            "packageName": "com.qunar.spider.dbutils",
+            "versionCode": "1.1.6"
+        },
+        {
+            "packageName": "com.qunar.spider.contacts",
+            "versionCode": "1.2.8"
+        }
+    ]
+}
