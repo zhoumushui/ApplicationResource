@@ -1,0 +1,87 @@
+[
+{
+CityID: 1801,
+CityName: "呼和浩特",
+EngName: "huhehaote",
+ParentID: 18,
+WeatherID: "101080101"
+},
+{
+CityID: 1802,
+CityName: "包头",
+EngName: "baotou",
+ParentID: 18,
+WeatherID: "101080201"
+},
+{
+CityID: 1808,
+CityName: "鄂尔多斯",
+EngName: "eerduosi",
+ParentID: 18,
+WeatherID: "101080701"
+},
+{
+CityID: 1803,
+CityName: "赤峰",
+EngName: "chifeng",
+ParentID: 18,
+WeatherID: "101080601"
+},
+{
+CityID: 1805,
+CityName: "乌海",
+EngName: "wuhai",
+ParentID: 18,
+WeatherID: "101080301"
+},
+{
+CityID: 1804,
+CityName: "通辽",
+EngName: "tongliao",
+ParentID: 18,
+WeatherID: "101080501"
+},
+{
+CityID: 1824,
+CityName: "巴彦淖尔",
+EngName: "bayannaoer",
+ParentID: 18,
+WeatherID: "101080801"
+},
+{
+CityID: 1812,
+CityName: "呼伦贝尔",
+EngName: "hulunbeier",
+ParentID: 18,
+WeatherID: "101081001"
+},
+{
+CityID: 1825,
+CityName: "乌兰察布",
+EngName: "wulanchabu",
+ParentID: 18,
+WeatherID: "101080401"
+},
+{
+CityID: 1829,
+CityName: "锡林郭勒",
+EngName: "xilinguolemeng",
+ParentID: 18,
+WeatherID: "101080901"
+},
+{
+CityID: 1814,
+CityName: "兴安",
+EngName: "xinganmeng",
+ParentID: 18
+},
+{
+CityID: 1830,
+CityName: "阿拉善",
+EngName: "alashanmeng",
+ParentID: 18
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

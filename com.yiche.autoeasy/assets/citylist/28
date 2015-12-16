@@ -1,0 +1,107 @@
+[
+{
+CityID: 2818,
+CityName: "和田",
+EngName: "hetian",
+ParentID: 28,
+WeatherID: "101131301"
+},
+{
+CityID: 2817,
+CityName: "阿克苏",
+EngName: "akesu",
+ParentID: 28,
+WeatherID: "101130801"
+},
+{
+CityID: 2812,
+CityName: "塔城",
+EngName: "tacheng",
+ParentID: 28,
+WeatherID: "101131101"
+},
+{
+CityID: 2815,
+CityName: "阿勒泰",
+EngName: "aletai",
+ParentID: 28,
+WeatherID: "101131401"
+},
+{
+CityID: 2807,
+CityName: "吐鲁番",
+EngName: "tulufan",
+ParentID: 28,
+WeatherID: "101130501"
+},
+{
+CityID: 2813,
+CityName: "昌吉",
+EngName: "changji",
+ParentID: 28,
+WeatherID: "101130401"
+},
+{
+CityID: 2823,
+CityName: "伊犁",
+EngName: "yilihasakezizhizhou",
+ParentID: 28,
+WeatherID: "101131001"
+},
+{
+CityID: 2806,
+CityName: "哈密",
+EngName: "hami",
+ParentID: 28,
+WeatherID: "101131201"
+},
+{
+CityID: 2802,
+CityName: "喀什",
+EngName: "kashi",
+ParentID: 28,
+WeatherID: "101130901"
+},
+{
+CityID: 2810,
+CityName: "石河子",
+EngName: "shihezi",
+ParentID: 28,
+WeatherID: "101130301"
+},
+{
+CityID: 2803,
+CityName: "克拉玛依",
+EngName: "kelamayi",
+ParentID: 28,
+WeatherID: "101130201"
+},
+{
+CityID: 2835,
+CityName: "新疆克州",
+EngName: "xinjiangkezhou",
+ParentID: 28
+},
+{
+CityID: 2822,
+CityName: "巴音郭楞",
+EngName: "bayinguolengmengguzizhizhou",
+ParentID: 28
+},
+{
+CityID: 2821,
+CityName: "博尔塔拉",
+EngName: "boertalamengguzizhizhou",
+ParentID: 28
+},
+{
+CityID: 2801,
+CityName: "乌鲁木齐",
+EngName: "wulumuqi",
+ParentID: 28,
+WeatherID: "101130101"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

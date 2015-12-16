@@ -1,0 +1,316 @@
+{
+CityValueSet: {
+CityItem: [
+
+{
+CityFullName: "安徽省",
+CityId: "1",
+CityName: "安徽",
+EngName: "anhui",
+Level: "0",
+Memo1: "A",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+
+
+{
+CityFullName: "福建省",
+CityId: "3",
+CityName: "福建",
+EngName: "fujian",
+Level: "0",
+Memo1: "F",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "甘肃省",
+CityId: "4",
+CityName: "甘肃",
+EngName: "gansu",
+Level: "0",
+Memo1: "G",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "广东省",
+CityId: "5",
+CityName: "广东",
+EngName: "guangdong",
+Level: "0",
+Memo1: "G",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "广西壮族自治区",
+CityId: "6",
+CityName: "广西",
+EngName: "guangxi",
+Level: "0",
+Memo1: "G",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "贵州省",
+CityId: "7",
+CityName: "贵州",
+EngName: "guizhou",
+Level: "0",
+Memo1: "G",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "海南省",
+CityId: "8",
+CityName: "海南",
+EngName: "hainan",
+Level: "0",
+Memo1: "H",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "河北省",
+CityId: "9",
+CityName: "河北",
+EngName: "hebei",
+Level: "0",
+Memo1: "H",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "河南省",
+CityId: "10",
+CityName: "河南",
+EngName: "henan",
+Level: "0",
+Memo1: "H",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "黑龙江省",
+CityId: "11",
+CityName: "黑龙江",
+EngName: "heilongjiang",
+Level: "0",
+Memo1: "H",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "湖北省",
+CityId: "12",
+CityName: "湖北",
+EngName: "hubei",
+Level: "0",
+Memo1: "H",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "湖南省",
+CityId: "13",
+CityName: "湖南",
+EngName: "hunan",
+Level: "0",
+Memo1: "H",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "吉林省",
+CityId: "14",
+CityName: "吉林",
+EngName: "jl",
+Level: "0",
+Memo1: "J",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "江苏省",
+CityId: "15",
+CityName: "江苏",
+EngName: "jiangsu",
+Level: "0",
+Memo1: "J",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "江西省",
+CityId: "16",
+CityName: "江西",
+EngName: "jiangxi",
+Level: "0",
+Memo1: "J",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "辽宁省",
+CityId: "17",
+CityName: "辽宁",
+EngName: "liaoning",
+Level: "0",
+Memo1: "L",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "内蒙古自治区",
+CityId: "18",
+CityName: "内蒙古",
+EngName: "neimenggu",
+Level: "0",
+Memo1: "N",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "宁夏回族自治区",
+CityId: "19",
+CityName: "宁夏",
+EngName: "ningxia",
+Level: "0",
+Memo1: "N",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "青海省",
+CityId: "20",
+CityName: "青海",
+EngName: "qinghai",
+Level: "0",
+Memo1: "Q",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "山东省",
+CityId: "21",
+CityName: "山东",
+EngName: "shandong",
+Level: "0",
+Memo1: "S",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "山西省",
+CityId: "22",
+CityName: "山西",
+EngName: "shanxi",
+Level: "0",
+Memo1: "S",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "陕西省",
+CityId: "23",
+CityName: "陕西",
+EngName: "shaanxi",
+Level: "0",
+Memo1: "S",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "四川省",
+CityId: "25",
+CityName: "四川",
+EngName: "sichuan",
+Level: "0",
+Memo1: "S",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "西藏自治区",
+CityId: "27",
+CityName: "西藏",
+EngName: "xizang",
+Level: "0",
+Memo1: "X",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+{
+CityFullName: "新疆维吾尔自治区",
+CityId: "28",
+CityName: "新疆",
+EngName: "xinjiang",
+Level: "0",
+Memo1: "X",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "云南省",
+CityId: "29",
+CityName: "云南",
+EngName: "yunnan",
+Level: "0",
+Memo1: "Y",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+},
+
+{
+CityFullName: "浙江省",
+CityId: "30",
+CityName: "浙江",
+EngName: "zhejiang",
+Level: "0",
+Memo1: "Z",
+Memo2: "",
+Memo3: "",
+ParentId: "0"
+}
+]
+}
+}

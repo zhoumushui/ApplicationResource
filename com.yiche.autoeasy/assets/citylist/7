@@ -1,0 +1,68 @@
+[
+{
+CityID: 701,
+CityName: "贵阳",
+EngName: "guiyang",
+ParentID: 7,
+WeatherID: "101260101"
+},
+{
+CityID: 702,
+CityName: "遵义",
+EngName: "zunyi",
+ParentID: 7,
+WeatherID: "101260201"
+},
+{
+CityID: 714,
+CityName: "黔东南",
+EngName: "qiandongnanmiaozudongzuzizhizhou",
+ParentID: 7,
+WeatherID: "101260501"
+},
+{
+CityID: 708,
+CityName: "六盘水",
+EngName: "liupanshui",
+ParentID: 7,
+WeatherID: "101260801"
+},
+{
+CityID: 705,
+CityName: "安顺",
+EngName: "anshun",
+ParentID: 7,
+WeatherID: "101260301"
+},
+{
+CityID: 706,
+CityName: "毕节",
+EngName: "bijie",
+ParentID: 7,
+WeatherID: "101260701"
+},
+{
+CityID: 718,
+CityName: "黔西南",
+EngName: "qianxinanbuyizumiaozuzizhizhou",
+ParentID: 7,
+WeatherID: "101260901"
+},
+{
+CityID: 715,
+CityName: "黔南",
+EngName: "qiannanbuyizumiaozuzizhizhou",
+ParentID: 7,
+WeatherID: "101260401"
+},
+{
+CityID: 710,
+CityName: "铜仁",
+EngName: "tongren",
+ParentID: 7,
+WeatherID: "101260601"
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:15 总耗时:16"
+}
+]

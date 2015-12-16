@@ -1,0 +1,61 @@
+[
+{
+CityID: 2001,
+CityName: "西宁",
+EngName: "xining",
+ParentID: 20,
+WeatherID: "101150101"
+},
+{
+CityID: 2025,
+CityName: "果洛",
+EngName: "guoluocangzuzizhizhou",
+ParentID: 20,
+WeatherID: "101150501"
+},
+{
+CityID: 2024,
+CityName: "黄南",
+EngName: "huangnancangzuzizhizhou",
+ParentID: 20,
+WeatherID: "101150301"
+},
+{
+CityID: 2023,
+CityName: "海北",
+EngName: "haibeicangzuzizhizhou",
+ParentID: 20,
+WeatherID: "101150801"
+},
+{
+CityID: 2026,
+CityName: "玉树",
+EngName: "yushucangzuzizhizhou",
+ParentID: 20,
+WeatherID: "101150601"
+},
+{
+CityID: 2030,
+CityName: "海南",
+EngName: "hainanzangzuzizhizhou",
+ParentID: 20,
+WeatherID: "101150401"
+},
+{
+CityID: 2029,
+CityName: "海东",
+EngName: "haidongdiqu",
+ParentID: 20,
+WeatherID: "101150201"
+},
+{
+CityID: 2027,
+CityName: "海西",
+EngName: "haiximengguzucangzuzizhizhou",
+ParentID: 20,
+WeatherID: "101150701"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

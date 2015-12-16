@@ -1,0 +1,152 @@
+[
+{
+CityID: 502,
+CityName: "深圳",
+EngName: "shenzhen",
+ParentID: 5,
+WeatherID: "101280601"
+},
+{
+CityID: 501,
+CityName: "广州",
+EngName: "guangzhou",
+ParentID: 5,
+WeatherID: "101280101"
+},
+{
+CityID: 503,
+CityName: "珠海",
+EngName: "zhuhai",
+ParentID: 5,
+WeatherID: "101280701"
+},
+{
+CityID: 505,
+CityName: "中山",
+EngName: "zhongshan",
+ParentID: 5,
+WeatherID: "101281701"
+},
+{
+CityID: 520,
+CityName: "惠州",
+EngName: "huizhou",
+ParentID: 5,
+WeatherID: "101280301"
+},
+{
+CityID: 504,
+CityName: "东莞",
+EngName: "dongguan",
+ParentID: 5,
+WeatherID: "101281601"
+},
+{
+CityID: 518,
+CityName: "佛山",
+EngName: "foshan",
+ParentID: 5,
+WeatherID: "101280801"
+},
+{
+CityID: 507,
+CityName: "汕头",
+EngName: "shantou",
+ParentID: 5,
+WeatherID: "101280501"
+},
+{
+CityID: 521,
+CityName: "江门",
+EngName: "jiangmen",
+ParentID: 5,
+WeatherID: "101281101"
+},
+{
+CityID: 511,
+CityName: "韶关",
+EngName: "shaoguan",
+ParentID: 5,
+WeatherID: "101280201"
+},
+{
+CityID: 522,
+CityName: "揭阳",
+EngName: "jieyang",
+ParentID: 5,
+WeatherID: "101281901"
+},
+{
+CityID: 514,
+CityName: "肇庆",
+EngName: "zhaoqing",
+ParentID: 5,
+WeatherID: "101280901"
+},
+{
+CityID: 552,
+CityName: "汕尾",
+EngName: "shanwei",
+ParentID: 5,
+WeatherID: "101282101"
+},
+{
+CityID: 535,
+CityName: "河源",
+EngName: "heyuan",
+ParentID: 5,
+WeatherID: "101281201"
+},
+{
+CityID: 516,
+CityName: "梅州",
+EngName: "meizhou",
+ParentID: 5,
+WeatherID: "101280401"
+},
+{
+CityID: 515,
+CityName: "茂名",
+EngName: "maoming",
+ParentID: 5,
+WeatherID: "101282001"
+},
+{
+CityID: 513,
+CityName: "湛江",
+EngName: "zhanjiang",
+ParentID: 5,
+WeatherID: "101281001"
+},
+{
+CityID: 532,
+CityName: "阳江",
+EngName: "yangjiang",
+ParentID: 5,
+WeatherID: "101281801"
+},
+{
+CityID: 528,
+CityName: "云浮",
+EngName: "yunfu",
+ParentID: 5,
+WeatherID: "101281401"
+},
+{
+CityID: 524,
+CityName: "清远",
+EngName: "qingyuan",
+ParentID: 5,
+WeatherID: "101281301"
+},
+{
+CityID: 510,
+CityName: "潮州",
+EngName: "chaozhou",
+ParentID: 5,
+WeatherID: "101281501"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

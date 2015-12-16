@@ -1,0 +1,68 @@
+[
+{
+CityID: 1401,
+CityName: "长春",
+EngName: "changchun",
+ParentID: 14,
+WeatherID: "101060101"
+},
+{
+CityID: 1402,
+CityName: "吉林",
+EngName: "jilin",
+ParentID: 14,
+WeatherID: "101060201"
+},
+{
+CityID: 1428,
+CityName: "延边",
+EngName: "yanbianchaoxianzuzizhizhou",
+ParentID: 14,
+WeatherID: "101060301"
+},
+{
+CityID: 1406,
+CityName: "白山",
+EngName: "baishan",
+ParentID: 14,
+WeatherID: "101060901"
+},
+{
+CityID: 1405,
+CityName: "辽源",
+EngName: "liaoyuan",
+ParentID: 14,
+WeatherID: "101060701"
+},
+{
+CityID: 1403,
+CityName: "通化",
+EngName: "tonghua",
+ParentID: 14,
+WeatherID: "101060501"
+},
+{
+CityID: 1412,
+CityName: "白城",
+EngName: "baicheng",
+ParentID: 14,
+WeatherID: "101060601"
+},
+{
+CityID: 1425,
+CityName: "松原",
+EngName: "songyuan",
+ParentID: 14,
+WeatherID: "101060801"
+},
+{
+CityID: 1616,
+CityName: "四平",
+EngName: "siping",
+ParentID: 14,
+WeatherID: "101060401"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

@@ -1,0 +1,103 @@
+[
+{
+CityID: 401,
+CityName: "兰州",
+EngName: "lanzhou",
+ParentID: 4,
+WeatherID: "101160101"
+},
+{
+CityID: 412,
+CityName: "武威",
+EngName: "wuwei",
+ParentID: 4,
+WeatherID: "101160501"
+},
+{
+CityID: 411,
+CityName: "庆阳",
+EngName: "qingyang",
+ParentID: 4,
+WeatherID: "101160401"
+},
+{
+CityID: 410,
+CityName: "张掖",
+EngName: "zhangye",
+ParentID: 4,
+WeatherID: "101160701"
+},
+{
+CityID: 417,
+CityName: "金昌",
+EngName: "jc",
+ParentID: 4,
+WeatherID: "101160601"
+},
+{
+CityID: 416,
+CityName: "嘉峪关",
+EngName: "jiayuguan",
+ParentID: 4,
+WeatherID: "101161401"
+},
+{
+CityID: 415,
+CityName: "天水",
+EngName: "tianshui",
+ParentID: 4,
+WeatherID: "101160901"
+},
+{
+CityID: 402,
+CityName: "定西",
+EngName: "dingxi",
+ParentID: 4,
+WeatherID: "101160201"
+},
+{
+CityID: 409,
+CityName: "酒泉",
+EngName: "jiuquan",
+ParentID: 4,
+WeatherID: "101160801"
+},
+{
+CityID: 407,
+CityName: "临夏",
+EngName: "linxia",
+ParentID: 4,
+WeatherID: "101161101"
+},
+{
+CityID: 405,
+CityName: "平凉",
+EngName: "pingliang",
+ParentID: 4,
+WeatherID: "101160301"
+},
+{
+CityID: 422,
+CityName: "甘南",
+EngName: "gannanzangzuzizhizhou",
+ParentID: 4,
+WeatherID: "101161201"
+},
+{
+CityID: 421,
+CityName: "陇南",
+EngName: "longnan",
+ParentID: 4,
+WeatherID: "101161001"
+},
+{
+CityID: 418,
+CityName: "白银",
+EngName: "baiyin",
+ParentID: 4,
+WeatherID: "101161301"
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:1 总耗时:2"
+}
+]

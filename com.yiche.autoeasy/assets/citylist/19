@@ -1,0 +1,40 @@
+[
+{
+CityID: 1901,
+CityName: "银川",
+EngName: "yinchuan",
+ParentID: 19,
+WeatherID: "101170101"
+},
+{
+CityID: 1902,
+CityName: "吴忠",
+EngName: "wuzhong",
+ParentID: 19,
+WeatherID: "101170301"
+},
+{
+CityID: 1903,
+CityName: "固原",
+EngName: "guyuan",
+ParentID: 19,
+WeatherID: "101170401"
+},
+{
+CityID: 1907,
+CityName: "中卫",
+EngName: "zhongwei",
+ParentID: 19,
+WeatherID: "101170501"
+},
+{
+CityID: 1905,
+CityName: "石嘴山",
+EngName: "shizuishan",
+ParentID: 19,
+WeatherID: "101170201"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:0 总耗时:2"
+}
+]

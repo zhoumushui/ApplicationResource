@@ -1,0 +1,82 @@
+[
+{
+CityID: 1601,
+CityName: "南昌",
+EngName: "nanchang",
+ParentID: 16,
+WeatherID: "101240101"
+},
+{
+CityID: 1607,
+CityName: "赣州",
+EngName: "ganzhou",
+ParentID: 16,
+WeatherID: "101240701"
+},
+{
+CityID: 1606,
+CityName: "九江",
+EngName: "jiujiang",
+ParentID: 16,
+WeatherID: "101240201"
+},
+{
+CityID: 1602,
+CityName: "上饶",
+EngName: "shangrao",
+ParentID: 16,
+WeatherID: "101240301"
+},
+{
+CityID: 1605,
+CityName: "宜春",
+EngName: "yichun",
+ParentID: 16,
+WeatherID: "101240501"
+},
+{
+CityID: 1613,
+CityName: "抚州",
+EngName: "jxfz",
+ParentID: 16,
+WeatherID: "101240401"
+},
+{
+CityID: 1612,
+CityName: "景德镇",
+EngName: "jingdezhen",
+ParentID: 16,
+WeatherID: "101240801"
+},
+{
+CityID: 1609,
+CityName: "吉安",
+EngName: "jian",
+ParentID: 16,
+WeatherID: "101240601"
+},
+{
+CityID: 1615,
+CityName: "鹰潭",
+EngName: "yingtan",
+ParentID: 16,
+WeatherID: "101241101"
+},
+{
+CityID: 1604,
+CityName: "新余",
+EngName: "xinyu",
+ParentID: 16,
+WeatherID: "101241001"
+},
+{
+CityID: 1603,
+CityName: "萍乡",
+EngName: "pingxiang",
+ParentID: 16,
+WeatherID: "101240901"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

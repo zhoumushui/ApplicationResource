@@ -1,0 +1,82 @@
+[
+{
+CityID: 901,
+CityName: "石家庄",
+EngName: "shijiazhuang",
+ParentID: 9,
+WeatherID: "101090101"
+},
+{
+CityID: 902,
+CityName: "唐山",
+EngName: "tangshan",
+ParentID: 9,
+WeatherID: "101090501"
+},
+{
+CityID: 910,
+CityName: "保定",
+EngName: "baoding",
+ParentID: 9,
+WeatherID: "101090201"
+},
+{
+CityID: 907,
+CityName: "邯郸",
+EngName: "handan",
+ParentID: 9,
+WeatherID: "101091001"
+},
+{
+CityID: 909,
+CityName: "沧州",
+EngName: "cangzhou",
+ParentID: 9,
+WeatherID: "101090701"
+},
+{
+CityID: 903,
+CityName: "邢台",
+EngName: "xingtai",
+ParentID: 9,
+WeatherID: "101090901"
+},
+{
+CityID: 906,
+CityName: "廊坊",
+EngName: "langfang",
+ParentID: 9,
+WeatherID: "101090601"
+},
+{
+CityID: 905,
+CityName: "秦皇岛",
+EngName: "qinhuangdao",
+ParentID: 9,
+WeatherID: "101091101"
+},
+{
+CityID: 911,
+CityName: "张家口",
+EngName: "zhangjiakou",
+ParentID: 9,
+WeatherID: "101090301"
+},
+{
+CityID: 908,
+CityName: "衡水",
+EngName: "hengshui",
+ParentID: 9,
+WeatherID: "101090801"
+},
+{
+CityID: 912,
+CityName: "承德",
+EngName: "chengde",
+ParentID: 9,
+WeatherID: "101090401"
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:1 总耗时:2"
+}
+]

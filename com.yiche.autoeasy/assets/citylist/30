@@ -1,0 +1,88 @@
+[
+{
+CityID: 3001,
+CityName: "杭州",
+EngName: "hangzhou",
+ParentID: 30,
+WeatherID: "101210101"
+},
+{
+CityID: 3002,
+CityName: "宁波",
+EngName: "ningbo",
+ParentID: 30,
+WeatherID: "101210401"
+},
+{
+CityID: 3003,
+CityName: "温州",
+EngName: "wenzhou",
+ParentID: 30,
+WeatherID: "101210701"
+},
+{
+CityID: 3015,
+CityName: "台州",
+EngName: "tz",
+ParentID: 30,
+WeatherID: "101210601"
+},
+{
+CityID: 3016,
+CityName: "绍兴",
+EngName: "shaoxing",
+ParentID: 30,
+WeatherID: "101210501"
+},
+{
+CityID: 3005,
+CityName: "嘉兴",
+EngName: "jiaxing",
+ParentID: 30,
+WeatherID: "101210301"
+},
+{
+CityID: 3006,
+CityName: "金华",
+EngName: "jinhua",
+ParentID: 30,
+WeatherID: "101210901"
+},
+{
+CityID: 3011,
+CityName: "湖州",
+EngName: "huzhou",
+ParentID: 30,
+WeatherID: "101210201"
+},
+{
+CityID: 3012,
+CityName: "衢州",
+EngName: "quzhou",
+ParentID: 30,
+WeatherID: "101211001"
+},
+{
+CityID: 3009,
+CityName: "丽水",
+EngName: "lishui",
+ParentID: 30,
+WeatherID: "101210801"
+},
+{
+CityID: 3020,
+CityName: "舟山",
+EngName: "zhoushan",
+ParentID: 30,
+WeatherID: "101211101"
+},
+{
+CityID: 3019,
+CityName: "义乌",
+EngName: "yiwu",
+ParentID: 30
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

@@ -1,0 +1,96 @@
+[
+{
+CityID: 1101,
+CityName: "哈尔滨",
+EngName: "haerbin",
+ParentID: 11,
+WeatherID: "101050101"
+},
+{
+CityID: 1102,
+CityName: "大庆",
+EngName: "daqing",
+ParentID: 11,
+WeatherID: "101050901"
+},
+{
+CityID: 1108,
+CityName: "牡丹江",
+EngName: "mudanjiang",
+ParentID: 11,
+WeatherID: "101050301"
+},
+{
+CityID: 1103,
+CityName: "齐齐哈尔",
+EngName: "qiqihaer",
+ParentID: 11,
+WeatherID: "101050201"
+},
+{
+CityID: 1131,
+CityName: "绥化",
+EngName: "suihua",
+ParentID: 11,
+WeatherID: "101050501"
+},
+{
+CityID: 1123,
+CityName: "双鸭山",
+EngName: "shuangyashan",
+ParentID: 11,
+WeatherID: "101051301"
+},
+{
+CityID: 1136,
+CityName: "大兴安岭",
+EngName: "daxinganlingdiqu",
+ParentID: 11,
+WeatherID: "101050701"
+},
+{
+CityID: 1113,
+CityName: "黑河",
+EngName: "heihe",
+ParentID: 11,
+WeatherID: "101050601"
+},
+{
+CityID: 1107,
+CityName: "鸡西",
+EngName: "jixi",
+ParentID: 11,
+WeatherID: "101051101"
+},
+{
+CityID: 1109,
+CityName: "七台河",
+EngName: "qitaihe",
+ParentID: 11,
+WeatherID: "101051001"
+},
+{
+CityID: 1112,
+CityName: "伊春",
+EngName: "yc",
+ParentID: 11,
+WeatherID: "101050801"
+},
+{
+CityID: 1106,
+CityName: "佳木斯",
+EngName: "jiamusi",
+ParentID: 11,
+WeatherID: "101050401"
+},
+{
+CityID: 1104,
+CityName: "鹤岗",
+EngName: "hegang",
+ParentID: 11,
+WeatherID: "101051201"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

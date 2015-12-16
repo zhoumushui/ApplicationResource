@@ -1,0 +1,86 @@
+[
+{
+Name: "大众",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/8.png",
+MasterID: 8,
+PV: 100
+},
+{
+Name: "现代",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/13.png",
+MasterID: 13,
+PV: 99
+},
+{
+Name: "福特",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/17.png",
+MasterID: 17,
+PV: 98
+},
+{
+Name: "起亚",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/28.png",
+MasterID: 28,
+PV: 97
+},
+{
+Name: "别克",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/127.png",
+MasterID: 127,
+PV: 96
+},
+{
+Name: "长城",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/21.png",
+MasterID: 21,
+PV: 95
+},
+{
+Name: "奥迪",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/9.png",
+MasterID: 9,
+PV: 94
+},
+{
+Name: "长安",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/136.png",
+MasterID: 136,
+PV: 93
+},
+{
+Name: "比亚迪",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/15.png",
+MasterID: 15,
+PV: 92
+},
+{
+Name: "雪佛兰",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/49.png",
+MasterID: 49,
+PV: 91
+},
+{
+Name: "标致",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/5.png",
+MasterID: 5,
+PV: 89
+},
+{
+Name: "宝马",
+Initial: "热门品牌",
+CoverPhoto: "http://image.bitautoimg.com/wap/car/{0}/3.png",
+MasterID: 3,
+PV: 90
+}
+]

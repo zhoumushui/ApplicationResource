@@ -1,0 +1,75 @@
+[
+{
+CityID: 2301,
+CityName: "西安",
+EngName: "xian",
+ParentID: 23,
+WeatherID: "101110101"
+},
+{
+CityID: 2304,
+CityName: "榆林",
+EngName: "yl",
+ParentID: 23,
+WeatherID: "101110401"
+},
+{
+CityID: 2303,
+CityName: "渭南",
+EngName: "weinan",
+ParentID: 23,
+WeatherID: "101110501"
+},
+{
+CityID: 2305,
+CityName: "宝鸡",
+EngName: "baoji",
+ParentID: 23,
+WeatherID: "101110901"
+},
+{
+CityID: 2313,
+CityName: "商洛",
+EngName: "shangluo",
+ParentID: 23,
+WeatherID: "101110601"
+},
+{
+CityID: 2310,
+CityName: "铜川",
+EngName: "tongchuan",
+ParentID: 23,
+WeatherID: "101111001"
+},
+{
+CityID: 2302,
+CityName: "咸阳",
+EngName: "xianyang",
+ParentID: 23,
+WeatherID: "101110201"
+},
+{
+CityID: 2308,
+CityName: "延安",
+EngName: "yanan",
+ParentID: 23,
+WeatherID: "101110301"
+},
+{
+CityID: 2307,
+CityName: "汉中",
+EngName: "hanzhong",
+ParentID: 23,
+WeatherID: "101110801"
+},
+{
+CityID: 2306,
+CityName: "安康",
+EngName: "ankang",
+ParentID: 23,
+WeatherID: "101110701"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

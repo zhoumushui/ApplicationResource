@@ -1,0 +1,123 @@
+[
+{
+CityID: 2916,
+CityName: "思茅",
+EngName: "simao",
+ParentID: 29
+},
+{
+CityID: 2901,
+CityName: "昆明",
+EngName: "kunming",
+ParentID: 29,
+WeatherID: "101290101"
+},
+{
+CityID: 2903,
+CityName: "曲靖",
+EngName: "qujing",
+ParentID: 29,
+WeatherID: "101290401"
+},
+{
+CityID: 2904,
+CityName: "大理",
+EngName: "dali",
+ParentID: 29,
+WeatherID: "101290201"
+},
+{
+CityID: 2902,
+CityName: "玉溪",
+EngName: "yuxi",
+ParentID: 29,
+WeatherID: "101290701"
+},
+{
+CityID: 2923,
+CityName: "红河",
+EngName: "honghehanizuyizuzizhizhou",
+ParentID: 29,
+WeatherID: "101290301"
+},
+{
+CityID: 2908,
+CityName: "楚雄",
+EngName: "chuxiong",
+ParentID: 29,
+WeatherID: "101290801"
+},
+{
+CityID: 2914,
+CityName: "文山",
+EngName: "wenshan",
+ParentID: 29,
+WeatherID: "101290601"
+},
+{
+CityID: 2911,
+CityName: "临沧",
+EngName: "lincang",
+ParentID: 29,
+WeatherID: "101291101"
+},
+{
+CityID: 2915,
+CityName: "西双版纳",
+EngName: "xishuangbanna",
+ParentID: 29,
+WeatherID: "101291601"
+},
+{
+CityID: 2907,
+CityName: "保山",
+EngName: "baoshan",
+ParentID: 29,
+WeatherID: "101290501"
+},
+{
+CityID: 2927,
+CityName: "怒江",
+EngName: "nujianglisuzuzizhizhou",
+ParentID: 29,
+WeatherID: "101291201"
+},
+{
+CityID: 2929,
+CityName: "普洱",
+EngName: "puer",
+ParentID: 29,
+WeatherID: "101290901"
+},
+{
+CityID: 2928,
+CityName: "迪庆",
+EngName: "diqingcangzuzizhizhou",
+ParentID: 29,
+WeatherID: "101291301"
+},
+{
+CityID: 2922,
+CityName: "丽江",
+EngName: "lijiang",
+ParentID: 29,
+WeatherID: "101291401"
+},
+{
+CityID: 2918,
+CityName: "昭通",
+EngName: "zhaotong",
+ParentID: 29,
+WeatherID: "101291001"
+},
+{
+CityID: 2925,
+CityName: "德宏",
+EngName: "dehongdaizujingpozuzizhizhou",
+ParentID: 29,
+WeatherID: "101291501"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

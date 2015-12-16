@@ -1,0 +1,124 @@
+[
+{
+CityID: 2101,
+CityName: "济南",
+EngName: "jinan",
+ParentID: 21,
+WeatherID: "101120101"
+},
+{
+CityID: 2102,
+CityName: "青岛",
+EngName: "qingdao",
+ParentID: 21,
+WeatherID: "101120201"
+},
+{
+CityID: 2109,
+CityName: "淄博",
+EngName: "zibo",
+ParentID: 21,
+WeatherID: "101120301"
+},
+{
+CityID: 2117,
+CityName: "临沂",
+EngName: "linyi",
+ParentID: 21,
+WeatherID: "101120901"
+},
+{
+CityID: 2118,
+CityName: "济宁",
+EngName: "jining",
+ParentID: 21,
+WeatherID: "101120701"
+},
+{
+CityID: 2110,
+CityName: "东营",
+EngName: "dongying",
+ParentID: 21,
+WeatherID: "101121201"
+},
+{
+CityID: 2106,
+CityName: "泰安",
+EngName: "taian",
+ParentID: 21,
+WeatherID: "101120801"
+},
+{
+CityID: 2113,
+CityName: "滨州",
+EngName: "binzhou",
+ParentID: 21,
+WeatherID: "101121101"
+},
+{
+CityID: 1015,
+CityName: "德州",
+EngName: "dezhou",
+ParentID: 21,
+WeatherID: "101120401"
+},
+{
+CityID: 2112,
+CityName: "菏泽",
+EngName: "heze",
+ParentID: 21,
+WeatherID: "101121001"
+},
+{
+CityID: 2107,
+CityName: "枣庄",
+EngName: "zaozhuang",
+ParentID: 21,
+WeatherID: "101121401"
+},
+{
+CityID: 2114,
+CityName: "聊城",
+EngName: "liaocheng",
+ParentID: 21,
+WeatherID: "101121701"
+},
+{
+CityID: 2132,
+CityName: "莱芜",
+EngName: "laiwu",
+ParentID: 21,
+WeatherID: "101121601"
+},
+{
+CityID: 2103,
+CityName: "烟台",
+EngName: "yantai",
+ParentID: 21,
+WeatherID: "101120501"
+},
+{
+CityID: 2105,
+CityName: "潍坊",
+EngName: "weifang",
+ParentID: 21,
+WeatherID: "101120601"
+},
+{
+CityID: 2104,
+CityName: "威海",
+EngName: "weihai",
+ParentID: 21,
+WeatherID: "101121301"
+},
+{
+CityID: 2120,
+CityName: "日照",
+EngName: "rizhao",
+ParentID: 21,
+WeatherID: "101121501"
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:1 总耗时:2"
+}
+]

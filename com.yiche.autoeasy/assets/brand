@@ -1,0 +1,957 @@
+[
+    {
+        "Name": "中欧",
+        "Initial": "Z",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/167.png",
+        "MasterID": 167,
+        "PV": 8171
+    },
+    {
+        "Name": "江南",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/38.png",
+        "MasterID": 38,
+        "PV": 53513
+    },
+    {
+        "Name": "金龙联合",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/57.png",
+        "MasterID": 57,
+        "PV": 16703
+    },
+    {
+        "Name": "富奇",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/61.png",
+        "MasterID": 61,
+        "PV": 3862
+    },
+    {
+        "Name": "Smart",
+        "Initial": "S",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/89.png",
+        "MasterID": 89,
+        "PV": 153236
+    },
+    {
+        "Name": "GMC",
+        "Initial": "G",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/109.png",
+        "MasterID": 109,
+        "PV": 27747
+    },
+    {
+        "Name": "布加迪",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/135.png",
+        "MasterID": 135,
+        "PV": 257837
+    },
+    {
+        "Name": "世爵",
+        "Initial": "S",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/137.png",
+        "MasterID": 137,
+        "PV": 9631
+    },
+    {
+        "Name": "柯尼赛格",
+        "Initial": "K",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/145.png",
+        "MasterID": 145,
+        "PV": 12798
+    },
+    {
+        "Name": "金旅客车",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/161.png",
+        "MasterID": 161,
+        "PV": 2816
+    },
+    {
+        "Name": "理念",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/166.png",
+        "MasterID": 166,
+        "PV": 65573
+    },
+    {
+        "Name": "欧朗",
+        "Initial": "O",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/171.png",
+        "MasterID": 171,
+        "PV": 92501
+    },
+    {
+        "Name": "俊风",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/177.png",
+        "MasterID": 177,
+        "PV": 14493
+    },
+    {
+        "Name": "宇通",
+        "Initial": "Y",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/178.png",
+        "MasterID": 178,
+        "PV": 3503
+    },
+    {
+        "Name": "迈凯轮",
+        "Initial": "M",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/183.png",
+        "MasterID": 183,
+        "PV": 11167
+    },
+    {
+        "Name": "保斐利",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/184.png",
+        "MasterID": 184,
+        "PV": 9428
+    },
+    {
+        "Name": "菲斯克",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/164.png",
+        "MasterID": 164,
+        "PV": 14
+    },
+    {
+        "Name": "观致汽车",
+        "Initial": "G",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/182.png",
+        "MasterID": 182,
+        "PV": 532
+    },
+    {
+        "Name": "弗那萨利",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/190.png",
+        "MasterID": 190,
+        "PV": 182
+    },
+    {
+        "Name": "东风风度",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/197.png",
+        "MasterID": 197,
+        "PV": 23787
+    },
+    {
+        "Name": "绅宝",
+        "Initial": "S",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/195.png",
+        "MasterID": 195,
+        "PV": 133225
+    },
+    {
+        "Name": "汇众",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/45.png",
+        "MasterID": 45,
+        "PV": 7257
+    },
+    {
+        "Name": "双环",
+        "Initial": "S",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/50.png",
+        "MasterID": 50,
+        "PV": 116565
+    },
+    {
+        "Name": "美亚",
+        "Initial": "M",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/55.png",
+        "MasterID": 55,
+        "PV": 8456
+    },
+    {
+        "Name": "新凯",
+        "Initial": "X",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/71.png",
+        "MasterID": 71,
+        "PV": 7826
+    },
+    {
+        "Name": "劳斯莱斯",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/80.png",
+        "MasterID": 80,
+        "PV": 161742
+    },
+    {
+        "Name": "西雅特",
+        "Initial": "X",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/87.png",
+        "MasterID": 87,
+        "PV": 141415
+    },
+    {
+        "Name": "启辰",
+        "Initial": "Q",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/156.png",
+        "MasterID": 156,
+        "PV": 276054
+    },
+    {
+        "Name": "宝骏",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/157.png",
+        "MasterID": 157,
+        "PV": 587197
+    },
+    {
+        "Name": "大通",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/165.png",
+        "MasterID": 165,
+        "PV": 27817
+    },
+    {
+        "Name": "恒天汽车",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/181.png",
+        "MasterID": 181,
+        "PV": 5402
+    },
+    {
+        "Name": "北汽威旺",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/168.png",
+        "MasterID": 168,
+        "PV": 111472
+    },
+    {
+        "Name": "威兹曼",
+        "Initial": "W",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/186.png",
+        "MasterID": 186,
+        "PV": 12468
+    },
+    {
+        "Name": "TESLA",
+        "Initial": "T",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/189.png",
+        "MasterID": 189,
+        "PV": 0
+    },
+    {
+        "Name": "红旗",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/58.png",
+        "MasterID": 58,
+        "PV": 139481
+    },
+    {
+        "Name": "奔腾",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/59.png",
+        "MasterID": 59,
+        "PV": 545127
+    },
+    {
+        "Name": "路特斯",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/83.png",
+        "MasterID": 83,
+        "PV": 37831
+    },
+    {
+        "Name": "兰博基尼",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/86.png",
+        "MasterID": 86,
+        "PV": 310489
+    },
+    {
+        "Name": "玛莎拉蒂",
+        "Initial": "M",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/93.png",
+        "MasterID": 93,
+        "PV": 120507
+    },
+    {
+        "Name": "欧宝",
+        "Initial": "O",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/104.png",
+        "MasterID": 104,
+        "PV": 110496
+    },
+    {
+        "Name": "光冈",
+        "Initial": "G",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/110.png",
+        "MasterID": 110,
+        "PV": 65985
+    },
+    {
+        "Name": "东风风行",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/115.png",
+        "MasterID": 115,
+        "PV": 527372
+    },
+    {
+        "Name": "广汽日野",
+        "Initial": "G",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/133.png",
+        "MasterID": 133,
+        "PV": 9767
+    },
+    {
+        "Name": "野马",
+        "Initial": "Y",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/138.png",
+        "MasterID": 138,
+        "PV": 180456
+    },
+    {
+        "Name": "广汽",
+        "Initial": "G",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/147.png",
+        "MasterID": 147,
+        "PV": 474703
+    },
+    {
+        "Name": "纳智捷",
+        "Initial": "N",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/155.png",
+        "MasterID": 155,
+        "PV": 332981
+    },
+    {
+        "Name": "DS",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/179.png",
+        "MasterID": 179,
+        "PV": 74486
+    },
+    {
+        "Name": "九龙",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/152.png",
+        "MasterID": 152,
+        "PV": 6252
+    },
+    {
+        "Name": "AC Schnitzer",
+        "Initial": "A",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/180.png",
+        "MasterID": 180,
+        "PV": 33708
+    },
+    {
+        "Name": "吉利帝豪",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/143.png",
+        "MasterID": 143,
+        "PV": 866880
+    },
+    {
+        "Name": "卡尔森",
+        "Initial": "K",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/188.png",
+        "MasterID": 188,
+        "PV": 0
+    },
+    {
+        "Name": "吉普",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/4.png",
+        "MasterID": 4,
+        "PV": 801887
+    },
+    {
+        "Name": "永源",
+        "Initial": "Y",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/75.png",
+        "MasterID": 75,
+        "PV": 82512
+    },
+    {
+        "Name": "宾利",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/85.png",
+        "MasterID": 85,
+        "PV": 198675
+    },
+    {
+        "Name": "迈巴赫",
+        "Initial": "M",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/88.png",
+        "MasterID": 88,
+        "PV": 136646
+    },
+    {
+        "Name": "阿尔法·罗米欧",
+        "Initial": "A",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/92.png",
+        "MasterID": 92,
+        "PV": 32185
+    },
+    {
+        "Name": "道奇",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/113.png",
+        "MasterID": 113,
+        "PV": 167016
+    },
+    {
+        "Name": "东风风神",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/141.png",
+        "MasterID": 141,
+        "PV": 454666
+    },
+    {
+        "Name": "海格",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/170.png",
+        "MasterID": 170,
+        "PV": 14674
+    },
+    {
+        "Name": "中兴",
+        "Initial": "Z",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/33.png",
+        "MasterID": 33,
+        "PV": 68928
+    },
+    {
+        "Name": "菲亚特",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/40.png",
+        "MasterID": 40,
+        "PV": 394368
+    },
+    {
+        "Name": "依维柯",
+        "Initial": "Y",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/41.png",
+        "MasterID": 41,
+        "PV": 61843
+    },
+    {
+        "Name": "庆铃",
+        "Initial": "Q",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/43.png",
+        "MasterID": 43,
+        "PV": 45374
+    },
+    {
+        "Name": "克莱斯勒",
+        "Initial": "K",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/51.png",
+        "MasterID": 51,
+        "PV": 143771
+    },
+    {
+        "Name": "华泰",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/112.png",
+        "MasterID": 112,
+        "PV": 435741
+    },
+    {
+        "Name": "昌河",
+        "Initial": "C",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/129.png",
+        "MasterID": 129,
+        "PV": 127938
+    },
+    {
+        "Name": "威麟",
+        "Initial": "W",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/140.png",
+        "MasterID": 140,
+        "PV": 83102
+    },
+    {
+        "Name": "北京汽车",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/163.png",
+        "MasterID": 163,
+        "PV": 584745
+    },
+    {
+        "Name": "巴博斯",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/172.png",
+        "MasterID": 172,
+        "PV": 47624
+    },
+    {
+        "Name": "东南",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/29.png",
+        "MasterID": 29,
+        "PV": 571750
+    },
+    {
+        "Name": "陆风",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/36.png",
+        "MasterID": 36,
+        "PV": 422894
+    },
+    {
+        "Name": "福迪",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/67.png",
+        "MasterID": 67,
+        "PV": 86632
+    },
+    {
+        "Name": "荣威",
+        "Initial": "R",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/78.png",
+        "MasterID": 78,
+        "PV": 1326890
+    },
+    {
+        "Name": "保时捷",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/82.png",
+        "MasterID": 82,
+        "PV": 989684
+    },
+    {
+        "Name": "捷豹",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/98.png",
+        "MasterID": 98,
+        "PV": 294770
+    },
+    {
+        "Name": "英菲尼迪",
+        "Initial": "Y",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/100.png",
+        "MasterID": 100,
+        "PV": 346273
+    },
+    {
+        "Name": "双龙",
+        "Initial": "S",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/102.png",
+        "MasterID": 102,
+        "PV": 180909
+    },
+    {
+        "Name": "开瑞",
+        "Initial": "K",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/150.png",
+        "MasterID": 150,
+        "PV": 91594
+    },
+    {
+        "Name": "MG",
+        "Initial": "M",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/79.png",
+        "MasterID": 79,
+        "PV": 1466471
+    },
+    {
+        "Name": "MINI",
+        "Initial": "M",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/81.png",
+        "MasterID": 81,
+        "PV": 320247
+    },
+    {
+        "Name": "讴歌",
+        "Initial": "O",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/84.png",
+        "MasterID": 84,
+        "PV": 132384
+    },
+    {
+        "Name": "路虎",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/96.png",
+        "MasterID": 96,
+        "PV": 1357177
+    },
+    {
+        "Name": "莲花",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/146.png",
+        "MasterID": 146,
+        "PV": 166618
+    },
+    {
+        "Name": "海马商用车",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/149.png",
+        "MasterID": 149,
+        "PV": 212437
+    },
+    {
+        "Name": "哈弗",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/196.png",
+        "MasterID": 196,
+        "PV": 2880516
+    },
+    {
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/14.png",
+        "Initial": "B",
+        "MasterID": 14,
+        "Name": "北汽制造",
+        "PV": 409480
+    },
+    {
+        "Name": "海马",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/32.png",
+        "MasterID": 32,
+        "PV": 965680
+    },
+    {
+        "Name": "五菱",
+        "Initial": "W",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/48.png",
+        "MasterID": 48,
+        "PV": 1671544
+    },
+    {
+        "Name": "力帆",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/76.png",
+        "MasterID": 76,
+        "PV": 459382
+    },
+    {
+        "Name": "众泰",
+        "Initial": "Z",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/77.png",
+        "MasterID": 77,
+        "PV": 551767
+    },
+    {
+        "Name": "林肯",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/95.png",
+        "MasterID": 95,
+        "PV": 135480
+    },
+    {
+        "Name": "斯巴鲁",
+        "Initial": "S",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/111.png",
+        "MasterID": 111,
+        "PV": 564697
+    },
+    {
+        "Name": "瑞麒",
+        "Initial": "R",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/142.png",
+        "MasterID": 142,
+        "PV": 197838
+    },
+    {
+        "Name": "吉利全球鹰",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/144.png",
+        "MasterID": 144,
+        "PV": 1065412
+    },
+    {
+        "Name": "斯柯达",
+        "Initial": "S",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/10.png",
+        "MasterID": 10,
+        "PV": 973891
+    },
+    {
+        "Name": "沃尔沃",
+        "Initial": "W",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/19.png",
+        "MasterID": 19,
+        "PV": 662802
+    },
+    {
+        "Name": "法拉利",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/91.png",
+        "MasterID": 91,
+        "PV": 215098
+    },
+    {
+        "Name": "雷克萨斯",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/94.png",
+        "MasterID": 94,
+        "PV": 655553
+    },
+    {
+        "Name": "雷诺",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/99.png",
+        "MasterID": 99,
+        "PV": 259563
+    },
+    {
+        "Name": "别克",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/127.png",
+        "MasterID": 127,
+        "PV": 3980451
+    },
+    {
+        "Name": "江铃",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/37.png",
+        "MasterID": 37,
+        "PV": 238374
+    },
+    {
+        "Name": "阿斯顿·马丁",
+        "Initial": "A",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/97.png",
+        "MasterID": 97,
+        "PV": 305228
+    },
+    {
+        "Name": "吉利英伦",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/148.png",
+        "MasterID": 148,
+        "PV": 538279
+    },
+    {
+        "Name": "中华",
+        "Initial": "Z",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/60.png",
+        "MasterID": 60,
+        "PV": 1222475
+    },
+    {
+        "Name": "凯迪拉克",
+        "Initial": "K",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/107.png",
+        "MasterID": 107,
+        "PV": 488050
+    },
+    {
+        "Name": "长安商用",
+        "Initial": "C",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/159.png",
+        "MasterID": 159,
+        "PV": 956504
+    },
+    {
+        "Name": "星客特",
+        "Initial": "X",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/174.png",
+        "MasterID": 174,
+        "PV": 21308
+    },
+    {
+        "Name": "广汽吉奥",
+        "Initial": "G",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/63.png",
+        "MasterID": 63,
+        "PV": 149148
+    },
+    {
+        "Name": "长安轿车",
+        "Initial": "C",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/136.png",
+        "MasterID": 136,
+        "PV": 3270759
+    },
+    {
+        "Name": "长丰",
+        "Initial": "C",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/153.png",
+        "MasterID": 153,
+        "PV": 264966
+    },
+    {
+        "Name": "金杯",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/39.png",
+        "MasterID": 39,
+        "PV": 355411
+    },
+    {
+        "Name": "宝马",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/3.png",
+        "MasterID": 3,
+        "PV": 3128021
+    },
+    {
+        "Name": "三菱",
+        "Initial": "S",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/25.png",
+        "MasterID": 25,
+        "PV": 1332104
+    },
+    {
+        "Name": "奇瑞",
+        "Initial": "Q",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/42.png",
+        "MasterID": 42,
+        "PV": 2559339
+    },
+    {
+        "Name": "黄海",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/52.png",
+        "MasterID": 52,
+        "PV": 197102
+    },
+    {
+        "Name": "铃木",
+        "Initial": "L",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/16.png",
+        "MasterID": 16,
+        "PV": 1995229
+    },
+    {
+        "Name": "福特",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/17.png",
+        "MasterID": 17,
+        "PV": 4785493
+    },
+    {
+        "Name": "本田",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/26.png",
+        "MasterID": 26,
+        "PV": 3386535
+    },
+    {
+        "Name": "东风",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/27.png",
+        "MasterID": 27,
+        "PV": 515186
+    },
+    {
+        "Name": "哈飞",
+        "Initial": "H",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/31.png",
+        "MasterID": 31,
+        "PV": 257734
+    },
+    {
+        "Name": "雪铁龙",
+        "Initial": "X",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/6.png",
+        "MasterID": 6,
+        "PV": 2126368
+    },
+    {
+        "Name": "比亚迪",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/15.png",
+        "MasterID": 15,
+        "PV": 3343038
+    },
+    {
+        "Name": "马自达",
+        "Initial": "M",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/18.png",
+        "MasterID": 18,
+        "PV": 2102831
+    },
+    {
+        "Name": "一汽",
+        "Initial": "Y",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/53.png",
+        "MasterID": 53,
+        "PV": 1395304
+    },
+    {
+        "Name": "雪佛兰",
+        "Initial": "X",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/49.png",
+        "MasterID": 49,
+        "PV": 4528633
+    },
+    {
+        "Name": "福田",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/128.png",
+        "MasterID": 128,
+        "PV": 154997
+    },
+    {
+        "Name": "长城",
+        "Initial": "C",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/21.png",
+        "MasterID": 21,
+        "PV": 5114078
+    },
+    {
+        "Name": "标致",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/5.png",
+        "MasterID": 5,
+        "PV": 2166692
+    },
+    {
+        "Name": "奥迪",
+        "Initial": "A",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/9.png",
+        "MasterID": 9,
+        "PV": 4067250
+    },
+    {
+        "Name": "起亚",
+        "Initial": "Q",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/28.png",
+        "MasterID": 28,
+        "PV": 5510741
+    },
+    {
+        "Name": "江淮",
+        "Initial": "J",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/35.png",
+        "MasterID": 35,
+        "PV": 1412866
+    },
+    {
+        "Name": "现代",
+        "Initial": "X",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/13.png",
+        "MasterID": 13,
+        "PV": 6464113
+    },
+    {
+        "Name": "奔驰",
+        "Initial": "B",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/2.png",
+        "MasterID": 2,
+        "PV": 2326123
+    },
+    {
+        "Name": "大众",
+        "Initial": "D",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/8.png",
+        "MasterID": 8,
+        "PV": 15896136
+    },
+    {
+        "Name": "日产",
+        "Initial": "R",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/30.png",
+        "MasterID": 30,
+        "PV": 4005844
+    },
+    {
+        "Name": "丰田",
+        "Initial": "F",
+        "CoverPhoto": "http://image.bitautoimg.com/wap/car/{0}/7.png",
+        "MasterID": 7,
+        "PV": 4583736
+    },
+    {
+        "debug": "获取配置:1 导入参数:0 数据查询:4 总耗时:5"
+    }
+]

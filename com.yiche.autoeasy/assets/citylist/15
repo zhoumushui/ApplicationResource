@@ -1,0 +1,114 @@
+[
+{
+CityID: 1501,
+CityName: "南京",
+EngName: "nanjing",
+ParentID: 15,
+WeatherID: "101190101"
+},
+{
+CityID: 1502,
+CityName: "苏州",
+EngName: "suzhou",
+ParentID: 15,
+WeatherID: "101190401"
+},
+{
+CityID: 1505,
+CityName: "常州",
+EngName: "changzhou",
+ParentID: 15,
+WeatherID: "101191101"
+},
+{
+CityID: 1511,
+CityName: "南通",
+EngName: "nantong",
+ParentID: 15,
+WeatherID: "101190501"
+},
+{
+CityID: 1518,
+CityName: "徐州",
+EngName: "xuzhou",
+ParentID: 15,
+WeatherID: "101190801"
+},
+{
+CityID: 1513,
+CityName: "扬州",
+EngName: "yangzhou",
+ParentID: 15,
+WeatherID: "101190601"
+},
+{
+CityID: 1515,
+CityName: "镇江",
+EngName: "zhenjiang",
+ParentID: 15,
+WeatherID: "101190301"
+},
+{
+CityID: 1512,
+CityName: "盐城",
+EngName: "yancheng",
+ParentID: 15,
+WeatherID: "101190701"
+},
+{
+CityID: 1503,
+CityName: "无锡",
+EngName: "wuxi",
+ParentID: 15,
+WeatherID: "101190201"
+},
+{
+CityID: 1517,
+CityName: "泰州",
+EngName: "taizhou",
+ParentID: 15,
+WeatherID: "101191201"
+},
+{
+CityID: 1510,
+CityName: "连云港",
+EngName: "lianyungang",
+ParentID: 15,
+WeatherID: "101191001"
+},
+{
+CityID: 1507,
+CityName: "淮安",
+EngName: "huaian",
+ParentID: 15,
+WeatherID: "101190901"
+},
+{
+CityID: 1520,
+CityName: "宿迁",
+EngName: "suqian",
+ParentID: 15,
+WeatherID: "101191301"
+},
+{
+CityID: 1504,
+CityName: "常熟",
+EngName: "changshu",
+ParentID: 15
+},
+{
+CityID: 1509,
+CityName: "昆山",
+EngName: "kunshan",
+ParentID: 15
+},
+{
+CityID: 1514,
+CityName: "张家港",
+EngName: "zhangjiagang",
+ParentID: 15
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:1 总耗时:2"
+}
+]

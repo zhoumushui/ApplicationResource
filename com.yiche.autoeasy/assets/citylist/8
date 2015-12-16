@@ -1,0 +1,31 @@
+[
+{
+CityID: 811,
+CityName: "琼南",
+EngName: "qiongnandiqu",
+ParentID: 8
+},
+{
+CityID: 810,
+CityName: "琼北",
+EngName: "qiongbeidiqu",
+ParentID: 8
+},
+{
+CityID: 801,
+CityName: "海口",
+EngName: "haikou",
+ParentID: 8,
+WeatherID: "101310101"
+},
+{
+CityID: 803,
+CityName: "三亚",
+EngName: "sanya",
+ParentID: 8,
+WeatherID: "101310201"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

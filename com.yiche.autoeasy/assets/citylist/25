@@ -1,0 +1,152 @@
+[
+{
+CityID: 2501,
+CityName: "成都",
+EngName: "chengdu",
+ParentID: 25,
+WeatherID: "101270101"
+},
+{
+CityID: 2502,
+CityName: "绵阳",
+EngName: "mianyang",
+ParentID: 25,
+WeatherID: "101270401"
+},
+{
+CityID: 2513,
+CityName: "南充",
+EngName: "nanchong",
+ParentID: 25,
+WeatherID: "101270501"
+},
+{
+CityID: 2511,
+CityName: "德阳",
+EngName: "deyang",
+ParentID: 25,
+WeatherID: "101272001"
+},
+{
+CityID: 2512,
+CityName: "乐山",
+EngName: "leshan",
+ParentID: 25,
+WeatherID: "101271401"
+},
+{
+CityID: 2532,
+CityName: "达州",
+EngName: "dazhou",
+ParentID: 25,
+WeatherID: "101270601"
+},
+{
+CityID: 2530,
+CityName: "广安",
+EngName: "guangan",
+ParentID: 25,
+WeatherID: "101270801"
+},
+{
+CityID: 2519,
+CityName: "内江",
+EngName: "neijiang",
+ParentID: 25,
+WeatherID: "101271201"
+},
+{
+CityID: 2535,
+CityName: "阿坝",
+EngName: "abacangzuqiangzuzizhizhou",
+ParentID: 25,
+WeatherID: "101271901"
+},
+{
+CityID: 2537,
+CityName: "凉山",
+EngName: "liangshanyizuzizhizhou",
+ParentID: 25,
+WeatherID: "101271601"
+},
+{
+CityID: 2536,
+CityName: "甘孜",
+EngName: "ganzicangzuzizhizhou",
+ParentID: 25,
+WeatherID: "101271801"
+},
+{
+CityID: 2510,
+CityName: "广元",
+EngName: "guangyuan",
+ParentID: 25,
+WeatherID: "101272101"
+},
+{
+CityID: 2509,
+CityName: "资阳",
+EngName: "ziyang",
+ParentID: 25,
+WeatherID: "101271301"
+},
+{
+CityID: 2508,
+CityName: "自贡",
+EngName: "zigong",
+ParentID: 25,
+WeatherID: "101270301"
+},
+{
+CityID: 2517,
+CityName: "泸州",
+EngName: "luzhou",
+ParentID: 25,
+WeatherID: "101271001"
+},
+{
+CityID: 2516,
+CityName: "巴中",
+EngName: "bazhong",
+ParentID: 25,
+WeatherID: "101270901"
+},
+{
+CityID: 2514,
+CityName: "眉山",
+EngName: "meishan",
+ParentID: 25,
+WeatherID: "101271501"
+},
+{
+CityID: 2503,
+CityName: "遂宁",
+EngName: "suining",
+ParentID: 25,
+WeatherID: "101270701"
+},
+{
+CityID: 2507,
+CityName: "雅安",
+EngName: "yaan",
+ParentID: 25,
+WeatherID: "101271701"
+},
+{
+CityID: 2506,
+CityName: "宜宾",
+EngName: "yibin",
+ParentID: 25,
+WeatherID: "101271101"
+},
+{
+CityID: 2504,
+CityName: "攀枝花",
+EngName: "panzhihua",
+ParentID: 25,
+WeatherID: "101270201"
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:1 总耗时:2"
+}
+]

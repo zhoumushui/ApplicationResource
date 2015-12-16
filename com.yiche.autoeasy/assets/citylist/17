@@ -1,0 +1,103 @@
+[
+{
+CityID: 1701,
+CityName: "沈阳",
+EngName: "shenyang",
+ParentID: 17,
+WeatherID: "101070101"
+},
+{
+CityID: 1708,
+CityName: "大连",
+EngName: "dalian",
+ParentID: 17,
+WeatherID: "101070201"
+},
+{
+CityID: 1710,
+CityName: "鞍山",
+EngName: "anshan",
+ParentID: 17,
+WeatherID: "101070301"
+},
+{
+CityID: 1711,
+CityName: "锦州",
+EngName: "jz",
+ParentID: 17,
+WeatherID: "101070701"
+},
+{
+CityID: 1714,
+CityName: "营口",
+EngName: "yingkou",
+ParentID: 17,
+WeatherID: "101070801"
+},
+{
+CityID: 1705,
+CityName: "葫芦岛",
+EngName: "huludao",
+ParentID: 17,
+WeatherID: "101071401"
+},
+{
+CityID: 1713,
+CityName: "辽阳",
+EngName: "liaoyang",
+ParentID: 17,
+WeatherID: "101071001"
+},
+{
+CityID: 1709,
+CityName: "本溪",
+EngName: "benxi",
+ParentID: 17,
+WeatherID: "101070501"
+},
+{
+CityID: 1707,
+CityName: "朝阳",
+EngName: "chaoyang",
+ParentID: 17,
+WeatherID: "101071201"
+},
+{
+CityID: 1716,
+CityName: "盘锦",
+EngName: "panjin",
+ParentID: 17,
+WeatherID: "101071301"
+},
+{
+CityID: 1717,
+CityName: "铁岭",
+EngName: "tieling",
+ParentID: 17,
+WeatherID: "101071101"
+},
+{
+CityID: 1704,
+CityName: "阜新",
+EngName: "fuxin",
+ParentID: 17,
+WeatherID: "101070901"
+},
+{
+CityID: 1703,
+CityName: "抚顺",
+EngName: "fushun",
+ParentID: 17,
+WeatherID: "101070401"
+},
+{
+CityID: 1702,
+CityName: "丹东",
+EngName: "dandong",
+ParentID: 17,
+WeatherID: "101070601"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

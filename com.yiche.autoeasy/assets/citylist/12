@@ -1,0 +1,124 @@
+[
+{
+CityID: 1201,
+CityName: "武汉",
+EngName: "wuhan",
+ParentID: 12,
+WeatherID: "101200101"
+},
+{
+CityID: 1206,
+CityName: "天门",
+EngName: "tianmen",
+ParentID: 12,
+WeatherID: "101201501"
+},
+{
+CityID: 1207,
+CityName: "宜昌",
+EngName: "yichang",
+ParentID: 12,
+WeatherID: "101200901"
+},
+{
+CityID: 1203,
+CityName: "襄阳",
+EngName: "xiangyang",
+ParentID: 12,
+WeatherID: "101200201"
+},
+{
+CityID: 1202,
+CityName: "十堰",
+EngName: "shiyan",
+ParentID: 12,
+WeatherID: "101201101"
+},
+{
+CityID: 1208,
+CityName: "黄石",
+EngName: "huangshi",
+ParentID: 12,
+WeatherID: "101200601"
+},
+{
+CityID: 1210,
+CityName: "荆州",
+EngName: "jingzhou",
+ParentID: 12,
+WeatherID: "101200801"
+},
+{
+CityID: 1217,
+CityName: "咸宁",
+EngName: "xianning",
+ParentID: 12,
+WeatherID: "101200701"
+},
+{
+CityID: 1229,
+CityName: "孝感",
+EngName: "xiaogan",
+ParentID: 12,
+WeatherID: "101200401"
+},
+{
+CityID: 1241,
+CityName: "神农架",
+EngName: "shennongjialinqu",
+ParentID: 12,
+WeatherID: "101201201"
+},
+{
+CityID: 1236,
+CityName: "黄冈",
+EngName: "huanggang",
+ParentID: 12,
+WeatherID: "101200501"
+},
+{
+CityID: 1205,
+CityName: "仙桃",
+EngName: "xiantao",
+ParentID: 12,
+WeatherID: "101201601"
+},
+{
+CityID: 1204,
+CityName: "随州",
+EngName: "suizhou",
+ParentID: 12,
+WeatherID: "101201301"
+},
+{
+CityID: 1209,
+CityName: "荆门",
+EngName: "jingmen",
+ParentID: 12,
+WeatherID: "101201401"
+},
+{
+CityID: 1219,
+CityName: "潜江",
+EngName: "qianjiang",
+ParentID: 12,
+WeatherID: "101201701"
+},
+{
+CityID: 1216,
+CityName: "鄂州",
+EngName: "ezhou",
+ParentID: 12,
+WeatherID: "101200301"
+},
+{
+CityID: 1215,
+CityName: "恩施",
+EngName: "enshi",
+ParentID: 12,
+WeatherID: "101201001"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

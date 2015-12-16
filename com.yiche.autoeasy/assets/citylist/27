@@ -1,0 +1,54 @@
+[
+{
+CityID: 2701,
+CityName: "拉萨",
+EngName: "lasa",
+ParentID: 27,
+WeatherID: "101140101"
+},
+{
+CityID: 2704,
+CityName: "山南",
+EngName: "shannan",
+ParentID: 27,
+WeatherID: "101140301"
+},
+{
+CityID: 2709,
+CityName: "昌都",
+EngName: "changdudiqu",
+ParentID: 27,
+WeatherID: "101140501"
+},
+{
+CityID: 2707,
+CityName: "阿里",
+EngName: "alidiqu",
+ParentID: 27,
+WeatherID: "101140701"
+},
+{
+CityID: 2705,
+CityName: "那曲",
+EngName: "naqudiqu",
+ParentID: 27,
+WeatherID: "101140601"
+},
+{
+CityID: 2710,
+CityName: "林芝",
+EngName: "linzhidiqu",
+ParentID: 27,
+WeatherID: "101140401"
+},
+{
+CityID: 2703,
+CityName: "日喀则",
+EngName: "rikaze",
+ParentID: 27,
+WeatherID: "101140201"
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:1 总耗时:2"
+}
+]

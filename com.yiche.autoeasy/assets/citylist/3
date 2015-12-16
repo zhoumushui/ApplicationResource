@@ -1,0 +1,68 @@
+[
+{
+CityID: 301,
+CityName: "福州",
+EngName: "fuzhou",
+ParentID: 3,
+WeatherID: "101230101"
+},
+{
+CityID: 302,
+CityName: "厦门",
+EngName: "xiamen",
+ParentID: 3,
+WeatherID: "101230201"
+},
+{
+CityID: 307,
+CityName: "泉州",
+EngName: "quanzhou",
+ParentID: 3,
+WeatherID: "101230501"
+},
+{
+CityID: 303,
+CityName: "龙岩",
+EngName: "longyan",
+ParentID: 3,
+WeatherID: "101230701"
+},
+{
+CityID: 305,
+CityName: "漳州",
+EngName: "zhangzhou",
+ParentID: 3,
+WeatherID: "101230601"
+},
+{
+CityID: 318,
+CityName: "三明",
+EngName: "sanming",
+ParentID: 3,
+WeatherID: "101230801"
+},
+{
+CityID: 315,
+CityName: "宁德",
+EngName: "ningde",
+ParentID: 3,
+WeatherID: "101230301"
+},
+{
+CityID: 314,
+CityName: "南平",
+EngName: "nanping",
+ParentID: 3,
+WeatherID: "101230901"
+},
+{
+CityID: 306,
+CityName: "莆田",
+EngName: "putian",
+ParentID: 3,
+WeatherID: "101230401"
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:29 总耗时:30"
+}
+]

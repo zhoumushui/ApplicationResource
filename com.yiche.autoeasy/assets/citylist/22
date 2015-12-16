@@ -1,0 +1,81 @@
+[
+{
+CityID: 2201,
+CityName: "太原",
+EngName: "taiyuan",
+ParentID: 22,
+WeatherID: "101100301"
+},
+{
+CityID: 2205,
+CityName: "临汾",
+EngName: "linfen",
+ParentID: 22,
+WeatherID: "101100701"
+},
+{
+CityID: 2207,
+CityName: "运城",
+EngName: "yuncheng",
+ParentID: 22,
+WeatherID: "101100801"
+},
+{
+CityID: 2206,
+CityName: "长治",
+EngName: "changzhi",
+ParentID: 22,
+WeatherID: "101100401"
+},
+{
+CityID: 2202,
+CityName: "大同",
+EngName: "datong",
+ParentID: 22,
+WeatherID: "101101001"
+},
+{
+CityID: 2203,
+CityName: "晋城",
+EngName: "jincheng",
+ParentID: 22,
+WeatherID: "101100601"
+},
+{
+CityID: 2210,
+CityName: "忻州",
+EngName: "xinzhou",
+ParentID: 22,
+WeatherID: "101100201"
+},
+{
+CityID: 2218,
+CityName: "阳泉",
+EngName: "yangquan",
+ParentID: 22,
+WeatherID: "101100501"
+},
+{
+CityID: 2227,
+CityName: "吕梁",
+EngName: "lvliang",
+ParentID: 22,
+WeatherID: "101100101"
+},
+{
+CityID: 2219,
+CityName: "朔州",
+EngName: "shuozhou",
+ParentID: 22,
+WeatherID: "101100901"
+},
+{
+CityID: 2204,
+CityName: "晋中",
+EngName: "jinzhong",
+ParentID: 22
+},
+{
+debug: "获取配置:0 导入参数:0 数据查询:1 总耗时:2"
+}
+]

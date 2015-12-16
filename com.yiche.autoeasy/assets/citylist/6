@@ -1,0 +1,103 @@
+[
+{
+CityID: 601,
+CityName: "南宁",
+EngName: "nanning",
+ParentID: 6,
+WeatherID: "101300101"
+},
+{
+CityID: 602,
+CityName: "柳州",
+EngName: "liuzhou",
+ParentID: 6,
+WeatherID: "101300301"
+},
+{
+CityID: 603,
+CityName: "桂林",
+EngName: "guilin",
+ParentID: 6,
+WeatherID: "101300501"
+},
+{
+CityID: 604,
+CityName: "北海",
+EngName: "beihai",
+ParentID: 6,
+WeatherID: "101301301"
+},
+{
+CityID: 607,
+CityName: "河池",
+EngName: "hechi",
+ParentID: 6,
+WeatherID: "101301201"
+},
+{
+CityID: 610,
+CityName: "玉林",
+EngName: "yulin",
+ParentID: 6,
+WeatherID: "101300901"
+},
+{
+CityID: 621,
+CityName: "崇左",
+EngName: "chongzuo",
+ParentID: 6,
+WeatherID: "101300201"
+},
+{
+CityID: 619,
+CityName: "来宾",
+EngName: "laibin",
+ParentID: 6,
+WeatherID: "101300401"
+},
+{
+CityID: 615,
+CityName: "防城港",
+EngName: "fangchenggang",
+ParentID: 6,
+WeatherID: "101301401"
+},
+{
+CityID: 606,
+CityName: "贺州",
+EngName: "hezhou",
+ParentID: 6,
+WeatherID: "101300701"
+},
+{
+CityID: 605,
+CityName: "百色",
+EngName: "baise",
+ParentID: 6,
+WeatherID: "101301001"
+},
+{
+CityID: 613,
+CityName: "梧州",
+EngName: "wuzhou",
+ParentID: 6,
+WeatherID: "101300601"
+},
+{
+CityID: 612,
+CityName: "钦州",
+EngName: "qinzhou",
+ParentID: 6,
+WeatherID: "101301101"
+},
+{
+CityID: 608,
+CityName: "贵港",
+EngName: "guigang",
+ParentID: 6,
+WeatherID: "101300801"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:1 总耗时:2"
+}
+]

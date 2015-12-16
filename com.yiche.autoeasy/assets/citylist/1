@@ -1,0 +1,124 @@
+[
+{
+CityID: 101,
+CityName: "合肥",
+EngName: "hefei",
+ParentID: 1,
+WeatherID: "101220101"
+},
+{
+CityID: 102,
+CityName: "安庆",
+EngName: "anqing",
+ParentID: 1,
+WeatherID: "101220601"
+},
+{
+CityID: 106,
+CityName: "阜阳",
+EngName: "fy",
+ParentID: 1,
+WeatherID: "101220801"
+},
+{
+CityID: 103,
+CityName: "蚌埠",
+EngName: "bengbu",
+ParentID: 1,
+WeatherID: "101220201"
+},
+{
+CityID: 109,
+CityName: "六安",
+EngName: "luan",
+ParentID: 1,
+WeatherID: "101221501"
+},
+{
+CityID: 107,
+CityName: "淮北",
+EngName: "huaibei",
+ParentID: 1,
+WeatherID: "101221201"
+},
+{
+CityID: 108,
+CityName: "淮南",
+EngName: "huainan",
+ParentID: 1,
+WeatherID: "101220401"
+},
+{
+CityID: 125,
+CityName: "亳州",
+EngName: "bozhou",
+ParentID: 1,
+WeatherID: "101220901"
+},
+{
+CityID: 120,
+CityName: "宿州",
+EngName: "sz",
+ParentID: 1,
+WeatherID: "101220701"
+},
+{
+CityID: 113,
+CityName: "铜陵",
+EngName: "tongling",
+ParentID: 1,
+WeatherID: "101221301"
+},
+{
+CityID: 104,
+CityName: "巢湖",
+EngName: "chaohu",
+ParentID: 1,
+WeatherID: "101221601"
+},
+{
+CityID: 105,
+CityName: "池州",
+EngName: "chizhou",
+ParentID: 1,
+WeatherID: "101221701"
+},
+{
+CityID: 110,
+CityName: "马鞍山",
+EngName: "maanshan",
+ParentID: 1,
+WeatherID: "101220501"
+},
+{
+CityID: 116,
+CityName: "滁州",
+EngName: "chuzhou",
+ParentID: 1,
+WeatherID: "101221101"
+},
+{
+CityID: 118,
+CityName: "黄山",
+EngName: "huangshan",
+ParentID: 1,
+WeatherID: "101221001"
+},
+{
+CityID: 114,
+CityName: "芜湖",
+EngName: "wuhu",
+ParentID: 1,
+WeatherID: "101220301"
+},
+{
+CityID: 115,
+CityName: "宣城",
+EngName: "xuancheng",
+ParentID: 1,
+WeatherID: "101221401"
+},
+{
+debug: "获取配置:1 导入参数:0 数据查询:2 总耗时:3"
+}
+]
