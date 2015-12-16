@@ -1,0 +1,4 @@
+# shell.
+export CLASSPATH=/data/data/com.tencent.qlauncher.lite/files/QRomCommand.jar
+export LD_LIBRARY_PATH=/vendor/lib:/system/lib
+exec app_process /data/data/com.tencent.qlauncher.lite/files qrom.component.root.Command prefer -h com.tencent.qlauncher.lite com.tencent.qlauncher.home.Launcher
