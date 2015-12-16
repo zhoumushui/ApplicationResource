@@ -1,0 +1,50 @@
+﻿{
+  "localId": "华康少女theme",
+  "onlineId": "DADADADADADADADADA",
+  "assemblyId": "MRAMRAMRAMRAMRAMRAMRA",
+  "productId": "MRAMRAMRAMRAMRAMRAMRA",
+  "hash": "HAHAHAHAHAHAHAHA",
+  "platform": 2,
+  "size": SSSSSSSS,
+  "updatedTime": TTTTTTTTTTTTTTT,
+  "version": "1.0",
+  "authors": {
+    "fallback": "字体大师"
+  },
+  "designers": {
+    "fallback": "字体大师"
+  },
+  "titles": {
+    "fallback": "NNNNNNNN"
+  },
+  "descriptions": {
+    "fallback": "字体大师是最好的字体美化工具"
+  },
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_fonts_small_0.png",
+      "preview_fonts_0.png"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_fonts.png"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [],
+  "subResources": [
+    {
+      "localId": "NNNNNNNN",
+      "resourceCode": "fonts",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null
+}

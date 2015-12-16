@@ -1,0 +1,60 @@
+﻿{
+  "localId": "NNNNNNNN",
+  "onlineId": "DADADADADADADADADA",
+  "assemblyId": "MRAMRAMRAMRAMRAMRAMRA",
+  "productId": "MRAMRAMRAMRAMRAMRAMRA",
+  "hash": "HAHAHAHAHAHAHAHA",
+  "platform": 2,
+  "size": SSSSSSSS,
+  "updatedTime": TTTTTTTTTTTTTTT,
+  "version": "1.0",
+  "authors": {
+    "fallback": "字体大师"
+  },
+  "designers": {
+    "fallback": "字体大师"
+  },
+  "titles": {
+    "fallback": "NNNNNNNN"
+  },
+  "descriptions": {
+    "fallback": "字体大师是最好的字体美化工具"
+  },
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_fonts_small_0.png",
+      "preview_fonts_0.png"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_fonts_0.png"
+    ]
+  },
+  "thumbnails": [
+    {
+      "localPath": "preview_fonts_small_0.png",
+      "onlinePath": ""
+    }
+  ],
+  "previews": [
+    {
+      "localPath": "preview_fonts_0.png",
+      "onlinePath": ""
+    }
+  ],
+  "parentResources": [
+    {
+      "localId": "NNNNNNNNtheme",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null
+}
