@@ -1,0 +1,31 @@
+/*
+ * 名称: Android专有服务。
+ * (c) Copyright 2013 stevenrao@tencent.com. All Rights Reserved.
+ *
+ * 注意: 务必和CommClientInterface.jce配合使用 
+ *
+ * 技术接口人:
+ * 1. williamfqwu (20130613)
+ *
+ * 版本变更:
+ * 1.20130613 新建
+ */
+
+module AndroidClientInterface
+{
+    struct stVerifyBlackListReq
+    {
+        0 require string strModelName	= "";	// 手机model名
+    };
+
+    struct stVerifyBlackListRsp
+    {
+        0 require int iValue;		            // 1表示在黑名单内，0代表没有
+    };
+    
+    struct stGetWmxjApkRsp
+    {
+        0 require string apkUrl;                //水印相机安装包地址
+        1 require int    apkVersion;            //安装包版本
+    };
+};

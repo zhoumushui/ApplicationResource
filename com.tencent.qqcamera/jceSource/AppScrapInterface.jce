@@ -1,0 +1,39 @@
+/*
+ * 名称: 零碎小服务。
+ * (c) Copyright 2014 jianghongwu@tencent.com. All Rights Reserved.
+ *
+ * 注意: 务必和CommClientInterface.jce配合使用 
+ *
+ * 技术接口人:
+ * 1. jianghongwu(20140423)
+ * 2. williamfqwu(20140423)
+ *
+ * 版本变更:
+ * 1.20140423 新建
+ */
+
+module ScrapClientInterface
+{
+    struct stInstallModeRsp
+    {
+        0 require int mode;		            // -1表示未定义，0表示无提示框，自动安装;1表示有提示框，不自动安装;2表示无提示框，不自动安装
+    };    
+    
+    struct stBusData{                             
+  	0  require  string command;                   
+  	1  require  map<string, string> data;   //具体命令及相应返回字段见wiki说明
+  };
+    
+    struct stBusReq
+    {
+      0 require int busVersion;
+    };
+    
+    struct stBusRsp
+    {
+      0 require int ret;  //0表示有数据，1表示无数据
+      1 require int curVersion;
+      2 require vector<stBusData> busDatas;
+    };
+    
+};

@@ -1,0 +1,31 @@
+/*
+ * 名称: DC 上报 app 接口
+ * (c) Copyright 2013 stevenrao@tencent.com. All Rights Reserved.
+ *
+ * 注意: 务必和CommClientInterface.jce配合使用
+ *
+ * 技术接口人:
+ * 1. williamfqwu (20130524)
+ *
+ * 版本变更:
+ * 1.20130603 剥离common jce file
+ */
+
+module DCClientInterface
+{  
+  // 上报数据包（单条）
+	struct stDataPackage
+  {
+    0  require map<string, string> numData;      // 上报数据包内容，key&value形式， 上报类型为数字
+    1  require map<string, string> strData;      // 上报数据包内容，key&value形式， 上报类型为字符串
+  };
+  
+  // 请求包体
+  struct stDataCollectionReq
+  {
+    0  require vector<stDataPackage> dataPackages; // 上报数据包
+  };
+
+
+
+};

@@ -1,0 +1,64 @@
+/*
+ * 名称: OIDB application 接口
+ * (c) Copyright 2013 stevenrao@tencent.com. All Rights Reserved.
+ *
+ * 注意: 务必和CommClientInterface.jce配合使用
+ *
+ * 技术接口人:
+ * 1. williamfqwu (20130524)
+ *
+ * 版本变更:
+ * 1.20130603 剥离common jce file
+ */
+
+
+module OIDBClientInterface
+{  
+  
+  // 请求包体----查询黄钻状态(需登录态)
+  struct stGetYellowDiamondStatusReq
+  {
+    0  require string sUin; // qq号码
+  };
+
+  // 返回包体----查询黄钻状态(需登录态)
+  struct stGetYellowDiamondStatusRsp
+  {
+    0  require string sUin;    // qq号码
+    1  require int    bStatus; // 黄钻状态
+  }; 
+
+  // 用户简单资料  
+  struct stSimpleProfile
+  {
+    0 require  unsigned int iUin;       // qq号
+    1 require  string       sNick;      // 昵称
+    2 optional string       sCountry;   // 国家
+    3 optional string       sProvince;  // 省份
+    4 optional int          cGender;    // 性别， 0==男， 1==女， 其他值=未知
+    5 optional string       sCity;      // 城市
+    6 optional unsigned int iBirthday;  // 生日：0xffff0000为年，取值1800<=year<=2100，0x0000ff00为月，0x000000ff为日，网络序
+    7 optional int          iAge;       // 年龄
+    8 optional string       sCurrLocationID; // 所在地id，12字节长，第1个4字节表示国家id,第2个4字节表示省份id ,第3个4字节表示城市id，每个4字节为网络序
+  };
+
+  // 根据uin批量查询用户资料。 注意！单次查询不可以超过100个 (需登录态)
+  struct stGetSimpleProfilesReq
+  {
+    0  require vector<unsigned int> vUin; // qq号码
+  };
+
+  // 根据uin批量查询用户资料。 注意！单次查询不可以超过100个 (需登录态)
+  struct stGetSimpleProfilesRsp
+  {
+    0  require vector<stSimpleProfile> vSimpleProfiles; // 简单资料
+  };
+  
+  // 获取头像url (需登录态)
+  struct stGetFaceUrlRsp
+  {
+    0  require string sFaceUrl;          // 头像url
+  };
+
+
+};
