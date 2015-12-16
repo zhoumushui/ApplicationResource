@@ -1,0 +1,97 @@
+
+cat.png
+size: 256,64
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+bizi
+  rotate: false
+  xy: 193, 55
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: false
+  xy: 89, 2
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+houjiao01
+  rotate: true
+  xy: 69, 2
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+houjiao02
+  rotate: false
+  xy: 136, 44
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+lingdang
+  rotate: false
+  xy: 181, 53
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+qianjiao01
+  rotate: false
+  xy: 149, 45
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+qianjiao02
+  rotate: false
+  xy: 96, 19
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+rongmao
+  rotate: false
+  xy: 69, 19
+  size: 25, 16
+  orig: 25, 16
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 69, 37
+  size: 46, 25
+  orig: 46, 25
+  offset: 0, 0
+  index: -1
+toubu
+  rotate: true
+  xy: 2, 4
+  size: 58, 65
+  orig: 58, 65
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 163, 51
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+yangjing
+  rotate: false
+  xy: 117, 42
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+zuiba
+  rotate: true
+  xy: 109, 25
+  size: 10, 5
+  orig: 10, 5
+  offset: 0, 0
+  index: -1

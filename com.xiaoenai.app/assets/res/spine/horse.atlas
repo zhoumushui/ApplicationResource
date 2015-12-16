@@ -1,0 +1,97 @@
+
+horse.png
+size: 256,64
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+erduo01
+  rotate: true
+  xy: 137, 41
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+erduo02
+  rotate: false
+  xy: 110, 10
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+houtui01
+  rotate: true
+  xy: 190, 47
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+huotui02
+  rotate: true
+  xy: 231, 47
+  size: 11, 17
+  orig: 11, 17
+  offset: 0, 0
+  index: -1
+mao
+  rotate: true
+  xy: 62, 6
+  size: 23, 46
+  orig: 23, 46
+  offset: 0, 0
+  index: -1
+qianjiao01
+  rotate: true
+  xy: 163, 42
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1
+qianjiao02
+  rotate: true
+  xy: 211, 46
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 62, 31
+  size: 47, 27
+  orig: 47, 27
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 2
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+toumao
+  rotate: false
+  xy: 111, 38
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 111, 28
+  size: 19, 8
+  orig: 19, 8
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 123, 19
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+zuiba
+  rotate: false
+  xy: 190, 42
+  size: 11, 3
+  orig: 11, 3
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+keji_dog02.png
+size: 256,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+head
+  rotate: false
+  xy: 2, 19
+  size: 111, 107
+  orig: 111, 107
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 115, 79
+  size: 88, 47
+  orig: 88, 47
+  offset: 0, 0
+  index: -1
+shetou
+  rotate: true
+  xy: 179, 50
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 54, 3
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+xiangquan
+  rotate: false
+  xy: 115, 50
+  size: 62, 27
+  orig: 62, 27
+  offset: 0, 0
+  index: -1
+youer
+  rotate: true
+  xy: 115, 17
+  size: 31, 51
+  orig: 31, 51
+  offset: 0, 0
+  index: -1
+youhoutui
+  rotate: false
+  xy: 193, 23
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+youmeimao
+  rotate: false
+  xy: 32, 5
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+youqiantui
+  rotate: false
+  xy: 168, 22
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+youyan
+  rotate: true
+  xy: 229, 104
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+youyan2
+  rotate: true
+  xy: 229, 80
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+zuiba
+  rotate: false
+  xy: 2, 9
+  size: 28, 8
+  orig: 28, 8
+  offset: 0, 0
+  index: -1
+zuoer
+  rotate: false
+  xy: 205, 80
+  size: 22, 46
+  orig: 22, 46
+  offset: 0, 0
+  index: -1
+zuohoutui
+  rotate: true
+  xy: 193, 2
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+zuomeimao
+  rotate: false
+  xy: 73, 6
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+zuoqiantui
+  rotate: true
+  xy: 205, 59
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+zuoyan
+  rotate: true
+  xy: 231, 58
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+zuoyan2
+  rotate: false
+  xy: 214, 33
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,24 @@
+{
+"notice":{
+"buypet_havesamepet": "你们已经拥有该宠物啦！",
+"nitice_goldnotenough": "爱宠币不足，是否兑换爱宠币？",
+"notice_diamondnotenough": "爱宠钻不足，是否购买爱宠钻？",
+"getgold_success": "兑换成功！",
+"getdiamond_success": "购买成功！",
+"netreturnerror": "当前网络不稳定，请稍后重试。",
+"sport_notice": "爱宠竞技场即将开启，敬请期待！",
+"pay_success": "充值成功！",
+"pay_failed": "充值失败，请稍后重试。如有问题，可退出游戏后进入我-》设置-》意见反馈 联系客服。",
+"user_hasgetonepet": "你的另一半领养了一只萌萌哒的柯基犬，一起好好照顾它成长吧！",
+"petname_is_too_long": "昵称长度不能超过7个字或者14个字母",
+"petname_cannot_be_null": "昵称不能为空",
+"prop_tip":"获得属性加成的爱宠可以在竞技场取得更好成绩",
+"coin_text":"爱宠币",
+"exp_text":"经验",
+"feed_day_head":"已喂养",
+"feed_day_tail":"天",
+"pay_cancel":"你已取消支付。",
+"please_choose_pets":"请选择宠物",
+"share_notice":"功能即将开启，敬请期待!"
+}
+}

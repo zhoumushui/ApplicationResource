@@ -1,0 +1,97 @@
+
+elephant.png
+size: 256,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+bizi
+  rotate: true
+  xy: 149, 88
+  size: 18, 32
+  orig: 18, 32
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: false
+  xy: 77, 74
+  size: 40, 52
+  orig: 40, 52
+  offset: 0, 0
+  index: -1
+houerduo
+  rotate: false
+  xy: 119, 75
+  size: 28, 51
+  orig: 28, 51
+  offset: 0, 0
+  index: -1
+houjiao01
+  rotate: true
+  xy: 196, 109
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+houjiao02
+  rotate: false
+  xy: 43, 4
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+qianjiao01
+  rotate: true
+  xy: 2, 2
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+qianjiao02
+  rotate: true
+  xy: 217, 111
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 20
+  size: 61, 37
+  orig: 61, 37
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 59
+  size: 73, 67
+  orig: 73, 67
+  offset: 0, 0
+  index: -1
+toujin
+  rotate: false
+  xy: 149, 108
+  size: 45, 18
+  orig: 45, 18
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 237, 114
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: true
+  xy: 21, 3
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+zuiba
+  rotate: false
+  xy: 77, 60
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1

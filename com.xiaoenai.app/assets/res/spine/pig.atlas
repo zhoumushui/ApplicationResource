@@ -1,0 +1,83 @@
+
+pig.png
+size: 256,64
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+bizi
+  rotate: true
+  xy: 88, 14
+  size: 18, 31
+  orig: 18, 31
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: true
+  xy: 121, 15
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+houjiao01
+  rotate: false
+  xy: 142, 16
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+houjiao02
+  rotate: false
+  xy: 162, 6
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+qianjiao01
+  rotate: true
+  xy: 142, 2
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+qianjiao02
+  rotate: false
+  xy: 177, 7
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 2
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 88, 34
+  size: 77, 28
+  orig: 77, 28
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 227, 25
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 227, 42
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: true
+  xy: 167, 21
+  size: 41, 58
+  orig: 41, 58
+  offset: 0, 0
+  index: -1

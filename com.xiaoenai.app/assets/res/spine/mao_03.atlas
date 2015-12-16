@@ -1,0 +1,118 @@
+
+mao_03.png
+size: 256,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+bizi_02
+  rotate: true
+  xy: 233, 88
+  size: 8, 5
+  orig: 8, 5
+  offset: 0, 0
+  index: -1
+houyoujiao_02
+  rotate: false
+  xy: 216, 62
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+houzuojiao_02
+  rotate: false
+  xy: 233, 98
+  size: 17, 26
+  orig: 17, 26
+  offset: 0, 0
+  index: -1
+lingdang02
+  rotate: false
+  xy: 216, 40
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+qianyoujiao_02
+  rotate: true
+  xy: 161, 11
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: -1
+qianzuojiao_02
+  rotate: true
+  xy: 128, 17
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+rongmao_02
+  rotate: true
+  xy: 164, 48
+  size: 36, 23
+  orig: 36, 23
+  offset: 0, 0
+  index: -1
+shenti_02
+  rotate: false
+  xy: 128, 86
+  size: 70, 38
+  orig: 70, 38
+  offset: 0, 0
+  index: -1
+tou_02
+  rotate: false
+  xy: 2, 17
+  size: 124, 107
+  orig: 124, 107
+  offset: 0, 0
+  index: -1
+weiba_02
+  rotate: false
+  xy: 164, 29
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+yanjinghongguang_02
+  rotate: false
+  xy: 2, 5
+  size: 83, 10
+  orig: 83, 10
+  offset: 0, 0
+  index: -1
+youer_02
+  rotate: false
+  xy: 128, 36
+  size: 34, 48
+  orig: 34, 48
+  offset: 0, 0
+  index: -1
+youyan_02
+  rotate: false
+  xy: 200, 88
+  size: 31, 36
+  orig: 31, 36
+  offset: 0, 0
+  index: -1
+zuiba_02
+  rotate: false
+  xy: 87, 2
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+zuoer_02
+  rotate: false
+  xy: 189, 30
+  size: 24, 22
+  orig: 24, 22
+  offset: 0, 0
+  index: -1
+zuoyan_02
+  rotate: false
+  xy: 189, 54
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1

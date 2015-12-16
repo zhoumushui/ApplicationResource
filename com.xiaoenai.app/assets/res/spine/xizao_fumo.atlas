@@ -1,0 +1,40 @@
+xizao_fumo.png
+size: 512,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+huasa
+  rotate: true
+  xy: 2, 56
+  size: 70, 264
+  orig: 70, 264
+  offset: 0, 0
+  index: -1
+popo
+  rotate: false
+  xy: 394, 59
+  size: 67, 67
+  orig: 67, 67
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 268, 21
+  size: 105, 124
+  orig: 105, 124
+  offset: 0, 0
+  index: -1
+water
+  rotate: true
+  xy: 2, 2
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 2, 26
+  size: 129, 28
+  orig: 129, 28
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,118 @@
+
+elephant02.png
+size: 512,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+xiang/Resources/bizi
+  rotate: true
+  xy: 116, 27
+  size: 30, 57
+  orig: 30, 57
+  offset: 0, 0
+  index: -1
+xiang/Resources/shenzi
+  rotate: false
+  xy: 116, 59
+  size: 106, 67
+  orig: 106, 67
+  offset: 0, 0
+  index: -1
+xiang/Resources/sidian
+  rotate: false
+  xy: 2, 10
+  size: 57, 10
+  orig: 57, 10
+  offset: 0, 0
+  index: -1
+xiang/Resources/toubu
+  rotate: false
+  xy: 2, 22
+  size: 112, 104
+  orig: 112, 104
+  offset: 0, 0
+  index: -1
+xiang/Resources/weiba
+  rotate: false
+  xy: 224, 44
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+xiang/Resources/youerduo
+  rotate: true
+  xy: 224, 70
+  size: 56, 86
+  orig: 56, 86
+  offset: 0, 0
+  index: -1
+xiang/Resources/youhoujiao
+  rotate: true
+  xy: 397, 91
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+xiang/Resources/youqianjiao
+  rotate: true
+  xy: 448, 90
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+xiang/Resources/youyan
+  rotate: false
+  xy: 355, 56
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+xiang/Resources/youyan02
+  rotate: true
+  xy: 257, 41
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+xiang/Resources/zuiba
+  rotate: false
+  xy: 172, 2
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+xiang/Resources/zuoerduo
+  rotate: true
+  xy: 312, 87
+  size: 39, 83
+  orig: 39, 83
+  offset: 0, 0
+  index: -1
+xiang/Resources/zuohoujiao
+  rotate: false
+  xy: 312, 48
+  size: 41, 37
+  orig: 41, 37
+  offset: 0, 0
+  index: -1
+xiang/Resources/zuoqianjiao
+  rotate: true
+  xy: 175, 23
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+xiang/Resources/zuoyan
+  rotate: true
+  xy: 116, 2
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+xiang/Resources/zuoyan02
+  rotate: true
+  xy: 144, 2
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
