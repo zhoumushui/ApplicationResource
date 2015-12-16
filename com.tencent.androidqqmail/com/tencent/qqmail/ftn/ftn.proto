@@ -1,0 +1,585 @@
+// vim :set ts=2 sw=2
+// ftn.proto
+
+// 手動拼接這個數據包, SocketHeader直接定長，不用protobuf了
+// 後面InputBody，跟OutputBody根據不同Res跟cmd_id不同而不同
+// | SocketHeader | cgi_header_len(int) | cgi_body_len(int) | uin(int) | InputHeader  |  InputBody  |
+// | SocketHeader | cgi_header_len(int) | cgi_body_len(int) | uin(int) | OutputHeader |  OutputBody |
+
+package com.tencent.qqmail.ftn;
+//package FtnApp;
+
+// CGI Header {{{
+enum Method {
+  CREATE = 1;
+  READ = 2;
+  UPDATE = 3;
+  DELETE = 4;
+}
+
+enum AppType {
+  iOS = 1;
+  Android = 2;
+}
+enum UploadType {
+  UploadFtn = 2 ;
+  UploadFavor = 5;
+}
+
+enum CmdID {
+   login = 1;
+   logout = 2;
+   ftn = 3;
+   userprofile = 4;
+   testcgi = 5;
+   feedbackcgi = 6;
+   ftnlogstat = 7;
+   exchangecgi = 8;
+}
+
+message CGIInputHeader {
+  required uint32 uin = 1;
+  required Method method = 2;
+  required string path = 3;
+  required AppType appid = 4;
+  required uint32 appversion = 5;
+}
+
+message CGIOutputHeader {
+  required uint32 uin = 1;
+  required int32 retcode = 2;
+  required uint32 updatetime = 3;
+}
+// }}}
+// FileInfo {{{
+message FileInfo {
+  required string fid = 1;
+  optional string sha = 2;
+  optional string md5 = 3;
+  required string key = 4;
+  required string filename = 5;
+  optional string aliasname = 6;
+  required uint32 createtime = 7;
+  required uint32 expiretime = 8;
+  required int64 filesize = 9;
+  required int64 uploadsize = 10;
+  required uint32 downloadtimes = 11;
+  required string code = 12;
+  required uint32 viewtype = 13;
+  required uint32 filetype = 14;
+  optional bool isfav = 15;
+  optional bool isdir = 16;
+  optional string favdir = 17;
+}
+// }}}
+// Create {{{
+// 新建 {{{
+message CreateFileInput {
+  required string path = 1;
+  optional string md5 = 2;
+  required string sha = 3;
+  optional string sha3 = 4;
+  required int32 appid = 5; // 中转站 2 收藏夹 5
+  required int64 size = 6;
+}
+message CreateFileOutput {
+  required string ip = 1;
+  required int32 port = 2;
+  required string key = 3;
+  required string fid = 4;
+  required string shakey = 5;
+}
+// }}}
+// 轉存 {st
+message ItemInputStoreFile {
+    required string key = 1;
+    required string code = 2;
+}
+
+message ItemOutputStoreFile {
+    required string code = 1;
+    required int32 ret = 2;
+}
+
+message StoreFileInput {
+    optional string findex = 1;
+    repeated ItemInputStoreFile itemlist = 2; 
+}
+message StoreFileOutput {
+    repeated ItemOutputStoreFile itemlist = 1;
+}
+
+// }}}
+// }}}
+// Read {{{
+// 列表 {{{
+message UpdateMsgOutput {
+   required int32 ret = 1;
+   required string title = 2;
+   required string msg = 3;
+   required string link = 4;
+}
+
+
+message ListInput {
+   required uint32 lastupdatetime = 1;
+   optional string password = 2;
+   optional bool encrypt = 3;
+}
+
+
+message ListOutput {
+  required int32 allcount = 1;
+  repeated FileInfo itemlist = 2;
+  required uint32 lastupdatetime = 3;
+  required UpdateMsgOutput updatemsg = 4;
+  optional string pwdencryptstr = 5;
+}
+
+// }}}
+// 單個文件 {{{
+enum ReadAction {
+  ItemInput_ReadAction_DETAIL = 0;
+  ItemInput_ReadAction_GET_DOWNLOAD_URL = 1;
+  ItemInput_ReadAction_DOC_PREVIEW = 2;
+  ItemInput_ReadAction_RAR_PREVIEW = 3;
+  ItemInput_ReadAction_PIC_PREVIEW = 4;
+  ItemInput_ReadAction_TXT_PREVIEW = 5;
+}
+
+message ItemInput {
+  required ReadAction action = 1;
+  required string fid = 2;
+  required string key = 3;
+  required string code = 4;
+  required string filename = 5;
+}
+
+message ItemDetailOutput {
+  required FileInfo item = 1;
+}
+// }}}
+// 批量获取下载地址 {{{
+message ItemGetDownloadUrlOutput {
+  required string downloadurl = 1;
+  required string cookiename = 2;
+  required string cookievalue = 3;
+  required uint32 expiretime = 4;
+}
+
+message DownloadUrlItemInput {
+  required string fid = 1;
+  required string key = 2;
+  required string code = 3;
+  required string filename = 4;
+}
+
+message DownloadUrlListInput {
+  repeated DownloadUrlItemInput downloadUrlInputList = 1;
+}
+
+message DownloadUrlListOutput {
+  repeated ItemGetDownloadUrlOutput downloadUrlListOutput = 1;
+}
+
+message ShareUrlItemInput {
+  required string key = 1;
+  required string code = 2;
+}
+ 
+enum SHARE_PATH{
+WEIXIN = 0;
+SMS = 1;
+OTHER = 2;
+}
+message GetShareUrlInput {
+  repeated ShareUrlItemInput shareUrlInputList = 1;
+  optional SHARE_PATH path = 2; 
+}
+ 
+message GetShareUrlOutput {
+  required string shareurl = 1;
+}
+
+// }}}
+// 文件预览 {{{
+message File {
+  enum FileType {
+    FILE = 0;
+    DIR = 1;
+  }
+  required FileType type = 1;
+  required string name = 2;
+  repeated File subDir = 3;
+  required string fullname = 4;
+  required uint32 viewtype = 5;
+  required uint32 filetype = 6;
+  required string path = 7;
+  required uint64 filesize = 8;
+}
+
+
+message ItemRarPreviewOutput {
+  repeated File fileList = 1;
+  required ItemRarDownloadInfo info  = 2;
+}
+
+message ItemRarDownloadInfo {
+  required string downloadhost = 1;
+  required uint32 expire = 2;
+  required string vkey  = 3;
+}
+
+// 用来索引PKG输出的所有图片
+message ItemRarImageIndex {
+  repeated File imageList = 1;
+}
+
+message RarExchangeInput {
+  required string fid = 1;
+  required string host = 2;
+  required string vkey = 3;
+  required string pkgname = 4;
+}
+
+
+message RarExchangeOutput {
+  required ItemRarDownloadInfo info = 1;
+}
+
+
+
+message PkgLocalMeta {
+  required ItemRarPreviewOutput previewOutput = 1;
+  optional ItemRarImageIndex imageIndex = 2;
+}
+
+message ItemDocPreviewOutput {
+  required string fileName = 1;
+  required int64 size = 2;
+  required string content = 3;
+}
+
+message PreviewPicUrlListInput {
+  repeated string fid = 1;
+}
+
+message PreviewPicUrlListOutput {
+  required string cookiename = 1;
+  required string cookievalue = 2;
+  repeated string url = 3;
+}
+
+message PreviewPicBufferInput {
+  required string fid = 1;
+}
+
+message PreviewPicBufferOutput {
+  required string buffer = 1;
+}
+
+enum ViewFileAction {
+  ViewFileAction_Bin = 1;
+  ViewFileAction_Web = 2;
+}
+
+message ItemViewFileInput {
+  required string fid = 1;
+  required string code = 2;
+  required string filename = 3;
+  required ViewFileAction action = 4;
+}
+
+message ItemViewPkgFileInput {
+  required string fid = 1;
+  required string code = 2;
+  required string pkgname = 3;
+  required string fullname = 4;
+  required ViewFileAction action = 5;
+}
+
+message ItemViewFileOutput {
+  required int64 size = 1;
+  required string type = 2;
+  required bytes content = 3;
+  optional string filename = 4;
+}
+
+message APViewVideoInfo {
+  required int32 result = 1;
+  required string playurl = 2;
+}
+
+message XFVideoPieceInfo {
+  required uint32 order = 1;
+  required string sha = 2;
+  required uint32 size = 3;
+  required string url = 4;
+  required string cookiename = 5;
+  required string cookievalue = 6;
+  required uint32 time = 7;
+}
+
+message XFViewVideoItemInfo {
+  required int32 result = 1;
+  optional uint32 format = 2;
+  optional uint32 piecenum = 3;
+  optional uint32 totaltime = 4;
+  optional uint32 status = 5;
+  optional uint32 queuenum = 6;
+  optional uint32 taskper = 7;
+  optional uint32 remaintime = 8;
+  repeated XFVideoPieceInfo info = 9;
+}
+
+message XFViewVideoListInfo {
+  repeated XFViewVideoItemInfo xfiteminfo = 1;
+}
+
+enum ItemViewVideoQueryType {
+  ItemViewVideoQueryType_XF_Exist = 0;
+  ItemViewVideoQueryType_XF_Detail = 1;
+  ItemViewVideoQueryType_XF_Renew = 2;
+  ItemViewVideoQueryType_FTN_Play = 3;
+}
+
+message ItemViewVideoInput {
+  required string sha = 1;
+  required int64 size = 2;
+  required string fid = 3;
+  optional string urlsha = 4;
+  required ItemViewVideoQueryType querytype = 5;
+  required string filename = 6;
+}
+
+message ItemViewVideoUrlInfo {
+  required string sha = 1;
+  required int64 size = 2;
+  required string url = 3;
+  required uint32 time = 4;
+  required uint32 expiretime = 5;
+}
+
+enum ItemViewVideoInfoType {
+  ItemViewVideoInfoType_File = 1;
+  ItemViewVideoInfoType_FileList = 2;
+  ItemViewVideoInfoType_M3U = 3;
+}
+
+enum ViewVideoTCResultQueryTask
+{
+  TCResult_QueryTask_Hit = 0;          // 表示秒转且结果存在
+  TCResult_QueryTask_NotHit = 1;       // 表示非秒转
+  TCResult_QueryTask_NotEXITS = 2;     
+  TCResult_QueryTask_Retry = 3;	       // 表示转码失败，但可以重试
+  TCResult_QueryTask_Fail = 4;	       // 表示转码已经失败
+  TCResult_QueryTask_timeout = 5;      
+  TCResult_QueryTask_Process = 6;      // 表示处理中
+};
+
+enum ViewVideoTCResultAddTask
+{
+  TCResult_AddTask_Ok = 0;		       // 表示添加任务成功
+  TCResult_AddTask_Hit = 1;                    // 表示成功秒转
+  TCResult_AddTask_Fail = 2;               
+  TCResult_AddTask_UnknownError = 3;            
+  TCResult_AddTask_Timeout = 4;                
+};
+
+message ItemViewVideoInfo {
+  required uint32 format = 1;
+  required uint32 totaltime = 2;
+  required ItemViewVideoInfoType type = 3;             //类型
+  repeated ItemViewVideoUrlInfo sections = 4;
+  optional ItemViewVideoUrlInfo downloadinfo = 5;
+}
+
+message ItemViewVideoInfoStatus {
+  required int32 status = 1;
+  optional uint32 progress = 2;         //进度百分比0 - 1 * 100 * 100(小数点后两位)
+  optional uint32 remaintime = 3;
+}
+
+message ItemViewVideoOutput {
+  required ItemViewVideoInfo info = 1;
+  required ItemViewVideoInfoStatus status = 2;
+}
+
+message ItemAddVideoTaskInput {
+  required string sha = 1;
+  required int64 size = 2;
+  required string filename = 3;
+  required string fid = 4;
+}
+
+message ItemAddVideoTaskOutput {
+  required int32 result = 1; 
+}
+
+message ItemReNewUrlInput {
+  repeated string sha = 1;
+}
+
+message ItemReNewUrlInfo {
+  required string sha = 1;
+  required string url = 2;
+  required uint32 expiretime = 3;
+}
+
+message ItemReNewUrlOutput {
+  repeated ItemReNewUrlInfo info = 1;
+}
+
+//message ItemViewVideoOutput {
+//  required APViewVideoInfo apinfo = 1;
+//  required XFViewVideoListInfo xfinto = 2;
+//}
+
+// }}}
+// }}}
+// Update {{{
+// 續傳 {{{
+message ReCreateFileInput {
+  required string fid = 1;
+  required string sha = 2;
+}
+
+message ReCreateFileOutput {
+    required string ip = 1;
+    required int32  port = 2;
+    required string sha =3;
+    required string key = 4;
+}
+// }}}
+// 續期 {{{
+message RenewFileInput {
+  repeated string fids = 1;
+  repeated uint32 expiretime = 2; 
+}
+
+message RenewFileOutput{
+}
+// }}}
+// 改名 {{{
+message RenameFileInput {
+  required string fid = 1;
+  required string name = 2;
+}
+message RenameFileOutput {
+}
+// }}}
+// 授權 {{{
+message GrantFileInput {
+  repeated string fids = 1;
+  repeated int32 uins = 2;
+}
+message GrantFileOutput {
+}
+// }}}
+// }}}
+// Delete {{{
+message DelFileInput {
+  repeated string fids = 1;
+}
+message DelFileOutput {
+}
+// }}}
+// UserProfile {{{
+message ShowUsrInput {
+}
+message ShowUsrOutput {
+  required int64 vlevel = 1; 
+  required float storage = 2;  	//MB
+  required float usage = 3;		//KB
+  required float fsizelimit = 4;	//MB
+  required int64 storeday = 5;
+  required string alias = 6;
+  required int64 favoritemaxspace = 7;  //MB
+  required float favoritefreespace = 8; //KB
+  required float favoriteusedspace = 9; //KB
+  required int32 videosizelimitation = 10;
+  required int32 videodurationlimitation = 11;
+  optional string ratinglink = 12;
+  optional int32 expiredays = 13;
+  optional int32 previewzipsizelimit = 14;
+  }
+// }}}
+// Login {{{
+message LoginInput {
+  required string uin = 1;
+  required string password = 2;
+  required string alias = 3;
+  required string verifyurl = 4;
+  required string verifykey = 5;
+  required string verifyuin = 6;
+  required string spcache = 7;
+  required string verifycode = 8;
+  required string params = 9;
+  optional string devicetoken = 10;
+}
+message LoginOutput {
+  required string sid = 1;
+  optional string verifyurl = 2;
+  optional string verifykey = 3;
+  optional string verifyuin = 4;
+  required int32 code = 5;
+  optional string authcode =6;
+}
+
+message LogoutInput {
+  required string token = 1;
+}
+
+
+// }}}
+// Favorite {{{
+message AddFavoriteInput {
+  repeated string fids = 1;
+  required string topathid = 2;
+}
+
+message AddFavoriteOutput {
+}
+
+message MoveFavoriteInput {
+  repeated string fids = 1;
+  required string topathid = 2;
+}
+
+message MoveFavoriteOutput {
+}
+// }}}
+
+
+// FeedBack {{{
+message FeedBackInput {
+    required string title = 1;
+    required string content = 2;
+}
+
+message FeedBackOutput {
+    required int32 status = 1;
+}
+// }}}
+
+
+// LogStat {{{
+message LogStatItem {
+    required int32 optid = 1;
+    required string content = 2;
+}
+
+message LogStatListInput {
+    repeated LogStatItem logitem = 1;
+}
+
+message LogStatListOutput {
+    required int32 result = 1;    
+}
+// }}}
+
+
+
+
+
+

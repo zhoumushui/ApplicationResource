@@ -1,0 +1,54 @@
+package com.tencent.qqmail.ftn;
+//package FtnApp;
+
+enum QMLoginStatusType
+{
+    QMLoginStatusTypeUnlogin = 1;				//没有登录态，譬如本地记录密码，没有进行登陆
+    QMLoginStatusTypeLogining = 2;				//登录中，包括登录完成，但请求队列没有结束
+    QMLoginStatusTypeLogined = 3;				//
+	QMLoginStatusTypeLoginReady = 4; 			//登录完成，但请求队列还存在，需要等待
+	QMLoginStatusTypeLoginError	= 5;			//登录失败
+}
+
+enum QMLoginDomainType
+{
+    QMLoginDomainTypeDefault = 1;
+    QMLoginDomainTypeVip = 2;
+    QMLoginDomainTypeFoxmail =3;
+    QMLoginDomainTypeUnknown = 4;
+}
+message Verify
+{
+    required string verifyKey = 1;
+    required string verifyUin = 2;
+    required string verifyUrl = 3;
+    
+}
+message UserStatus                         //不会被保存，在登录状态中暂存
+{
+    required string sid             = 1;
+    required string password        = 2;        //密码
+    required string secondPassword  = 3;        //二次密码
+    required string loginKey        = 4;        //自动登录凭证
+    required string loginBody       = 5;        //登录post的body
+    required string spcache         = 6;        //二次密码凭证
+    required Verify verify          = 7;        //验证码
+    required QMLoginStatusType loginStatus = 8; //登录状态
+    optional string favorPwd        = 9;        //收藏夹密码
+    optional bool isFavorPwdEncrypt = 10;       //收藏夹密码是否加密
+}
+message UserAlias
+{
+    required string name            = 1;
+    required QMLoginDomainType domain = 2;
+    required string subfix          = 3;
+}
+message User
+{
+    required string uin = 1;
+    required string autoLogin = 2;
+    required UserStatus status = 3;                 //当前登录状态，不保存
+    required UserAlias alias = 4;
+    required string loginUin = 5;
+}
+
