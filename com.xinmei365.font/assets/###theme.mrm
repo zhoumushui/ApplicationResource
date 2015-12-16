@@ -1,0 +1,45 @@
+﻿{
+  "localId": "###theme",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "platform": 0,
+  "hash": "12dd1d88adbe6b023baee1f9075229c412ca812c",
+  "title": "###",
+  "description": null,
+  "author": "字体管家",
+  "designer": null,
+  "version": "1.0",
+  "updatedTime": 0,
+  "size": @@@,
+  "buildInThumbnails": [
+    "preview_fonts_small_0.jpg",
+    "preview_fonts_0.jpg"
+  ],
+  "buildInPreviews": [
+    "preview_fonts_0.jpg"
+  ],
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [],
+  "subResources": [
+    {
+      "localId": "###",
+      "resourceCode": "fonts",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "###fonts_fallback",
+      "resourceCode": "fonts_fallback",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null
+}
