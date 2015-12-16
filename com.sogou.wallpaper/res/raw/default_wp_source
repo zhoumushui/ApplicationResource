@@ -1,0 +1,92 @@
+{
+    "select": [
+        {
+            "class_id": "100",
+            "class_name": "每日精品"
+        },
+        {
+            "class_id": "0",
+            "class_name": "热门推荐"
+        },
+        {
+            "class_id": "99",
+            "class_name": "好评壁纸"
+        },
+        {
+            "class_id": "201",
+            "class_name": "风景"
+        },
+        {
+            "class_id": "202",
+            "class_name": "人物"
+        },
+        {
+            "class_id": "203",
+            "class_name": "动物"
+        },
+        {
+            "class_id": "204",
+            "class_name": "二次元"
+        },
+        {
+            "class_id": "205",
+            "class_name": "精品时尚"
+        },
+        {
+            "class_id": "206",
+            "class_name": "艺术"
+        },
+        {
+            "class_id": "207",
+            "class_name": "情绪"
+        },
+        {
+            "class_id": "208",
+            "class_name": "风格馆"
+        },
+        {
+            "class_id": "209",
+            "class_name": "娱乐竞技"
+        },
+        {
+            "class_id": "543",
+            "class_name": "七月日历"
+        },
+        {
+            "class_id": "530",
+            "class_name": "世界杯独家壁纸"
+        },
+        {
+            "class_id": "531",
+            "class_name": "搜狗足球宝贝"
+        },
+        {
+            "class_id": "545",
+            "class_name": "喵的季节"
+        },
+        {
+            "class_id": "513",
+            "class_name": "骷髅控"
+        },
+        {
+            "class_id": "546",
+            "class_name": "海底世界"
+        },
+        {
+            "class_id": "541",
+            "class_name": "爸爸去哪儿2"
+        },
+        {
+            "class_id": "517",
+            "class_name": "内马尔"
+        },
+        {
+            "class_id": "389",
+            "class_name": "汤唯"
+        },
+        {
+            "class_id": "540",
+            "class_name": "香港"
+        }
+    ]
+}

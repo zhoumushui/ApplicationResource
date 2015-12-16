@@ -1,0 +1,40 @@
+{"cate_info1":
+	[
+		{"cate_id":"51","cate_name":"首页","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=51"}
+	],
+"cate_info2":
+	[
+		{"cate_id":"228","cate_name":"情绪","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=7","cate_id_first":"7"},
+		{"cate_id":"233","cate_name":"风格馆","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=8","cate_id_first":"8"},
+		{"cate_id":"204","cate_name":"风景","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=1","cate_id_first":"1"},
+		{"cate_id":"206","cate_name":"人物","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=2","cate_id_first":"2"},
+		{"cate_id":"211","cate_name":"动物","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=3","cate_id_first":"3"},
+		{"cate_id":"216","cate_name":"二次元","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=4","cate_id_first":"4"},
+		{"cate_id":"221","cate_name":"精品时尚","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=5","cate_id_first":"5"},
+		{"cate_id":"226","cate_name":"艺术","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=6","cate_id_first":"6"},
+		{"cate_id":"224","cate_name":"娱乐竞技","list_pic":"http://download.android.bizhi.sogou.com/button_preset.php?cate_id=9","cate_id_first":"9"}
+	],
+"hotsearch":
+	{
+		"name":"热搜标签",
+		"hotsearch":
+			[
+				{"id":"535","name":"永远的MJ"},
+				{"id":"145","name":"海贼王"},
+				{"id":"587","name":"进击的巨人"},
+				{"id":"332","name":"生活大爆炸"},
+				{"id":"404","name":"神探夏洛克"},
+				{"id":"149","name":"火影忍者"},
+				{"id":"580","name":"nexus5"},
+				{"id":"538","name":"周杰伦"},
+				{"id":"569","name":"铅笔贱cosplay"},
+				{"id":"568","name":"爱你小时候"},
+				{"id":"566","name":"鬼灯的冷彻"},
+				{"id":"567","name":"吸血鬼骑士"},
+				{"id":"573","name":"权志龙"},
+				{"id":"565","name":"与爱同在"},
+				{"id":"542","name":"闺蜜"},
+				{"id":"564","name":"刀剑神域"}
+			]
+	}
+}
