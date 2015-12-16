@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>载入失败</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, maximum-scale=1" />
+	<style>
+		html, body { width: 100%; height: 100%; margin: 0; padding: 0; }
+		body { background: #ededee; }
+		p { position: absolute; left: 0; top: 50%; width: 100%; height: 224px; margin: -80px 0 0 0; padding: 70px 0 0 0; color: #999; font-size: 14px; line-height: 2; text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+		p::before { content: ""; display: block; position: absolute; width: 50%; height: 50%; left: 50%; top: 0; margin: 0 0 0 -30px; background: url(error_show_photo.png) no-repeat 0 0; }
+		p.loading::before { background-position: -140px 0; }
+	</style>
+</head>
+<body>
+	<p>点击重新加载</p>
+	<script>
+		document.body.addEventListener('touchstart', function () {
+			with (document.getElementsByTagName('p')[0]) {
+				className = 'loading';
+			}
+
+			// TODO:
+			// 在此处添加重新加载的逻辑。
+			zolandroid.reloading();
+			this.removeEventListener('touchstart', arguments.callee);
+		});
+	</script>
+</body>
+</html>

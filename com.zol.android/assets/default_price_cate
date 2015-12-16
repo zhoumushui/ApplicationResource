@@ -1,0 +1,1075 @@
+[
+    {
+        "subId": "57",
+        "name": "手机",
+        "manuArr": [
+            {
+                "id": "98",
+                "name": "三星"
+            },
+            {
+                "id": "1069",
+                "name": "索尼移动"
+            },
+            {
+                "id": "33080",
+                "name": "HTC"
+            }
+        ],
+        "proNum": "1557",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/57.png"
+    },
+    {
+        "subId": "16",
+        "name": "笔记本电脑",
+        "manuArr": [
+            {
+                "id": "160",
+                "name": "联想"
+            },
+            {
+                "id": "227",
+                "name": "华硕"
+            },
+            {
+                "id": "21",
+                "name": "戴尔"
+            }
+        ],
+        "proNum": "2415",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/16.png"
+    },
+    {
+        "subId": "702",
+        "name": "平板电脑",
+        "manuArr": [
+            {
+                "id": "544",
+                "name": "苹果"
+            },
+            {
+                "id": "364",
+                "name": "微软"
+            },
+            {
+                "id": "160",
+                "name": "联想"
+            }
+        ],
+        "proNum": "616",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/702.png"
+    },
+    {
+        "subId": 1,
+        "name": "装机硬件",
+        "type": "cate",
+        "subArr": [
+            {
+                "id": "6",
+                "cateId": "1",
+                "name": "显卡",
+                "proNum": "1317",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "413",
+                        "name": "七彩虹"
+                    },
+                    {
+                        "id": "1238",
+                        "name": "影驰"
+                    },
+                    {
+                        "id": "32479",
+                        "name": "索泰"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "cateId": "1",
+                "name": "主板",
+                "proNum": "890",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "234",
+                        "name": "技嘉"
+                    },
+                    {
+                        "id": "227",
+                        "name": "华硕"
+                    },
+                    {
+                        "id": "1065",
+                        "name": "华擎"
+                    }
+                ]
+            },
+            {
+                "id": "28",
+                "cateId": "1",
+                "name": " CPU",
+                "proNum": "299",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "125",
+                        "name": "Intel"
+                    },
+                    {
+                        "id": "55",
+                        "name": "AMD"
+                    }
+                ]
+            },
+            {
+                "id": "10",
+                "cateId": "1",
+                "name": "机箱",
+                "proNum": "1295",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "34279",
+                        "name": "游戏悍将"
+                    },
+                    {
+                        "id": "3829",
+                        "name": "先马"
+                    },
+                    {
+                        "id": "239",
+                        "name": "金河田"
+                    }
+                ]
+            },
+            {
+                "id": "35",
+                "cateId": "1",
+                "name": "电源",
+                "proNum": "1290",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "34279",
+                        "name": "游戏悍将"
+                    },
+                    {
+                        "id": "3829",
+                        "name": "先马"
+                    },
+                    {
+                        "id": "239",
+                        "name": "金河田"
+                    }
+                ]
+            },
+            {
+                "id": "626",
+                "cateId": "1",
+                "name": "固态硬盘",
+                "proNum": "491",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "98",
+                        "name": "三星"
+                    },
+                    {
+                        "id": "35011",
+                        "name": "英睿达"
+                    },
+                    {
+                        "id": "676",
+                        "name": "浦科特"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "cateId": "1",
+                "name": "硬盘",
+                "proNum": "134",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "164",
+                        "name": "希捷"
+                    },
+                    {
+                        "id": "178",
+                        "name": "西部数据"
+                    },
+                    {
+                        "id": "209",
+                        "name": "东芝"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "cateId": "1",
+                "name": "内存",
+                "proNum": "337",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "1086",
+                        "name": "威刚"
+                    },
+                    {
+                        "id": "1684",
+                        "name": "金泰克"
+                    },
+                    {
+                        "id": "98",
+                        "name": "三星"
+                    }
+                ]
+            },
+            {
+                "id": "67",
+                "cateId": "1",
+                "name": "散热器",
+                "proNum": "613",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "1601",
+                        "name": "超频三"
+                    },
+                    {
+                        "id": "370",
+                        "name": "九州风神"
+                    },
+                    {
+                        "id": "35199",
+                        "name": "ID-COOLING"
+                    }
+                ]
+            },
+            {
+                "id": "841",
+                "cateId": "1",
+                "name": "DIY组装电脑",
+                "proNum": "68",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "35445",
+                        "name": "宁美国度"
+                    },
+                    {
+                        "id": "35756",
+                        "name": "名龙堂"
+                    },
+                    {
+                        "id": "34279",
+                        "name": "游戏悍将"
+                    }
+                ]
+            }
+        ],
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/1.png"
+    },
+    {
+        "subId": 35,
+        "name": "相机摄像机",
+        "type": "cate",
+        "subArr": [
+            {
+                "id": "15",
+                "cateId": "35",
+                "name": "数码相机",
+                "proNum": "581",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "232",
+                        "name": "佳能"
+                    },
+                    {
+                        "id": "657",
+                        "name": "尼康"
+                    },
+                    {
+                        "id": "167",
+                        "name": "索尼"
+                    }
+                ]
+            },
+            {
+                "id": "268",
+                "cateId": "35",
+                "name": "镜头",
+                "proNum": "591",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "232",
+                        "name": "佳能"
+                    },
+                    {
+                        "id": "657",
+                        "name": "尼康"
+                    },
+                    {
+                        "id": "1799",
+                        "name": "适马"
+                    }
+                ]
+            },
+            {
+                "id": "81",
+                "cateId": "35",
+                "name": "数码摄像机",
+                "proNum": "203",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "167",
+                        "name": "索尼"
+                    },
+                    {
+                        "id": "232",
+                        "name": "佳能"
+                    },
+                    {
+                        "id": "98",
+                        "name": "三星"
+                    }
+                ]
+            }
+        ],
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/35.png"
+    },
+    {
+        "subId": 42,
+        "name": "大家电",
+        "type": "cate",
+        "subArr": [
+            {
+                "id": "314",
+                "cateId": "42",
+                "name": "平板电视",
+                "proNum": "2257",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "98",
+                        "name": "三星"
+                    },
+                    {
+                        "id": "19",
+                        "name": "海信"
+                    },
+                    {
+                        "id": "143",
+                        "name": "LG"
+                    }
+                ]
+            },
+            {
+                "id": "345",
+                "cateId": "42",
+                "name": "空调",
+                "proNum": "2142",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "750",
+                        "name": "格力"
+                    },
+                    {
+                        "id": "1743",
+                        "name": "美的"
+                    },
+                    {
+                        "id": "221",
+                        "name": "海尔"
+                    }
+                ]
+            },
+            {
+                "id": "359",
+                "cateId": "42",
+                "name": "冰箱",
+                "proNum": "1739",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "221",
+                        "name": "海尔"
+                    },
+                    {
+                        "id": "320",
+                        "name": "西门子"
+                    },
+                    {
+                        "id": "98",
+                        "name": "三星"
+                    }
+                ]
+            },
+            {
+                "id": "372",
+                "cateId": "42",
+                "name": "洗衣机",
+                "proNum": "1441",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "221",
+                        "name": "海尔"
+                    },
+                    {
+                        "id": "84",
+                        "name": "松下"
+                    },
+                    {
+                        "id": "98",
+                        "name": "三星"
+                    }
+                ]
+            }
+        ],
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/42.png"
+    },
+    {
+        "subId": "790",
+        "name": "超极本",
+        "manuArr": [
+            {
+                "id": "160",
+                "name": "联想"
+            },
+            {
+                "id": "32108",
+                "name": "ThinkPad"
+            },
+            {
+                "id": "364",
+                "name": "微软"
+            }
+        ],
+        "proNum": "327",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/790.png"
+    },
+    {
+        "subId": 10,
+        "name": "数码产品",
+        "type": "cate",
+        "subArr": [
+            {
+                "id": "223",
+                "cateId": "10",
+                "name": "耳机",
+                "proNum": "1527",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "34749",
+                        "name": "赛尔贝尔"
+                    },
+                    {
+                        "id": "2492",
+                        "name": "宾果"
+                    },
+                    {
+                        "id": "1252",
+                        "name": "硕美科"
+                    }
+                ]
+            },
+            {
+                "id": "19",
+                "cateId": "10",
+                "name": " MP3",
+                "proNum": "62",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "32862",
+                        "name": "原道"
+                    },
+                    {
+                        "id": "1050",
+                        "name": "蓝魔"
+                    },
+                    {
+                        "id": "2251",
+                        "name": "酷比魔方"
+                    }
+                ]
+            },
+            {
+                "id": "796",
+                "cateId": "10",
+                "name": "蓝牙音响",
+                "proNum": "360",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "35202",
+                        "name": "咔哟"
+                    },
+                    {
+                        "id": "34162",
+                        "name": "DOSS"
+                    },
+                    {
+                        "id": "34833",
+                        "name": "艾特铭客"
+                    }
+                ]
+            },
+            {
+                "id": "635",
+                "cateId": "10",
+                "name": "电子教育",
+                "proNum": "81",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "33376",
+                        "name": "快易典"
+                    },
+                    {
+                        "id": "35166",
+                        "name": "步步高教育电子"
+                    },
+                    {
+                        "id": "33767",
+                        "name": "读书郎"
+                    }
+                ]
+            },
+            {
+                "id": "37",
+                "cateId": "10",
+                "name": "U盘",
+                "proNum": "638",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "1428",
+                        "name": "闪迪"
+                    },
+                    {
+                        "id": "209",
+                        "name": "东芝"
+                    },
+                    {
+                        "id": "3560",
+                        "name": "PNY"
+                    }
+                ]
+            }
+        ],
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/10.png"
+    },
+    {
+        "subId": 66,
+        "name": "硬件外设",
+        "type": "cate",
+        "subArr": [
+            {
+                "id": "84",
+                "cateId": "66",
+                "name": "液晶显示器",
+                "proNum": "1321",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "98",
+                        "name": "三星"
+                    },
+                    {
+                        "id": "407",
+                        "name": "明基"
+                    },
+                    {
+                        "id": "1828",
+                        "name": "HKC"
+                    }
+                ]
+            },
+            {
+                "id": "32",
+                "cateId": "66",
+                "name": "鼠标",
+                "proNum": "842",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "323",
+                        "name": "双飞燕"
+                    },
+                    {
+                        "id": "799",
+                        "name": "精灵"
+                    },
+                    {
+                        "id": "833",
+                        "name": "多彩"
+                    }
+                ]
+            },
+            {
+                "id": "34",
+                "cateId": "66",
+                "name": "音箱",
+                "proNum": "784",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "585",
+                        "name": "惠威"
+                    },
+                    {
+                        "id": "279",
+                        "name": "漫步者"
+                    },
+                    {
+                        "id": "159",
+                        "name": "飞利浦"
+                    }
+                ]
+            },
+            {
+                "id": "33",
+                "cateId": "66",
+                "name": "键盘",
+                "proNum": "419",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "323",
+                        "name": "双飞燕"
+                    },
+                    {
+                        "id": "799",
+                        "name": "精灵"
+                    },
+                    {
+                        "id": "833",
+                        "name": "多彩"
+                    }
+                ]
+            },
+            {
+                "id": "100",
+                "cateId": "66",
+                "name": "键鼠套装",
+                "proNum": "207",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "323",
+                        "name": "双飞燕"
+                    },
+                    {
+                        "id": "799",
+                        "name": "精灵"
+                    },
+                    {
+                        "id": "833",
+                        "name": "多彩"
+                    }
+                ]
+            }
+        ],
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/66.png"
+    },
+    {
+        "subId": "27",
+        "name": "台式电脑",
+        "manuArr": [
+            {
+                "id": "160",
+                "name": "联想"
+            },
+            {
+                "id": "227",
+                "name": "华硕"
+            },
+            {
+                "id": "21",
+                "name": "戴尔"
+            }
+        ],
+        "proNum": "866",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/27.png"
+    },
+    {
+        "subId": "827",
+        "name": "智能手表",
+        "manuArr": [
+            {
+                "id": "544",
+                "name": "苹果"
+            },
+            {
+                "id": "98",
+                "name": "三星"
+            },
+            {
+                "id": "295",
+                "name": "摩托罗拉"
+            }
+        ],
+        "proNum": "94",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/827.png"
+    },
+    {
+        "subId": "688",
+        "name": "移动电源",
+        "manuArr": [
+            {
+                "id": "34933",
+                "name": "品能"
+            },
+            {
+                "id": "3543",
+                "name": "品胜"
+            },
+            {
+                "id": "32586",
+                "name": "佳的美"
+            }
+        ],
+        "proNum": "869",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/688.png"
+    },
+    {
+        "subId": "641",
+        "name": "一体电脑",
+        "manuArr": [
+            {
+                "id": "160",
+                "name": "联想"
+            },
+            {
+                "id": "21",
+                "name": "戴尔"
+            },
+            {
+                "id": "544",
+                "name": "苹果"
+            }
+        ],
+        "proNum": "479",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/641.png"
+    },
+    {
+        "subId": 52,
+        "name": "厨卫电器",
+        "type": "cate",
+        "subArr": [
+            {
+                "id": "409",
+                "cateId": "52",
+                "name": "抽油烟机",
+                "proNum": "402",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "13428",
+                        "name": "万和"
+                    },
+                    {
+                        "id": "13422",
+                        "name": "老板"
+                    },
+                    {
+                        "id": "13434",
+                        "name": "华帝"
+                    }
+                ]
+            },
+            {
+                "id": "413",
+                "cateId": "52",
+                "name": "电热水器",
+                "proNum": "730",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "221",
+                        "name": "海尔"
+                    },
+                    {
+                        "id": "1743",
+                        "name": "美的"
+                    },
+                    {
+                        "id": "13424",
+                        "name": "A.O.史密斯"
+                    }
+                ]
+            },
+            {
+                "id": "424",
+                "cateId": "52",
+                "name": "燃气灶",
+                "proNum": "405",
+                "isCate": 0,
+                "manuArr": [
+                    {
+                        "id": "13434",
+                        "name": "华帝"
+                    },
+                    {
+                        "id": "13422",
+                        "name": "老板"
+                    },
+                    {
+                        "id": "13428",
+                        "name": "万和"
+                    }
+                ]
+            }
+        ],
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/52.png"
+    },
+    {
+        "subId": "227",
+        "name": "无线路由器",
+        "manuArr": [
+            {
+                "id": "174",
+                "name": "TP-LINK"
+            },
+            {
+                "id": "613",
+                "name": "华为"
+            },
+            {
+                "id": "35313",
+                "name": "极路由"
+            }
+        ],
+        "proNum": "541",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/227.png"
+    },
+    {
+        "subId": "707",
+        "name": " MID",
+        "manuArr": [
+            {
+                "id": "32862",
+                "name": "原道"
+            },
+            {
+                "id": "1050",
+                "name": "蓝魔"
+            },
+            {
+                "id": "970",
+                "name": "台电"
+            }
+        ],
+        "proNum": "21",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/707.png"
+    },
+    {
+        "subId": "14",
+        "name": "投影机",
+        "manuArr": [
+            {
+                "id": "407",
+                "name": "明基"
+            },
+            {
+                "id": "151",
+                "name": "NEC"
+            },
+            {
+                "id": "1006",
+                "name": "丽讯"
+            }
+        ],
+        "proNum": "1371",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/14.png"
+    },
+    {
+        "subId": "590",
+        "name": "游戏机",
+        "manuArr": [
+            {
+                "id": "36439",
+                "name": "享动"
+            },
+            {
+                "id": "167",
+                "name": "索尼"
+            },
+            {
+                "id": "364",
+                "name": "微软"
+            }
+        ],
+        "proNum": "33",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/590.png"
+    },
+    {
+        "subId": "432",
+        "name": "剃须刀",
+        "manuArr": [
+            {
+                "id": "33189",
+                "name": "博朗"
+            },
+            {
+                "id": "159",
+                "name": "飞利浦"
+            },
+            {
+                "id": "32986",
+                "name": "飞科"
+            }
+        ],
+        "proNum": "356",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/432.png"
+    },
+    {
+        "subId": "829",
+        "name": "智能手环",
+        "manuArr": [
+            {
+                "id": "613",
+                "name": "华为"
+            },
+            {
+                "id": "35241",
+                "name": "Fitbit"
+            },
+            {
+                "id": "98",
+                "name": "三星"
+            }
+        ],
+        "proNum": "62",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/829.png"
+    },
+    {
+        "subId": "591",
+        "name": "掌上游戏机",
+        "manuArr": [
+            {
+                "id": "167",
+                "name": "索尼"
+            },
+            {
+                "id": "3845",
+                "name": "任天堂"
+            },
+            {
+                "id": "36414",
+                "name": "极限矩阵"
+            }
+        ],
+        "proNum": "33",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/591.png"
+    },
+    {
+        "subId": "804",
+        "name": "行车记录仪",
+        "manuArr": [
+            {
+                "id": "1099",
+                "name": "中恒"
+            },
+            {
+                "id": "33034",
+                "name": "凯立德"
+            },
+            {
+                "id": "34805",
+                "name": "DAZA"
+            }
+        ],
+        "proNum": "288",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/804.png"
+    },
+    {
+        "subId": "101",
+        "name": "多功能一体机",
+        "manuArr": [
+            {
+                "id": "223",
+                "name": "惠普"
+            },
+            {
+                "id": "232",
+                "name": "佳能"
+            },
+            {
+                "id": "459",
+                "name": "兄弟"
+            }
+        ],
+        "proNum": "419",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/101.png"
+    },
+    {
+        "subId": "636",
+        "name": "电视播放机",
+        "manuArr": [
+            {
+                "id": "35456",
+                "name": "芒果嗨Q"
+            },
+            {
+                "id": "33947",
+                "name": "精伦"
+            },
+            {
+                "id": "1725",
+                "name": "杰科"
+            }
+        ],
+        "proNum": "588",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/636.png"
+    },
+    {
+        "subId": "792",
+        "name": "打印机",
+        "manuArr": [
+            {
+                "id": "223",
+                "name": "惠普"
+            },
+            {
+                "id": "232",
+                "name": "佳能"
+            },
+            {
+                "id": "459",
+                "name": "兄弟"
+            }
+        ],
+        "proNum": "333",
+        "type": "subcate",
+        "src": "http://icon.zol-img.com.cn/android/icons/cate/792.png"
+    }
+]
