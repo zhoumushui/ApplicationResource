@@ -1,0 +1,31 @@
+{
+    "recommend countries": [
+        {
+            "cn": "中国",
+            "iso": "CN",
+            "ic": "86",
+            "len": [
+                11
+            ],
+            "mc": [
+                "13",
+                "14",
+                "15",
+                "18"
+            ]
+        }
+    ],
+    "countries": [
+        {
+            "cn": "Afghanistan",
+            "iso": "AF",
+            "ic": "93",
+            "len": [
+                9
+            ],
+            "mc": [
+                "7"
+            ]
+        }
+    ]
+}
