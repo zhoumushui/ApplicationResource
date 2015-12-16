@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1.0">
+<script language="javascript">
+	function doFinish(){
+		window.joke.finishImage();
+	}
+ </script>
+<style type="text/css">            
+.box {
+    display:table-cell;
+    vertical-align:middle;
+	text-align:center; 
+	width:#WIDTH;
+    height:auto;      
+}
+img{
+	vertical-align:middle;
+	max-width:100%!important;
+	height:auto!important;
+	width:expression(this.width > "+#WIDTH+"?\""+#WIDTH+"px\":this.width)!important;
+	}
+</style>
+</head>
+<body>
+<div class="box">
+    <img src="#URL" onclick="doFinish();"/>
+</div>
+</body>
+</html>
+     
