@@ -1,0 +1,5 @@
+# shell.
+export CLASSPATH=/data/data/com.tencent.qlauncher/files/QRomCommand.jar
+export LD_LIBRARY_PATH=/vendor/lib:/system/lib
+exec app_process /data/data/com.tencent.qlauncher/files qrom.component.root.Command "$@"
+
